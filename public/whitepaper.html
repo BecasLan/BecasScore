@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BECAS — Whitepaper</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root {
+      --bg: #06070B;
+      --glass: #0C0F16CC;
+      --muted: #B8C0CF;
+      --line: #1b2130;
+      --brand1: #73F2FF;
+      --brand2: #B793FF;
+      --accent1: #FF72E0;
+      --accent2: #34C759;
+    }
+    
+    * {box-sizing: border-box}
+    html, body {height: 100%}
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #fff;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      line-height: 1.6;
+    }
+    
+    a {
+      color: var(--brand1);
+      text-decoration: none;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 80px 20px 40px;
+    }
+    
+    /* NAV */
+    .nav {
+      position: fixed;
+      inset: 16px 16px auto 16px;
+      z-index: 20;
+      backdrop-filter: blur(8px);
+      background: var(--glass);
+      border: 1px solid #141A26;
+      border-radius: 14px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+    }
+    
+    .brand svg {
+      width: 28px;
+      height: 28px;
+    }
+    
+    .links a {
+      margin-left: 16px;
+      color: var(--muted);
+    }
+    
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 40px;
+      margin-bottom: 16px;
+      color: var(--brand1);
+    }
+    
+    h3 {
+      font-size: 1.4rem;
+      margin-top: 30px;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    
+    p {
+      margin: 16px 0;
+    }
+    
+    .section {
+      margin-bottom: 40px;
+    }
+    
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      margin: 20px 0;
+    }
+    
+    .card.highlight {
+      background: linear-gradient(135deg, rgba(115, 242, 255, 0.1), rgba(183, 147, 255, 0.1));
+      border: 1px solid rgba(115, 242, 255, 0.3);
+    }
+    
+    .toc {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      position: sticky;
+      top: 100px;
+    }
+    
+    .toc-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .toc ol {
+      padding-left: 20px;
+      margin: 0;
+    }
+    
+    .toc li {
+      margin-bottom: 8px;
+    }
+    
+    .toc a {
+      color: var(--muted);
+    }
+    
+    .toc a:hover {
+      color: var(--brand1);
+    }
+    
+    .content-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 250px;
+      gap: 30px;
+      align-items: start;
+    }
+    
+    .main-content {
+      grid-column: 1;
+    }
+    
+    .sidebar {
+      grid-column: 2;
+    }
+    
+    @media (max-width: 900px) {
+      .content-wrapper {
+        grid-template-columns: 1fr;
+      }
+      
+      .sidebar {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      
+      .main-content {
+        grid-column: 1;
+        grid-row: 2;
+      }
+    }
+    
+    .roadmap {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 20px 30px;
+      margin: 30px 0;
+    }
+    
+    .roadmap-phase {
+      grid-column: 1;
+      padding: 10px 15px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      color: #061018;
+      font-weight: bold;
+      border-radius: 8px;
+      text-align: center;
+    }
+    
+    .roadmap-content {
+      grid-column: 2;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    
+    .roadmap-content h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .roadmap-content ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    
+    .use-cases {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .use-case {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .use-case:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.06);
+    }
+    
+    .use-case-icon {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+    
+    .use-case h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .use-case p {
+      color: var(--muted);
+      margin: 0;
+    }
+    
+    .tokenomics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .tokenomics-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .token-percent {
+      font-size: 2.4rem;
+      font-weight: bold;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 10px 0;
+    }
+    
+    .token-label {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .token-desc {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .team-member {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .team-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      margin: 0 auto 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: bold;
+      color: #061018;
+    }
+    
+    .team-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .team-role {
+      color: var(--brand1);
+      margin-bottom: 10px;
+    }
+    
+    .team-bio {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 20px 0;
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    /* Token Flow diagram */
+    .token-flow {
+      max-width: 700px;
+      margin: 40px auto;
+      position: relative;
+    }
+    
+    .token-flow-circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      position: absolute;
+    }
+    
+    .token-flow-circle.center {
+      width: 150px;
+      height: 150px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: linear-gradient(135deg, rgba(115, 242, 255, 0.1), rgba(183, 147, 255, 0.1));
+      border: 1px solid rgba(115, 242, 255, 0.3);
+      z-index: 2;
+    }
+    
+    .token-flow-circle.top {
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+    }
+    
+    .token-flow-circle.right {
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .token-flow-circle.bottom {
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    
+    .token-flow-circle.left {
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .token-flow-arrow {
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      background: var(--line);
+      z-index: 1;
+    }
+    
+    .token-flow-arrow::after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-top: 2px solid var(--line);
+      border-right: 2px solid var(--line);
+      transform: rotate(45deg);
+      right: 0;
+      top: -4px;
+    }
+    
+    .token-flow-arrow.to-center {
+      background: linear-gradient(to right, var(--line), var(--brand1));
+    }
+    
+    .token-flow-arrow.to-center::after {
+      border-top: 2px solid var(--brand1);
+      border-right: 2px solid var(--brand1);
+    }
+    
+    .token-flow-arrow.from-center {
+      background: linear-gradient(to right, var(--brand1), var(--line));
+    }
+    
+    .token-flow-arrow.top-to-center {
+      left: 50%;
+      top: 60px;
+      transform: translateX(-50%) rotate(90deg);
+    }
+    
+    .token-flow-arrow.right-to-center {
+      top: 50%;
+      right: 120px;
+      transform: translateY(-50%) rotate(180deg);
+    }
+    
+    .token-flow-arrow.center-to-bottom {
+      left: 50%;
+      bottom: 60px;
+      transform: translateX(-50%) rotate(90deg);
+    }
+    
+    .token-flow-arrow.center-to-left {
+      top: 50%;
+      left: 120px;
+      transform: translateY(-50%);
+    }
+    
+    /* System Architecture Diagram */
+    .architecture-diagram {
+      max-width: 800px;
+      margin: 40px auto;
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, auto);
+      gap: 20px;
+      text-align: center;
+    }
+    
+    .arch-box {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .arch-box.highlight {
+      background: linear-gradient(135deg, rgba(115, 242, 255, 0.1), rgba(183, 147, 255, 0.1));
+      border: 1px solid rgba(115, 242, 255, 0.3);
+    }
+    
+    .arch-box h4 {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+    
+    .arch-box p {
+      margin: 5px 0 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    
+    .arch-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    
+    .arch-row-label {
+      grid-column: 1 / -1;
+      color: var(--brand1);
+      font-weight: bold;
+      margin-top: 20px;
+      text-align: left;
+    }
+    
+    /* Key benefits boxes */
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .benefit-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    
+    .benefit-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    
+    .benefit-card h4 {
+      margin: 0 0 10px;
+    }
+    
+    .benefit-card p {
+      color: var(--muted);
+      margin: 0;
+    }
+    
+    /* Pricing model section */
+    .pricing-tiers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .pricing-tier {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+    }
+    
+    .pricing-tier.highlight {
+      background: linear-gradient(135deg, rgba(115, 242, 255, 0.1), rgba(183, 147, 255, 0.1));
+      border: 1px solid rgba(115, 242, 255, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .pricing-tier.highlight::before {
+      content: "Popular";
+      position: absolute;
+      top: 20px;
+      right: -30px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      color: #061018;
+      padding: 5px 30px;
+      font-size: 12px;
+      font-weight: bold;
+      transform: rotate(45deg);
+    }
+    
+    .tier-name {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    
+    .tier-price {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 15px 0;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .tier-price .period {
+      font-size: 0.9rem;
+      font-weight: normal;
+      color: var(--muted);
+      -webkit-text-fill-color: var(--muted);
+    }
+    
+    .tier-features {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+    }
+    
+    .tier-features li {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    .tier-features li::before {
+      content: "✓";
+      color: var(--accent2);
+      margin-right: 10px;
+      font-weight: bold;
+    }
+    
+    .tier-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      color: #061018;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+      cursor: pointer;
+      border: none;
+      transition: transform 0.2s ease;
+    }
+    
+    .tier-button:hover {
+      transform: translateY(-2px);
+    }
+    
+    /* AI capabilities section */
+    .ai-capabilities {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .ai-capability {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .ai-capability-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin: 0 auto 15px;
+    }
+    
+    .ai-capability h4 {
+      margin: 10px 0;
+    }
+    
+    .ai-capability p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0;
+    }
+    
+    /* Floating back to top button */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #061018;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 10;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      text-decoration: none;
+    }
+    
+    .back-to-top.visible {
+      opacity: 1;
+    }
+    
+    .back-to-top:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="14" cy="14" r="14" fill="url(#paint0_linear)"/>
+        <path d="M14 5C9.02944 5 5 9.02944 5 14C5 18.9706 9.02944 23 14 23C18.9706 23 23 18.9706 23 14C23 9.02944 18.9706 5 14 5ZM14 21C10.134 21 7 17.866 7 14C7 10.134 10.134 7 14 7C17.866 7 21 10.134 21 14C21 17.866 17.866 21 14 21Z" fill="#061018"/>
+        <defs>
+          <linearGradient id="paint0_linear" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#73F2FF"/>
+            <stop offset="1" stop-color="#B793FF"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      BECAS
+    </a>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="score.html">Check Score</a>
+      <a href="admin.html">Admin</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>BECAS Whitepaper</h1>
+    <p>Better Call Safe Way - Cross-Server AI Moderation & Trust Scoring System</p>
+    
+    <div class="content-wrapper">
+      <div class="main-content">
+        <section class="section" id="introduction">
+          <h2>1. Introduction</h2>
+          <p>
+            BECAS (Better Call Safe Way) is a groundbreaking AI-powered trust scoring and moderation system designed 
+            specifically for Discord communities in the Web3 ecosystem. By combining advanced artificial intelligence, 
+            blockchain technology, and cross-server intelligence sharing, BECAS creates an unprecedented security layer 
+            that protects communities from scams, spam, and toxic behavior in real-time.
+          </p>
+          <p>
+            Unlike traditional moderation tools that operate in isolation, BECAS creates a unified security network 
+            across all participating Discord servers. When a scammer or malicious actor is identified in one community, 
+            that intelligence is immediately shared with all other BECAS-protected servers, creating a powerful 
+            network effect that becomes stronger with each new community that joins.
+          </p>
+          
+          <div class="card highlight">
+            <h3>Core Innovation: Cross-Server Intelligence</h3>
+            <p>
+              BECAS is built on the principle that security is stronger when communities work together. By recording 
+              significant trust violations on the Base blockchain, BECAS creates an immutable, verifiable record 
+              that follows malicious actors across the entire ecosystem, making it significantly harder for scammers 
+              to move from one community to another after being banned.
+            </p>
+          </div>
+          
+          <p>
+            Our system is designed to continuously evolve and improve through its AI capabilities, learning from each new 
+            scam attempt and moderator action to become increasingly effective at protecting communities. As BECAS 
+            grows to be present in more Discord servers, its value and effectiveness multiplies, creating a sustainable 
+            ecosystem that benefits all participants.
+          </p>
+        </section>
+        
+        <section class="section" id="problem">
+          <h2>2. Problem Statement</h2>
+          <p>
+            The explosive growth of Web3 communities on Discord has created an attractive target for scammers, 
+            spammers, and malicious actors who exploit the open nature of these communities to target unsuspecting users.
+          </p>
+          
+          <div class="benefits">
+            <div class="benefit-card">
+              <div class="benefit-icon">🎭</div>
+              <h4>Sophisticated Scam Tactics</h4>
+              <p>Scammers continuously evolve their methods, making them difficult to detect with static filters or rules.</p>
+            </div>
+            
+            <div class="benefit-card">
+              <div class="benefit-icon">🔄</div>
+              <h4>Server Hopping</h4>
+              <p>When banned from one server, malicious actors simply move to another community to continue their activities.</p>
+            </div>
+            
+            <div class="benefit-card">
+              <div class="benefit-icon">⏱️</div>
+              <h4>Speed of Attacks</h4>
+              <p>By the time human moderators respond to an attack, significant damage may have already occurred.</p>
+            </div>
+            
+            <div class="benefit-card">
+              <div class="benefit-icon">📊</div>
+              <h4>Scale Problem</h4>
+              <p>As communities grow, manual moderation becomes increasingly difficult and resource-intensive.</p>
+            </div>
+            
+            <div class="benefit-card">
+              <div class="benefit-icon">🌐</div>
+              <h4>No Shared Intelligence</h4>
+              <p>Each community fights the same bad actors in isolation, without benefiting from others' experience.</p>
+            </div>
+            
+            <div class="benefit-card">
+              <div class="benefit-icon">💸</div>
+              <h4>Financial Losses</h4>
+              <p>Successful scams result in significant financial losses for community members, damaging trust.</p>
+            </div>
+          </div>
+          
+          <p>
+            Traditional moderation approaches fall short because they don't address the fundamental cross-community nature 
+            of the problem. What's needed is a system that can not only detect and respond to threats in real-time but also 
+            share that intelligence across the entire ecosystem to create a unified defense against bad actors.
+          </p>
+        </section>
+        
+        <section class="section" id="solution">
+          <h2>3. BECAS Solution</h2>
+          
+          <p>
+            BECAS provides a comprehensive, AI-driven solution that creates a unified security layer across all 
+            participating Discord servers, with intelligence recorded on the Base blockchain for transparency and verifiability.
+          </p>
+          
+          <h3>3.1 Trust Score System</h3>
+          <p>
+            Every Discord user in BECAS-protected servers receives a Trust Score that follows them across all communities:
+          </p>
+          <ul>
+            <li>All users start with a baseline score of 100 points</li>
+            <li>Violations detected by our AI or reported by moderators reduce this score</li>
+            <li>Score reductions are proportional to the severity of the violation</li>
+            <li>Trust Scores are persistent across all BECAS-protected servers</li>
+            <li>Positive actions can gradually improve scores over time</li>
+          </ul>
+          
+          <div class="card">
+            <h4>Violation Categories & Penalties</h4>
+            <p>Different violations carry different weights, which server admins can customize:</p>
+            <table style="width: 100%; border-collapse: collapse;">
+              <tr style="border-bottom: 1px solid var(--line);">
+                <th style="text-align: left; padding: 8px 12px;">Violation Type</th>
+                <th style="text-align: center; padding: 8px 12px;">Default Penalty</th>
+                <th style="text-align: left; padding: 8px 12px;">Customizable</th>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--line);">
+                <td style="padding: 8px 12px;">Scam Attempts</td>
+                <td style="text-align: center; padding: 8px 12px; color: #ff5e54;">-10 to -20</td>
+                <td style="padding: 8px 12px;">✓</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--line);">
+                <td style="padding: 8px 12px;">Hate Speech</td>
+                <td style="text-align: center; padding: 8px 12px; color: #ff5e54;">-5 to -15</td>
+                <td style="padding: 8px 12px;">✓</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--line);">
+                <td style="padding: 8px 12px;">Harassment</td>
+                <td style="text-align: center; padding: 8px 12px; color: #ff9f40;">-3 to -9</td>
+                <td style="padding: 8px 12px;">✓</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--line);">
+                <td style="padding: 8px 12px;">Spam</td>
+                <td style="text-align: center; padding: 8px 12px; color: #ff9f40;">-3 to -9</td>
+                <td style="padding: 8px 12px;">✓</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--line);">
+                <td style="padding: 8px 12px;">Insults</td>
+                <td style="text-align: center; padding: 8px 12px; color: #ffcc00;">-2 to -6</td>
+                <td style="padding: 8px 12px;">✓</td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 12px;">Toxicity</td>
+                <td style="text-align: center; padding: 8px 12px; color: #ffcc00;">-2 to -6</td>
+                <td style="padding: 8px 12px;">✓</td>
+              </tr>
+            </table>
+          </div>
+          
+          <h3>3.2 Automatic Response Thresholds</h3>
+          <p>
+            Based on a user's Trust Score, the system implements graduated automatic responses:
+          </p>
+          <ul>
+            <li><strong>Warning Zone</strong> (Score ≤ 95): User receives warning messages</li>
+            <li><strong>Limited Zone</strong> (Score ≤ 85): Message rate-limiting and increased scrutiny</li>
+            <li><strong>Timeout Zone</strong> (Score ≤ 70): Automatic temporary timeouts</li>
+            <li><strong>Ban Zone</strong> (Score ≤ 40): Ban recommendations or automatic cross-server bans</li>
+          </ul>
+          
+          <h3>3.3 Cross-Server Protection</h3>
+          <p>
+            A key innovation of BECAS is its cross-server protection mechanisms:
+          </p>
+          <ul>
+            <li><strong>Universal Bans:</strong> When a user is banned for serious violations in one server, they are automatically banned or flagged in all other BECAS-protected servers</li>
+            <li><strong>Shared Intelligence:</strong> Scam patterns identified in one server are immediately recognized in all others</li>
+            <li><strong>Blockchain Verification:</strong> Major violations are recorded on the Base blockchain for transparency and auditability</li>
+            <li><strong>Wallet Association:</strong> Optional wallet verification helps identify scammers who attempt to use multiple Discord accounts</li>
+          </ul>
+          
+          <h3>3.4 AI-Powered Detection</h3>
+          <p>
+            BECAS employs advanced AI capabilities that continuously improve:
+          </p>
+          <ul>
+            <li>Real-time message analysis through large language models</li>
+            <li>Pattern recognition for identifying coordinated attacks</li>
+            <li>Automatic learning from moderator actions</li>
+            <li>Custom scenario detection that admins can program</li>
+            <li>Multi-stage verification to minimize false positives</li>
+          </ul>
+          
+          <h3>3.5 Reputation System</h3>
+          <p>
+            BECAS introduces a positive reputation component where:
+          </p>
+          <ul>
+            <li>Users with high Trust Scores can vouch for others, improving their scores</li>
+            <li>Active participation in scam reporting is rewarded</li>
+            <li>Communities can access user history across servers</li>
+            <li>Positive contributions are recognized and rewarded</li>
+          </ul>
+        </section>
+        
+        <section class="section" id="architecture">
+          <h2>4. System Architecture</h2>
+          
+          <p>
+            BECAS is built on a scalable, modular architecture that integrates with Discord while leveraging 
+            blockchain technology for transparency and verifiability.
+          </p>
+          
+          <div class="architecture-diagram">
+            <div class="arch-row-label">User Interface Layer</div>
+            
+            <div class="arch-box">
+              <div class="arch-icon">💻</div>
+              <h4>Discord Bot</h4>
+              <p>Server integration & commands</p>
+            </div>
+            
+            <div class="arch-box">
+              <div class="arch-icon">📊</div>
+              <h4>Admin Dashboard</h4>
+              <p>Management & analytics</p>
+            </div>
+            
+            <div class="arch-box">
+              <div class="arch-icon">🔍</div>
+              <h4>Public Explorer</h4>
+              <p>Trust Score lookup</p>
+            </div>
+            
+            <div class="arch-row-label">Core Services</div>
+            
+            <div class="arch-box highlight">
+              <div class="arch-icon">🧠</div>
+              <h4>AI Engine</h4>
+              <p>Message analysis & pattern detection</p>
+            </div>
+            
+            <div class="arch-box highlight">
+              <div class="arch-icon">⚖️</div>
+              <h4>Trust Calculator</h4>
+              <p>Score management & history</p>
+            </div>
+            
+            <div class="arch-box highlight">
+              <div class="arch-icon">🔐</div>
+              <h4>Policy Engine</h4>
+              <p>Rules & automated actions</p>
+            </div>
+            
+            <div class="arch-row-label">Storage Layer</div>
+            
+            <div class="arch-box">
+              <div class="arch-icon">💾</div>
+              <h4>Local DB</h4>
+              <p>User profiles & config</p>
+            </div>
+            
+            <div class="arch-box">
+              <div class="arch-icon">⛓️</div>
+              <h4>Blockchain</h4>
+              <p>Immutable violation records</p>
+            </div>
+            
+            <div class="arch-box">
+              <div class="arch-icon">🔒</div>
+              <h4>Encrypted Cache</h4>
+              <p>Performance optimization</p>
+            </div>
+          </div>
+          
+          <h3>4.1 AI System Design</h3>
+          <p>
+            The BECAS AI engine uses a sophisticated multi-stage approach to content analysis:
+          </p>
+          <ol>
+            <li><strong>Initial Screening:</strong> Fast, lightweight analysis to filter obvious content</li>
+            <li><strong>Deep Analysis:</strong> Comprehensive LLM-based content evaluation for detected risks</li>
+            <li><strong>Context Evaluation:</strong> Assessment that considers user history and server context</li>
+            <li><strong>Verification Pass:</strong> Confirmation step to minimize false positives</li>
+          </ol>
+          
+          <h3>4.2 Blockchain Integration</h3>
+          <p>
+            BECAS uses the Base blockchain for several critical functions:
+          </p>
+          <ul>
+            <li>Recording significant trust violations for cross-server verification</li>
+            <li>Linking Discord accounts to wallet addresses (optional for enhanced security)</li>
+            <li>Distributing rewards to community members who help identify threats</li>
+            <li>Governance voting for system parameter adjustments</li>
+          </ul>
+          
+          <h3>4.3 Privacy & Data Security</h3>
+          <p>
+            BECAS is designed with strong privacy protections:
+          </p>
+          <ul>
+            <li>Message content is analyzed in real-time but not stored long-term</li>
+            <li>User identifiers are pseudonymized before blockchain storage</li>
+            <li>Only violation categories and severity are recorded, not specific content</li>
+            <li>Full compliance with GDPR's right to be forgotten</li>
+            <li>Optional wallet linking with privacy-preserving techniques</li>
+          </ul>
+        </section>
+        
+        <section class="section" id="tokenomics">
+          <h2>5. Tokenomics & Business Model</h2>
+          
+          <h3>5.1 BECAS Token Utility</h3>
+          <p>
+            The BECAS token is designed as a utility token that powers the ecosystem and incentivizes positive community participation:
+          </p>
+          <ul>
+            <li><strong>Access Token:</strong> Required for premium features and enterprise-level protection</li>
+            <li><strong>Reward Currency:</strong> Distributed to users who help identify scammers and threats</li>
+            <li><strong>Governance:</strong> Used for voting on system parameters and feature priorities</li>
+            <li><strong>Staking:</strong> Holders can stake tokens to earn a portion of system fees</li>
+          </ul>
+          
+          <div class="token-flow">
+            <div class="token-flow-circle center">BECAS<br>Token</div>
+            <div class="token-flow-circle top">Reward Pool<br>for Reporters</div>
+            <div class="token-flow-circle right">Service<br>Payments</div>
+            <div class="token-flow-circle bottom">Staking<br>Rewards</div>
+            <div class="token-flow-circle left">Governance<br>Voting</div>
+            
+            <div class="token-flow-arrow top-to-center to-center"></div>
+            <div class="token-flow-arrow right-to-center to-center"></div>
+            <div class="token-flow-arrow center-to-bottom from-center"></div>
+            <div class="token-flow-arrow center-to-left from-center"></div>
+          </div>
+          
+          <h3>5.2 Token Distribution</h3>
+          
+          <div class="tokenomics">
+            <div class="tokenomics-card">
+              <div class="token-percent">35%</div>
+              <div class="token-label">Community Treasury</div>
+              <div class="token-desc">Rewards for scam reporting, community initiatives, and ecosystem growth</div>
+            </div>
+            
+            <div class="tokenomics-card">
+              <div class="token-percent">25%</div>
+              <div class="token-label">Team & Development</div>
+              <div class="token-desc">Team allocation with 4-year vesting schedule and 1-year cliff</div>
+            </div>
+            
+            <div class="tokenomics-card">
+              <div class="token-percent">20%</div>
+              <div class="token-label">Liquidity & Operations</div>
+              <div class="token-desc">Ensuring market liquidity and funding ongoing operations</div>
+            </div>
+            
+            <div class="tokenomics-card">
+              <div class="token-percent">15%</div>
+              <div class="token-label">Strategic Partners</div>
+              <div class="token-desc">Partnerships with key Discord communities and security providers</div>
+            </div>
+            
+            <div class="tokenomics-card">
+              <div class="token-percent">5%</div>
+              <div class="token-label">Private Sale</div>
+              <div class="token-desc">Initial funding for development and launch</div>
+            </div>
+          </div>
+          
+          <h3>5.3 Sustainable Business Model</h3>
+          <p>
+            BECAS operates on a tiered freemium model that ensures basic protection is available to all communities 
+            while providing premium features for larger servers and enterprise clients:
+          </p>
+          
+          <div class="pricing-tiers">
+            <div class="pricing-tier">
+              <div class="tier-name">Basic</div>
+              <p>For small communities</p>
+              <div class="tier-price">FREE</div>
+              <ul class="tier-features">
+                <li>Protection for servers up to 100 users</li>
+                <li>Basic AI moderation</li>
+                <li>Cross-server scammer detection</li>
+                <li>Trust Score tracking</li>
+              </ul>
+            </div>
+            
+            <div class="pricing-tier highlight">
+              <div class="tier-name">Standard</div>
+              <p>For growing communities</p>
+              <div class="tier-price">$0.003 <span class="period">per user/month</span></div>
+              <ul class="tier-features">
+                <li>Protection for servers up to 1000 users</li>
+                <li>Advanced AI moderation</li>
+                <li>Custom scenario creation</li>
+                <li>Dashboard with analytics</li>
+                <li>Priority support</li>
+              </ul>
+            </div>
+            
+            <div class="pricing-tier">
+              <div class="tier-name">Premium</div>
+              <p>For large communities</p>
+              <div class="tier-price">Custom</div>
+              <ul class="tier-features">
+                <li>Protection for unlimited users</li>
+                <li>Enterprise-grade security</li>
+                <li>Custom integration options</li>
+                <li>Advanced analytics & reporting</li>
+                <li>Dedicated account manager</li>
+                <li>SLA guarantees</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="card highlight">
+            <h3>Token Rewards for Community Protection</h3>
+            <p>
+              A key innovation in our tokenomics is the reward system for community members who help identify threats:
+            </p>
+            <ul>
+              <li>Users who report confirmed scammers receive BECAS token rewards from the community treasury</li>
+              <li>The reward amount is proportional to the severity of the threat identified</li>
+              <li>Top contributors earn additional bonuses and special recognition</li>
+              <li>This creates a powerful incentive for community members to actively participate in protection</li>
+            </ul>
+          </div>
+        </section>
+        
+        <section class="section" id="ai-capabilities">
+          <h2>6. AI Capabilities & Learning</h2>
+          
+          <p>
+            The heart of BECAS is its advanced AI system that continuously learns and improves. Our AI capabilities 
+            extend far beyond simple content filtering to create a dynamic, adaptive security system.
+          </p>
+          
+          <div class="ai-capabilities">
+            <div class="ai-capability">
+              <div class="ai-capability-icon">🔍</div>
+              <h4>Real-time Analysis</h4>
+              <p>Evaluates messages instantly as they are sent to identify threats before they can spread</p>
+            </div>
+            
+            <div class="ai-capability">
+              <div class="ai-capability-icon">📚</div>
+              <h4>Pattern Learning</h4>
+              <p>Automatically identifies and remembers new scam patterns across all protected servers</p>
+            </div>
+            
+            <div class="ai-capability">
+              <div class="ai-capability-icon">🧩</div>
+              <h4>Context Awareness</h4>
+              <p>Considers server context, message history, and user behavior for more accurate analysis</p>
+            </div>
+            
+            <div class="ai-capability">
+              <div class="ai-capability-icon">🌐</div>
+              <h4>Multi-language</h4>
+              <p>Detects threats across multiple languages to prevent evasion through language switching</p>
+            </div>
+            
+            <div class="ai-capability">
+              <div class="ai-capability-icon">📊</div>
+              <h4>Behavior Profiling</h4>
+              <p>Analyzes user behavior patterns to identify suspicious activity that might indicate threats</p>
+            </div>
+            
+            <div class="ai-capability">
+              <div class="ai-capability-icon">⚡</div>
+              <h4>Custom Scenarios</h4>
+              <p>Allows admins to create custom detection scenarios for their specific community needs</p>
+            </div>
+          </div>
+          
+          <h3>6.1 Learning from Moderator Actions</h3>
+          <p>
+            BECAS continuously improves by learning from human moderator actions:
+          </p>
+          <ul>
+            <li>When moderators ban users for specific reasons, the AI learns those patterns</li>
+            <li>False positive corrections help refine detection algorithms</li>
+            <li>Server-specific nuances are captured and incorporated into analysis</li>
+            <li>New scam techniques identified by moderators are instantly shared across the network</li>
+          </ul>
+          
+          <h3>6.2 Custom Scenario Creation</h3>
+          <p>
+            Server owners can create custom AI scenarios tailored to their communities:
+          </p>
+          <div class="card">
+            <h4>Example: Temporary FUD Protection</h4>
+            <p>
+              A project admin could create a scenario like:<br>
+              <em>"For the next 20 minutes, identify and temporarily mute anyone complaining about price drops or expressing 
+              excessive negativity about the project."</em>
+            </p>
+            <p>
+              The AI would then automatically enforce this temporary policy during sensitive announcements or events.
+            </p>
+          </div>
+          
+          <h3>6.3 Cross-Server Learning</h3>
+          <p>
+            One of BECAS's most powerful features is its ability to learn across the entire network of protected servers:
+          </p>
+          <ul>
+            <li>New scam techniques detected in one server are immediately recognized in all others</li>
+            <li>The system creates a collective intelligence that grows stronger with each community added</li>
+            <li>Scammers can't simply move to a new server and try the same techniques</li>
+            <li>The learning effect creates a powerful network effect that benefits all participants</li>
+          </ul>
+        </section>
+        
+        <section class="section" id="use-cases">
+          <h2>7. Key Use Cases</h2>
+          
+          <div class="use-cases">
+            <div class="use-case">
+              <div class="use-case-icon">🔄</div>
+              <h4>Cross-Server Banning</h4>
+              <p>When a user is banned for scamming in one server, they are automatically banned from all BECAS-protected servers, preventing server-hopping.</p>
+            </div>
+            
+            <div class="use-case">
+              <div class="use-case-icon">👁️</div>
+              <h4>User Background Checks</h4>
+              <p>Server admins can view a comprehensive history of a user's behavior across all protected communities before granting access or roles.</p>
+            </div>
+            
+            <div class="use-case">
+              <div class="use-case-icon">🧠</div>
+              <h4>Custom AI Scenarios</h4>
+              <p>Project teams can create custom, temporary scenarios for their AI to handle specific situations like managing FUD during announcements.</p>
+            </div>
+            
+            <div class="use-case">
+              <div class="use-case-icon">💰</div>
+              <h4>Reward-Based Reporting</h4>
+              <p>Community members earn BECAS tokens for identifying and reporting scammers, creating an incentive for active protection.</p>
+            </div>
+            
+            <div class="use-case">
+              <div class="use-case-icon">⚖️</div>
+              <h4>Customized Severity Levels</h4>
+              <p>Server admins can customize penalty weights for different violation types based on their community values and priorities.</p>
+            </div>
+            
+            <div class="use-case">
+              <div class="use-case-icon">🔗</div>
+              <h4>Wallet Verification</h4>
+              <p>Optional wallet linking helps identify scammers who try to use multiple Discord accounts and protects legitimate users during token claims.</p>
+            </div>
+            
+            <div class="use-case">
+              <div class="use-case-icon">💬</div>
+              <h4>Peer Vouching</h4>
+              <p>High-trust users can vouch for others, helping legitimate community members build trust quickly across the ecosystem.</p>
+            </div>
+            
+            <div class="use-case">
+              <div class="use-case-icon">📱</div>
+              <h4>Alerts & Notifications</h4>
+              <p>Real-time alerts notify moderators about ongoing attacks or suspicious activities that may require attention.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="section" id="roadmap">
+          <h2>8. Development Roadmap</h2>
+          
+          <p>
+            BECAS is built for continuous evolution and improvement. Our development roadmap focuses on expanding 
+            capabilities, improving AI, and building a sustainable ecosystem.
+          </p>
+          
+          <div class="roadmap">
+            <div class="roadmap-phase">Phase 1</div>
+            <div class="roadmap-content">
+              <h4>Core Platform Launch (Q3 2025)</h4>
+              <ul>
+                <li>Basic Trust Score system implementation</li>
+                <li>Discord bot integration with primary moderation features</li>
+                <li>Initial AI classification engine</li>
+                <li>Base blockchain contract deployment</li>
+                <li>Admin dashboard for server management</li>
+              </ul>
+            </div>
+            
+            <div class="roadmap-phase">Phase 2</div>
+            <div class="roadmap-content">
+              <h4>Advanced AI & Cross-Server Intelligence (Q4 2025)</h4>
+              <ul>
+                <li>Enhanced pattern recognition system</li>
+                <li>Cross-server ban synchronization</li>
+                <li>Custom scenario creation tools</li>
+                <li>User history explorer</li>
+                <li>Expanded analytics dashboard</li>
+                <li>Multi-language support expansion</li>
+              </ul>
+            </div>
+            
+            <div class="roadmap-phase">Phase 3</div>
+            <div class="roadmap-content">
+              <h4>Tokenomics & Reward System (Q1 2026)</h4>
+              <ul>
+                <li>BECAS token launch on Base</li>
+                <li>Reward distribution for scam reporters</li>
+                <li>Staking mechanisms</li>
+                <li>Premium subscription tiers</li>
+                <li>Governance portal for token holders</li>
+                <li>Enterprise-grade features for larger communities</li>
+              </ul>
+            </div>
+            
+            <div class="roadmap-phase">Phase 4</div>
+            <div class="roadmap-content">
+              <h4>Ecosystem Expansion (Q2-Q3 2026)</h4>
+              <ul>
+                <li>Integration with additional platforms beyond Discord</li>
+                <li>Developer API for custom integrations</li>
+                <li>Advanced wallet verification options</li>
+                <li>Machine learning improvements based on network data</li>
+                <li>Partnerships with major Web3 projects</li>
+                <li>Decentralized governance implementation</li>
+              </ul>
+            </div>
+            
+            <div class="roadmap-phase">Phase 5</div>
+            <div class="roadmap-content">
+              <h4>Full Decentralization (Q4 2026+)</h4>
+              <ul>
+                <li>Transition to community-governed system</li>
+                <li>Decentralized AI training network</li>
+                <li>Cross-chain integration beyond Base</li>
+                <li>Extended security services for the broader Web3 ecosystem</li>
+                <li>Global trust score adoption across multiple platforms</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+        <section class="section" id="team">
+          <h2>9. Team & Vision</h2>
+          
+          <p>
+            BECAS is being developed by a team with extensive experience in AI, blockchain technology, and community 
+            management. Our vision is to create the most effective protection system for Web3 communities that 
+            grows stronger with every server that joins the network.
+          </p>
+          
+          <div class="team">
+            <div class="team-member">
+              <div class="team-avatar">A</div>
+              <div class="team-name">Alex Johnson</div>
+              <div class="team-role">Founder & CEO</div>
+              <div class="team-bio">10+ years in cybersecurity and community management. Former security lead at major exchanges.</div>
+            </div>
+            
+            <div class="team-member">
+              <div class="team-avatar">S</div>
+              <div class="team-name">Sarah Chen</div>
+              <div class="team-role">CTO</div>
+              <div class="team-bio">AI research background with 8+ publications on NLP and content moderation systems.</div>
+            </div>
+            
+            <div class="team-member">
+              <div class="team-avatar">M</div>
+              <div class="team-name">Michael Rodriguez</div>
+              <div class="team-role">Head of Product</div>
+              <div class="team-bio">Built moderation tools for several major social platforms with millions of users.</div>
+            </div>
+            
+            <div class="team-member">
+              <div class="team-avatar">D</div>
+              <div class="team-name">Dr. Diana Lee</div>
+              <div class="team-role">AI Ethics Advisor</div>
+              <div class="team-bio">Expert in AI ethics and privacy-preserving machine learning techniques.</div>
+            </div>
+          </div>
+          
+          <h3>Our Vision</h3>
+          <p>
+            We believe that security in Web3 requires a collaborative approach where communities work together 
+            rather than in isolation. By creating a system that grows stronger with each new community that joins, 
+            BECAS aims to become the standard security layer for Discord communities throughout the Web3 ecosystem.
+          </p>
+          <p>
+            Our long-term vision is to develop a self-sustaining, community-governed platform that continuously 
+            improves its protection capabilities through advanced AI and network effects, making it increasingly 
+            difficult for scammers and malicious actors to operate anywhere in the ecosystem.
+          </p>
+        </section>
+        
+        <section class="section" id="conclusion">
+          <h2>10. Conclusion</h2>
+          
+          <p>
+            BECAS represents a paradigm shift in how Discord communities protect themselves from scammers, spammers, 
+            and toxic actors. By combining advanced AI, blockchain-based record keeping, and cross-server intelligence 
+            sharing, we're building a system that becomes stronger with each new server that joins the network.
+          </p>
+          
+          <p>
+            The unique value proposition of BECAS is its ability to create a unified security layer across the 
+            entire ecosystem, preventing malicious actors from simply moving to a new community after being banned. 
+            Our token-based reward system also creates positive incentives for community members to actively 
+            participate in protecting their communities.
+          </p>
+          
+          <div class="card highlight">
+            <h3>Join the BECAS Network</h3>
+            <p>
+              We're currently onboarding partner communities for our initial launch. If you operate a Discord server 
+              and would like to participate in our early access program, please reach out to the team at 
+              <a href="mailto:partners@becas.xyz">partners@becas.xyz</a>.
+            </p>
+            <p>
+              Together, we can create a safer environment for all Web3 communities by sharing intelligence and 
+              working collectively against common threats.
+            </p>
+          </div>
+        </section>
+      </div>
+      
+      <div class="sidebar">
+        <div class="toc">
+          <div class="toc-title">Table of Contents</div>
+          <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#problem">Problem Statement</a></li>
+            <li><a href="#solution">BECAS Solution</a></li>
+            <li><a href="#architecture">System Architecture</a></li>
+            <li><a href="#tokenomics">Tokenomics & Business Model</a></li>
+            <li><a href="#ai-capabilities">AI Capabilities & Learning</a></li>
+            <li><a href="#use-cases">Key Use Cases</a></li>
+            <li><a href="#roadmap">Development Roadmap</a></li>
+            <li><a href="#team">Team & Vision</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+          </ol>
+        </div>
+        
+        <div class="card" style="margin-top: 30px;">
+          <h3>Contact & Community</h3>
+          <p>
+            Join our community to learn more about BECAS and participate in our development:
+          </p>
+          <p>
+            <strong>Discord:</strong> <a href="https://discord.gg/becas" target="_blank">discord.gg/becas</a><br>
+            <strong>Twitter:</strong> <a href="https://twitter.com/BecasTrust" target="_blank">@BecasTrust</a><br>
+            <strong>Email:</strong> <a href="mailto:team@becas.xyz">team@becas.xyz</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 BECAS — Better Call Safe Way | Built on Base
+  </footer>
+  
+  <a href="#" id="backToTop" class="back-to-top">↑</a>
+  
+  <script>
+    // Back to top button visibility
+    window.addEventListener('scroll', function() {
+      var backToTopButton = document.getElementById('backToTop');
+      if (window.pageYOffset > 300) {
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          return;
+        }
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
