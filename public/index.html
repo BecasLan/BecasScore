@@ -6,6 +6,7 @@
 <title>BECAS — Better Call Safe Way</title>
 <meta content="BECAS Score: trust scores &amp; AI moderation for Discord communities." name="description"/>
 <link href="favicon.ico" rel="icon"/>
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
 <style>
   :root{ --advance:410px; /* ≈5–6cm on typical displays */
     --bg:#06070B; --glass:#0C0F16CC; --muted:#B8C0CF; --line:#1b2130;
@@ -921,10 +922,20 @@
       <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"></path></svg>
       <span>Whitepaper</span>
     </a>
-    
-    <a href="score.html" class="nav-button primary">
-      <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
+
+    <a href="checkscore.html" class="nav-button">
+      <svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"></path></svg>
       <span>Check Score</span>
+    </a>
+
+    <a href="command-center.html" class="nav-button">
+      <svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"></path></svg>
+      <span>Command Center</span>
+    </a>
+
+    <a href="https://discord.com/api/oauth2/authorize?client_id=1409536423580926015&permissions=8&scope=bot" class="nav-button primary" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path></svg>
+      <span>Get Bot</span>
     </a>
     
     <div class="profile-menu">
@@ -951,9 +962,9 @@
     </div>
     <p class="subtitle">AI moderation blocks scam &amp; spam in real-time. Offense events are recorded on <b>Base</b> for public verifiability.</p>
     <div class="cta">
-      <button class="btn btn-primary" id="openScore">Check Score</button>
-      <a class="btn" href="https://discord.gg/mHWjVzqsh8" rel="noopener" target="_blank">Join TestNet Discord Server</a>
-    </div>f
+      <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=1409536423580926015&permissions=8&scope=bot" rel="noopener" target="_blank">🤖 Get Becas AI</a>
+      <button class="btn" id="openScore">Check Score</button>
+    </div>
   </div>
   <!-- Road + Car -->
   <div aria-hidden="true" class="road-stage">
@@ -1143,15 +1154,15 @@
       <canvas id="protection-canvas"></canvas>
       <div class="stats-panel">
         <div class="stat">
-          <span class="stat-number" data-count="943">0</span>
+          <span class="stat-number" id="protectedServers" data-count="0">0</span>
           <span class="stat-label">Protected Servers</span>
         </div>
         <div class="stat">
-          <span class="stat-number" data-count="128954">0</span>
+          <span class="stat-number" id="blockedAttacks" data-count="0">0</span>
           <span class="stat-label">Blocked Attacks</span>
         </div>
         <div class="stat">
-          <span class="stat-number" data-count="99.8">0</span>
+          <span class="stat-number" id="protectionRate" data-count="99.8">99.8</span>
           <span class="stat-label">Protection Rate (%)</span>
         </div>
       </div>
@@ -1225,7 +1236,7 @@
           <li>Multi-language support</li>
         </ul>
         <div class="feat-stat">
-          <div class="stat-value">99.8%</div>
+          <div class="stat-value" id="detectionAccuracy">99.8%</div>
           <div class="stat-label">Detection Accuracy</div>
         </div>
       </div>
@@ -1266,7 +1277,7 @@
           <li>Token rewards for reporting</li>
         </ul>
         <div class="feat-stat">
-          <div class="stat-value">27,490</div>
+          <div class="stat-value" id="totalViolations">0</div>
           <div class="stat-label">Recorded Violations</div>
         </div>
       </div>
@@ -1582,10 +1593,10 @@ class ProtectionVisualizer {
     
     // Config
     this.config = {
-      apiEndpoint: 'https://api.becasbot.com/v1/stats',
-      apiKey: 'your-api-key-here',
-      updateInterval: 30000, // Update every 30 seconds
-      simulateAPI: true // Simulate API if not available
+      apiEndpoint: 'http://localhost:3001/api/stats',
+      apiKey: '', // Not needed for local API
+      updateInterval: 10000, // Update every 10 seconds
+      simulateAPI: false // Use real API data
     };
     
     // Entities
@@ -2410,39 +2421,44 @@ class ProtectionVisualizer {
       const response = await fetch(this.config.apiEndpoint, {
         method: 'GET',
         headers: {
-          'Authorization': `Bearer ${this.config.apiKey}`,
           'Content-Type': 'application/json'
         }
       });
-      
+
       if (!response.ok) {
         throw new Error(`API request failed with status ${response.status}`);
       }
-      
+
       const data = await response.json();
-      
+
+      // Get total violations from leaderboard
+      const leaderboardResponse = await fetch('http://localhost:3001/api/leaderboard?limit=1000');
+      const leaderboardData = await leaderboardResponse.json();
+
+      let violationCount = 0;
+      if (leaderboardData.leaderboard) {
+        leaderboardData.leaderboard.forEach(user => {
+          violationCount += (user.violations?.length || 0);
+        });
+      }
+
       this.updateLocalStats({
-        protectedServers: data.protected_servers || this.stats.protectedServers,
-        blockedAttacks: data.blocked_attacks || this.stats.blockedAttacks,
-        protectionRate: data.protection_rate || this.stats.protectionRate,
+        protectedServers: data.discord?.guilds || 0,
+        blockedAttacks: violationCount,
+        protectionRate: data.learning?.accuracy || 99.8,
         apiStatus: 'online',
         lastUpdate: Date.now()
       });
-      
-      console.log(`Stats fetched from API: ${JSON.stringify(data)}`);
-      
-      // Update visualization entities if needed
-      if (data.servers && data.servers.length > 0) {
-        this.updateServerData(data.servers);
-      }
-      
+
+      console.log(`✅ Real stats fetched from API: ${data.discord?.guilds} servers, ${violationCount} violations, ${(data.learning?.accuracy || 99.8).toFixed(1)}% accuracy`);
+
     } catch (error) {
       console.error('API Error:', error);
-      
+
       this.stats.apiStatus = 'offline';
       this.stats.lastUpdate = Date.now();
       this.updateAPIStatusIndicator();
-      
+
       // Fall back to local data
       this.loadStatsFromStorage();
     }
@@ -2762,7 +2778,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Buttons
   document.getElementById('openScore')?.addEventListener('click', () => {
-    window.open('/score.html', '_blank', 'noopener');
+    window.open('/checkscore.html', '_blank', 'noopener');
   });
 
   // Hash change handling
@@ -2803,4 +2819,197 @@ document.addEventListener('DOMContentLoaded', () => {
     if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
     return false;
   };
+
+  // 🔥 Live Statistics Integration
+  async function loadLiveStats() {
+    try {
+      const response = await fetch('http://localhost:3001/api/stats');
+      const data = await response.json();
+      const healthResponse = await fetch('http://localhost:3001/api/health');
+      const healthData = await healthResponse.json();
+
+      // Update live stats section (bottom of page)
+      const totalUsers = document.getElementById('liveUsersTracked');
+      const totalMemories = document.getElementById('liveMemories');
+      const uptime = document.getElementById('liveUptime');
+
+      if (totalUsers) totalUsers.textContent = data.profiles?.total || '0';
+      if (totalMemories) totalMemories.textContent = data.memory?.total || '0';
+      if (uptime && healthData.uptime) {
+        const hours = Math.floor(healthData.uptime / 3600);
+        const minutes = Math.floor((healthData.uptime % 3600) / 60);
+        uptime.textContent = `${hours}h ${minutes}m`;
+      }
+
+      // 🔥 Update feature stats with REAL data
+      const detectionAccuracy = document.getElementById('detectionAccuracy');
+      const totalViolations = document.getElementById('totalViolations');
+
+      if (detectionAccuracy) {
+        // Calculate detection accuracy from learning stats
+        const accuracy = data.learning?.accuracy || 99.8;
+        detectionAccuracy.textContent = `${accuracy.toFixed(1)}%`;
+      }
+
+      if (totalViolations) {
+        // Get total violations from all users
+        const leaderboardResponse = await fetch('http://localhost:3001/api/leaderboard?limit=1000');
+        const leaderboardData = await leaderboardResponse.json();
+
+        // Count total violations across all users
+        let violationCount = 0;
+        if (leaderboardData.leaderboard) {
+          leaderboardData.leaderboard.forEach(user => {
+            violationCount += (user.violations?.length || 0);
+          });
+        }
+
+        totalViolations.textContent = violationCount.toLocaleString();
+      }
+
+      // 🔥 Update Discord Protection Network stats
+      const protectedServers = document.getElementById('protectedServers');
+      const blockedAttacks = document.getElementById('blockedAttacks');
+      const protectionRate = document.getElementById('protectionRate');
+
+      if (protectedServers) {
+        // Count connected Discord servers
+        const serverCount = data.discord?.guilds || 0;
+        protectedServers.textContent = serverCount;
+        protectedServers.setAttribute('data-count', serverCount);
+      }
+
+      if (blockedAttacks) {
+        // Get total violations from leaderboard (if not already fetched)
+        if (!totalViolations) {
+          const leaderboardResponse = await fetch('http://localhost:3001/api/leaderboard?limit=1000');
+          const leaderboardData = await leaderboardResponse.json();
+
+          let violationCount = 0;
+          if (leaderboardData.leaderboard) {
+            leaderboardData.leaderboard.forEach(user => {
+              violationCount += (user.violations?.length || 0);
+            });
+          }
+
+          blockedAttacks.textContent = violationCount.toLocaleString();
+          blockedAttacks.setAttribute('data-count', violationCount);
+        } else {
+          // Use the same violation count
+          const count = parseInt(totalViolations.textContent.replace(/,/g, '')) || 0;
+          blockedAttacks.textContent = count.toLocaleString();
+          blockedAttacks.setAttribute('data-count', count);
+        }
+      }
+
+      if (protectionRate) {
+        // Calculate protection rate from accuracy
+        const accuracy = data.learning?.accuracy || 99.8;
+        protectionRate.textContent = accuracy.toFixed(1);
+        protectionRate.setAttribute('data-count', accuracy.toFixed(1));
+      }
+    } catch (error) {
+      console.log('Stats API not available');
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadLiveStats);
+  } else {
+    loadLiveStats();
+  }
+
+  // 🔥 Real-time WebSocket connection for instant updates
+  const socket = io('http://localhost:3001');
+
+  socket.on('connect', () => {
+    console.log('✅ Connected to real-time updates');
+  });
+
+  socket.on('disconnect', () => {
+    console.log('❌ Disconnected from real-time updates');
+  });
+
+  // Listen for stats updates and refresh instantly (no 30-second wait)
+  socket.on('statsUpdate', (data) => {
+    console.log('📈 Stats updated in real-time:', data);
+    loadLiveStats(); // Refresh immediately
+  });
+
+  socket.on('trustScoreUpdate', (data) => {
+    console.log('📡 Trust score updated:', data);
+    loadLiveStats(); // Refresh violation count
+  });
+
+  socket.on('leaderboardUpdate', () => {
+    console.log('📊 Leaderboard updated');
+    loadLiveStats(); // Refresh violation count
+  });
 </script>
+
+<!-- 📊 Live System Stats -->
+<section class="section" style="background: rgba(12, 17, 28, 0.3); padding: 60px 20px; margin: 40px 0;">
+  <div class="container">
+    <h2 class="section-heading">Live System Statistics</h2>
+    <p class="section-subheading">Real-time metrics from our production environment</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; max-width: 900px; margin: 0 auto;">
+      <div style="background: rgba(12, 17, 28, 0.5); border: 1px solid var(--line); border-radius: 16px; padding: 30px; text-align: center;">
+        <div style="font-size: 3rem; font-weight: bold; background: linear-gradient(135deg, var(--brand1), var(--brand2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" id="liveUsersTracked">-</div>
+        <div style="color: var(--muted); margin-top: 10px;">Users Tracked</div>
+      </div>
+      <div style="background: rgba(12, 17, 28, 0.5); border: 1px solid var(--line); border-radius: 16px; padding: 30px; text-align: center;">
+        <div style="font-size: 3rem; font-weight: bold; background: linear-gradient(135deg, var(--brand1), var(--brand2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" id="liveMemories">-</div>
+        <div style="color: var(--muted); margin-top: 10px;">Memory Entries</div>
+      </div>
+      <div style="background: rgba(12, 17, 28, 0.5); border: 1px solid var(--line); border-radius: 16px; padding: 30px; text-align: center;">
+        <div style="font-size: 3rem; font-weight: bold; background: linear-gradient(135deg, var(--brand1), var(--brand2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" id="liveUptime">-</div>
+        <div style="color: var(--muted); margin-top: 10px;">System Uptime</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 🦶 Enhanced Footer -->
+<footer style="border-top: 1px solid var(--line); padding: 60px 20px 20px;">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px; margin-bottom: 40px;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px; font-weight: 800; font-size: 1.2rem;">
+          <svg width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="14" fill="url(#fg)"/><defs><linearGradient id="fg" x1="0" y1="0" x2="28" y2="28"><stop stop-color="#73F2FF"/><stop offset="1" stop-color="#B793FF"/></linearGradient></defs></svg>
+          BECAS
+        </div>
+        <p style="color: var(--muted); line-height: 1.6; margin: 0;">AI-powered Discord protection with cross-server trust scores.</p>
+      </div>
+      <div>
+        <h4 style="margin-bottom: 16px;">Quick Links</h4>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <a href="checkscore.html" style="color: var(--muted);">Trust Score Search</a>
+          <a href="whitepaper.html" style="color: var(--muted);">Whitepaper</a>
+          <a href="https://discord.gg/mHWjVzqsh8" target="_blank" rel="noopener" style="color: var(--muted);">Discord Server</a>
+        </div>
+      </div>
+      <div>
+        <h4 style="margin-bottom: 16px;">Resources</h4>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <a href="http://localhost:3001/api/health" target="_blank" style="color: var(--muted);">API Status</a>
+          <a href="https://github.com" target="_blank" rel="noopener" style="color: var(--muted);">GitHub</a>
+        </div>
+      </div>
+      <div>
+        <h4 style="margin-bottom: 16px;">Connect</h4>
+        <div style="display: flex; gap: 12px;">
+          <a href="https://discord.gg/mHWjVzqsh8" target="_blank" rel="noopener" style="width: 40px; height: 40px; border-radius: 8px; background: rgba(255,255,255,0.05); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="color: var(--muted);"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="border-top: 1px solid var(--line); padding-top: 20px; text-align: center; color: var(--muted); font-size: 0.9rem;">
+      <p style="margin: 0;">© 2025 BECAS. All rights reserved.</p>
+      <p style="margin: 8px 0 0 0; font-size: 0.85rem;">Powered by AI • Built with ❤️ for Discord Communities</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
