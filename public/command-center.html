@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BECAS Command Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        :root {
+            --bg: #0a0c10;
+            --bg-secondary: #0f1318;
+            --surface: #141920;
+            --surface-light: #1a2028;
+            --border: #252d3a;
+            --text-primary: #e8eaed;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --accent-primary: #00d9ff;
+            --accent-secondary: #7c3aed;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --info: #3b82f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        /* Main Layout */
+        .app-container {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            grid-template-rows: 60px calc(100vh - 60px);
+            height: 100vh;
+            gap: 0;
+            overflow: hidden;
+        }
+
+        /* Top Header */
+        .top-header {
+            grid-column: 1 / -1;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 900;
+            font-size: 18px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .guild-selector {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .guild-selector:hover {
+            background: var(--surface-light);
+            border-color: var(--accent-primary);
+        }
+
+        .guild-name {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 12px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 20px;
+            font-size: 13px;
+            color: var(--success);
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 6px 12px;
+            background: rgba(124, 58, 237, 0.1);
+            border: 1px solid rgba(124, 58, 237, 0.3);
+            border-radius: 20px;
+        }
+
+        .user-avatar {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .user-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .logout-btn {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #ef4444;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .logout-btn:hover {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: rgba(239, 68, 68, 0.5);
+        }
+
+        /* Left Sidebar */
+        .left-sidebar {
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .sidebar-section {
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-title {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-subtext {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* Live Feed */
+        .live-feed {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+        }
+
+        .feed-item {
+            display: flex;
+            gap: 12px;
+            padding: 12px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 8px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .feed-item:hover {
+            background: var(--surface-light);
+            border-color: var(--accent-primary);
+        }
+
+        .feed-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+
+        .feed-icon.danger { background: rgba(239, 68, 68, 0.15); color: var(--danger); }
+        .feed-icon.warning { background: rgba(245, 158, 11, 0.15); color: var(--warning); }
+        .feed-icon.info { background: rgba(59, 130, 246, 0.15); color: var(--info); }
+        .feed-icon.success { background: rgba(16, 185, 129, 0.15); color: var(--success); }
+
+        .feed-content {
+            flex: 1;
+        }
+
+        .feed-title {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .feed-time {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        /* Quick Actions */
+        .quick-actions {
+            padding: 16px;
+            display: grid;
+            gap: 8px;
+        }
+
+        .action-btn {
+            padding: 10px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .action-btn:hover {
+            background: var(--surface-light);
+            border-color: var(--accent-primary);
+            transform: translateX(4px);
+        }
+
+        .action-btn.danger {
+            border-color: var(--danger);
+            color: var(--danger);
+        }
+
+        .action-btn.danger:hover {
+            background: rgba(239, 68, 68, 0.1);
+        }
+
+        /* Main Chat Area */
+        .chat-area {
+            display: flex;
+            flex-direction: column;
+            background: var(--bg);
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            min-height: 0;
+        }
+
+        .message {
+            display: flex;
+            gap: 12px;
+            animation: slideIn 0.3s ease;
+            max-width: 100%;
+            width: 100%;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+            font-size: 18px;
+        }
+
+        .message.assistant .message-avatar {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: var(--bg);
+        }
+
+        .message.user .message-avatar {
+            background: var(--surface);
+            color: var(--text-primary);
+        }
+
+        .message-content {
+            flex: 1;
+            max-width: 100%;
+            min-width: 0;
+            overflow: hidden;
+        }
+
+        .message-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+
+        .message-author {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .message-time {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .message-text {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .message-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 12px;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        .card-title {
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .user-list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 8px;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .user-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--accent-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .user-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .user-name {
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .trust-score {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .user-actions {
+            display: flex;
+            gap: 6px;
+        }
+
+        .icon-btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--bg-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+
+        .icon-btn:hover {
+            background: var(--surface);
+            border-color: var(--accent-primary);
+        }
+
+        .icon-btn.danger:hover {
+            background: rgba(239, 68, 68, 0.1);
+            border-color: var(--danger);
+            color: var(--danger);
+        }
+
+        /* Typing Indicator */
+        .typing-indicator {
+            display: none;
+            padding: 12px;
+            gap: 12px;
+        }
+
+        .typing-indicator.active {
+            display: flex;
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--text-muted);
+            animation: typing 1.4s ease-in-out infinite;
+        }
+
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes typing {
+            0%, 60%, 100% { opacity: 0.3; }
+            30% { opacity: 1; }
+        }
+
+        /* Chat Input */
+        .chat-input-area {
+            padding: 20px 24px;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .input-suggestions {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .suggestion-chip {
+            padding: 6px 12px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .suggestion-chip:hover {
+            background: var(--surface-light);
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+        }
+
+        .chat-input-container {
+            display: flex;
+            gap: 12px;
+            align-items: flex-end;
+        }
+
+        .chat-input {
+            flex: 1;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 16px;
+            font-size: 14px;
+            color: var(--text-primary);
+            font-family: inherit;
+            resize: none;
+            min-height: 48px;
+            max-height: 120px;
+            transition: all 0.2s;
+        }
+
+        .chat-input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.1);
+        }
+
+        .send-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            border: none;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: var(--bg);
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.2s;
+            flex-shrink: 0;
+        }
+
+        .send-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 217, 255, 0.3);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--surface-light);
+        }
+
+        /* Welcome Screen */
+        .welcome-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        .welcome-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 20px var(--accent-primary));
+        }
+
+        .welcome-title {
+            font-size: 32px;
+            font-weight: 900;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .welcome-subtitle {
+            font-size: 16px;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            max-width: 500px;
+        }
+
+        .suggestion-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            max-width: 600px;
+        }
+
+        .suggestion-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+        }
+
+        .suggestion-card:hover {
+            background: var(--surface-light);
+            border-color: var(--accent-primary);
+            transform: translateY(-4px);
+        }
+
+        .suggestion-card-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .suggestion-card-title {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .suggestion-card-desc {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Header -->
+        <header class="top-header">
+            <div class="header-left">
+                <div class="logo">
+                    <div class="logo-icon">🧠</div>
+                    <span>BECAS Command Center</span>
+                </div>
+                <div class="guild-selector" id="guildSelector">
+                    <span class="guild-name" id="guildName">Loading...</span>
+                    <span>▼</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span>ONLINE</span>
+                </div>
+                <div class="user-info" id="userInfo">
+                    <div class="user-avatar" id="userAvatar">?</div>
+                    <span class="user-name" id="userName">Loading...</span>
+                </div>
+                <button class="logout-btn" onclick="logout()">Logout</button>
+            </div>
+        </header>
+
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <!-- Stats Section -->
+            <div class="sidebar-section">
+                <div class="section-title">Overview</div>
+                <div class="stat-card">
+                    <div class="stat-label">Members</div>
+                    <div class="stat-value" id="memberCount">-</div>
+                    <div class="stat-subtext"><span id="onlineCount">-</span> online</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Trust Score</div>
+                    <div class="stat-value" id="trustScore">-</div>
+                    <div class="stat-subtext"><span id="lowTrustCount">-</span> low trust users</div>
+                </div>
+            </div>
+
+            <!-- Live Feed -->
+            <div class="sidebar-section" style="border-bottom: none; flex: 1; display: flex; flex-direction: column; overflow: hidden;">
+                <div class="section-title">Live Feed</div>
+                <div class="live-feed" id="liveFeed">
+                    <div class="feed-item">
+                        <div class="feed-icon info">ℹ️</div>
+                        <div class="feed-content">
+                            <div class="feed-title">System Ready</div>
+                            <div class="feed-time">Just now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="quick-actions">
+                <button class="action-btn" onclick="quickAction('stats')">📊 Server Stats</button>
+                <button class="action-btn" onclick="quickAction('threats')">⚠️ Recent Threats</button>
+                <button class="action-btn danger" onclick="quickAction('emergency')">🚨 Emergency Mode</button>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <div class="chat-messages" id="chatMessages">
+                <!-- Welcome Screen -->
+                <div class="welcome-screen" id="welcomeScreen">
+                    <div class="welcome-icon">🧠</div>
+                    <h1 class="welcome-title">Welcome to BECAS Command Center</h1>
+                    <p class="welcome-subtitle">
+                        Your AI-powered mission control for Discord server management.
+                        Ask me anything or choose a quick action below.
+                    </p>
+                    <div class="suggestion-cards">
+                        <div class="suggestion-card" onclick="sendSuggestion('Show me server statistics')">
+                            <div class="suggestion-card-icon">📊</div>
+                            <div class="suggestion-card-title">Server Stats</div>
+                            <div class="suggestion-card-desc">View member count, activity, and health</div>
+                        </div>
+                        <div class="suggestion-card" onclick="sendSuggestion('Show users with trust score below 50')">
+                            <div class="suggestion-card-icon">🔍</div>
+                            <div class="suggestion-card-title">Trust Scores</div>
+                            <div class="suggestion-card-desc">Find low-trust users</div>
+                        </div>
+                        <div class="suggestion-card" onclick="sendSuggestion('What threats were detected today?')">
+                            <div class="suggestion-card-icon">⚠️</div>
+                            <div class="suggestion-card-title">Recent Threats</div>
+                            <div class="suggestion-card-desc">View scams and spam blocked</div>
+                        </div>
+                        <div class="suggestion-card" onclick="sendSuggestion('Show current settings')">
+                            <div class="suggestion-card-icon">⚙️</div>
+                            <div class="suggestion-card-title">Settings</div>
+                            <div class="suggestion-card-desc">View and modify configuration</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typing Indicator -->
+            <div class="typing-indicator" id="typingIndicator">
+                <div class="message-avatar" style="background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); color: var(--bg);">
+                    🧠
+                </div>
+                <div class="typing-dots">
+                    <span class="typing-dot"></span>
+                    <span class="typing-dot"></span>
+                    <span class="typing-dot"></span>
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="chat-input-area">
+                <div class="input-suggestions" id="suggestions">
+                    <div class="suggestion-chip" onclick="sendSuggestion('Show trust scores')">💡 Trust scores</div>
+                    <div class="suggestion-chip" onclick="sendSuggestion('Ban suspicious users')">🔨 Ban users</div>
+                    <div class="suggestion-chip" onclick="sendSuggestion('Server health report')">📊 Health report</div>
+                </div>
+                <div class="chat-input-container">
+                    <textarea
+                        class="chat-input"
+                        id="chatInput"
+                        placeholder="Ask BECAS anything... (e.g., 'Show users with trust score below 50')"
+                        rows="1"
+                    ></textarea>
+                    <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+                        ➤
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Configuration
+        const API_BASE = 'http://localhost:3002/api';
+        const DEV_MODE = false; // OAuth is now ready!
+
+        let socket;
+        let conversationStarted = false;
+        let currentUser = null;
+        let selectedGuildId = null;
+        let USER_ID = null;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (DEV_MODE) {
+                // Development mode - bypass OAuth
+                await initDevMode();
+            } else {
+                // Production mode - require OAuth
+                if (!await checkAuth()) {
+                    return; // Redirected to login
+                }
+                await loadUserGuilds();
+            }
+
+            // Initialize app
+            initializeSocket();
+            loadGuildInfo();
+            loadGuildStats();
+            setupEventListeners();
+        });
+
+        /**
+         * Development mode initialization (bypass OAuth)
+         */
+        async function initDevMode() {
+            // Fake user session for testing
+            currentUser = {
+                userId: 'dev_admin',
+                username: 'Developer',
+                avatar: null,
+                guilds: [{
+                    id: '1409596032341508158',
+                    name: 'Test Server',
+                    icon: null,
+                    owner: true,
+                    permissions: '8',
+                    features: []
+                }]
+            };
+
+            USER_ID = currentUser.userId;
+            selectedGuildId = currentUser.guilds[0].id;
+
+            // Update UI
+            updateUserInfo();
+            updateGuildSelector();
+
+            console.log('🔧 DEV MODE: Using fake session');
+        }
+
+        /**
+         * Check if user is authenticated
+         */
+        async function checkAuth() {
+            try {
+                const response = await fetch('http://localhost:3002/auth/me', {
+                    credentials: 'include'
+                });
+
+                if (!response.ok) {
+                    // Not authenticated, redirect to login
+                    window.location.href = '/login.html';
+                    return false;
+                }
+
+                currentUser = await response.json();
+                USER_ID = currentUser.userId;
+
+                console.log('Authenticated as:', currentUser.username);
+                console.log('Admin guilds:', currentUser.guilds.length);
+
+                // Update user info in header
+                updateUserInfo();
+
+                return true;
+            } catch (error) {
+                console.error('Auth check failed:', error);
+                window.location.href = '/login.html';
+                return false;
+            }
+        }
+
+        /**
+         * Load user's guilds and create guild selector
+         */
+        async function loadUserGuilds() {
+            if (!currentUser || !currentUser.guilds || currentUser.guilds.length === 0) {
+                alert('You do not have admin access to any Discord servers.');
+                window.location.href = '/login.html';
+                return;
+            }
+
+            // Select first guild by default
+            selectedGuildId = currentUser.guilds[0].id;
+
+            // Update guild name in header
+            updateGuildSelector();
+        }
+
+        /**
+         * Update guild selector dropdown
+         */
+        function updateGuildSelector() {
+            const guildNameElement = document.getElementById('guildName');
+            const selectedGuild = currentUser.guilds.find(g => g.id === selectedGuildId);
+
+            if (selectedGuild) {
+                // Create dropdown if user has multiple guilds
+                if (currentUser.guilds.length > 1) {
+                    let dropdown = `
+                        <select id="guildSelector" style="
+                            background: rgba(0, 217, 255, 0.1);
+                            border: 1px solid rgba(0, 217, 255, 0.3);
+                            color: var(--text-primary);
+                            padding: 8px 12px;
+                            border-radius: 8px;
+                            font-size: 18px;
+                            font-weight: 700;
+                            cursor: pointer;
+                        " onchange="switchGuild(this.value)">
+                    `;
+
+                    currentUser.guilds.forEach(guild => {
+                        const selected = guild.id === selectedGuildId ? 'selected' : '';
+                        dropdown += `<option value="${guild.id}" ${selected}>${guild.name}</option>`;
+                    });
+
+                    dropdown += '</select>';
+                    guildNameElement.innerHTML = dropdown;
+                } else {
+                    guildNameElement.textContent = selectedGuild.name;
+                }
+            }
+        }
+
+        /**
+         * Switch to a different guild
+         */
+        async function switchGuild(guildId) {
+            selectedGuildId = guildId;
+
+            // Unsubscribe from previous guild
+            if (socket && socket.connected) {
+                socket.emit('unsubscribe_guild', selectedGuildId);
+                socket.emit('subscribe_guild', guildId);
+            }
+
+            // Reload guild data
+            await loadGuildInfo();
+            await loadGuildStats();
+
+            // Clear conversation
+            document.getElementById('chatMessages').innerHTML = '';
+            document.getElementById('welcomeScreen').style.display = 'flex';
+            conversationStarted = false;
+        }
+
+        /**
+         * Logout user
+         */
+        async function logout() {
+            try {
+                await fetch('http://localhost:3002/auth/logout', {
+                    method: 'POST',
+                    credentials: 'include'
+                });
+            } catch (error) {
+                console.error('Logout failed:', error);
+            }
+
+            window.location.href = '/login.html';
+        }
+
+        /**
+         * Update user info in header
+         */
+        function updateUserInfo() {
+            if (!currentUser) return;
+
+            // Update username
+            document.getElementById('userName').textContent = currentUser.username;
+
+            // Update avatar (first letter of username)
+            const firstLetter = currentUser.username.charAt(0).toUpperCase();
+            document.getElementById('userAvatar').textContent = firstLetter;
+        }
+
+        function initializeSocket() {
+            socket = io('http://localhost:3002');
+
+            socket.on('connect', () => {
+                console.log('Connected to server');
+                socket.emit('subscribe_guild', selectedGuildId);
+            });
+
+            socket.on('chat_response', (data) => {
+                hideTyping();
+                addMessage('assistant', data.message, data.metadata);
+            });
+
+            socket.on('typing', (data) => {
+                if (data.typing) showTyping();
+                else hideTyping();
+            });
+
+            socket.on('live_event', (event) => {
+                addLiveFeedItem(event);
+            });
+
+            socket.on('disconnect', () => {
+                console.log('Disconnected from server');
+            });
+        }
+
+        async function loadGuildInfo() {
+            try {
+                const response = await fetch(`${API_BASE}/guild/${selectedGuildId}`);
+                const guild = await response.json();
+
+                // Update guild selector with current guild
+                updateGuildSelector();
+            } catch (error) {
+                console.error('Failed to load guild info', error);
+            }
+        }
+
+        async function loadGuildStats() {
+            try {
+                const response = await fetch(`${API_BASE}/guild/${selectedGuildId}/stats`);
+                const stats = await response.json();
+
+                document.getElementById('memberCount').textContent = stats.memberCount;
+                document.getElementById('onlineCount').textContent = stats.onlineCount;
+                document.getElementById('trustScore').textContent = stats.trustScore.average;
+                document.getElementById('lowTrustCount').textContent = stats.trustScore.lowTrustUsers;
+            } catch (error) {
+                console.error('Failed to load guild stats', error);
+            }
+        }
+
+        function setupEventListeners() {
+            const input = document.getElementById('chatInput');
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    sendMessage();
+                }
+            });
+
+            input.addEventListener('input', () => {
+                input.style.height = 'auto';
+                input.style.height = Math.min(input.scrollHeight, 120) + 'px';
+            });
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+
+            if (!message) return;
+
+            // Hide welcome screen
+            if (!conversationStarted) {
+                document.getElementById('welcomeScreen').style.display = 'none';
+                conversationStarted = true;
+            }
+
+            // Add user message
+            addMessage('user', message);
+            input.value = '';
+            input.style.height = 'auto';
+
+            // Show typing
+            showTyping();
+
+            // Send via WebSocket
+            socket.emit('chat_message', {
+                guildId: selectedGuildId,
+                userId: USER_ID,
+                message: message
+            });
+        }
+
+        function sendSuggestion(text) {
+            document.getElementById('chatInput').value = text;
+            sendMessage();
+        }
+
+        function quickAction(action) {
+            const messages = {
+                stats: 'Show me detailed server statistics',
+                threats: 'What threats were detected in the last 24 hours?',
+                emergency: 'Enable emergency lockdown mode'
+            };
+
+            sendSuggestion(messages[action] || 'Help');
+        }
+
+        function addMessage(role, text, metadata) {
+            const messagesContainer = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role}`;
+
+            const time = new Date().toLocaleTimeString('en-US', {
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            let content = `
+                <div class="message-avatar">${role === 'assistant' ? '🧠' : '👤'}</div>
+                <div class="message-content">
+                    <div class="message-header">
+                        <span class="message-author">${role === 'assistant' ? 'BECAS' : 'You'}</span>
+                        <span class="message-time">${time}</span>
+                    </div>
+                    <div class="message-text">${formatMessage(text)}</div>
+            `;
+
+            // Add metadata cards (user lists, etc.)
+            if (metadata && metadata.users) {
+                content += renderUserList(metadata.users);
+            }
+
+            content += '</div>';
+            messageDiv.innerHTML = content;
+            messagesContainer.appendChild(messageDiv);
+
+            // Scroll to bottom
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function formatMessage(text) {
+            // Simple markdown-like formatting
+            return text
+                .replace(/\n/g, '<br>')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/<@(\d+)>/g, '<span style="color: var(--accent-primary);">@user$1</span>');
+        }
+
+        function renderUserList(users) {
+            if (!users || users.length === 0) return '';
+
+            let html = '<div class="message-card"><div class="card-title">Users Found</div>';
+
+            users.forEach(user => {
+                html += `
+                    <div class="user-list-item">
+                        <div class="user-info">
+                            <div class="user-avatar">${user.username.charAt(0).toUpperCase()}</div>
+                            <div class="user-details">
+                                <div class="user-name">@${user.username}</div>
+                                <div class="trust-score">Trust Score: ${user.trustData.score}</div>
+                            </div>
+                        </div>
+                        <div class="user-actions">
+                            <button class="icon-btn" onclick="viewUser('${user.id}')" title="View">👁️</button>
+                            <button class="icon-btn" onclick="warnUser('${user.id}')" title="Warn">⚠️</button>
+                            <button class="icon-btn danger" onclick="banUser('${user.id}')" title="Ban">🔨</button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+            return html;
+        }
+
+        function showTyping() {
+            document.getElementById('typingIndicator').classList.add('active');
+        }
+
+        function hideTyping() {
+            document.getElementById('typingIndicator').classList.remove('active');
+        }
+
+        function addLiveFeedItem(event) {
+            const feed = document.getElementById('liveFeed');
+            const item = document.createElement('div');
+            item.className = 'feed-item';
+
+            const iconType = event.severity === 'high' ? 'danger' :
+                           event.severity === 'medium' ? 'warning' : 'info';
+
+            const icons = {
+                scam_detected: '🚨',
+                user_joined: '👋',
+                spam_blocked: '🛡️',
+                user_banned: '🔨'
+            };
+
+            const timeAgo = Math.round((Date.now() - event.timestamp) / 60000);
+
+            item.innerHTML = `
+                <div class="feed-icon ${iconType}">${icons[event.type] || 'ℹ️'}</div>
+                <div class="feed-content">
+                    <div class="feed-title">${event.type.replace(/_/g, ' ').toUpperCase()}</div>
+                    <div class="feed-time">${timeAgo}m ago</div>
+                </div>
+            `;
+
+            feed.insertBefore(item, feed.firstChild);
+
+            // Keep only last 10 items
+            while (feed.children.length > 10) {
+                feed.removeChild(feed.lastChild);
+            }
+        }
+
+        async function viewUser(userId) {
+            sendSuggestion(`Show detailed information about user ${userId}`);
+        }
+
+        async function warnUser(userId) {
+            sendSuggestion(`Warn user ${userId}`);
+        }
+
+        async function banUser(userId) {
+            if (confirm(`Are you sure you want to ban user ${userId}?`)) {
+                sendSuggestion(`Ban user ${userId}`);
+            }
+        }
+
+        // Auto-refresh stats every 30 seconds
+        setInterval(loadGuildStats, 30000);
+    </script>
+</body>
+</html>
