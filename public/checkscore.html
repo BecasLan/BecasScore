@@ -845,16 +845,16 @@
 
   <script>
     // API Configuration - Auto-detect environment
-    const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
-    const API_BASE_URL = isProduction
-      ? window.location.origin + '/api'  // Production: Use same domain
-      : 'http://localhost:3003/api';      // Development: Use local backend
+const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+const API_BASE_URL = isProduction
+  ? 'https://becascore.xyz/api'     // ✅ Production backend URL sabit
+  : 'http://localhost:3003/api';    // Local backend
 
     let currentPage = 1;
     const PAGE_SIZE = 20;
 
     // 🔥 Real-time WebSocket connection (disabled in production for now)
-    const socket = isProduction ? null : io('http://localhost:3003');
+const socket = io(isProduction ? 'https://becascore.xyz' : 'http://localhost:3003');
 
     socket.on('connect', () => {
       console.log('✅ Connected to real-time updates');
