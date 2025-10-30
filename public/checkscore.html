@@ -845,38 +845,50 @@
 
   <script>
     // API Configuration - Auto-detect environment
-const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
-const API_BASE_URL = isProduction
-  ? 'https://becascore.xyz/api'
-  : 'http://localhost:3003/api';// Local backend
+    const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+    const API_BASE_URL = isProduction
+      ? window.location.origin + '/api'  // Production: Use same domain
+      : 'http://localhost:3003/api';      // Development: Use local backend
 
     let currentPage = 1;
     const PAGE_SIZE = 20;
 
     // 🔥 Real-time WebSocket connection (disabled in production for now)
-let socket = null;
-if (!isProduction) {
-  socket = io('http://localhost:3003');
+    const socket = isProduction ? null : io('http://localhost:3003');
 
-  socket.on('connect', () => console.log('✅ Connected to real-time updates'));
-  socket.on('disconnect', () => console.log('❌ Disconnected from real-time updates'));
+    // Only setup socket listeners if not in production
+    if (socket) {
+      socket.on('connect', () => {
+        console.log('✅ Connected to real-time updates');
+      });
 
-  socket.on('trustScoreUpdate', (data) => {
-    console.log('📡 Trust score updated:', data);
-    loadPage(currentPage);
-  });
+      socket.on('disconnect', () => {
+        console.log('❌ Disconnected from real-time updates');
+      });
 
-  socket.on('leaderboardUpdate', (data) => {
-    console.log('📊 Leaderboard updated');
-    loadPage(currentPage);
-  });
+      // Listen for trust score updates
+      socket.on('trustScoreUpdate', (data) => {
+        console.log('📡 Trust score updated:', data);
+        // Refresh current page to show updated scores
+        loadPage(currentPage);
+      });
 
-  socket.on('statsUpdate', (data) => {
-    console.log('📈 Stats updated:', data);
-  });
-} else {
-  console.log('ℹ️ Real-time updates disabled in production');
-}
+      // Listen for leaderboard updates
+      socket.on('leaderboardUpdate', (data) => {
+        console.log('📊 Leaderboard updated');
+        // Refresh leaderboard
+        loadPage(currentPage);
+      });
+
+      // Listen for stats updates
+      socket.on('statsUpdate', (data) => {
+        console.log('📈 Stats updated:', data);
+        // You can update stats display here if you have one
+      });
+    } else {
+      console.log('ℹ️ Real-time updates disabled in production mode');
+    }
+
     // Fetch leaderboard data from API
     async function fetchLeaderboard(page = 1) {
       try {

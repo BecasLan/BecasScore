@@ -1,10 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { Pool } from 'pg';
 
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: { rejectUnauthorized: false }
-});
+// Supabase REST API configuration
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -15,119 +13,149 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   try {
+    // Check environment variables
+    if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+      console.error('Missing Supabase credentials');
+      return res.status(500).json({ error: 'Server configuration error' });
+    }
+
     const limit = parseInt(req.query.limit as string) || 20;
     const page = parseInt(req.query.page as string) || 1;
     const offset = (page - 1) * limit;
     const type = (req.query.type as string) || 'all'; // 'all', 'violations', 'trusted', 'risky'
 
-    // Build WHERE clause based on type
-    let whereClause = '';
-    if (type === 'violations') {
-      // Only show users with violations
-      whereClause = `WHERE s.last_violation_at IS NOT NULL
-        AND (s.total_warnings > 0 OR s.total_timeouts > 0 OR s.total_kicks > 0 OR s.total_bans > 0)`;
-    } else if (type === 'risky') {
-      // Only show risky/dangerous users
-      whereClause = `WHERE s.risk_category IN ('risky', 'dangerous')`;
-    } else if (type === 'trusted') {
-      // Only show trusted users (high trust score, low violations)
-      whereClause = `WHERE u.global_trust_score >= 80`;
-    } else {
-      // Show all users (default)
-      whereClause = `WHERE u.user_id IS NOT NULL`;
+    // Fetch users from Supabase
+    const usersUrl = `${SUPABASE_URL}/rest/v1/users?select=*&limit=${limit}&offset=${offset}`;
+    const usersRes = await fetch(usersUrl, {
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
+      }
+    });
+
+    if (!usersRes.ok) {
+      throw new Error(`Failed to fetch users: ${usersRes.statusText}`);
     }
 
-    // Determine sorting based on type
-    let orderByClause = '';
-    if (type === 'violations' || type === 'risky') {
-      orderByClause = 'ORDER BY total_violations DESC, s.last_violation_at DESC';
-    } else if (type === 'trusted') {
-      orderByClause = 'ORDER BY u.global_trust_score DESC';
-    } else {
-      // Default: sort by trust score (lowest first to see problematic users)
-      orderByClause = 'ORDER BY u.global_trust_score ASC, total_violations DESC';
-    }
+    const users = await usersRes.json();
 
-    // Query joins users with sicil_summary to get violation data
-    const query = `
-      SELECT
-        u.user_id as "userId",
-        u.username,
-        u.avatar_url as avatar,
-        u.global_trust_score as "trustScore",
-        u.global_risk_score as "riskScore",
-        s.last_violation_at as "lastViolation",
-        COALESCE(s.total_warnings, 0) as total_warnings,
-        COALESCE(s.total_timeouts, 0) as total_timeouts,
-        COALESCE(s.total_kicks, 0) as total_kicks,
-        COALESCE(s.total_bans, 0) as total_bans,
-        COALESCE(s.toxicity_violations, 0) as toxicity_violations,
-        COALESCE(s.spam_violations, 0) as spam_violations,
-        COALESCE(s.harassment_violations, 0) as harassment_violations,
-        COALESCE(s.scam_violations, 0) as scam_violations,
-        COALESCE(s.phishing_violations, 0) as phishing_violations,
-        COALESCE(s.risk_category, 'safe') as risk_category,
-        COALESCE(s.total_warnings, 0) + COALESCE(s.total_timeouts, 0) + COALESCE(s.total_kicks, 0) + COALESCE(s.total_bans, 0) as total_violations,
-        ROW_NUMBER() OVER (${orderByClause.replace('ORDER BY ', '')}) as rank
-      FROM users u
-      LEFT JOIN user_sicil_summary s ON u.user_id = s.user_id
-      ${whereClause}
-      ${orderByClause}
-      LIMIT $1 OFFSET $2
-    `;
+    // Fetch sicil summary for each user
+    const userIds = users.map((u: any) => u.user_id).join(',');
+    const sicilUrl = `${SUPABASE_URL}/rest/v1/user_sicil_summary?user_id=in.(${userIds})&select=*`;
+    const sicilRes = await fetch(sicilUrl, {
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
+      }
+    });
 
-    const countQuery = `
-      SELECT COUNT(*) as total
-      FROM users u
-      LEFT JOIN user_sicil_summary s ON u.user_id = s.user_id
-      ${whereClause}
-    `;
+    const sicilData = sicilRes.ok ? await sicilRes.json() : [];
 
-    const [leaderboardResult, countResult] = await Promise.all([
-      pool.query(query, [limit, offset]),
-      pool.query(countQuery)
-    ]);
+    // Create a map of sicil data by user_id
+    const sicilMap = new Map();
+    sicilData.forEach((s: any) => {
+      sicilMap.set(s.user_id, s);
+    });
 
-    // Build violations array from violation counts
-    const leaderboard = leaderboardResult.rows.map((user: any) => {
+    // Build leaderboard with combined data
+    let leaderboard = users.map((user: any) => {
+      const sicil = sicilMap.get(user.user_id) || {};
+
+      const totalWarnings = sicil.total_warnings || 0;
+      const totalTimeouts = sicil.total_timeouts || 0;
+      const totalKicks = sicil.total_kicks || 0;
+      const totalBans = sicil.total_bans || 0;
+      const totalViolations = totalWarnings + totalTimeouts + totalKicks + totalBans;
+
       const violations: string[] = [];
+      if (totalWarnings > 0) violations.push(`${totalWarnings} warnings`);
+      if (totalTimeouts > 0) violations.push(`${totalTimeouts} timeouts`);
+      if (totalKicks > 0) violations.push(`${totalKicks} kicks`);
+      if (totalBans > 0) violations.push(`${totalBans} bans`);
 
-      if (user.total_warnings > 0) violations.push(`${user.total_warnings} warnings`);
-      if (user.total_timeouts > 0) violations.push(`${user.total_timeouts} timeouts`);
-      if (user.total_kicks > 0) violations.push(`${user.total_kicks} kicks`);
-      if (user.total_bans > 0) violations.push(`${user.total_bans} bans`);
-
-      // Add category violations
       const categories: string[] = [];
-      if (user.toxicity_violations > 0) categories.push('toxicity');
-      if (user.spam_violations > 0) categories.push('spam');
-      if (user.harassment_violations > 0) categories.push('harassment');
-      if (user.scam_violations > 0) categories.push('scam');
-      if (user.phishing_violations > 0) categories.push('phishing');
+      if (sicil.toxicity_violations > 0) categories.push('toxicity');
+      if (sicil.spam_violations > 0) categories.push('spam');
+      if (sicil.harassment_violations > 0) categories.push('harassment');
+      if (sicil.scam_violations > 0) categories.push('scam');
+      if (sicil.phishing_violations > 0) categories.push('phishing');
 
       return {
-        userId: user.userId,
+        userId: user.user_id,
         username: user.username,
-        avatar: user.avatar,
-        trustScore: user.trustScore || 100,
-        riskScore: user.riskScore || 0,
-        lastViolation: user.lastViolation,
-        rank: parseInt(user.rank),
+        avatar: user.avatar_url,
+        trustScore: user.global_trust_score || 100,
+        riskScore: user.global_risk_score || 0,
+        lastViolation: sicil.last_violation_at,
         violations: violations,
         categories: categories,
-        riskCategory: user.risk_category,
-        totalViolations: parseInt(user.total_violations || 0)
+        riskCategory: sicil.risk_category || 'safe',
+        totalViolations: totalViolations
       };
     });
 
+    // Filter based on type
+    if (type === 'violations') {
+      leaderboard = leaderboard.filter((u: any) => u.totalViolations > 0);
+    } else if (type === 'risky') {
+      leaderboard = leaderboard.filter((u: any) =>
+        u.riskCategory === 'risky' || u.riskCategory === 'dangerous'
+      );
+    } else if (type === 'trusted') {
+      leaderboard = leaderboard.filter((u: any) => u.trustScore >= 80);
+    }
+
+    // Sort based on type
+    if (type === 'violations' || type === 'risky') {
+      leaderboard.sort((a: any, b: any) => b.totalViolations - a.totalViolations);
+    } else if (type === 'trusted') {
+      leaderboard.sort((a: any, b: any) => b.trustScore - a.trustScore);
+    } else {
+      // Default: sort by trust score (lowest first to see problematic users)
+      leaderboard.sort((a: any, b: any) => {
+        if (a.trustScore === b.trustScore) {
+          return b.totalViolations - a.totalViolations;
+        }
+        return a.trustScore - b.trustScore;
+      });
+    }
+
+    // Add rank
+    leaderboard = leaderboard.map((user: any, index: number) => ({
+      ...user,
+      rank: index + 1 + offset
+    }));
+
+    // Get total count
+    const countUrl = `${SUPABASE_URL}/rest/v1/users?select=count`;
+    const countRes = await fetch(countUrl, {
+      headers: {
+        'apikey': SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+        'Prefer': 'count=exact'
+      }
+    });
+
+    let total = users.length;
+    if (countRes.ok) {
+      const contentRange = countRes.headers.get('content-range');
+      if (contentRange) {
+        const match = contentRange.match(/\/(\d+)$/);
+        if (match) total = parseInt(match[1]);
+      }
+    }
+
     return res.status(200).json({
       leaderboard,
-      total: parseInt(countResult.rows[0]?.total || '0'),
+      total,
       page,
       limit
     });
   } catch (error) {
     console.error('Leaderboard API error:', error);
-    return res.status(500).json({ error: 'Failed to fetch leaderboard' });
+    return res.status(500).json({
+      error: 'Failed to fetch leaderboard',
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
   }
 }
