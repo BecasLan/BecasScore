@@ -40,7 +40,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const users = await usersRes.json();
 
     // Fetch sicil summary for each user
-    const userIds = users.map((u: any) => u.user_id).join(',');
+    const userIds = users.map((u: any) => u.id).join(',');
     const sicilUrl = `${SUPABASE_URL}/rest/v1/user_sicil_summary?user_id=in.(${userIds})&select=*`;
     const sicilRes = await fetch(sicilUrl, {
       headers: {
@@ -59,7 +59,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // Build leaderboard with combined data
     let leaderboard = users.map((user: any) => {
-      const sicil = sicilMap.get(user.user_id) || {};
+      const sicil = sicilMap.get(user.id) || {};
 
       const totalWarnings = sicil.total_warnings || 0;
       const totalTimeouts = sicil.total_timeouts || 0;
@@ -81,7 +81,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       if (sicil.phishing_violations > 0) categories.push('phishing');
 
       return {
-        userId: user.user_id,
+        userId: user.id,
         username: user.username,
         avatar: user.avatar_url,
         trustScore: user.global_trust_score || 100,
