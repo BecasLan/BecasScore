@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Becas Trust Score | Search &amp; Leaderboard</title>
   <script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
+  <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
   <style>
     :root {
       --bg: #06070B;
@@ -528,6 +529,41 @@
       border-color: transparent;
       color: #061018;
     }
+
+    /* Web3 Wallet Button */
+    .wallet-btn {
+      padding: 8px 16px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border: none;
+      border-radius: 12px;
+      color: #061018;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      font-size: 14px;
+      margin-left: 16px;
+    }
+
+    .wallet-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .wallet-connected {
+      background: rgba(52, 199, 89, 0.2);
+      color: #34C759;
+      padding: 8px 16px;
+      border-radius: 12px;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: 16px;
+    }
+
+    .highlight-row {
+      background: linear-gradient(90deg, rgba(115, 242, 255, 0.1), rgba(183, 147, 255, 0.1)) !important;
+      border-left: 3px solid var(--brand1) !important;
+    }
     
     footer {
       border-top: 1px solid var(--line);
@@ -586,6 +622,11 @@
       <a href="https://becascore.xyz/index.html">Home</a>
       <a href="https://becascore.xyz/index.html#whitepaper">Whitepaper</a>
       <a href="https://becascore.xyz/admin.html">Admin</a>
+      <button id="connectWallet" class="wallet-btn">Connect Wallet</button>
+      <div id="walletStatus" class="wallet-connected" style="display: none;">
+        <span>🟢</span>
+        <span id="walletAddress"></span>
+      </div>
     </div>
   </nav>
 
@@ -643,7 +684,7 @@
     <!-- Leaderboard -->
     <section class="leaderboard-section">
       <div class="section-title">
-        <h2>Trust Score Leaderboard</h2>
+        <h2>Scammer Leaderboard</h2>
       </div>
       <table class="leaderboard-table">
         <thead>
@@ -852,6 +893,32 @@
 
     let currentPage = 1;
     const PAGE_SIZE = 20;
+    let userWallet = null;
+
+    // Web3 Wallet Connect
+    document.getElementById('connectWallet').addEventListener('click', async () => {
+      if (typeof window.ethereum !== 'undefined') {
+        try {
+          const provider = new ethers.providers.Web3Provider(window.ethereum);
+          const accounts = await provider.send("eth_requestAccounts", []);
+          userWallet = accounts[0];
+
+          // Update UI
+          document.getElementById('connectWallet').style.display = 'none';
+          document.getElementById('walletStatus').style.display = 'inline-flex';
+          document.getElementById('walletAddress').textContent =
+            userWallet.substring(0, 6) + '...' + userWallet.substring(38);
+
+          // Reload leaderboard with wallet highlight
+          loadPage(currentPage);
+        } catch (error) {
+          console.error('Wallet connection failed:', error);
+          alert('Failed to connect wallet. Please try again.');
+        }
+      } else {
+        alert('Please install MetaMask to connect your wallet!');
+      }
+    });
 
     // 🔥 Real-time WebSocket connection (disabled in production for now)
     const socket = isProduction ? null : io('http://localhost:3003');
@@ -892,7 +959,8 @@
     // Fetch leaderboard data from API
     async function fetchLeaderboard(page = 1) {
       try {
-        const response = await fetch(`${API_BASE_URL}/leaderboard?limit=${PAGE_SIZE}&page=${page}`);
+        // Use v2 API that includes wallet addresses
+        const response = await fetch(`${API_BASE_URL}/leaderboard-v2?limit=${PAGE_SIZE}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -905,11 +973,12 @@
         return data.leaderboard.map(user => ({
           rank: user.rank,
           username: user.username,
-          userId: user.userId,
+          userId: user.discordId,
           avatar: user.avatar,
-          score: user.trustScore, // API already returns 0-100 scale
-          lastViolation: user.lastViolation,
-          violations: user.violations || []
+          score: user.trustScore,
+          walletAddress: user.walletAddress,
+          lastViolation: user.lastUpdated,
+          violations: []
         }));
       } catch (error) {
         console.error('Error fetching leaderboard:', error);
@@ -1003,6 +1072,11 @@
       data.forEach(user => {
         const row = document.createElement('tr');
 
+        // Store wallet for highlighting
+        if (user.walletAddress) {
+          row.dataset.wallet = user.walletAddress;
+        }
+
         // Determine score color class
         let scoreClass = '';
         if (user.score < 40) scoreClass = 'score-low';
@@ -1042,6 +1116,7 @@
               <div>
                 <div class="user-name">${user.username}</div>
                 <div class="user-handle">ID: ${user.userId.slice(0, 6)}...${user.userId.slice(-4)}</div>
+                ${user.walletAddress ? `<div class="user-handle" style="color: var(--brand1);">💳 ${user.walletAddress.slice(0, 6)}...${user.walletAddress.slice(-4)}</div>` : ''}
               </div>
             </div>
           </td>
@@ -1068,6 +1143,12 @@
             document.getElementById('profileCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
           }, 300);
         });
+
+        // Highlight if user's wallet
+        if (userWallet && user.walletAddress &&
+            user.walletAddress.toLowerCase() === userWallet.toLowerCase()) {
+          row.classList.add('highlight-row');
+        }
 
         leaderboardBody.appendChild(row);
       });
