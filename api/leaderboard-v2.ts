@@ -27,8 +27,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const limit = parseInt(req.query.limit as string) || 100;
     const walletFilter = req.query.wallet as string; // Optional: filter by specific wallet
 
-    // Build query URL - fetch from users table
-    let queryUrl = `${SUPABASE_URL}/rest/v1/users?select=id,username,global_trust_score,wallet_address,basename,updated_at&order=global_trust_score.desc&limit=${limit}`;
+    // Build query URL - fetch from users table with avatar
+    let queryUrl = `${SUPABASE_URL}/rest/v1/users?select=id,username,global_trust_score,wallet_address,basename,updated_at,avatar_url&order=global_trust_score.desc&limit=${limit}`;
 
     if (walletFilter) {
       queryUrl += `&wallet_address=eq.${walletFilter.toLowerCase()}`;
@@ -48,18 +48,31 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const users = await usersRes.json();
 
-    // Build leaderboard
-    const leaderboard = users.map((user: any, index: number) => ({
-      rank: index + 1,
-      discordId: user.id,
-      username: user.username || 'Unknown',
-      trustScore: user.global_trust_score || 100,
-      walletAddress: user.wallet_address || null,
-      basename: user.basename || null,
-      lastUpdated: user.updated_at,
-      // Add badge based on score
-      badge: user.global_trust_score >= 90 ? '🏆' : user.global_trust_score >= 80 ? '⭐' : user.global_trust_score >= 70 ? '✓' : user.global_trust_score >= 50 ? '⚠️' : '❌'
-    }));
+    // Build leaderboard with Discord CDN avatars
+    const leaderboard = users.map((user: any, index: number) => {
+      // Generate Discord avatar URL if user has avatar_url (discriminator-based) or construct from user ID
+      let avatarUrl = null;
+      if (user.avatar_url) {
+        avatarUrl = user.avatar_url;
+      } else if (user.id) {
+        // Fallback: Use Discord default avatar (colored background with first letter)
+        // Or use Discord CDN if we have avatar hash stored
+        avatarUrl = `https://cdn.discordapp.com/embed/avatars/${parseInt(user.id) % 5}.png`;
+      }
+
+      return {
+        rank: index + 1,
+        discordId: user.id,
+        username: user.username || 'Unknown',
+        avatar: avatarUrl,
+        trustScore: user.global_trust_score || 100,
+        walletAddress: user.wallet_address || null,
+        basename: user.basename || null,
+        lastUpdated: user.updated_at,
+        // Add badge based on score
+        badge: user.global_trust_score >= 90 ? '🏆' : user.global_trust_score >= 80 ? '⭐' : user.global_trust_score >= 70 ? '✓' : user.global_trust_score >= 50 ? '⚠️' : '❌'
+      };
+    });
 
     // Get total count - use users.length as fallback
     let total = users.length;
