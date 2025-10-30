@@ -61,24 +61,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       badge: user.global_trust_score >= 90 ? '🏆' : user.global_trust_score >= 80 ? '⭐' : user.global_trust_score >= 70 ? '✓' : user.global_trust_score >= 50 ? '⚠️' : '❌'
     }));
 
-    // Get total count
-    const countUrl = `${SUPABASE_URL}/rest/v1/trust_scores?select=count`;
-    const countRes = await fetch(countUrl, {
-      headers: {
-        'apikey': SUPABASE_ANON_KEY,
-        'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
-        'Prefer': 'count=exact'
-      }
-    });
-
-    let total = scores.length;
-    if (countRes.ok) {
-      const contentRange = countRes.headers.get('content-range');
-      if (contentRange) {
-        const match = contentRange.match(/\/(\d+)$/);
-        if (match) total = parseInt(match[1]);
-      }
-    }
+    // Get total count - use users.length as fallback
+    let total = users.length;
 
     return res.status(200).json({
       success: true,

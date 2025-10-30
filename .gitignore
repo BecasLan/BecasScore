@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables - CRITICAL: DO NOT COMMIT
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+nul
+compile_errors.txt
+temp_errors.txt
+tsc_output.txt
+
+# Test files (keep in repo but mark clearly)
+test-*.js
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Coverage
+coverage/
+*.lcov
+
+# Vercel
+.vercel
