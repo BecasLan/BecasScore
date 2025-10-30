@@ -163,17 +163,18 @@ The Becas Trust Score contract is deployed on **Base Sepolia Testnet**:
 - Cross-chain reputation
 - Self-learning AI
 
-### Phase 2 (Q2 2025) 🚧
+### Phase 2 (Q2 2026) 🚧
 - Multi-platform expansion (Telegram, Twitter)
-- DAO governance launch
-- Token economy
+- Making Becas all your need agent self customization ai no need anothers (for example generate all your discord server with just prompts!. give policy about your problem)
+- Becas versus All : Making BECAS most popular ai in the discord communities making all datas valuable 
+all users recognizable and trustable users.
 
-### Phase 3 (Q3 2025) 📋
+### Phase 3 (Q3 2026) 📋
+- Dashboard to all! : All your Discord servers will be controllable from one place — you’ll be able to see critical information about them in real time,get feedback, analyze status(users,channels,summarize anything you want), intervene, send bulk requests, and have a custom AI panel just for you. What you can do with this panel will surpass your imagination! Becas will become an indispensable tool for any serious Discord founder. 
 - Decentralized AI federation
-- Staking & rewards
 - Enterprise API
 
-### Phase 4 (Q4 2025) 🌟
+### Phase 4 (Q4 2026) 🌟
 - Autonomous security network
 - AI marketplace
 - Global threat intelligence hub
