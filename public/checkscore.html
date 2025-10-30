@@ -854,36 +854,29 @@ const API_BASE_URL = isProduction
     const PAGE_SIZE = 20;
 
     // 🔥 Real-time WebSocket connection (disabled in production for now)
-const socket = isProduction ? null : io('http://localhost:3003');
+let socket = null;
+if (!isProduction) {
+  socket = io('http://localhost:3003');
 
-    socket.on('connect', () => {
-      console.log('✅ Connected to real-time updates');
-    });
+  socket.on('connect', () => console.log('✅ Connected to real-time updates'));
+  socket.on('disconnect', () => console.log('❌ Disconnected from real-time updates'));
 
-    socket.on('disconnect', () => {
-      console.log('❌ Disconnected from real-time updates');
-    });
+  socket.on('trustScoreUpdate', (data) => {
+    console.log('📡 Trust score updated:', data);
+    loadPage(currentPage);
+  });
 
-    // Listen for trust score updates
-    socket.on('trustScoreUpdate', (data) => {
-      console.log('📡 Trust score updated:', data);
-      // Refresh current page to show updated scores
-      loadPage(currentPage);
-    });
+  socket.on('leaderboardUpdate', (data) => {
+    console.log('📊 Leaderboard updated');
+    loadPage(currentPage);
+  });
 
-    // Listen for leaderboard updates
-    socket.on('leaderboardUpdate', (data) => {
-      console.log('📊 Leaderboard updated');
-      // Refresh leaderboard
-      loadPage(currentPage);
-    });
-
-    // Listen for stats updates
-    socket.on('statsUpdate', (data) => {
-      console.log('📈 Stats updated:', data);
-      // You can update stats display here if you have one
-    });
-
+  socket.on('statsUpdate', (data) => {
+    console.log('📈 Stats updated:', data);
+  });
+} else {
+  console.log('ℹ️ Real-time updates disabled in production');
+}
     // Fetch leaderboard data from API
     async function fetchLeaderboard(page = 1) {
       try {
