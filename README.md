@@ -205,8 +205,8 @@ Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 - Discord: `lordgrim9591`
 - Website: https://becascore.xyz
-- Twitter: [@becasai](https://twitter.com/becasai)
-
+- X: [@becascore](https://x.com/becascore)
+- Founder X : [@dutchonederlin](https://x.com/becascore)
 ---
 
 **Built with ❤️ for the Base Buildathon**
