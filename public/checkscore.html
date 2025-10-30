@@ -890,12 +890,36 @@
     let userWallet = null;
 
     // Web3 Wallet Connect
-    document.getElementById('connectWallet').addEventListener('click', async () => {
-      if (typeof window.ethereum !== 'undefined') {
+    document.addEventListener('DOMContentLoaded', () => {
+      const connectBtn = document.getElementById('connectWallet');
+      if (!connectBtn) {
+        console.error('Connect wallet button not found!');
+        return;
+      }
+
+      connectBtn.addEventListener('click', async () => {
+        console.log('Connect wallet clicked');
+
+        // Check if MetaMask is installed
+        if (typeof window.ethereum === 'undefined') {
+          alert('Please install MetaMask to connect your wallet!\n\nVisit: https://metamask.io');
+          console.error('MetaMask not detected');
+          return;
+        }
+
+        // Check if ethers is loaded
+        if (typeof ethers === 'undefined') {
+          alert('Web3 library not loaded. Please refresh the page.');
+          console.error('ethers.js not loaded');
+          return;
+        }
+
         try {
+          console.log('Requesting accounts...');
           const provider = new ethers.providers.Web3Provider(window.ethereum);
           const accounts = await provider.send("eth_requestAccounts", []);
           userWallet = accounts[0];
+          console.log('Wallet connected:', userWallet);
 
           // Update UI
           document.getElementById('connectWallet').style.display = 'none';
@@ -906,12 +930,14 @@
           // Reload leaderboard with wallet highlight
           loadPage(currentPage);
         } catch (error) {
-          console.error('Wallet connection failed:', error);
-          alert('Failed to connect wallet. Please try again.');
+          console.error('Wallet connection error:', error);
+          if (error.code === 4001) {
+            alert('Wallet connection rejected. Please approve the connection request.');
+          } else {
+            alert('Failed to connect wallet: ' + error.message);
+          }
         }
-      } else {
-        alert('Please install MetaMask to connect your wallet!');
-      }
+      });
     });
 
     // 🔥 Real-time WebSocket connection (disabled in production for now)
