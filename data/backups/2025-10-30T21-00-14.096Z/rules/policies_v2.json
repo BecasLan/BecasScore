@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Extreme Toxicity",
+    "description": "Hate speech, extreme profanity, or severe harassment",
+    "severity": 10,
+    "category": "safety",
+    "conditions": {
+      "toxicity": {
+        "min": 0.8,
+        "max": 1
+      }
+    },
+    "enforcement": {
+      "action": "timeout",
+      "duration": 3600000,
+      "escalation": {
+        "afterOffenses": 2,
+        "newAction": "ban"
+      }
+    },
+    "active": true,
+    "createdBy": "system",
+    "id": "policy_1761737172711_rc7jjsjkf",
+    "createdAt": 1761737172711
+  },
+  {
+    "name": "High Toxicity",
+    "description": "Insulting, aggressive, or disrespectful language",
+    "severity": 7,
+    "category": "conduct",
+    "conditions": {
+      "toxicity": {
+        "min": 0.6,
+        "max": 0.8
+      }
+    },
+    "enforcement": {
+      "action": "timeout",
+      "duration": 600000,
+      "escalation": {
+        "afterOffenses": 3,
+        "newAction": "timeout",
+        "newDuration": 3600000
+      }
+    },
+    "active": true,
+    "createdBy": "system",
+    "id": "policy_1761737172711_xd10vut4f",
+    "createdAt": 1761737172711
+  },
+  {
+    "name": "Scam/Manipulation",
+    "description": "Attempting to scam, phish, or manipulate users",
+    "severity": 10,
+    "category": "safety",
+    "conditions": {
+      "manipulation": {
+        "min": 0.7,
+        "max": 1
+      }
+    },
+    "enforcement": {
+      "action": "ban"
+    },
+    "active": true,
+    "createdBy": "system",
+    "id": "policy_1761737172711_fvgdzjazt",
+    "createdAt": 1761737172711
+  },
+  {
+    "name": "Low Trust + Toxic Behavior",
+    "description": "User with low trust score engaging in toxic behavior",
+    "severity": 8,
+    "category": "safety",
+    "conditions": {
+      "trustScore": {
+        "min": 0,
+        "max": 30
+      },
+      "toxicity": {
+        "min": 0.5,
+        "max": 1
+      }
+    },
+    "enforcement": {
+      "action": "timeout",
+      "duration": 1800000,
+      "escalation": {
+        "afterOffenses": 1,
+        "newAction": "ban"
+      }
+    },
+    "active": true,
+    "createdBy": "system",
+    "id": "policy_1761737172711_xyebhxxxt",
+    "createdAt": 1761737172711
+  },
+  {
+    "name": "Spam Detection",
+    "description": "Repetitive or flooding messages",
+    "severity": 5,
+    "category": "spam",
+    "conditions": {
+      "keywords": []
+    },
+    "enforcement": {
+      "action": "delete",
+      "escalation": {
+        "afterOffenses": 3,
+        "newAction": "timeout",
+        "newDuration": 300000
+      }
+    },
+    "active": true,
+    "createdBy": "system",
+    "id": "policy_1761737172711_s3rk6j2yk",
+    "createdAt": 1761737172711
+  },
+  {
+    "name": "Guardian Protocol",
+    "description": "Proactive protection, immediate threat response",
+    "priority": 100,
+    "conditions": [
+      "trust_score < 40",
+      "scam_detected",
+      "toxicity > 0.7"
+    ],
+    "actions": [
+      "auto_ban",
+      "alert_mods",
+      "log_incident"
+    ],
+    "enabled": true,
+    "id": "policy_1761737253038_kwjvvxka1",
+    "createdAt": 1761737253038
+  }
+]

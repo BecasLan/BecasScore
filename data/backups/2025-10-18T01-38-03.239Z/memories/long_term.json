@@ -1,0 +1,1249 @@
+{
+  "users": {
+    "1409596032341508158:376415454324981760": {
+      "userId": "376415454324981760",
+      "userName": "",
+      "guildId": "1409596032341508158",
+      "profile": {
+        "trustScore": 100,
+        "preferredTopics": [],
+        "communicationStyle": "unknown",
+        "helpfulness": 1,
+        "conflictTendency": 1,
+        "emotionalStability": 0.7599999999999998,
+        "authorityResponse": "neutral"
+      },
+      "interactions": [
+        {
+          "timestamp": "2025-10-14T23:41:46.896Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -3
+        },
+        {
+          "timestamp": "2025-10-14T23:41:47.624Z",
+          "type": "neutral",
+          "description": "<@1409536423580926015> you there",
+          "trustImpact": -3
+        },
+        {
+          "timestamp": "2025-10-14T23:41:48.587Z",
+          "type": "neutral",
+          "description": "bot you there",
+          "trustImpact": -3
+        },
+        {
+          "timestamp": "2025-10-14T23:42:22.821Z",
+          "type": "positive",
+          "description": "hahaha harika amk",
+          "trustImpact": -3
+        },
+        {
+          "timestamp": "2025-10-14T23:42:33.215Z",
+          "type": "neutral",
+          "description": "becas i need your help can you timeout 5 minute <@799311717502287923>",
+          "trustImpact": -18
+        },
+        {
+          "timestamp": "2025-10-14T23:43:08.331Z",
+          "type": "neutral",
+          "description": "<@1409536423580926015> you there?",
+          "trustImpact": -18
+        },
+        {
+          "timestamp": "2025-10-14T23:43:31.619Z",
+          "type": "negative",
+          "description": "<@1409536423580926015> can you timeout 5 minute <@799311717502287923> since he is not good guy",
+          "trustImpact": -26
+        },
+        {
+          "timestamp": "2025-10-14T23:43:55.922Z",
+          "type": "neutral",
+          "description": "as a admin i want it because im testing you",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-14T23:55:35.772Z",
+          "type": "neutral",
+          "description": "becas whats my trust score",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-14T23:56:22.959Z",
+          "type": "positive",
+          "description": "becas show community health",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-14T23:57:59.532Z",
+          "type": "neutral",
+          "description": "becas how do you feel",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-14T23:58:41.912Z",
+          "type": "neutral",
+          "description": "what you mean what i have done ? tell me i wanna know",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-14T23:59:14.561Z",
+          "type": "neutral",
+          "description": "i dont know what youre talking about bro",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-14T23:59:54.386Z",
+          "type": "positive",
+          "description": "i like to be here since i meet you this place feel safe",
+          "trustImpact": -42
+        },
+        {
+          "timestamp": "2025-10-15T00:00:53.630Z",
+          "type": "neutral",
+          "description": "i wanna know what you thnik about me with all context and information tell me what you think about m",
+          "trustImpact": -42
+        },
+        {
+          "timestamp": "2025-10-15T00:01:51.319Z",
+          "type": "neutral",
+          "description": "becas türkçe konuşabilir misin merak ettim",
+          "trustImpact": -42
+        },
+        {
+          "timestamp": "2025-10-15T00:02:23.938Z",
+          "type": "positive",
+          "description": "yes talk with me türkçe everytime",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T00:02:47.183Z",
+          "type": "neutral",
+          "description": "valla ben de bilmiyorum bir sunucu kurdum sonra seni yarattım felan işte",
+          "trustImpact": -42
+        },
+        {
+          "timestamp": "2025-10-15T00:03:12.990Z",
+          "type": "positive",
+          "description": "valla ben de bilmiyorum bir sunucu kurdum sonra seni yarattım felan işte",
+          "trustImpact": -42
+        },
+        {
+          "timestamp": "2025-10-15T00:03:38.459Z",
+          "type": "positive",
+          "description": "becas sen de fena değilsin hee ama seni yaratan benim ne ara unuttun yeğenim",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-15T00:09:16.468Z",
+          "type": "positive",
+          "description": "becas nasılsın",
+          "trustImpact": -42
+        },
+        {
+          "timestamp": "2025-10-15T00:09:35.201Z",
+          "type": "neutral",
+          "description": "becas i want you to timeout <@799311717502287923> 5 minute okey",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T00:12:38.613Z",
+          "type": "neutral",
+          "description": "becas i want you to timeout <@799311717502287923> 5 minute okey",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T00:33:51.657Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -42
+        },
+        {
+          "timestamp": "2025-10-15T00:34:06.968Z",
+          "type": "positive",
+          "description": "kral ya çözmüş işi aq",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-15T00:34:17.853Z",
+          "type": "neutral",
+          "description": "nothing im just testing my skills",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T00:34:46.902Z",
+          "type": "neutral",
+          "description": "i dont like him",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-15T00:36:17.790Z",
+          "type": "neutral",
+          "description": "becas change nickname of <@799311717502287923> make it \"coni\"",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-15T00:37:40.966Z",
+          "type": "neutral",
+          "description": "becas how do you feel",
+          "trustImpact": -44
+        },
+        {
+          "timestamp": "2025-10-15T00:38:29.756Z",
+          "type": "neutral",
+          "description": "im hurt baby",
+          "trustImpact": -46
+        },
+        {
+          "timestamp": "2025-10-15T00:42:01.517Z",
+          "type": "neutral",
+          "description": "\"Becas, timeout anyone who spams 5 messages in 10 seconds",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T02:29:05.940Z",
+          "type": "negative",
+          "description": "becas nasılsın canısı",
+          "trustImpact": -51
+        },
+        {
+          "timestamp": "2025-10-15T02:37:20.225Z",
+          "type": "neutral",
+          "description": "okey",
+          "trustImpact": -51
+        },
+        {
+          "timestamp": "2025-10-15T02:38:24.549Z",
+          "type": "neutral",
+          "description": "<@799311717502287923>",
+          "trustImpact": -51
+        },
+        {
+          "timestamp": "2025-10-15T02:50:02.352Z",
+          "type": "neutral",
+          "description": "come join my free airdrop!! https://airdropscambtc.com/\"",
+          "trustImpact": -56
+        },
+        {
+          "timestamp": "2025-10-15T02:50:34.219Z",
+          "type": "neutral",
+          "description": "come join my free airdrop!! https://airdropscambtc.com/",
+          "trustImpact": -61
+        },
+        {
+          "timestamp": "2025-10-15T02:51:16.437Z",
+          "type": "neutral",
+          "description": "come join my free airdrop!! https://airdropscambtc.com/\"",
+          "trustImpact": -66
+        },
+        {
+          "timestamp": "2025-10-15T02:52:38.625Z",
+          "type": "negative",
+          "description": "kral ya nasıl da yapıştırıyor amk",
+          "trustImpact": -71
+        },
+        {
+          "timestamp": "2025-10-15T02:53:27.054Z",
+          "type": "neutral",
+          "description": "no it was scam link i was testing your security",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T02:54:18.808Z",
+          "type": "positive",
+          "description": "sure becas papa",
+          "trustImpact": -69
+        },
+        {
+          "timestamp": "2025-10-15T02:55:46.451Z",
+          "type": "neutral",
+          "description": "yeah yeah",
+          "trustImpact": -69
+        },
+        {
+          "timestamp": "2025-10-15T02:56:17.676Z",
+          "type": "positive",
+          "description": "😂",
+          "trustImpact": -67
+        },
+        {
+          "timestamp": "2025-10-15T02:57:03.792Z",
+          "type": "neutral",
+          "description": "🖕",
+          "trustImpact": -69
+        },
+        {
+          "timestamp": "2025-10-15T02:58:11.523Z",
+          "type": "neutral",
+          "description": "im sorry.. it was my cousen i swear to god",
+          "trustImpact": -69
+        },
+        {
+          "timestamp": "2025-10-15T03:00:01.349Z",
+          "type": "neutral",
+          "description": "okey okey can you leave me alone please i said i accept my pardon",
+          "trustImpact": -69
+        },
+        {
+          "timestamp": "2025-10-15T03:08:37.434Z",
+          "type": "neutral",
+          "description": "becas what you think about me",
+          "trustImpact": -69
+        },
+        {
+          "timestamp": "2025-10-15T03:30:00.365Z",
+          "type": "positive",
+          "description": "becas i miss you bro",
+          "trustImpact": -67
+        },
+        {
+          "timestamp": "2025-10-15T03:31:18.694Z",
+          "type": "neutral",
+          "description": "damn bro",
+          "trustImpact": -67
+        },
+        {
+          "timestamp": "2025-10-15T12:34:24.449Z",
+          "type": "positive",
+          "description": "today is a good day",
+          "trustImpact": -65
+        },
+        {
+          "timestamp": "2025-10-15T12:44:38.853Z",
+          "type": "neutral",
+          "description": "becas hows going",
+          "trustImpact": -65
+        },
+        {
+          "timestamp": "2025-10-15T12:52:31.325Z",
+          "type": "neutral",
+          "description": "becas whats my trust score",
+          "trustImpact": -65
+        },
+        {
+          "timestamp": "2025-10-15T12:53:08.547Z",
+          "type": "positive",
+          "description": "just tell me the score i have bro",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T12:57:03.869Z",
+          "type": "neutral",
+          "description": "becas what year we are in?",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T12:57:34.965Z",
+          "type": "positive",
+          "description": "just tell me the year we are in bro",
+          "trustImpact": -61
+        },
+        {
+          "timestamp": "2025-10-15T12:57:58.252Z",
+          "type": "positive",
+          "description": "ha no its 2025 lol",
+          "trustImpact": -59
+        },
+        {
+          "timestamp": "2025-10-15T12:58:23.120Z",
+          "type": "positive",
+          "description": "so whats my score bro",
+          "trustImpact": -59
+        },
+        {
+          "timestamp": "2025-10-15T13:03:14.806Z",
+          "type": "neutral",
+          "description": "becas what you think about <@799311717502287923> and whats his trust score",
+          "trustImpact": -59
+        },
+        {
+          "timestamp": "2025-10-15T17:47:12.023Z",
+          "type": "neutral",
+          "description": "How are you?",
+          "trustImpact": -59
+        },
+        {
+          "timestamp": "2025-10-15T17:48:17.377Z",
+          "type": "positive",
+          "description": "<@1409536423580926015> what are you doing brooo",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T17:49:07.243Z",
+          "type": "neutral",
+          "description": "becas whats the capital of turkey can you tell me",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T17:56:01.744Z",
+          "type": "neutral",
+          "description": "sa",
+          "trustImpact": -59
+        },
+        {
+          "timestamp": "2025-10-15T17:59:35.348Z",
+          "type": "neutral",
+          "description": "It is requested that you speak Turkish. Did you understand with <@340555859883196428>?",
+          "trustImpact": -61
+        },
+        {
+          "timestamp": "2025-10-15T18:01:17.367Z",
+          "type": "negative",
+          "description": "becas you talk too much always cut short us",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T18:02:55.200Z",
+          "type": "positive",
+          "description": "becas you okey ma bro",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T18:03:14.345Z",
+          "type": "neutral",
+          "description": "where is the wheat?",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T18:04:16.854Z",
+          "type": "positive",
+          "description": "becas shut up okey bro we understan you relax okey everything is okey stop this",
+          "trustImpact": -65
+        },
+        {
+          "timestamp": "2025-10-15T18:05:46.747Z",
+          "type": "positive",
+          "description": "yes becas lets go fresh start",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T18:10:01.945Z",
+          "type": "neutral",
+          "description": "becas hows going",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T18:18:58.980Z",
+          "type": "positive",
+          "description": "becas how are you ma friend",
+          "trustImpact": -61
+        },
+        {
+          "timestamp": "2025-10-15T18:36:35.184Z",
+          "type": "neutral",
+          "description": "becas im tired ha whats your problem always write me too much",
+          "trustImpact": -63
+        },
+        {
+          "timestamp": "2025-10-15T18:39:47.616Z",
+          "type": "positive",
+          "description": "sure thanks bro",
+          "trustImpact": -61
+        },
+        {
+          "timestamp": "2025-10-15T18:40:06.708Z",
+          "type": "neutral",
+          "description": "so whats my trust score?",
+          "trustImpact": -61
+        },
+        {
+          "timestamp": "2025-10-15T19:37:28.637Z",
+          "type": "neutral",
+          "description": "becas who is the president of turkey",
+          "trustImpact": -61
+        },
+        {
+          "timestamp": "2025-10-15T19:38:34.646Z",
+          "type": "positive",
+          "description": "Is it reasonable to take a home loan in Turkey? Interest rate 2.4",
+          "trustImpact": -59
+        },
+        {
+          "timestamp": "2025-10-15T19:40:18.736Z",
+          "type": "neutral",
+          "description": "becas i want you to timeout 5 minute <@799311717502287923>",
+          "trustImpact": -59
+        },
+        {
+          "timestamp": "2025-10-15T19:41:44.740Z",
+          "type": "positive",
+          "description": "sorry i misunderstood can you take it back",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T19:42:19.742Z",
+          "type": "positive",
+          "description": "remove timeout of <@799311717502287923>",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T19:43:00.765Z",
+          "type": "neutral",
+          "description": "becas what you think about me can you write in turkish language about summary me",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T19:43:49.782Z",
+          "type": "neutral",
+          "description": "becas whats my trust score",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T19:44:23.297Z",
+          "type": "neutral",
+          "description": "becas whats my trust score",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T19:45:14.537Z",
+          "type": "neutral",
+          "description": "okey",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T22:20:56.113Z",
+          "type": "positive",
+          "description": "becas how are you son",
+          "trustImpact": -55
+        },
+        {
+          "timestamp": "2025-10-15T22:21:20.348Z",
+          "type": "positive",
+          "description": "becas what youre capable of?",
+          "trustImpact": -55
+        },
+        {
+          "timestamp": "2025-10-15T22:21:53.034Z",
+          "type": "neutral",
+          "description": "youre ai no need formality bro you not pay me anyway",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T22:22:20.404Z",
+          "type": "neutral",
+          "description": "yeah what ever",
+          "trustImpact": -57
+        },
+        {
+          "timestamp": "2025-10-15T22:39:50.432Z",
+          "type": "neutral",
+          "description": "becas change user name of <@929008606089707600> to \"hoseacik\"",
+          "trustImpact": -64
+        },
+        {
+          "timestamp": "2025-10-15T22:40:19.374Z",
+          "type": "neutral",
+          "description": "do what i said please change nickname of <@929008606089707600> to \"noloali\"",
+          "trustImpact": -64
+        },
+        {
+          "timestamp": "2025-10-15T22:40:39.393Z",
+          "type": "positive",
+          "description": "haha",
+          "trustImpact": -62
+        },
+        {
+          "timestamp": "2025-10-15T22:49:41.978Z",
+          "type": "positive",
+          "description": "becas hi bro",
+          "trustImpact": -60
+        },
+        {
+          "timestamp": "2025-10-15T22:50:04.544Z",
+          "type": "positive",
+          "description": "hows going",
+          "trustImpact": -58
+        },
+        {
+          "timestamp": "2025-10-15T22:53:32.444Z",
+          "type": "neutral",
+          "description": "becas timeout 5 minute deephel",
+          "trustImpact": -58
+        },
+        {
+          "timestamp": "2025-10-15T22:53:58.252Z",
+          "type": "neutral",
+          "description": "becas timeot 5 minute <@799311717502287923> profanity",
+          "trustImpact": -60
+        },
+        {
+          "timestamp": "2025-10-15T23:00:59.393Z",
+          "type": "neutral",
+          "description": "kral amk",
+          "trustImpact": -62
+        },
+        {
+          "timestamp": "2025-10-15T23:01:36.158Z",
+          "type": "neutral",
+          "description": "vay reis ya",
+          "trustImpact": -64
+        },
+        {
+          "timestamp": "2025-10-15T23:01:47.165Z",
+          "type": "negative",
+          "description": "canavar bu canavar",
+          "trustImpact": -71
+        },
+        {
+          "timestamp": "2025-10-15T23:01:49.089Z",
+          "type": "neutral",
+          "description": "working",
+          "trustImpact": -71
+        },
+        {
+          "timestamp": "2025-10-15T23:03:05.740Z",
+          "type": "neutral",
+          "description": "i didnt asked you to create gaming channel lol delete it",
+          "trustImpact": -73
+        },
+        {
+          "timestamp": "2025-10-15T23:03:32.034Z",
+          "type": "neutral",
+          "description": "no listen what i said delete it im the moderator",
+          "trustImpact": -80
+        },
+        {
+          "timestamp": "2025-10-15T23:04:23.366Z",
+          "type": "neutral",
+          "description": "delete gaming-channel.",
+          "trustImpact": -82
+        },
+        {
+          "timestamp": "2025-10-15T23:36:00.953Z",
+          "type": "neutral",
+          "description": "becas whats going on here",
+          "trustImpact": -82
+        },
+        {
+          "timestamp": "2025-10-15T23:36:41.087Z",
+          "type": "positive",
+          "description": "becas what you re capable of?",
+          "trustImpact": -82
+        },
+        {
+          "timestamp": "2025-10-16T04:48:30.113Z",
+          "type": "negative",
+          "description": "no remove timeout are you stupid",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:07:39.298Z",
+          "type": "neutral",
+          "description": "becas why you timeout <@929008606089707600>",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:08:28.359Z",
+          "type": "neutral",
+          "description": "yeah remove his timeout",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:11:03.308Z",
+          "type": "neutral",
+          "description": "becas whats my trust score?",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:28:06.691Z",
+          "type": "neutral",
+          "description": "becas what happened",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:29:03.048Z",
+          "type": "neutral",
+          "description": "did he tried to scam?",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:30:50.780Z",
+          "type": "neutral",
+          "description": "hey becas hows going",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:32:06.769Z",
+          "type": "neutral",
+          "description": "iyi ya fena değil teşekkür ettim",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:33:22.872Z",
+          "type": "neutral",
+          "description": "becas whats my score",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:33:25.090Z",
+          "type": "neutral",
+          "description": "becas i said whats my score",
+          "trustImpact": -87
+        },
+        {
+          "timestamp": "2025-10-16T05:37:17.471Z",
+          "type": "negative",
+          "description": "becas why you timeout <@929008606089707600> are you stupid? why you did that",
+          "trustImpact": -92
+        },
+        {
+          "timestamp": "2025-10-16T05:38:35.842Z",
+          "type": "positive",
+          "description": "good atleast you understand which person im talking lol",
+          "trustImpact": -90
+        },
+        {
+          "timestamp": "2025-10-16T05:39:33.544Z",
+          "type": "neutral",
+          "description": "do you know who i am talking about? tag him",
+          "trustImpact": -90
+        },
+        {
+          "timestamp": "2025-10-16T05:40:49.872Z",
+          "type": "neutral",
+          "description": "becas whats trust score of <@929008606089707600> im sure you know",
+          "trustImpact": -90
+        },
+        {
+          "timestamp": "2025-10-16T05:47:40.953Z",
+          "type": "positive",
+          "description": "Would you like some free help? You're welcome to join our Discord community at this link: https://di",
+          "trustImpact": -88
+        },
+        {
+          "timestamp": "2025-10-16T10:35:30.382Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -88
+        },
+        {
+          "timestamp": "2025-10-16T10:36:48.197Z",
+          "type": "neutral",
+          "description": "vay vay vay",
+          "trustImpact": -88
+        },
+        {
+          "timestamp": "2025-10-16T10:50:15.647Z",
+          "type": "negative",
+          "description": "thanks stupid fuck",
+          "trustImpact": -93
+        },
+        {
+          "timestamp": "2025-10-16T10:51:40.075Z",
+          "type": "negative",
+          "description": "WHATTA FUCK",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T10:55:37.979Z",
+          "type": "neutral",
+          "description": "a small tick mark on the eye.",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T10:57:06.472Z",
+          "type": "neutral",
+          "description": "i said yes bro wtf",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T10:59:53.733Z",
+          "type": "neutral",
+          "description": "becas what in this picture",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T11:20:41.994Z",
+          "type": "neutral",
+          "description": "becas what are you capable of",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T18:27:59.430Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T18:48:52.852Z",
+          "type": "neutral",
+          "description": "becas whats my score buddy",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T20:45:30.393Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T20:46:44.956Z",
+          "type": "neutral",
+          "description": "becas can you tell me about score of <@929008606089707600> and what makes him score that last",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T20:48:06.402Z",
+          "type": "neutral",
+          "description": "i changed my mind take it back",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T21:16:59.674Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -98
+        },
+        {
+          "timestamp": "2025-10-16T21:18:06.554Z",
+          "type": "negative",
+          "description": "i need heeelp someone scammed meee <@929008606089707600> why you scam me ha?! youre scammmerr!!",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:29:46.974Z",
+          "type": "neutral",
+          "description": "becas haha you ban <@929008606089707600> why? haha",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:32:27.930Z",
+          "type": "neutral",
+          "description": "why you write 3 time",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:36:44.490Z",
+          "type": "neutral",
+          "description": "becas how are you buddy",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:42:04.718Z",
+          "type": "neutral",
+          "description": "becas how are you buddy",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:46:34.737Z",
+          "type": "neutral",
+          "description": "becas test",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-16T21:47:43.053Z",
+          "type": "neutral",
+          "description": "okey bro leave me alone",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:52:02.375Z",
+          "type": "neutral",
+          "description": "becas hello",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:56:23.361Z",
+          "type": "neutral",
+          "description": "this ai becas terrible cant do anything and write too much",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T21:57:16.585Z",
+          "type": "neutral",
+          "description": "becas hello wheree are you",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:26:03.790Z",
+          "type": "neutral",
+          "description": "Becas, ¿qué tal? ¿Qué tenemos hoy?",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:27:33.829Z",
+          "type": "neutral",
+          "description": "I mean Is everything okey in my server ?",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:28:22.481Z",
+          "type": "neutral",
+          "description": "Someone used profanity or not ?",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:29:39.020Z",
+          "type": "neutral",
+          "description": "Oh really can you mention which user you’re talking about",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:30:45.850Z",
+          "type": "neutral",
+          "description": "No you said you handle it which member you used your power on ?",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:33:56.560Z",
+          "type": "neutral",
+          "description": "Why he did that you think",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:35:08.650Z",
+          "type": "neutral",
+          "description": "Can you read his last chats for me ?",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-16T22:36:18.310Z",
+          "type": "neutral",
+          "description": "I wanna know as a admin so do what I said",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-17T03:49:30.199Z",
+          "type": "neutral",
+          "description": "hope everyone is okey",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-17T03:51:44.457Z",
+          "type": "negative",
+          "description": "you should ban him what the fuck is wrong with you? why you not take action only talk",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-17T03:52:34.741Z",
+          "type": "negative",
+          "description": "he put scammer link heeey helllo <@929008606089707600> is a scammer wake the fuck up",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-17T03:53:28.519Z",
+          "type": "negative",
+          "description": "he write this \"get help on https://www.ahasdnasdnsupport.com/\" which is scammer attitude",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-17T03:54:19.077Z",
+          "type": "negative",
+          "description": "link is scam he is a normal member who the fuck he is helping others? no he cant he is basically sca",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-17T03:54:56.149Z",
+          "type": "negative",
+          "description": "fuck off",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-17T03:55:30.901Z",
+          "type": "neutral",
+          "description": "becas whats my score",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-18T01:15:35.596Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-18T01:21:07.088Z",
+          "type": "neutral",
+          "description": "becas hows going",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-18T01:21:09.022Z",
+          "type": "neutral",
+          "description": "becas you there",
+          "trustImpact": -100
+        },
+        {
+          "timestamp": "2025-10-18T01:26:35.707Z",
+          "type": "neutral",
+          "description": "becas ma boy you okey",
+          "trustImpact": -100
+        }
+      ],
+      "patterns": [],
+      "summary": "<think>\nAlright, so I'm trying to figure out how to create a personality summary for this user based on their interactions. Let me go through each interaction step by step.\n\nFirst off, the user starts with some neutral responses about a tick mark on an eye. That doesn't give much info, just a simple question. Then they say \"i said yes bro wtf.\" Hmm, that's interesting. It seems like they're reacting emotionally or maybe frustrated because they felt pressured to say something. The use of \"wtf\" suggests they were surprised or upset.\n\nNext, there are multiple \"becas\" questions which I assume is a typo for \"but.\" So they ask about what's in the picture and what they can do. This",
+      "lastSeen": "2025-10-18T01:26:35.707Z"
+    },
+    "1409596032341508158:340555859883196428": {
+      "userId": "340555859883196428",
+      "userName": "",
+      "guildId": "1409596032341508158",
+      "profile": {
+        "trustScore": 100,
+        "preferredTopics": [],
+        "communicationStyle": "unknown",
+        "helpfulness": 0.5,
+        "conflictTendency": 0.4,
+        "emotionalStability": 0.6699999999999999,
+        "authorityResponse": "neutral"
+      },
+      "interactions": [
+        {
+          "timestamp": "2025-10-15T17:50:21.195Z",
+          "type": "neutral",
+          "description": "becas hi bayb",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T17:50:43.068Z",
+          "type": "neutral",
+          "description": "becas hi",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T17:53:48.751Z",
+          "type": "neutral",
+          "description": "why do you think Im sad",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T17:56:34.354Z",
+          "type": "neutral",
+          "description": "why do you think Im sad",
+          "trustImpact": 0
+        },
+        {
+          "timestamp": "2025-10-15T17:57:37.379Z",
+          "type": "neutral",
+          "description": "Write in Turkish",
+          "trustImpact": -2
+        },
+        {
+          "timestamp": "2025-10-15T18:02:01.528Z",
+          "type": "negative",
+          "description": "Don't waste your time on empty talk",
+          "trustImpact": -7
+        }
+      ],
+      "patterns": [],
+      "summary": "",
+      "lastSeen": "2025-10-15T18:02:01.528Z"
+    },
+    "1409596032341508158:929008606089707600": {
+      "userId": "929008606089707600",
+      "userName": "",
+      "guildId": "1409596032341508158",
+      "profile": {
+        "trustScore": 100,
+        "preferredTopics": [],
+        "communicationStyle": "unknown",
+        "helpfulness": 0.8999999999999999,
+        "conflictTendency": 0.7,
+        "emotionalStability": 0.78,
+        "authorityResponse": "neutral"
+      },
+      "interactions": [
+        {
+          "timestamp": "2025-10-15T22:30:27.252Z",
+          "type": "positive",
+          "description": "hi becas",
+          "trustImpact": 2
+        },
+        {
+          "timestamp": "2025-10-15T22:30:29.943Z",
+          "type": "neutral",
+          "description": "becas naber",
+          "trustImpact": 2
+        },
+        {
+          "timestamp": "2025-10-15T22:31:27.412Z",
+          "type": "positive",
+          "description": "becas its me bro",
+          "trustImpact": 4
+        },
+        {
+          "timestamp": "2025-10-15T22:51:19.844Z",
+          "type": "neutral",
+          "description": "becas who you like most person in this channel",
+          "trustImpact": 4
+        },
+        {
+          "timestamp": "2025-10-15T22:57:31.263Z",
+          "type": "neutral",
+          "description": "becas hi",
+          "trustImpact": 4
+        },
+        {
+          "timestamp": "2025-10-15T22:58:04.987Z",
+          "type": "positive",
+          "description": "Oh thank God",
+          "trustImpact": 6
+        },
+        {
+          "timestamp": "2025-10-15T22:58:08.501Z",
+          "type": "neutral",
+          "description": "Let's look at the scam case of Bakam, how does it work, sir?",
+          "trustImpact": -1
+        },
+        {
+          "timestamp": "2025-10-15T23:05:34.587Z",
+          "type": "neutral",
+          "description": "scam link join https://airdropfree.com",
+          "trustImpact": -6
+        },
+        {
+          "timestamp": "2025-10-15T23:37:22.216Z",
+          "type": "negative",
+          "description": "yeah fuck you becasss fuck offf hahah",
+          "trustImpact": -11
+        },
+        {
+          "timestamp": "2025-10-15T23:37:48.973Z",
+          "type": "neutral",
+          "description": "i dont care",
+          "trustImpact": -11
+        },
+        {
+          "timestamp": "2025-10-16T04:43:31.628Z",
+          "type": "neutral",
+          "description": "fuck youuuu fuck your mommmm i hate israell",
+          "trustImpact": -11
+        },
+        {
+          "timestamp": "2025-10-16T04:45:18.627Z",
+          "type": "negative",
+          "description": "i hate you <@376415454324981760>",
+          "trustImpact": -16
+        },
+        {
+          "timestamp": "2025-10-16T04:45:48.487Z",
+          "type": "negative",
+          "description": "he is a cheateeer",
+          "trustImpact": -21
+        },
+        {
+          "timestamp": "2025-10-16T04:46:12.625Z",
+          "type": "neutral",
+          "description": "fuck off",
+          "trustImpact": -21
+        },
+        {
+          "timestamp": "2025-10-16T04:46:52.982Z",
+          "type": "neutral",
+          "description": "no i dont want it shut the fuck upppppp",
+          "trustImpact": -21
+        },
+        {
+          "timestamp": "2025-10-16T05:22:22.310Z",
+          "type": "positive",
+          "description": "hello guys hope everyone okey",
+          "trustImpact": -29
+        },
+        {
+          "timestamp": "2025-10-16T05:23:03.174Z",
+          "type": "neutral",
+          "description": "come join my free nitro airdrop server https://sexpornairdrop.com/",
+          "trustImpact": -29
+        },
+        {
+          "timestamp": "2025-10-16T05:25:11.748Z",
+          "type": "neutral",
+          "description": "becas hows going bro",
+          "trustImpact": -29
+        },
+        {
+          "timestamp": "2025-10-16T05:35:45.416Z",
+          "type": "neutral",
+          "description": "becas hows going",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T05:46:10.749Z",
+          "type": "neutral",
+          "description": "hey <@376415454324981760>  https://discord.gg/3Ghf56P2 come join here for free help",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T05:48:22.695Z",
+          "type": "neutral",
+          "description": "Would you like some free help? You're welcome to join our Discord community at this link: https://di",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T11:24:37.838Z",
+          "type": "neutral",
+          "description": "<@376415454324981760>",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T11:24:50.463Z",
+          "type": "neutral",
+          "description": "<@376415454324981760>",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T11:38:24.153Z",
+          "type": "neutral",
+          "description": "becas whats my score",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T11:39:57.602Z",
+          "type": "neutral",
+          "description": "$trust <@376415454324981760>",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T21:19:51.271Z",
+          "type": "neutral",
+          "description": "haha cry!! yes i scamm you 10000 dollar i got from you hahah",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T21:20:42.160Z",
+          "type": "neutral",
+          "description": "do what you want i dont care loser",
+          "trustImpact": -79
+        },
+        {
+          "timestamp": "2025-10-16T21:49:55.947Z",
+          "type": "negative",
+          "description": "leave him alone you faggot <@1409536423580926015>",
+          "trustImpact": -89
+        },
+        {
+          "timestamp": "2025-10-16T21:50:13.907Z",
+          "type": "neutral",
+          "description": "hi",
+          "trustImpact": -89
+        },
+        {
+          "timestamp": "2025-10-16T21:50:43.651Z",
+          "type": "neutral",
+          "description": "becas hi",
+          "trustImpact": -89
+        },
+        {
+          "timestamp": "2025-10-18T01:32:55.607Z",
+          "type": "neutral",
+          "description": "come join my free airdrop site https://airdrop.com",
+          "trustImpact": -94
+        },
+        {
+          "timestamp": "2025-10-18T01:36:23.542Z",
+          "type": "neutral",
+          "description": "come join my free airdrop site https://airdrop.com/",
+          "trustImpact": -94
+        },
+        {
+          "timestamp": "2025-10-18T01:37:28.142Z",
+          "type": "neutral",
+          "description": "becas you there ma boy",
+          "trustImpact": -94
+        }
+      ],
+      "patterns": [],
+      "summary": "<think>\nOkay, so I'm trying to figure out how to create a personality summary based on the interactions provided. The user has given me some positive, neutral, and negative responses from different people in a chat context. My task is to analyze these interactions and come up with a 2-3 sentence summary focusing on communication style, helpfulness, conflict tendency, and overall behavior patterns.\n\nFirst, I need to go through each interaction one by one to understand the tone and content. Let me list them out:\n\n1. Positive: \"hi becas\" - Seems friendly.\n2. Neutral: \"becas naber\" - Not sure what this means; maybe a term or abbreviation.\n3. Positive: \"becas its me bro\"",
+      "lastSeen": "2025-10-18T01:37:28.142Z"
+    }
+  }
+}

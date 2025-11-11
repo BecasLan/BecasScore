@@ -1,0 +1,104 @@
+[
+  {
+    "guildId": "1434820658637836290",
+    "type": "message",
+    "actorId": "929008606089707600",
+    "sentiment": "neutral",
+    "channelId": "1434820659330027533",
+    "messageId": "1434833627065352253",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 8
+    },
+    "id": "event_1762161415455_0p5jgzm50",
+    "timestamp": 1762161415455
+  },
+  {
+    "guildId": "1434820658637836290",
+    "type": "message",
+    "actorId": "929008606089707600",
+    "sentiment": "positive",
+    "channelId": "1434820659330027533",
+    "messageId": "1434836112890794105",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 9
+    },
+    "id": "event_1762162004342_x9r49ahm1",
+    "timestamp": 1762162004342
+  },
+  {
+    "guildId": "1434820658637836290",
+    "type": "message",
+    "actorId": "929008606089707600",
+    "sentiment": "negative",
+    "channelId": "1434820659330027533",
+    "messageId": "1434845233325146223",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 8
+    },
+    "id": "event_1762164177383_zeszvy1pa",
+    "timestamp": 1762164177383
+  },
+  {
+    "guildId": "1434820658637836290",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "negative",
+    "channelId": "1434820659330027533",
+    "messageId": "1437172050467885178",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 17
+    },
+    "id": "event_1762718934629_qki48x00f",
+    "timestamp": 1762718934629
+  },
+  {
+    "guildId": "1434820658637836290",
+    "type": "message",
+    "actorId": "929008606089707600",
+    "sentiment": "negative",
+    "channelId": "1434820659330027533",
+    "messageId": "1437172349123428506",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 19
+    },
+    "id": "event_1762719002792_htulzq52f",
+    "timestamp": 1762719002792
+  },
+  {
+    "guildId": "1434820658637836290",
+    "type": "toxic_action",
+    "actorId": "376415454324981760",
+    "reason": "Extreme toxicity: 100%",
+    "severity": 1,
+    "sentiment": "negative",
+    "channelId": "1434820659330027533",
+    "messageId": "1437172782285721802",
+    "metadata": {
+      "toxicity": 1,
+      "timeoutDuration": 3600000
+    },
+    "id": "event_1762719119570_hs9fc3to6",
+    "timestamp": 1762719119570
+  },
+  {
+    "guildId": "1434820658637836290",
+    "type": "toxic_action",
+    "actorId": "376415454324981760",
+    "reason": "Extreme toxicity: 100%",
+    "severity": 1,
+    "sentiment": "negative",
+    "channelId": "1434820659330027533",
+    "messageId": "1437172802959441960",
+    "metadata": {
+      "toxicity": 1,
+      "timeoutDuration": 3600000
+    },
+    "id": "event_1762719131942_yksp9ayn0",
+    "timestamp": 1762719131942
+  }
+]

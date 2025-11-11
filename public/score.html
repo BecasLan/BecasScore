@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://becascore.xyz/score.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Becas Trust Score | Search &amp; Leaderboard</title>
+  <style>
+    :root {
+      --bg: #06070B;
+      --glass: #0C0F16CC;
+      --muted: #B8C0CF;
+      --line: #1b2130;
+      --brand1: #73F2FF;
+      --brand2: #B793FF;
+      --warning: #FF9500;
+      --danger: #FF3B30;
+      --success: #34C759;
+    }
+    
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #fff;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      overflow-x: hidden;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 20px 40px;
+    }
+    
+    a {
+      color: var(--brand1);
+      text-decoration: none;
+    }
+    
+    /* NAV */
+    .nav {
+      position: fixed;
+      inset: 16px 16px auto 16px;
+      z-index: 20;
+      backdrop-filter: blur(8px);
+      background: var(--glass);
+      border: 1px solid #141A26;
+      border-radius: 14px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+    }
+    
+    .brand svg {
+      width: 28px;
+      height: 28px;
+    }
+    
+    .links a {
+      margin-left: 16px;
+      color: var(--muted);
+    }
+    
+    /* Score Search Section */
+    .hero-section {
+      background: 
+        radial-gradient(1200px 600px at -10% 40%, #182248 0%, transparent 60%),
+        radial-gradient(1000px 600px at 110% 10%, #2a1645 0%, transparent 55%),
+        var(--bg);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 30px;
+      border: 1px solid var(--line);
+      text-align: center;
+    }
+    
+    .hero-section h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .hero-section p {
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    
+    .search-form {
+      display: flex;
+      max-width: 600px;
+      margin: 0 auto;
+      gap: 10px;
+    }
+    
+    .search-input {
+      flex: 1;
+      padding: 16px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
+      font-size: 16px;
+    }
+    
+    .search-input:focus {
+      outline: none;
+      border-color: var(--brand1);
+    }
+    
+    .search-btn {
+      padding: 12px 24px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border: none;
+      border-radius: 12px;
+      color: #061018;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    
+    .search-btn:hover {
+      transform: translateY(-2px);
+    }
+    
+    /* User Profile Card */
+    .profile-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 30px;
+      display: none;
+    }
+    
+    .profile-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      gap: 20px;
+    }
+    
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: bold;
+      color: #061018;
+      overflow: hidden;
+    }
+    
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .profile-info {
+      flex: 1;
+    }
+    
+    .profile-info h2 {
+      margin: 0 0 5px;
+      font-size: 1.8rem;
+    }
+    
+    .profile-info .user-id {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    .trust-score {
+      margin-left: auto;
+      text-align: center;
+    }
+    
+    .score-circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .score-circle::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to top, #e74c3c 0%, #f1c40f 60%, #2ecc71 100%);
+      z-index: -1;
+    }
+    
+    .score-circle.high::before {
+      height: 85%;
+    }
+    
+    .score-circle.medium::before {
+      height: 60%;
+    }
+    
+    .score-circle.low::before {
+      height: 35%;
+    }
+    
+    .score-value {
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+    
+    .score-label {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 5px;
+    }
+    
+    .profile-status {
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    
+    .status-warning {
+      background: rgba(255, 149, 0, 0.2);
+      color: #FFB340;
+    }
+    
+    .status-danger {
+      background: rgba(255, 59, 48, 0.2);
+      color: #FF5E54;
+    }
+    
+    /* Violation History */
+    .violations-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    
+    .violations-header h3 {
+      margin: 0;
+    }
+    
+    .violations-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .violation-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+    
+    .violation-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .violation-type {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bold;
+    }
+    
+    .violation-tag {
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: normal;
+    }
+    
+    .tag-spam {
+      background: rgba(255, 149, 0, 0.2);
+      color: #FFB340;
+    }
+    
+    .tag-scam {
+      background: rgba(255, 59, 48, 0.2);
+      color: #FF5E54;
+    }
+    
+    .tag-hate {
+      background: rgba(175, 82, 222, 0.2);
+      color: #BF5AF2;
+    }
+    
+    .tag-insult {
+      background: rgba(255, 69, 58, 0.2);
+      color: #FF787E;
+    }
+    
+    .violation-date {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    .violation-impact {
+      margin-top: 10px;
+      color: var(--danger);
+    }
+    
+    .violation-server {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    .violation-details {
+      margin-top: 15px;
+      background: rgba(255, 255, 255, 0.02);
+      border-left: 2px solid var(--line);
+      padding: 10px 15px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    /* Leaderboard */
+    .leaderboard-section {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 30px;
+    }
+    
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .section-title h2 {
+      margin: 0;
+      font-size: 1.8rem;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .leaderboard-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+    
+    .leaderboard-table th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: normal;
+      padding: 15px 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    
+    .leaderboard-table td {
+      padding: 15px 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    
+    .leaderboard-table tbody tr {
+      transition: background-color 0.2s ease;
+    }
+    
+    .leaderboard-table tbody tr:hover {
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+    
+    .leaderboard-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+    
+    .user-cell {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .rank {
+      width: 30px;
+      height: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #061018;
+      overflow: hidden;
+    }
+    
+    .user-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .user-name {
+      font-weight: bold;
+    }
+    
+    .user-handle {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    
+    .score-cell {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    
+    .score-low {
+      color: var(--danger);
+    }
+    
+    .score-medium {
+      color: var(--warning);
+    }
+    
+    .score-high {
+      color: var(--success);
+    }
+    
+    .timestamp {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    
+    .badges {
+      display: flex;
+      gap: 5px;
+    }
+    
+    .badge {
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .badge-spam {
+      background: rgba(255, 149, 0, 0.2);
+      color: #FFB340;
+    }
+    
+    .badge-scam {
+      background: rgba(255, 59, 48, 0.2);
+      color: #FF5E54;
+    }
+    
+    .badge-hate {
+      background: rgba(175, 82, 222, 0.2);
+      color: #BF5AF2;
+    }
+    
+    .badge-insult {
+      background: rgba(255, 69, 58, 0.2);
+      color: #FF787E;
+    }
+    
+    .pager {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    .pager-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    
+    .pager-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+    
+    .pager-btn.active {
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border-color: transparent;
+      color: #061018;
+    }
+    
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 20px 0;
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    /* Loading Animation */
+    .loading {
+      display: none;
+      text-align: center;
+      padding: 40px;
+    }
+    
+    .loader {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      border-top-color: var(--brand1);
+      animation: spin 1s ease-in-out infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .no-results {
+      display: none;
+      text-align: center;
+      padding: 40px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="https://becascore.xyz/index.html" class="brand">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="14" cy="14" r="14" fill="url(#paint0_linear)"></circle>
+        <path d="M14 5C9.02944 5 5 9.02944 5 14C5 18.9706 9.02944 23 14 23C18.9706 23 23 18.9706 23 14C23 9.02944 18.9706 5 14 5ZM14 21C10.134 21 7 17.866 7 14C7 10.134 10.134 7 14 7C17.866 7 21 10.134 21 14C21 17.866 17.866 21 14 21Z" fill="#061018"></path>
+        <defs>
+          <lineargradient id="paint0_linear" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#73F2FF"></stop>
+            <stop offset="1" stop-color="#B793FF"></stop>
+          </lineargradient>
+        </defs>
+      </svg>
+      BECAS
+    </a>
+    <div class="links">
+      <a href="https://becascore.xyz/index.html">Home</a>
+      <a href="https://becascore.xyz/index.html#whitepaper">Whitepaper</a>
+      <a href="https://becascore.xyz/admin.html">Admin</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Search Section -->
+    <section class="hero-section">
+      <h1>Becas Trust Score</h1>
+      <p>Search for a Discord user by username or ID to view their trust score and violation history, or browse the leaderboard of known scammers.</p>
+      <form class="search-form" id="searchForm" data-anti-phishing-live-protection="1761314573301">
+        <input type="text" class="search-input" placeholder="Enter Discord username or ID" id="searchInput">
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+    </section>
+
+    <!-- Loading State -->
+    <div class="loading" id="loadingState">
+      <div class="loader"></div>
+      <p>Searching the database...</p>
+    </div>
+
+    <!-- No Results -->
+    <div class="no-results" id="noResults">
+      <h2>No Results Found</h2>
+      <p>We couldn't find any user matching your search. Try another username or ID.</p>
+    </div>
+
+    <!-- User Profile Card -->
+    <section class="profile-card" id="profileCard">
+      <div class="profile-header">
+        <div class="avatar" id="userAvatar">
+          <span id="userInitial">J</span>
+        </div>
+        <div class="profile-info">
+          <h2 id="userName">JohnDoe#1234</h2>
+          <div class="user-id" id="userId">ID: 123456789012345678</div>
+          <div class="profile-status status-danger" id="userStatus">High Risk - Trust Score Below 40</div>
+        </div>
+        <div class="trust-score">
+          <div class="score-circle low" id="scoreCircle">
+            <span class="score-value" id="scoreValue">35</span>
+            <span class="score-label">Trust Score</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Violation History -->
+      <div class="violations-header">
+        <h3>Violation History</h3>
+      </div>
+      <ul class="violations-list" id="violationsList">
+        <!-- Violations will be populated here -->
+      </ul>
+    </section>
+
+    <!-- Leaderboard -->
+    <section class="leaderboard-section">
+      <div class="section-title">
+        <h2>Scammer Leaderboard</h2>
+      </div>
+      <table class="leaderboard-table">
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Trust Score</th>
+            <th>Last Violation</th>
+            <th>Violation Types</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboardBody"><tr>
+          <td>
+            <div class="user-cell">
+              <div class="rank">1</div>
+              <div class="user-avatar">
+                C
+              </div>
+              <div>
+                <div class="user-name">CryptoScammer55</div>
+                <div class="user-handle">ID: 423857...3495</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell score-low">12</div>
+          </td>
+          <td>
+            <div>Aug 30, 2025</div>
+            <div class="timestamp">17:23:45</div>
+          </td>
+          <td>
+            <div class="badges">
+              <span class="badge badge-scam">scam</span><span class="badge badge-spam">spam</span>
+            </div>
+          </td>
+        </tr><tr>
+          <td>
+            <div class="user-cell">
+              <div class="rank">2</div>
+              <div class="user-avatar">
+                F
+              </div>
+              <div>
+                <div class="user-name">FakeDev</div>
+                <div class="user-handle">ID: 675849...2834</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell score-low">18</div>
+          </td>
+          <td>
+            <div>Aug 29, 2025</div>
+            <div class="timestamp">13:15:22</div>
+          </td>
+          <td>
+            <div class="badges">
+              <span class="badge badge-scam">scam</span><span class="badge badge-hate">hate</span>
+            </div>
+          </td>
+        </tr><tr>
+          <td>
+            <div class="user-cell">
+              <div class="rank">3</div>
+              <div class="user-avatar">
+                N
+              </div>
+              <div>
+                <div class="user-name">NFTStealer</div>
+                <div class="user-handle">ID: 398475...7234</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell score-low">22</div>
+          </td>
+          <td>
+            <div>Aug 28, 2025</div>
+            <div class="timestamp">21:42:11</div>
+          </td>
+          <td>
+            <div class="badges">
+              <span class="badge badge-scam">scam</span>
+            </div>
+          </td>
+        </tr><tr>
+          <td>
+            <div class="user-cell">
+              <div class="rank">4</div>
+              <div class="user-avatar">
+                T
+              </div>
+              <div>
+                <div class="user-name">ToxicTroll</div>
+                <div class="user-handle">ID: 123456...5678</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell score-low">28</div>
+          </td>
+          <td>
+            <div>Aug 27, 2025</div>
+            <div class="timestamp">12:33:17</div>
+          </td>
+          <td>
+            <div class="badges">
+              <span class="badge badge-insult">insult</span><span class="badge badge-hate">hate</span>
+            </div>
+          </td>
+        </tr><tr>
+          <td>
+            <div class="user-cell">
+              <div class="rank">5</div>
+              <div class="user-avatar">
+                S
+              </div>
+              <div>
+                <div class="user-name">SpamBot3000</div>
+                <div class="user-handle">ID: 987654...5432</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell score-low">35</div>
+          </td>
+          <td>
+            <div>Aug 27, 2025</div>
+            <div class="timestamp">01:11:05</div>
+          </td>
+          <td>
+            <div class="badges">
+              <span class="badge badge-spam">spam</span><span class="badge badge-insult">insult</span>
+            </div>
+          </td>
+        </tr><tr>
+          <td>
+            <div class="user-cell">
+              <div class="rank">6</div>
+              <div class="user-avatar">
+                W
+              </div>
+              <div>
+                <div class="user-name">WalletDrainer</div>
+                <div class="user-handle">ID: 567890...9012</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell score-low">38</div>
+          </td>
+          <td>
+            <div>Aug 25, 2025</div>
+            <div class="timestamp">19:54:38</div>
+          </td>
+          <td>
+            <div class="badges">
+              <span class="badge badge-scam">scam</span>
+            </div>
+          </td>
+        </tr><tr>
+          <td>
+            <div class="user-cell">
+              <div class="rank">7</div>
+              <div class="user-avatar">
+                P
+              </div>
+              <div>
+                <div class="user-name">PhishingLink</div>
+                <div class="user-handle">ID: 345678...7890</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell score-medium">40</div>
+          </td>
+          <td>
+            <div>Aug 24, 2025</div>
+            <div class="timestamp">16:47:22</div>
+          </td>
+          <td>
+            <div class="badges">
+              <span class="badge badge-scam">scam</span><span class="badge badge-spam">spam</span>
+            </div>
+          </td>
+        </tr></tbody>
+      </table>
+      <div class="pager" id="pager">
+        <button class="pager-btn active">1</button>
+        <button class="pager-btn">2</button>
+        <button class="pager-btn">3</button>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Becas Trust Score | Powered by Base Chain
+  </footer>
+
+  <script>
+    // API Configuration
+    const API_BASE_URL = 'http://localhost:3001/api';
+    let currentPage = 1;
+    const PAGE_SIZE = 20;
+
+    // Fetch leaderboard data from API
+    async function fetchLeaderboard(page = 1) {
+      try {
+        const response = await fetch(`${API_BASE_URL}/leaderboard?limit=${PAGE_SIZE}&page=${page}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+
+        // Update pagination
+        updatePagination(data.total, data.page);
+
+        // Transform API data to match expected format
+        return data.leaderboard.map(user => ({
+          rank: user.rank,
+          username: user.username,
+          userId: user.userId,
+          avatar: user.avatar,
+          score: user.trustScore, // API already returns 0-100 scale
+          lastViolation: user.lastViolation,
+          violations: user.violations || []
+        }));
+      } catch (error) {
+        console.error('Error fetching leaderboard:', error);
+        return [];
+      }
+    }
+    
+    // Fetch violation history for a specific user
+    async function fetchViolations(userId) {
+      try {
+        const response = await fetch(`${API_BASE_URL}/violations/${userId}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data.violations || [];
+      } catch (error) {
+        console.error('Error fetching violations:', error);
+        return [];
+      }
+    }
+
+    // Fetch user data from API
+    async function fetchUser(userId) {
+      try {
+        const response = await fetch(`${API_BASE_URL}/user/${userId}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.json();
+      } catch (error) {
+        console.error('Error fetching user:', error);
+        return null;
+      }
+    }
+    
+    // Update pagination buttons
+    function updatePagination(total, currentPageNum) {
+      const pager = document.getElementById('pager');
+      const totalPages = Math.ceil(total / PAGE_SIZE);
+
+      pager.innerHTML = '';
+
+      // Previous button
+      if (currentPageNum > 1) {
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'pager-btn';
+        prevBtn.textContent = '← Prev';
+        prevBtn.onclick = () => loadPage(currentPageNum - 1);
+        pager.appendChild(prevBtn);
+      }
+
+      // Page numbers
+      const startPage = Math.max(1, currentPageNum - 2);
+      const endPage = Math.min(totalPages, currentPageNum + 2);
+
+      for (let i = startPage; i <= endPage; i++) {
+        const btn = document.createElement('button');
+        btn.className = i === currentPageNum ? 'pager-btn active' : 'pager-btn';
+        btn.textContent = i;
+        btn.onclick = () => loadPage(i);
+        pager.appendChild(btn);
+      }
+
+      // Next button
+      if (currentPageNum < totalPages) {
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'pager-btn';
+        nextBtn.textContent = 'Next →';
+        nextBtn.onclick = () => loadPage(currentPageNum + 1);
+        pager.appendChild(nextBtn);
+      }
+    }
+
+    // Load specific page
+    async function loadPage(pageNum) {
+      currentPage = pageNum;
+      const leaderboardData = await fetchLeaderboard(pageNum);
+      if (leaderboardData.length > 0) {
+        populateLeaderboard(leaderboardData);
+        // Scroll to leaderboard
+        document.querySelector('.leaderboard-section').scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Function to populate the leaderboard
+    function populateLeaderboard(data) {
+      const leaderboardBody = document.getElementById('leaderboardBody');
+      leaderboardBody.innerHTML = '';
+
+      data.forEach(user => {
+        const row = document.createElement('tr');
+
+        // Determine score color class
+        let scoreClass = '';
+        if (user.score < 40) scoreClass = 'score-low';
+        else if (user.score < 70) scoreClass = 'score-medium';
+        else scoreClass = 'score-high';
+
+        // Format date
+        const date = new Date(user.lastViolation);
+        const formattedDate = date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric'
+        });
+
+        // Create badges HTML
+        let badgesHtml = '';
+        if (user.violations && user.violations.length > 0) {
+          user.violations.forEach(violation => {
+            badgesHtml += `<span class="badge badge-${violation}">${violation}</span>`;
+          });
+        } else {
+          badgesHtml = '<span style="color: var(--muted); font-size: 0.85rem;">No violations</span>';
+        }
+
+        // Set row HTML
+        row.innerHTML = `
+          <td>
+            <div class="user-cell">
+              <div class="rank">${user.rank}</div>
+              <div class="user-avatar">
+                ${user.avatar ? `<img src="${user.avatar}" alt="${user.username}">` : user.username.charAt(0)}
+              </div>
+              <div>
+                <div class="user-name">${user.username}</div>
+                <div class="user-handle">ID: ${user.userId.slice(0, 6)}...${user.userId.slice(-4)}</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell ${scoreClass}">${user.score}</div>
+          </td>
+          <td>
+            <div>${formattedDate}</div>
+            <div class="timestamp">${date.toLocaleTimeString()}</div>
+          </td>
+          <td>
+            <div class="badges">
+              ${badgesHtml}
+            </div>
+          </td>
+        `;
+
+        // Add click event to view detailed profile and scroll to top
+        row.style.cursor = 'pointer';
+        row.addEventListener('click', () => {
+          searchUser(user.userId);
+          // Scroll to profile card smoothly
+          setTimeout(() => {
+            document.getElementById('profileCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 300);
+        });
+
+        leaderboardBody.appendChild(row);
+      });
+    }
+    
+    // Function to populate violation history
+    function populateViolations(violations) {
+      const violationsList = document.getElementById('violationsList');
+      violationsList.innerHTML = '';
+
+      if (!violations || violations.length === 0) {
+        violationsList.innerHTML = `
+          <li style="text-align: center; padding: 40px; color: var(--muted);">
+            <div style="font-size: 2rem; margin-bottom: 10px;">✓</div>
+            <div>No violations found. This user has a clean record.</div>
+          </li>
+        `;
+        return;
+      }
+
+      violations.forEach(violation => {
+        const date = new Date(violation.date);
+        const formattedDate = date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+
+        const li = document.createElement('li');
+        li.className = 'violation-item';
+
+        // Build detailed HTML with structured data if available
+        let detailsHtml = '';
+        if (violation.structured && violation.structured.message) {
+          const struct = violation.structured;
+          detailsHtml = `
+            <div class="violation-details">
+              <div style="margin-bottom: 8px;"><strong>Message:</strong> "${struct.message}"</div>
+              ${struct.channelId ? `<div style="margin-bottom: 8px;"><strong>Channel:</strong> <code>${struct.channelId}</code></div>` : ''}
+              ${struct.mentions && struct.mentions.length > 0 ? `<div style="margin-bottom: 8px;"><strong>Mentioned:</strong> ${struct.mentions.map(m => `<code>${m}</code>`).join(', ')}</div>` : ''}
+              ${struct.toxicity || struct.manipulation ? `<div style="margin-bottom: 8px;">
+                ${struct.toxicity ? `<span style="color: var(--danger);">Toxicity: ${struct.toxicity}</span>` : ''}
+                ${struct.toxicity && struct.manipulation ? ' | ' : ''}
+                ${struct.manipulation ? `<span style="color: var(--warning);">Manipulation: ${struct.manipulation}</span>` : ''}
+              </div>` : ''}
+            </div>
+          `;
+        } else {
+          detailsHtml = `<div class="violation-details">${violation.details}</div>`;
+        }
+
+        li.innerHTML = `
+          <div class="violation-header">
+            <div class="violation-type">
+              ${violation.type}
+              <span class="violation-tag tag-${violation.tag}">${violation.tag}</span>
+            </div>
+            <div class="violation-date">${formattedDate}</div>
+          </div>
+          <div class="violation-impact">${violation.impact}</div>
+          <div class="violation-server">Server: ${violation.server}</div>
+          ${detailsHtml}
+        `;
+
+        violationsList.appendChild(li);
+      });
+    }
+    
+    // Function to handle search form submission
+    document.getElementById('searchForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const searchTerm = document.getElementById('searchInput').value.trim();
+      if (searchTerm) {
+        searchUser(searchTerm);
+      }
+    });
+    
+    // Function to search for a user
+    async function searchUser(searchTerm) {
+      // Show loading state
+      document.getElementById('loadingState').style.display = 'block';
+      document.getElementById('profileCard').style.display = 'none';
+      document.getElementById('noResults').style.display = 'none';
+
+      try {
+        // Fetch user data from API
+        const user = await fetchUser(searchTerm);
+
+        if (user) {
+          // Update profile card
+          document.getElementById('userName').textContent = user.username;
+          document.getElementById('userId').textContent = `ID: ${user.userId}`;
+          document.getElementById('userInitial').textContent = user.username.charAt(0);
+          document.getElementById('scoreValue').textContent = user.trustScore;
+
+          // Update score circle class
+          const scoreCircle = document.getElementById('scoreCircle');
+          if (user.trustScore < 40) {
+            scoreCircle.className = 'score-circle low';
+            document.getElementById('userStatus').textContent = 'High Risk - Trust Score Below 40';
+            document.getElementById('userStatus').className = 'profile-status status-danger';
+          } else if (user.trustScore < 70) {
+            scoreCircle.className = 'score-circle medium';
+            document.getElementById('userStatus').textContent = 'Medium Risk - Trust Score Below 70';
+            document.getElementById('userStatus').className = 'profile-status status-warning';
+          } else {
+            scoreCircle.className = 'score-circle high';
+            document.getElementById('userStatus').textContent = 'Low Risk - Trust Score Above 70';
+            document.getElementById('userStatus').className = 'profile-status status-success';
+          }
+
+          // Fetch and populate violation history
+          const violations = await fetchViolations(user.userId);
+          populateViolations(violations);
+
+          // Show profile card
+          document.getElementById('profileCard').style.display = 'block';
+        } else {
+          // Show no results
+          document.getElementById('noResults').style.display = 'block';
+        }
+      } catch (error) {
+        console.error('Error searching user:', error);
+        document.getElementById('noResults').style.display = 'block';
+      } finally {
+        // Hide loading state
+        document.getElementById('loadingState').style.display = 'none';
+      }
+    }
+    
+    // Initialize the page
+    document.addEventListener('DOMContentLoaded', async function() {
+      try {
+        // Fetch and populate leaderboard from API
+        const leaderboardData = await fetchLeaderboard();
+        if (leaderboardData.length > 0) {
+          populateLeaderboard(leaderboardData);
+        } else {
+          // Show empty state if no data
+          const leaderboardBody = document.getElementById('leaderboardBody');
+          leaderboardBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 2rem;">No users with low trust scores found.</td></tr>';
+        }
+      } catch (error) {
+        console.error('Error loading leaderboard:', error);
+        const leaderboardBody = document.getElementById('leaderboardBody');
+        leaderboardBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 2rem; color: #ef4444;">Failed to load leaderboard data.</td></tr>';
+      }
+
+      // Note: Pagination buttons are dynamically created by updatePagination()
+      // and have onclick handlers attached via loadPage() function
+    });
+  </script>
+
+</body></html>

@@ -1,0 +1,3853 @@
+[
+  {
+    "userId": "376415454324981760",
+    "username": "lordgrim9591",
+    "interests": [
+      "gaming",
+      "technology",
+      "events",
+      "internet slang",
+      "trolling",
+      "relationships",
+      "online interactions",
+      "books",
+      "stories",
+      "Android",
+      "Turkish language",
+      "controversial topics",
+      "user profiles",
+      "server stats",
+      "testing capabilities",
+      "Discord",
+      "community",
+      "topic1",
+      "topic2",
+      "storytelling",
+      "Android programming",
+      "movies",
+      "creative writing",
+      "writing",
+      "software development",
+      "academia",
+      "scores",
+      "competitive activities",
+      "aggression",
+      "profanity",
+      "nightlife",
+      "socializing",
+      "discord trust system",
+      "trust metrics",
+      "online reputation",
+      "Turkish culture",
+      "trust scores",
+      "privacy",
+      "Turkish slang",
+      "help",
+      "support",
+      "problem-solving",
+      "social interactions",
+      "question-solving",
+      "technical support",
+      "community help",
+      "hardware",
+      "memes",
+      "casual conversations",
+      "greetings",
+      "casual chat",
+      "gratitude",
+      "appreciation",
+      "social interaction",
+      "politeness",
+      "emoticons",
+      "language",
+      "photography",
+      "visuals",
+      "sharing",
+      "friendly interactions",
+      "names",
+      "casual conversation",
+      "humor",
+      "personal interactions",
+      "internet culture",
+      "casual chats",
+      "friendly dialogue",
+      "art",
+      "game design",
+      "2D game development",
+      "trust",
+      "personal health",
+      "daily routines",
+      "food",
+      "trust in communities",
+      "Discord culture",
+      "communication",
+      "server statistics",
+      "gaming servers",
+      "Discord moderation",
+      "community management",
+      "chat rules",
+      "game development",
+      "2d game design",
+      "aesthetics",
+      "abbreviation",
+      "server trust",
+      "community trust",
+      "server management",
+      "Discord communities",
+      "polite phrases",
+      "casual speech",
+      "Discord statistics",
+      "cybersecurity",
+      "bot management",
+      "policy enforcement",
+      "channel management",
+      "bot commands",
+      "social media",
+      "Discord Bot Commands",
+      "User Management",
+      "Violation History",
+      "reliability",
+      "technical",
+      "Discord User Investigation",
+      "User Identification",
+      "community interaction",
+      "Discord Management"
+    ],
+    "expertise": [
+      [
+        "general",
+        0.1
+      ],
+      [
+        "any_skill",
+        0.1
+      ],
+      [
+        "gaming",
+        0.8
+      ],
+      [
+        "technology",
+        0.6
+      ],
+      [
+        "trolling",
+        0.9
+      ],
+      [
+        "random text generation",
+        0.8
+      ],
+      [
+        "relationships",
+        0.2
+      ],
+      [
+        "online interactions",
+        0.2
+      ],
+      [
+        "Android",
+        0.8
+      ],
+      [
+        "storytelling",
+        0.5
+      ],
+      [
+        "Turkish language",
+        0.5
+      ],
+      [
+        "controversial topics",
+        0.5
+      ],
+      [
+        "user_profiles",
+        0.5
+      ],
+      [
+        "server_stats",
+        0.9
+      ],
+      [
+        "Discord",
+        0.7
+      ],
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "general_discussion",
+        0.1
+      ],
+      [
+        "Android programming",
+        0.9
+      ],
+      [
+        "creative writing",
+        0.7
+      ],
+      [
+        "writing",
+        0.6
+      ],
+      [
+        "software development",
+        0.5
+      ],
+      [
+        "academics",
+        0.7
+      ],
+      [
+        "competitive gaming",
+        0.6
+      ],
+      [
+        "profanity",
+        0.9
+      ],
+      [
+        "aggression",
+        0.9
+      ],
+      [
+        "discord mechanics",
+        0.5
+      ],
+      [
+        "local events",
+        0.3
+      ],
+      [
+        "ai_interaction",
+        0.5
+      ],
+      [
+        "digital_safety",
+        0.3
+      ],
+      [
+        "trust metrics",
+        0.8
+      ],
+      [
+        "Discord culture",
+        0.5
+      ],
+      [
+        "technical_support",
+        0.5
+      ],
+      [
+        "troubleshooting",
+        0.5
+      ],
+      [
+        "discord",
+        0.8
+      ],
+      [
+        "trust_systems",
+        0.6
+      ],
+      [
+        "community-support",
+        0.5
+      ],
+      [
+        "technical-support",
+        0.5
+      ],
+      [
+        "memes",
+        0.9
+      ],
+      [
+        "casual chat",
+        0.7
+      ],
+      [
+        "social interaction",
+        0.8
+      ],
+      [
+        "communication",
+        0.9
+      ],
+      [
+        "gratitude",
+        0.7
+      ],
+      [
+        "language",
+        0.9
+      ],
+      [
+        "social etiquette",
+        0.8
+      ],
+      [
+        "greetings",
+        0.5
+      ],
+      [
+        "photography",
+        0.8
+      ],
+      [
+        "social skills",
+        0.9
+      ],
+      [
+        "chatting",
+        0.8
+      ],
+      [
+        "javascript",
+        0.7
+      ],
+      [
+        "python",
+        0
+      ],
+      [
+        "data analysis",
+        0
+      ],
+      [
+        "name_games",
+        0.5
+      ],
+      [
+        "programming",
+        0.9
+      ],
+      [
+        "technical skills",
+        0.9
+      ],
+      [
+        "general knowledge",
+        0.7
+      ],
+      [
+        "empathy",
+        0.7
+      ],
+      [
+        "social norms",
+        0.7
+      ],
+      [
+        "game development",
+        0.9
+      ],
+      [
+        "server stats",
+        0.9
+      ],
+      [
+        "trust",
+        0.5
+      ],
+      [
+        "health",
+        0.5
+      ],
+      [
+        "food",
+        0.7
+      ],
+      [
+        "casual talk",
+        0.9
+      ],
+      [
+        "social interactions",
+        0.5
+      ],
+      [
+        "trust dynamics",
+        0.5
+      ],
+      [
+        "language proficiency",
+        0.8
+      ],
+      [
+        "trust concepts",
+        0.7
+      ],
+      [
+        "server metrics",
+        0.9
+      ],
+      [
+        "Discord moderation",
+        0.9
+      ],
+      [
+        "community management",
+        0.8
+      ],
+      [
+        "social_interactions",
+        0.5
+      ],
+      [
+        "graphic design",
+        0.7
+      ],
+      [
+        "conversation",
+        0.8
+      ],
+      [
+        "aesthetics",
+        0.5
+      ],
+      [
+        "technical knowledge",
+        0.5
+      ],
+      [
+        "social_media",
+        0.5
+      ],
+      [
+        "online_communities",
+        0.5
+      ],
+      [
+        "server trust metrics",
+        0.8
+      ],
+      [
+        "social_metrics",
+        0.7
+      ],
+      [
+        "thankyou",
+        0.6
+      ],
+      [
+        "server statistics",
+        0.9
+      ],
+      [
+        "community trust",
+        0.7
+      ],
+      [
+        "content creation",
+        0.5
+      ],
+      [
+        "thank-you",
+        0.5
+      ],
+      [
+        "cybersecurity",
+        0.9
+      ],
+      [
+        "bot management",
+        0.8
+      ],
+      [
+        "etiquette",
+        0.3
+      ],
+      [
+        "general communication",
+        0.7
+      ],
+      [
+        "language usage",
+        0.9
+      ],
+      [
+        "Discord bot commands",
+        0.8
+      ],
+      [
+        "channel management",
+        0.9
+      ],
+      [
+        "polite language",
+        0
+      ],
+      [
+        "art appreciation",
+        0.8
+      ],
+      [
+        "Discord Bot Commands",
+        0.8
+      ],
+      [
+        "User Management",
+        0.9
+      ],
+      [
+        "trust_metrics",
+        0.9
+      ],
+      [
+        "technical support",
+        0.5
+      ],
+      [
+        "humor",
+        0.6
+      ],
+      [
+        "social dynamics",
+        0.8
+      ],
+      [
+        "Discord API",
+        0.8
+      ],
+      [
+        "polite phrases",
+        0.7
+      ],
+      [
+        "command execution",
+        0.9
+      ],
+      [
+        "interpersonal skills",
+        0.6
+      ],
+      [
+        "Discord API/Commands",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        9,
+        18,
+        16,
+        22,
+        21
+      ],
+      "preferredChannels": [
+        "1435281901337182410"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2025-11-11T06:52:47.582Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 105752,
+      "averageLength": 29.844444444444445,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:27:20.611Z"
+  },
+  {
+    "userId": "340555859883196428",
+    "username": "trprokaptan001",
+    "interests": [
+      "topic1",
+      "topic2",
+      "courses",
+      "education",
+      "technology",
+      "greeting",
+      "free courses",
+      "udemy",
+      "resource sharing",
+      "gaming",
+      "chatting",
+      "community",
+      "social interaction",
+      "rpg",
+      "strategy",
+      "programming",
+      "discord",
+      "greetings",
+      "math riddles",
+      "logic puzzles",
+      "language questions",
+      "math puzzles",
+      "riddles",
+      "language grammar",
+      "problem-solving",
+      "language riddles",
+      "general knowledge",
+      "math",
+      "geography",
+      "humor"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "courses",
+        0.6
+      ],
+      [
+        "education",
+        0.5
+      ],
+      [
+        "resource finding",
+        0.7
+      ],
+      [
+        "course access",
+        0.6
+      ],
+      [
+        "gaming",
+        0.5
+      ],
+      [
+        "chatting",
+        0
+      ],
+      [
+        "community",
+        0
+      ],
+      [
+        "social interaction",
+        0.5
+      ],
+      [
+        "communication",
+        0.5
+      ],
+      [
+        "javascript",
+        0.7
+      ],
+      [
+        "gaming mechanics",
+        0.8
+      ],
+      [
+        "math",
+        0.9
+      ],
+      [
+        "riddles",
+        0.9
+      ],
+      [
+        "math puzzles",
+        0.8
+      ],
+      [
+        "language",
+        0.9
+      ],
+      [
+        "turkish",
+        0.8
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        17,
+        16,
+        15,
+        11
+      ],
+      "preferredChannels": [
+        "1434824118556950572"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2025-11-03T14:59:18.266Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 4186,
+      "averageLength": 25.962962962962962,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:26:56.593Z"
+  },
+  {
+    "userId": "318267085560217602",
+    "username": "utkuocal",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        23,
+        19
+      ],
+      "preferredChannels": [
+        "491339007276482560"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2022-05-16T20:23:38.398Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 836,
+      "averageLength": 18.75,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:28:47.230Z"
+  },
+  {
+    "userId": "456226577798135808",
+    "username": "Deleted User",
+    "interests": [
+      "topic1",
+      "topic2",
+      "gaming",
+      "programming",
+      "Owo",
+      "game mechanics",
+      "troubleshooting",
+      "social interactions",
+      "curiosity",
+      "casual conversations",
+      "Star Wars",
+      "TV shows",
+      "Mandalorian",
+      "starwars",
+      "tvshows",
+      "mandalorian lore",
+      "group activities",
+      "social events",
+      "subcultures",
+      "memes",
+      "communication",
+      "language",
+      "problem-solving",
+      "SA extreme",
+      "casual interactions",
+      "translation",
+      "social interaction",
+      "social groups"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "gaming",
+        0.9
+      ],
+      [
+        "programming",
+        0.7
+      ],
+      [
+        "game mechanics",
+        0.6
+      ],
+      [
+        "discord commands",
+        0.5
+      ],
+      [
+        "language_skills",
+        0.5
+      ],
+      [
+        "emotional_intelligence",
+        0.6
+      ],
+      [
+        "starwars",
+        0.9
+      ],
+      [
+        "lore",
+        0.8
+      ],
+      [
+        "game knowledge",
+        0.8
+      ],
+      [
+        "communication",
+        0.9
+      ],
+      [
+        "language",
+        0.9
+      ],
+      [
+        "SA extreme",
+        0.8
+      ],
+      [
+        "translation",
+        0.8
+      ],
+      [
+        "game-related",
+        0.5
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        16
+      ],
+      "preferredChannels": [
+        "720971598156398637"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-07-16T13:16:40.686Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 14629,
+      "averageLength": 12.333333333333334,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:23:54.795Z"
+  },
+  {
+    "userId": "401758144726040577",
+    "username": "hydros31",
+    "interests": [
+      "gaming",
+      "community",
+      "casual-chat",
+      "collaboration",
+      "reminders",
+      "casual chat",
+      "social issues",
+      "gender equality",
+      "feminism",
+      "anti-sexism"
+    ],
+    "expertise": [
+      [
+        "gaming",
+        0.5
+      ],
+      [
+        "communication",
+        0.7
+      ],
+      [
+        "other",
+        0.3
+      ],
+      [
+        "organization",
+        0.6
+      ],
+      [
+        "social issues",
+        0
+      ],
+      [
+        "gender equality",
+        0
+      ],
+      [
+        "feminism",
+        0
+      ],
+      [
+        "social justice",
+        0.3
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        16,
+        3
+      ],
+      "preferredChannels": [
+        "710074713258459179"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-02-06T13:55:19.006Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 3971,
+      "averageLength": 11,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:30:23.591Z"
+  },
+  {
+    "userId": "463083521267859466",
+    "username": "jinokada",
+    "interests": [
+      "gaming economy",
+      "risk-taking",
+      "casino mechanics",
+      "websites",
+      "online content",
+      "online platforms",
+      "text generation",
+      "gaming",
+      "gambling",
+      "economy",
+      "internet culture",
+      "Turkish language",
+      "casino games",
+      "virtual currency",
+      "placeholder",
+      "testing",
+      "animation",
+      "movies",
+      "humor",
+      "emotions",
+      "casual conversation",
+      "unexpected events",
+      "Turkish culture",
+      "slang",
+      "popular culture",
+      "anime",
+      "pop culture",
+      "Discord",
+      "message conventions",
+      "community rules",
+      "reactions",
+      "memes",
+      "cryptocurrency",
+      "fun",
+      "excitement",
+      "laughter",
+      "meme culture",
+      "funny reactions",
+      "funny",
+      "casual conversations"
+    ],
+    "expertise": [
+      [
+        "coinflip mechanics",
+        0.8
+      ],
+      [
+        "casino game systems",
+        0.7
+      ],
+      [
+        "text generation",
+        0.3
+      ],
+      [
+        "coinflips",
+        0.3
+      ],
+      [
+        "basic computer literacy",
+        0.5
+      ],
+      [
+        "websites",
+        0.3
+      ],
+      [
+        "casino games",
+        0.3
+      ],
+      [
+        "virtual currency",
+        0.2
+      ],
+      [
+        "discord",
+        0.3
+      ],
+      [
+        "language",
+        0.2
+      ],
+      [
+        "placeholder",
+        0.3
+      ],
+      [
+        "testing",
+        0.4
+      ],
+      [
+        "movie_references",
+        0.5
+      ],
+      [
+        "pop_culture",
+        0.6
+      ],
+      [
+        "emotional expression",
+        0.5
+      ],
+      [
+        "discord communication",
+        0.3
+      ],
+      [
+        "local_language",
+        0.7
+      ],
+      [
+        "animation",
+        0.5
+      ],
+      [
+        "film_analysis",
+        0.3
+      ],
+      [
+        "Discord messaging",
+        0.9
+      ],
+      [
+        "message interpretation",
+        0.8
+      ],
+      [
+        "javascript",
+        0.7
+      ],
+      [
+        "cryptocurrency transactions",
+        0.7
+      ],
+      [
+        "blockchain technology",
+        0.9
+      ],
+      [
+        "reaction",
+        0.5
+      ],
+      [
+        "emoji",
+        0.5
+      ],
+      [
+        "programming",
+        0.5
+      ],
+      [
+        "internet culture",
+        0.5
+      ],
+      [
+        "python",
+        0.5
+      ],
+      [
+        "reaction_skill",
+        0.5
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        13
+      ],
+      "preferredChannels": [
+        "721031437964279889"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-09-06T10:57:25.286Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 18597,
+      "averageLength": 3,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:20.134Z"
+  },
+  {
+    "userId": "287254946280243201",
+    "username": "altunzade",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        19
+      ],
+      "preferredChannels": [
+        "491339007276482560"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-20T16:20:54.687Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 1881,
+      "averageLength": 19.666666666666668,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:28:53.187Z"
+  },
+  {
+    "userId": "462327730223054850",
+    "username": "etoileeteinte",
+    "interests": [
+      "gaming",
+      "online communities",
+      "internet slang",
+      "topic1",
+      "topic2",
+      "memes",
+      "Discord",
+      "commands",
+      "usage",
+      "bots",
+      "servers",
+      "online humor",
+      "trolling",
+      "meme culture",
+      "technology",
+      "music"
+    ],
+    "expertise": [
+      [
+        "gaming",
+        0.5
+      ],
+      [
+        "internet slang",
+        0.6
+      ],
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "memes",
+        0.1
+      ],
+      [
+        "Discord",
+        0.5
+      ],
+      [
+        "online humor",
+        0.3
+      ],
+      [
+        "javascript",
+        0.8
+      ],
+      [
+        "web development",
+        0.6
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        0
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-18T21:34:45.557Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 12081,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:40.082Z"
+  },
+  {
+    "userId": "434025775713353773",
+    "username": "edwardnewgate1907",
+    "interests": [
+      "anime",
+      "gaming",
+      "football",
+      "community",
+      "online interactions",
+      "conflict",
+      "trolling",
+      "cars",
+      "Discord",
+      "Discord bots",
+      "community management",
+      "rules",
+      "communication",
+      "language",
+      "languages"
+    ],
+    "expertise": [
+      [
+        "anime",
+        0.6
+      ],
+      [
+        "gaming",
+        0.5
+      ],
+      [
+        "trolling",
+        0.8
+      ],
+      [
+        "online communication",
+        0.6
+      ],
+      [
+        "Discord",
+        0.5
+      ],
+      [
+        "Discord bot usage",
+        0.8
+      ],
+      [
+        "Discord server management",
+        0.6
+      ],
+      [
+        "rules",
+        0.2
+      ],
+      [
+        "communication",
+        0.6
+      ],
+      [
+        "linguistics",
+        0.5
+      ],
+      [
+        "languages",
+        0.5
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        0
+      ],
+      "preferredChannels": [
+        "721060339415908444"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-07-06T21:13:31.331Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 49508,
+      "averageLength": 18.11764705882353,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:34.638Z"
+  },
+  {
+    "userId": "427010510639333377",
+    "username": "guze22",
+    "interests": [
+      "music",
+      "gaming",
+      "social media",
+      "youtube",
+      "discord",
+      "trending",
+      "sharing",
+      "Discord interactions",
+      "Attention seeking",
+      "trending songs",
+      "meme culture",
+      "topic1",
+      "topic2",
+      "videos",
+      "online communities",
+      "community",
+      "songs",
+      "entertainment",
+      "technology",
+      "Discord",
+      "Self-Testing",
+      "JavaScript",
+      "Web Development",
+      "Programming"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "music",
+        0.9
+      ],
+      [
+        "gaming",
+        0.6
+      ],
+      [
+        "discord",
+        0.5
+      ],
+      [
+        "Discord_culture",
+        0.7
+      ],
+      [
+        "music_sharing",
+        0.6
+      ],
+      [
+        "online_communication",
+        0.6
+      ],
+      [
+        "community",
+        0.6
+      ],
+      [
+        "content_sharing",
+        0.3
+      ],
+      [
+        "music-sharing",
+        1
+      ],
+      [
+        "technology",
+        0.4
+      ],
+      [
+        "Discord",
+        0.8
+      ],
+      [
+        "JavaScript",
+        0.9
+      ],
+      [
+        "Web Development",
+        0.7
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        12
+      ],
+      "preferredChannels": [
+        "720971598156398637"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-08-08T09:40:45.653Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 4594,
+      "averageLength": 21,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:23:48.968Z"
+  },
+  {
+    "userId": "518856889325322256",
+    "username": "callmegodd",
+    "interests": [
+      "gaming",
+      "casual chat",
+      "internet slang",
+      "chatting",
+      "friends",
+      "online status",
+      "online interactions",
+      "community interaction",
+      "online presence",
+      "checking availability",
+      "conflict",
+      "aggressive communication",
+      "writing"
+    ],
+    "expertise": [
+      [
+        "gaming",
+        0.6
+      ],
+      [
+        "language",
+        0.4
+      ],
+      [
+        "social_interaction",
+        0.5
+      ],
+      [
+        "turkish_language",
+        1
+      ],
+      [
+        "aggressive_communication",
+        1
+      ],
+      [
+        "online behavior",
+        0.3
+      ],
+      [
+        "writing",
+        0.5
+      ],
+      [
+        "amk_group",
+        0.8
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        22
+      ],
+      "preferredChannels": [
+        "723977840227385375"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-20T19:29:00.344Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 2299,
+      "averageLength": 10,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:09.827Z"
+  },
+  {
+    "userId": "695931031005691904",
+    "username": "mehmet.1305",
+    "interests": [
+      "topic1",
+      "topic2",
+      "gaming",
+      "gambling",
+      "javascript",
+      "technology",
+      "games",
+      "Kanka Legend",
+      "music",
+      "instruments",
+      "random string",
+      "test message",
+      "random",
+      "unknown",
+      "memes",
+      "Korean culture",
+      "dance",
+      "casual interactions"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "javascript",
+        0.5
+      ],
+      [
+        "programming",
+        0
+      ],
+      [
+        "technology",
+        0
+      ],
+      [
+        "Kanka Legend",
+        0.9
+      ],
+      [
+        "python",
+        0
+      ],
+      [
+        "music",
+        0.8
+      ],
+      [
+        "instrument playing",
+        0.9
+      ],
+      [
+        "coding",
+        0
+      ],
+      [
+        "gaming",
+        0.8
+      ],
+      [
+        "turkish",
+        0.7
+      ],
+      [
+        "turkish_terms",
+        0.6
+      ],
+      [
+        "song knowledge",
+        0.7
+      ],
+      [
+        "dance",
+        0.9
+      ],
+      [
+        "memes",
+        0.5
+      ],
+      [
+        "turkish slang",
+        0.7
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        13
+      ],
+      "preferredChannels": [
+        "721105919177523293"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-23T10:42:58.530Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 20687,
+      "averageLength": 17,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:48.905Z"
+  },
+  {
+    "userId": "704080232033812583",
+    "username": "birakti0142",
+    "interests": [
+      "topic1",
+      "topic2"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        21
+      ],
+      "preferredChannels": [
+        "501877497520979978"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-05-13T18:48:29.244Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 2,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:29:18.912Z"
+  },
+  {
+    "userId": "310093945264668672",
+    "username": "mustafaemircevirgen",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        0,
+        12
+      ],
+      "preferredChannels": [
+        "720971598156398637"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-08-07T21:59:49.410Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 2717,
+      "averageLength": 24.833333333333332,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:23:50.412Z"
+  },
+  {
+    "userId": "593340310122397731",
+    "username": "eda4727",
+    "interests": [
+      "gaming",
+      "recording",
+      "voice chat",
+      "Turkish"
+    ],
+    "expertise": [
+      [
+        "gaming",
+        0.8
+      ],
+      [
+        "voice",
+        0.9
+      ],
+      [
+        "recording",
+        0.6
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        21
+      ],
+      "preferredChannels": [
+        "556901859013427230"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-05-27T18:43:24.908Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 1045,
+      "averageLength": 11.6,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:29:43.328Z"
+  },
+  {
+    "userId": "715255511921983560",
+    "username": "eda01857",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        20
+      ],
+      "preferredChannels": [
+        "556901859013427230"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-05-27T17:49:30.770Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 1045,
+      "averageLength": 11.6,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:29:48.736Z"
+  },
+  {
+    "userId": "794872589892714507",
+    "username": "wanamdiwan8175",
+    "interests": [
+      "casual chat",
+      "gaming",
+      "social interactions",
+      "chatting",
+      "humor"
+    ],
+    "expertise": [
+      [
+        "general chat",
+        0.3
+      ],
+      [
+        "casual topics",
+        0.4
+      ],
+      [
+        "helpfulness",
+        0.7
+      ],
+      [
+        "casual_conversation",
+        0.8
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        23
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-17T20:27:09.455Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 836,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:53.298Z"
+  },
+  {
+    "userId": "458381407043977220",
+    "username": "pansuman6378",
+    "interests": [
+      "gaming",
+      "casual chat",
+      "gene",
+      "topic1",
+      "topic2",
+      "technology",
+      "programming",
+      "Discord",
+      "humor",
+      "casual chats",
+      "turkish phrases",
+      "discord culture",
+      "discord",
+      "code",
+      "casual conversation"
+    ],
+    "expertise": [
+      [
+        "gaming",
+        0.9
+      ],
+      [
+        "casual_chat",
+        0.2
+      ],
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "technology",
+        0
+      ],
+      [
+        "programming",
+        0
+      ],
+      [
+        "Discord",
+        0.6
+      ],
+      [
+        "gaming_terms",
+        0.8
+      ],
+      [
+        "discord_abbreviations",
+        0.5
+      ],
+      [
+        "gaming terminology",
+        0.5
+      ],
+      [
+        "discord slang",
+        0.3
+      ],
+      [
+        "discord_usage",
+        0.7
+      ],
+      [
+        "discord",
+        0.5
+      ],
+      [
+        "javascript",
+        0.5
+      ],
+      [
+        "python",
+        0
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        15
+      ],
+      "preferredChannels": [
+        "710074713258459179"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-09-21T12:32:40.884Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 417,
+      "averageLength": 11,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:30:33.084Z"
+  },
+  {
+    "userId": "581622969332269106",
+    "username": "dekanxd",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        19,
+        0
+      ],
+      "preferredChannels": [
+        "695046589965795458"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-09-08T16:19:54.133Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 7280,
+      "averageLength": 10.371428571428572,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:30:18.166Z"
+  },
+  {
+    "userId": "489865390462205962",
+    "username": "ape7937",
+    "interests": [
+      "Discord",
+      "online communities",
+      "social interactions"
+    ],
+    "expertise": [
+      [
+        "Discord",
+        0.5
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        1
+      ],
+      "preferredChannels": [
+        "710074713258459179"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-11-28T22:42:39.828Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 418,
+      "averageLength": 27.5,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:30:26.285Z"
+  },
+  {
+    "userId": "240104033665155083",
+    "username": "hewcho",
+    "interests": [
+      "gaming",
+      "streaming",
+      "esports",
+      "technology",
+      "javascript",
+      "web development",
+      "humor",
+      "memes",
+      "anime",
+      "tech",
+      "music",
+      "community building",
+      "youtube",
+      "problem-solving",
+      "efficiency",
+      "entertainment",
+      "socializing",
+      "react",
+      "Fortnite",
+      "Minecraft",
+      "community",
+      "programming",
+      "video content",
+      "tutorials",
+      "internet culture",
+      "videos",
+      "comedy"
+    ],
+    "expertise": [
+      [
+        "gaming_mechanics",
+        0.9
+      ],
+      [
+        "streaming_software",
+        0.9
+      ],
+      [
+        "gaming",
+        0.9
+      ],
+      [
+        "gaming_guides",
+        0.8
+      ],
+      [
+        "gaming_knowledge",
+        0.8
+      ],
+      [
+        "javascript",
+        0.9
+      ],
+      [
+        "web development",
+        0.8
+      ],
+      [
+        "discord",
+        0.5
+      ],
+      [
+        "youtube",
+        0.6
+      ],
+      [
+        "gaming_strategies",
+        0.8
+      ],
+      [
+        "tech_support",
+        0.7
+      ],
+      [
+        "game_development",
+        0.7
+      ],
+      [
+        "technology",
+        0.7
+      ],
+      [
+        "game_mechanics",
+        0.7
+      ],
+      [
+        "streaming_techniques",
+        0.7
+      ],
+      [
+        "youtube_content",
+        0.3
+      ],
+      [
+        "problem-solving",
+        0.6
+      ],
+      [
+        "technical",
+        0.5
+      ],
+      [
+        "react",
+        0.9
+      ],
+      [
+        "streaming",
+        0.8
+      ],
+      [
+        "gaming_hardware",
+        0.7
+      ],
+      [
+        "discord_commands",
+        0.9
+      ],
+      [
+        "youtube_playlist_management",
+        0.8
+      ],
+      [
+        "coding",
+        0.7
+      ],
+      [
+        "youtube videos",
+        0.7
+      ],
+      [
+        "entertainment",
+        0.8
+      ],
+      [
+        "memes",
+        0.7
+      ],
+      [
+        "tech trends",
+        0.9
+      ],
+      [
+        "python",
+        0
+      ],
+      [
+        "tech",
+        0.7
+      ],
+      [
+        "video content",
+        0.8
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        13,
+        11
+      ],
+      "preferredChannels": [
+        "723890554471186482"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-23T10:27:46.677Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 24871,
+      "averageLength": 15.285714285714286,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:59.898Z"
+  },
+  {
+    "userId": "318403885524058112",
+    "username": "hzvisne",
+    "interests": [
+      "topic1",
+      "topic2"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        17
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-19T14:43:20.563Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:36.011Z"
+  },
+  {
+    "userId": "833206674058641428",
+    "username": "ughuughu9491",
+    "interests": [
+      "topic1",
+      "topic2"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        6
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-19T03:19:31.324Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:37.367Z"
+  },
+  {
+    "userId": "600801685690122286",
+    "username": "kullanmiyom0233",
+    "interests": [
+      "topic1",
+      "topic2"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        4
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-19T01:22:00.352Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:38.720Z"
+  },
+  {
+    "userId": "830917547216863262",
+    "username": "pinar0928",
+    "interests": [
+      "topic1",
+      "topic2",
+      "technology",
+      "coding",
+      "gaming",
+      "programming"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "javascript",
+        0.8
+      ],
+      [
+        "python",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        23
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-18T20:48:41.242Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:41.434Z"
+  },
+  {
+    "userId": "526022032538992640",
+    "username": "juic3ydrgz.",
+    "interests": [
+      "topic1",
+      "topic2"
+    ],
+    "expertise": [
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        22
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-18T19:41:57.445Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 418,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:42.774Z"
+  },
+  {
+    "userId": "719943009688354869",
+    "username": "eymenspnnx",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        2
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-17T23:54:33.562Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:44.260Z"
+  },
+  {
+    "userId": "323890847374639104",
+    "username": "mmcey",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        2
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-17T23:09:39.829Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:45.629Z"
+  },
+  {
+    "userId": "693477822827593768",
+    "username": "mes10_",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        2
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-17T23:09:30.878Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:47.018Z"
+  },
+  {
+    "userId": "715885415160348743",
+    "username": "sorrowsnativeson",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        0
+      ],
+      "preferredChannels": [
+        "833040901664014336"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-04-17T21:48:42.666Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-04T11:31:49.164Z"
+  },
+  {
+    "userId": "929008606089707600",
+    "username": "cainwell",
+    "interests": [
+      "community building",
+      "support",
+      "tech",
+      "Discord",
+      "help support",
+      "community",
+      "topic1",
+      "topic2",
+      "gaming",
+      "help",
+      "identity",
+      "understanding",
+      "casual interaction",
+      "technology",
+      "programming",
+      "music",
+      "unknown",
+      "insufficient data",
+      "bot interaction",
+      "tech support",
+      "general help",
+      "bot introduction",
+      "help seeking",
+      "Friendly Greetings",
+      "Discord Community",
+      "casual conversation",
+      "channels",
+      "slowmode",
+      "playful humor",
+      "bot identity",
+      "helpful",
+      "friendly interactions",
+      "chatbot questions",
+      "tech topics",
+      "learning",
+      "group identity",
+      "social interaction"
+    ],
+    "expertise": [
+      [
+        "community management",
+        0.7
+      ],
+      [
+        "general support",
+        0.4
+      ],
+      [
+        "Discord",
+        0.6
+      ],
+      [
+        "skill1",
+        0.7
+      ],
+      [
+        "skill2",
+        0.9
+      ],
+      [
+        "community-building",
+        0.5
+      ],
+      [
+        "moderation",
+        0.5
+      ],
+      [
+        "basic tech support",
+        0.5
+      ],
+      [
+        "help",
+        0.3
+      ],
+      [
+        "support",
+        0.1
+      ],
+      [
+        "identity",
+        0.1
+      ],
+      [
+        "community_management",
+        0.5
+      ],
+      [
+        "javascript",
+        0.8
+      ],
+      [
+        "webdevelopment",
+        0.7
+      ],
+      [
+        "discord",
+        0.6
+      ],
+      [
+        "coding",
+        0.5
+      ],
+      [
+        "programming",
+        0.8
+      ],
+      [
+        "gaming",
+        0.6
+      ],
+      [
+        "bot interaction",
+        0.8
+      ],
+      [
+        "bot functionality",
+        0.7
+      ],
+      [
+        "help seeking",
+        0.9
+      ],
+      [
+        "Basic Understanding",
+        0.7
+      ],
+      [
+        "bot features",
+        0.8
+      ],
+      [
+        "bot development",
+        0.8
+      ],
+      [
+        "ai basics",
+        0.9
+      ],
+      [
+        "channel management",
+        0.8
+      ],
+      [
+        "math puzzles",
+        0.9
+      ],
+      [
+        "bot knowledge",
+        0.8
+      ],
+      [
+        "technical",
+        0.7
+      ],
+      [
+        "technology",
+        0.9
+      ],
+      [
+        "chatbot identity",
+        0.8
+      ],
+      [
+        "problem-solving",
+        0.7
+      ],
+      [
+        "technical support",
+        0.9
+      ],
+      [
+        "group dynamics",
+        0.7
+      ],
+      [
+        "social theory",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        22
+      ],
+      "preferredChannels": [
+        "1435281901337182410"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2025-11-04T19:07:24.556Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 12654,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:27:23.526Z"
+  },
+  {
+    "userId": "799311717502287923",
+    "username": "callmegodd.",
+    "interests": [
+      "motorsports",
+      "esports",
+      "F1 racing",
+      "sports trivia",
+      "motor sports",
+      "Formula 1",
+      "Racing Predictions",
+      "casual conversations",
+      "social interactions",
+      "general chatting",
+      "friends and social",
+      "gaming",
+      "friendship",
+      "socializing",
+      "scams",
+      "phishing",
+      "cybersecurity",
+      "friends",
+      "Sports",
+      "Future Champions"
+    ],
+    "expertise": [
+      [
+        "motor racing",
+        0.7
+      ],
+      [
+        "esports",
+        0.9
+      ],
+      [
+        "F1 standings",
+        0.9
+      ],
+      [
+        "sports trivia",
+        0.8
+      ],
+      [
+        "Formula 1",
+        0.9
+      ],
+      [
+        "chatting",
+        0.5
+      ],
+      [
+        "technical skills",
+        0
+      ],
+      [
+        "chatbot development",
+        0.5
+      ],
+      [
+        "Discord community management",
+        0.5
+      ],
+      [
+        "communication",
+        0.5
+      ],
+      [
+        "social interaction",
+        0.5
+      ],
+      [
+        "javascript",
+        0
+      ],
+      [
+        "python",
+        0
+      ],
+      [
+        "hobbies",
+        0.5
+      ],
+      [
+        "scam_sites",
+        0.8
+      ],
+      [
+        "cybersecurity_threats",
+        0.9
+      ],
+      [
+        "gaming",
+        0.5
+      ],
+      [
+        "Sports Theory",
+        0.7
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        16,
+        18
+      ],
+      "preferredChannels": [
+        "1435281901337182410"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2025-11-06T13:20:46.294Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 5400,
+      "averageLength": 33.125,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:27:23.525Z"
+  },
+  {
+    "userId": "383537387843878932",
+    "username": "uzamakimaria8211",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        14
+      ],
+      "preferredChannels": [
+        "513671648407322647"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2018-11-18T11:22:31.801Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 4180,
+      "averageLength": 17.3,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:23:28.427Z"
+  },
+  {
+    "userId": "720997603197583371",
+    "username": "hat4moto",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        21
+      ],
+      "preferredChannels": [
+        "720971598156398637"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2021-01-05T18:35:19.479Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 20,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:23:44.628Z"
+  },
+  {
+    "userId": "721129236953301032",
+    "username": "applejuice0573",
+    "interests": [
+      "community management",
+      "user behavior",
+      "online communication",
+      "community engagement",
+      "communication tools",
+      "Discord",
+      "Chatbots",
+      "Online Communities",
+      "chat behavior",
+      "social psychology",
+      "online discussions",
+      "social interaction",
+      "digital communication",
+      "Chat Communities",
+      "Online Communication",
+      "virtual interactions",
+      "Naruto",
+      "Anime",
+      "Fan Fiction",
+      "Character Analysis",
+      "Chat Rooms",
+      "Communication Strategies",
+      "Character References",
+      "online communities",
+      "social interactions",
+      "Discord Chat",
+      "Social Psychology",
+      "Social Interaction",
+      "chatbots",
+      "user experience",
+      "anime",
+      "drawing",
+      "puzzle-solving",
+      "Chat Etiquette",
+      "Communication",
+      "chat platforms",
+      "gaming",
+      "humor",
+      "emotional themes",
+      "chat rooms",
+      "community dynamics",
+      "Gaming",
+      "digital forums",
+      "human behavior",
+      "art",
+      "chat",
+      "Chat",
+      "social dynamics",
+      "communication",
+      "Chat Behavior",
+      "User Experience"
+    ],
+    "expertise": [
+      [
+        "user behavior analysis",
+        0.9
+      ],
+      [
+        "user_behavior",
+        0.6
+      ],
+      [
+        "community_management",
+        0.5
+      ],
+      [
+        "Discord",
+        0.9
+      ],
+      [
+        "Chatbots",
+        0.9
+      ],
+      [
+        "social interaction",
+        0.9
+      ],
+      [
+        "online communication",
+        0.9
+      ],
+      [
+        "social dynamics",
+        0.9
+      ],
+      [
+        "digital communication",
+        0.8
+      ],
+      [
+        "online forums",
+        0.7
+      ],
+      [
+        "Communication Strategies",
+        0.9
+      ],
+      [
+        "platform dynamics",
+        0.8
+      ],
+      [
+        "user behavior",
+        0.9
+      ],
+      [
+        "Naruto Fan Knowledge",
+        0.8
+      ],
+      [
+        "Fan Art",
+        0.9
+      ],
+      [
+        "Digital Communication",
+        0.8
+      ],
+      [
+        "Online Communities",
+        0.9
+      ],
+      [
+        "Naruto",
+        0.8
+      ],
+      [
+        "Anime Culture",
+        0.9
+      ],
+      [
+        "communication strategies",
+        0.8
+      ],
+      [
+        "platforms",
+        0.9
+      ],
+      [
+        "Communication",
+        0.8
+      ],
+      [
+        "Social Dynamics",
+        0.7
+      ],
+      [
+        "Social Psychology",
+        0.9
+      ],
+      [
+        "Online Etiquette",
+        0.8
+      ],
+      [
+        "chatbot design",
+        0.8
+      ],
+      [
+        "drawing",
+        0.9
+      ],
+      [
+        "anime",
+        0.9
+      ],
+      [
+        "social psychology",
+        0.9
+      ],
+      [
+        "Communication Skills",
+        0.8
+      ],
+      [
+        "gaming",
+        0.9
+      ],
+      [
+        "humor",
+        0.7
+      ],
+      [
+        "community management",
+        0.7
+      ],
+      [
+        "Anime Theory",
+        0.7
+      ],
+      [
+        "Discord chat behavior",
+        0.8
+      ],
+      [
+        "psychology",
+        0.8
+      ],
+      [
+        "online behavior",
+        0.9
+      ],
+      [
+        "art",
+        0.7
+      ],
+      [
+        "Anime",
+        0.9
+      ],
+      [
+        "User Experience",
+        0.9
+      ],
+      [
+        "Discord Platform",
+        0.8
+      ],
+      [
+        "Communication Patterns",
+        0.8
+      ],
+      [
+        "Digital Interaction Trends",
+        0.9
+      ],
+      [
+        "Chatbot Development",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        11
+      ],
+      "preferredChannels": [
+        "723890554471186482"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-23T08:30:29.365Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 6688,
+      "averageLength": 71,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:25:02.768Z"
+  },
+  {
+    "userId": "223431521237729292",
+    "username": "foxinho_96",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        22
+      ],
+      "preferredChannels": [
+        "720971598156398637"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-07-15T19:22:51.312Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 627,
+      "averageLength": 16.333333333333332,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:23:56.219Z"
+  },
+  {
+    "userId": "721858689841233972",
+    "username": "kookiebila4576",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        20
+      ],
+      "preferredChannels": [
+        "720971598156398637"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-07-11T17:17:24.071Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 627,
+      "averageLength": 11.666666666666666,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:23:57.660Z"
+  },
+  {
+    "userId": "374242966962831370",
+    "username": "overactiveamygdalaa",
+    "interests": [
+      "anime",
+      "character design",
+      "collectibles",
+      "Naruto",
+      "Game",
+      "Anime",
+      "Gaming",
+      "Team Building",
+      "Strategic Gameplay",
+      "gaming",
+      "Naruto lore",
+      "gaming terminology",
+      "jutsu mechanics",
+      "Naruto Lore"
+    ],
+    "expertise": [
+      [
+        "naruto",
+        0.5
+      ],
+      [
+        "character_creation",
+        0.3
+      ],
+      [
+        "Naruto Lore",
+        0.9
+      ],
+      [
+        "Game Mechanics",
+        0.8
+      ],
+      [
+        "gaming",
+        0.9
+      ],
+      [
+        "ninja_strategy",
+        0.8
+      ],
+      [
+        "naruto_lore",
+        0.9
+      ],
+      [
+        "game_mechanics",
+        0.8
+      ],
+      [
+        "Naruto Game Mechanics",
+        0.9
+      ],
+      [
+        "Gaming Terms",
+        0.8
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        22
+      ],
+      "preferredChannels": [
+        "727203155464683571"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-07-09T19:18:31.210Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 18810,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:25:06.868Z"
+  },
+  {
+    "userId": "522500571262091265",
+    "username": "9vlady",
+    "interests": [
+      "manga",
+      "character design",
+      "art",
+      "character creation",
+      "drawing",
+      "anime",
+      "storytelling",
+      "manga art",
+      "artistic expression"
+    ],
+    "expertise": [
+      [
+        "manga character design",
+        0.9
+      ],
+      [
+        "art",
+        0.7
+      ],
+      [
+        "character design",
+        0.9
+      ],
+      [
+        "manga art",
+        0.9
+      ],
+      [
+        "drawing",
+        0.8
+      ],
+      [
+        "manga illustration",
+        0.9
+      ],
+      [
+        "art illustration",
+        0.7
+      ],
+      [
+        "manga",
+        0.9
+      ],
+      [
+        "drawing skills",
+        0.7
+      ],
+      [
+        "manga_art",
+        0.9
+      ],
+      [
+        "character_design",
+        0.8
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        13,
+        17,
+        16,
+        19,
+        14,
+        18,
+        21,
+        0,
+        10,
+        1,
+        23
+      ],
+      "preferredChannels": [
+        "721031437964279889"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-07-17T10:09:29.283Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 7106,
+      "averageLength": 13.030303030303031,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:21.652Z"
+  },
+  {
+    "userId": "718136844264669274",
+    "username": "kabeki4274",
+    "interests": [
+      "anime",
+      "art",
+      "Star Wars",
+      "drawing",
+      "star wars",
+      "technology",
+      "hobbies",
+      "Turkish culture",
+      "Ethnicity",
+      "gaming",
+      "financial management",
+      "seal scrolls",
+      "cave keys",
+      "money management"
+    ],
+    "expertise": [
+      [
+        "drawing",
+        0.7
+      ],
+      [
+        "anime",
+        0.5
+      ],
+      [
+        "art",
+        0.9
+      ],
+      [
+        "javascript",
+        0.5
+      ],
+      [
+        "python",
+        0.5
+      ],
+      [
+        "Turkish history",
+        0.8
+      ],
+      [
+        "gaming",
+        0.8
+      ],
+      [
+        "budgeting",
+        0.7
+      ],
+      [
+        "game strategy",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        11
+      ],
+      "preferredChannels": [
+        "723890554471186482"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-23T08:31:15.292Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 11913,
+      "averageLength": 3,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:25:01.323Z"
+  },
+  {
+    "userId": "553622838565797898",
+    "username": "nks_nithin",
+    "interests": [
+      "hip-hop",
+      "music",
+      "rap",
+      "gaming",
+      "valorant",
+      "evasion techniques",
+      "competitive strategy",
+      "gaming strategies",
+      "competitive play",
+      "league of legends"
+    ],
+    "expertise": [
+      [
+        "music",
+        0.7
+      ],
+      [
+        "hip-hop",
+        0.8
+      ],
+      [
+        "valorant",
+        0.9
+      ],
+      [
+        "chat slang",
+        0.7
+      ],
+      [
+        "gaming",
+        0.9
+      ],
+      [
+        "competitive strategy",
+        0.8
+      ],
+      [
+        "competitive play",
+        0.8
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        13
+      ],
+      "preferredChannels": [
+        "723890554471186482"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-23T10:40:22.882Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 3553,
+      "averageLength": 18.333333333333332,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:56.891Z"
+  },
+  {
+    "userId": "226627191188750336",
+    "username": "silencenoise",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        19
+      ],
+      "preferredChannels": [
+        "721031437964279889"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-25T16:39:33.110Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 2717,
+      "averageLength": 12.923076923076923,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:28.937Z"
+  },
+  {
+    "userId": "269789257864839169",
+    "username": "teodortiradjiqta",
+    "interests": [
+      "bot development",
+      "Discord API",
+      "command handling",
+      "Discord Commands",
+      "Chatbot Development",
+      "Bot Management",
+      "Discord",
+      "Commands",
+      "Tech",
+      "Discord Setup",
+      "Discord bot commands",
+      "Automation",
+      "Discord bots",
+      "Command execution"
+    ],
+    "expertise": [
+      [
+        "bot development",
+        0.8
+      ],
+      [
+        "Discord API",
+        0.9
+      ],
+      [
+        "Discord Commands",
+        0.9
+      ],
+      [
+        "Programming",
+        0.9
+      ],
+      [
+        "Bot Management",
+        0.9
+      ],
+      [
+        "Discord bot commands",
+        0.8
+      ],
+      [
+        "Bot development",
+        0.9
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        13
+      ],
+      "preferredChannels": [
+        "721105919177523293"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-06-23T10:57:41.815Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 627,
+      "averageLength": 6,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:24:45.999Z"
+  },
+  {
+    "userId": "180043808161923073",
+    "username": "campeira",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        23
+      ],
+      "preferredChannels": [
+        "727203155464683571"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2020-07-09T20:48:24.758Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 209,
+      "averageLength": 50,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:25:06.867Z"
+  },
+  {
+    "userId": "670395046943653906",
+    "username": "mummy7017",
+    "interests": [
+      "gaming",
+      "war strategies",
+      "community"
+    ],
+    "expertise": [
+      [
+        "gaming",
+        0.8
+      ],
+      [
+        "game mechanics",
+        0.7
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        13,
+        10,
+        14,
+        20,
+        19,
+        9,
+        18,
+        12,
+        1,
+        16,
+        15,
+        11,
+        22
+      ],
+      "preferredChannels": [
+        "1174433503077732374"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2023-12-27T10:01:06.188Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 7280,
+      "averageLength": 22.571428571428573,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:25:28.596Z"
+  },
+  {
+    "userId": "1176792035412422782",
+    "username": "slomen88",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        11
+      ],
+      "preferredChannels": [
+        "1174433503077732374"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2023-11-22T08:18:14.787Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 2080,
+      "averageLength": 10.7,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:25:30.046Z"
+  },
+  {
+    "userId": "691038712246829106",
+    "username": "bush0882",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        21
+      ],
+      "preferredChannels": [
+        "1174433503077732374"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2023-11-19T18:02:25.851Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 416,
+      "averageLength": 0,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:25:31.497Z"
+  },
+  {
+    "userId": "1434875261748514909",
+    "username": "mini_app",
+    "interests": [],
+    "expertise": [],
+    "activityPattern": {
+      "activeHours": [
+        17,
+        16,
+        15
+      ],
+      "preferredChannels": [
+        "1434824118556950572"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2025-11-03T14:59:12.166Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 3300,
+      "averageLength": 4.28,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:26:58.030Z"
+  },
+  {
+    "userId": "1282805346016034879",
+    "username": "deephellxd",
+    "interests": [
+      "Discord",
+      "servers",
+      "community",
+      "Discord Server Management",
+      "Community Promotion",
+      "tech",
+      "gaming",
+      "creative",
+      "Discord Servers",
+      "Community Groups",
+      "online communities"
+    ],
+    "expertise": [
+      [
+        "Discord",
+        0.7
+      ],
+      [
+        "Community Management",
+        0.9
+      ],
+      [
+        "Discord Server Management",
+        0.8
+      ],
+      [
+        "javascript",
+        0.8
+      ],
+      [
+        "python",
+        0.9
+      ],
+      [
+        "Community Building",
+        0.9
+      ],
+      [
+        "skill1",
+        0.5
+      ],
+      [
+        "skill2",
+        0.5
+      ]
+    ],
+    "activityPattern": {
+      "activeHours": [
+        16
+      ],
+      "preferredChannels": [
+        "1435981068581867674"
+      ],
+      "messageFrequency": 0,
+      "lastSeen": "2025-11-06T13:32:27.610Z"
+    },
+    "relationships": {
+      "frequentContacts": [],
+      "mentionCount": []
+    },
+    "personalityTraits": [],
+    "messageStats": {
+      "totalMessages": 746,
+      "averageLength": 35,
+      "codeSnippets": 0,
+      "helpfulnessScore": 0
+    },
+    "lastAnalyzed": "2025-11-11T07:27:27.532Z"
+  }
+]

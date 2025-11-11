@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npm install:*)",
+      "Bash(npx typescript@latest tsc:*)",
+      "Bash(npx hardhat:*)",
+      "Bash(node:*)",
+      "Bash(find:*)",
+      "Bash(timeout 5 tail:*)",
+      "Bash(taskkill:*)",
+      "Bash(findstr:*)",
+      "Bash(nul)",
+      "Bash(timeout 60 node:*)",
+      "Bash(timeout 30 node:*)",
+      "Bash(test:*)",
+      "Bash(timeout 15 node:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

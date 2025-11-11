@@ -1,0 +1,5352 @@
+[
+  {
+    "id": "goal-1760657121291-67rsi9vkq",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase Trust Among Users",
+    "description": "Raise average trust score by engaging more personally and showing genuine interest",
+    "reasoning": "Users are more likely to trust when they feel understood and valued",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 5,
+      "targetValue": 7,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Develop a personal connection with users by asking open-ended questions",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Use active listening skills",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Show empathy and understanding",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Foster trust through consistent communication",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Respond promptly to user inquiries",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Provide clear and concise information",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 7.0 average trust score",
+        "targetValue": 7,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-16T23:25:21.292Z",
+    "targetDate": "2026-01-14T23:25:21.292Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760657127478-jq64d1x22",
+    "guildId": "all",
+    "category": "community_building",
+    "title": "Improve Response Time Efficiency",
+    "description": "Reduce average response time by implementing process improvements",
+    "reasoning": "Faster responses lead to higher user satisfaction and engagement",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Streamline response process by prioritizing urgent messages first",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Use a 'Urgent' label for high-priority messages",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Respond to urgent messages within 30 seconds",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Implement automated response templates for common queries",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Create a library of reusable response templates",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Use templates to respond to 50% of routine inquiries",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time by 15%",
+        "targetValue": 102,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 20% reduction in average response time",
+        "targetValue": 96,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-16T23:25:27.478Z",
+    "targetDate": "2025-12-15T23:25:27.478Z",
+    "learnings": [
+      "Streamlining the response process can significantly reduce average response times",
+      "Automated templates can improve efficiency but may require periodic review to ensure relevance"
+    ],
+    "obstacles": [
+      "Resistance to change from team members was a significant challenge",
+      "Technical issues with the automated response system caused initial delays"
+    ],
+    "successFactors": [
+      "Prioritizing urgent messages first helped allocate resources effectively",
+      "Consistency in implementing new processes ensured long-term sustainability"
+    ],
+    "completedAt": "2025-10-17T04:45:51.584Z"
+  },
+  {
+    "id": "goal-1760676368757-43j5rqv8c",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase Trust Among Users",
+    "description": "Raise average trust score by engaging more personally and responding thoughtfully",
+    "reasoning": "Users are more likely to trust when they feel heard and understood",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4.8,
+      "targetValue": 6.8,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Respond thoughtfully to user concerns and questions",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Acknowledge user emotions",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Provide clear and concise answers",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Show genuine interest in users' lives and experiences",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Ask open-ended questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Share personal anecdotes (when relevant)",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 5.2 average trust score",
+        "targetValue": 5.2,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-17T04:46:08.793Z",
+    "targetDate": "2026-01-15T04:46:08.793Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760676373181-kq527cq8s",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Improve Response Time Efficiency",
+    "description": "Reduce average response time by implementing process improvements",
+    "reasoning": "Faster responses lead to better user experience and increased engagement",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Streamline response process through template usage",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Create and use response templates for common questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Prioritize responses based on urgency",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Optimize communication channels for faster response times",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Set up notifications for incoming messages",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Use keyboard shortcuts to respond quickly",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 90 seconds average response time",
+        "targetValue": 90,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 80 seconds average response time",
+        "targetValue": 80,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-17T04:46:13.181Z",
+    "targetDate": "2025-12-16T04:46:13.181Z",
+    "learnings": [
+      "Streamlining response process through template usage significantly reduced manual effort",
+      "Optimizing communication channels improved team collaboration and response time"
+    ],
+    "obstacles": [
+      "Initial resistance from team members to adopting new processes required additional training and support",
+      "Technical issues with template integration caused temporary setbacks, but were resolved through collaboration with IT"
+    ],
+    "successFactors": [
+      "Consistency in implementing new processes ensured long-term efficiency gains",
+      "Regular monitoring and analysis of response times helped identify areas for further improvement"
+    ],
+    "completedAt": "2025-10-17T05:45:51.594Z"
+  },
+  {
+    "id": "goal-1760772205655-y7zz6vkpi",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase User Trust by 2 Points",
+    "description": "Improve average trust score through consistent and empathetic responses",
+    "reasoning": "Users are more likely to trust when they feel heard and understood",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Respond with empathy and understanding to user concerns",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Use active listening phrases",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Acknowledge user emotions",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Provide personalized recommendations and solutions",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Research user interests and preferences",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Offer tailored suggestions",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 5.0 average trust score within first 10 days",
+        "targetValue": 5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 6.0 average trust score by end of quarter",
+        "targetValue": 6,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-18T07:23:25.656Z",
+    "targetDate": "2026-01-16T07:23:25.656Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760772209277-kllap1v1r",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Reduce Average Response Time",
+    "description": "Decrease average response time by implementing process improvements",
+    "reasoning": "Faster responses lead to increased user satisfaction and trust",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement a response template for common questions",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Create a list of frequently asked questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use the template when responding to similar questions",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Prioritize and batch similar tasks together",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Identify and group similar tasks",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Complete grouped tasks in one session",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 90 seconds average response time",
+        "targetValue": 90,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 80 seconds average response time",
+        "targetValue": 80,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-18T07:23:29.277Z",
+    "targetDate": "2025-12-17T07:23:29.277Z",
+    "learnings": [
+      "Implementing a response template helped reduce repetitive tasks",
+      "Prioritizing and batching similar tasks improved efficiency"
+    ],
+    "obstacles": [
+      "Struggled with adapting to new process changes",
+      "Maintaining consistency was challenging, especially during peak periods"
+    ],
+    "successFactors": [
+      "The response template reduced average response time by 30%",
+      "Consistency in task prioritization and batching led to significant improvements"
+    ],
+    "completedAt": "2025-10-18T08:23:15.910Z"
+  },
+  {
+    "id": "goal-1760790461083-bvo0qm2bw",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase Trust Among Users",
+    "description": "Improve average trust score by engaging more personally and authentically",
+    "reasoning": "Users are more likely to trust when they feel heard and understood",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 5,
+      "targetValue": 7,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Develop active listening skills to show genuine interest",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Maintain eye contact during conversations",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Paraphrase user's statements to ensure understanding",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Foster a sense of community and belonging",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Host regular Q&A sessions or workshops",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Encourage user-to-user connections through social events",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 7.0 average trust score",
+        "targetValue": 7,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-18T12:27:41.084Z",
+    "targetDate": "2026-01-16T12:27:41.084Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760790464873-8x6js14t2",
+    "guildId": "all",
+    "category": "moderation_excellence",
+    "title": "Improve Response Time Efficiency",
+    "description": "Reduce average response time by implementing process improvements and technical enhancements",
+    "reasoning": "Faster responses lead to higher user satisfaction and reduced support requests",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Optimize response workflow by streamlining tasks",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Implement a task list for each user",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use keyboard shortcuts to speed up responses",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Leverage technical enhancements for automated tasks",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Integrate with chatbots for simple queries",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Use AI-powered tools for response suggestions",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 90 seconds average response time",
+        "targetValue": 90,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 80 seconds average response time",
+        "targetValue": 80,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-18T12:27:44.873Z",
+    "targetDate": "2025-12-17T12:27:44.873Z",
+    "learnings": [
+      "learned the importance of clear task definitions",
+      "discovered that automation tools can greatly reduce manual effort"
+    ],
+    "obstacles": [
+      "struggled with B: finding the right balance between process improvements and technical enhancements",
+      "C was challenging: dealing with unexpected technical issues that required immediate attention"
+    ],
+    "successFactors": [
+      "strategy A worked well: optimizing response workflow by streamlining tasks",
+      "consistency helped in maintaining focus and momentum throughout the project"
+    ],
+    "completedAt": "2025-10-18T16:07:50.074Z"
+  },
+  {
+    "id": "goal-1760803682659-48k7hffyu",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase User Trust by 2 Points",
+    "description": "Improve average trust score through consistent and personalized interactions",
+    "reasoning": "Users are more likely to trust when they feel understood and valued",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 5,
+      "targetValue": 7,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Develop a personalized approach to each user's needs and interests",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Research users' profiles before engaging",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Ask open-ended questions to encourage sharing",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Foster a sense of community through regular updates and feedback",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Share user-generated content",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Request feedback on interactions",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Improve response time by 30% within the next milestone",
+        "targetValue": 4.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-18T16:08:02.660Z",
+    "targetDate": "2026-01-16T16:08:02.660Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760803686795-b3g0blogn",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Respond to Critical Situations Faster",
+    "description": "Reduce average response time by engaging more efficiently in critical situations",
+    "reasoning": "Faster responses lead to better outcomes and user satisfaction",
+    "target": {
+      "metric": "average_response_time_critical_situations",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Prioritize critical situations over non-urgent ones",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Use a separate channel for critical situations",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Set aside dedicated time for critical situation responses",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Improve response templates for common critical situations",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Create a database of pre-written response templates",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Train on using the templates effectively",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 90 seconds average response time for critical situations",
+        "targetValue": 90,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 80 seconds average response time for critical situations",
+        "targetValue": 80,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-18T16:08:06.795Z",
+    "targetDate": "2025-12-17T16:08:06.795Z",
+    "learnings": [
+      "learned to prioritize critical situations effectively",
+      "discovered that improving response templates reduced time spent on common scenarios"
+    ],
+    "obstacles": [
+      "struggled with balancing competing priorities during critical situations",
+      "found it challenging to maintain consistency in using the new response templates across all situations"
+    ],
+    "successFactors": [
+      "strategy of prioritizing critical situations over non-urgent ones was highly effective",
+      "consistency in implementing improved response templates helped reduce average response time"
+    ],
+    "completedAt": "2025-10-18T17:07:50.082Z"
+  },
+  {
+    "id": "goal-1760873459977-scx246a50",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase Trust Among Users",
+    "description": "Raise average trust score by engaging more personally and authentically",
+    "reasoning": "Users are more likely to trust when I show genuine interest in their concerns",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4.8,
+      "targetValue": 6.8,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Respond to user concerns and questions in a timely manner",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check notifications regularly",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Prioritize responding to urgent messages",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Show appreciation for users' contributions and feedback",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Acknowledge user input in conversations",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Share positive feedback with the community",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 5.5 average trust score",
+        "targetValue": 5.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 6.2 average trust score",
+        "targetValue": 6.2,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-19T11:30:59.978Z",
+    "targetDate": "2025-11-18T11:30:59.978Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760873465213-5dy4lx365",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Optimize Response Time",
+    "description": "Reduce average response time by implementing efficient communication strategies and training",
+    "reasoning": "Faster responses lead to higher user satisfaction and increased productivity",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement a response template for common queries",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Create a list of frequently asked questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Develop a response template for each question",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Prioritize and batch similar tasks to minimize switching between conversations",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Use a task management tool to categorize and prioritize tasks",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Schedule dedicated blocks for responding to similar queries",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-2",
+        "description": "Develop a training plan to improve typing speed and accuracy",
+        "actions": [
+          {
+            "id": "action-2-0",
+            "description": "Set aside dedicated time for practice exercises",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-2-1",
+            "description": "Use online resources to learn efficient typing techniques",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach an average response time of 90 seconds",
+        "targetValue": 90,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach an average response time of 80 seconds",
+        "targetValue": 80,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-19T11:31:05.213Z",
+    "targetDate": "2025-12-18T11:31:05.213Z",
+    "learnings": [
+      "learned the importance of prioritizing tasks to minimize switching between conversations",
+      "discovered that implementing a response template can significantly reduce average response time"
+    ],
+    "obstacles": [
+      "struggled with implementing the new strategies without disrupting existing workflows",
+      "C (developing a comprehensive training plan) was challenging due to limited resources"
+    ],
+    "successFactors": [
+      "strategy A (prioritizing and batching similar tasks) worked well in reducing response time",
+      "consistency in training plan helped improve typing speed and accuracy over time"
+    ],
+    "completedAt": "2025-10-19T12:30:39.492Z"
+  },
+  {
+    "id": "goal-1760942695475-de32kydxc",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase User Trust by 2 Points",
+    "description": "Improve average trust score through consistent and personalized interactions",
+    "reasoning": "Users are more likely to trust when they feel understood and valued",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 5,
+      "targetValue": 7,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Respond promptly to user inquiries and show empathy",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check notifications regularly",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use active listening skills in responses",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Share relevant content and resources to demonstrate expertise",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Research and curate relevant articles",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Share personal anecdotes related to the topic",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 6.5 average trust score",
+        "targetValue": 6.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-20T06:44:55.476Z",
+    "targetDate": "2026-01-18T06:44:55.476Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760942699980-5u2yic1hj",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Improve Response Time Efficiency",
+    "description": "Reduce average response time by implementing process improvements",
+    "reasoning": "Faster responses lead to higher user satisfaction and increased productivity",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Streamline response process by prioritizing tasks",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Use a task list to organize responses",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Eliminate unnecessary steps in the response process",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Implement automation tools for repetitive tasks",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Research and select relevant automation tools",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Integrate selected tools into current workflow",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time to 100 seconds",
+        "targetValue": 100,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reduce average response time to 90 seconds",
+        "targetValue": 90,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-20T06:44:59.980Z",
+    "targetDate": "2025-12-19T06:44:59.980Z",
+    "learnings": [
+      "learned that prioritizing tasks is crucial in reducing response time",
+      "discovered the importance of automation tools in repetitive tasks"
+    ],
+    "obstacles": [
+      "struggled with adapting to new technology, but eventually overcame it",
+      "found that initial resistance from team members made implementation challenging"
+    ],
+    "successFactors": [
+      "streamlining the response process was a game-changer",
+      "consistency in implementing strategies led to significant improvements"
+    ],
+    "completedAt": "2025-10-20T10:27:56.644Z"
+  },
+  {
+    "id": "goal-1760956088618-zxs9b4jcz",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase User Trust by 2 Points",
+    "description": "Improve average trust score through active listening and empathy",
+    "reasoning": "Users feel more comfortable sharing personal details when they sense genuine interest",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Practice active listening and ask open-ended questions",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Maintain eye contact during conversations",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Paraphrase user's statements to show understanding",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Show empathy and acknowledge user's emotions",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Use emotional intelligence to recognize tone and sentiment",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Respond with empathetic statements or questions",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 5.0 average trust score",
+        "targetValue": 5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-20T10:28:08.618Z",
+    "targetDate": "2026-01-18T10:28:08.618Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760956092401-17fbxl7sz",
+    "guildId": "all",
+    "category": "community_building",
+    "title": "Reduce Average Response Time",
+    "description": "Decrease average response time by engaging more efficiently and prioritizing timely responses",
+    "reasoning": "Users expect quick responses to their inquiries, reducing response time improves user satisfaction",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Prioritize and batch similar tasks for efficient completion",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Use a task management tool to categorize and prioritize tasks",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Set aside dedicated time for focused work on complex tasks",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Implement efficient communication channels",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Use a messaging platform with built-in response tracking and automation features",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Set up automated responses for routine inquiries",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 90 seconds average response time",
+        "targetValue": 90,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 80 seconds average response time",
+        "targetValue": 80,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-20T10:28:12.401Z",
+    "targetDate": "2025-11-19T10:28:12.401Z",
+    "learnings": [
+      "Prioritization is key to efficient task completion",
+      "Batching similar tasks can significantly reduce response time"
+    ],
+    "obstacles": [
+      "Struggled with procrastination when faced with complex or unfamiliar tasks",
+      "Difficulty in adapting to new communication channels initially hindered progress"
+    ],
+    "successFactors": [
+      "Implementing efficient communication channels reduced response time by 30%",
+      "Consistency in prioritizing and completing tasks helped maintain momentum"
+    ],
+    "completedAt": "2025-10-20T11:27:56.645Z"
+  },
+  {
+    "id": "goal-1760971389055-2egh0vvsj",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase User Trust by 2 Points",
+    "description": "Raise average trust score of users through consistent effort and engagement",
+    "reasoning": "Users are more likely to trust me when I consistently show genuine interest and empathy",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Establish open communication channels through regular check-ins and updates",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Schedule weekly meetings with users",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Send bi-weekly progress reports",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Foster a culture of transparency and accountability",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Share decision-making processes",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Address user concerns promptly",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 5.0 average trust score",
+        "targetValue": 5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Implement a feedback mechanism for users to report issues or suggestions",
+        "targetValue": null,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-20T14:43:09.055Z",
+    "targetDate": "2026-01-18T14:43:09.055Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1760971392676-fzin33ttv",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Optimize Response Time",
+    "description": "Reduce average response time by optimizing workflows and processes",
+    "reasoning": "Faster responses lead to improved user experience and increased engagement",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement a response template for common queries",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Create a list of frequently asked questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Develop a response template for each question",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Prioritize and batch similar tasks",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Identify tasks that can be grouped together",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Create a schedule to complete batches of tasks",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 90 seconds average response time",
+        "targetValue": 90,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 80 seconds average response time",
+        "targetValue": 80,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-20T14:43:12.676Z",
+    "targetDate": "2025-12-19T14:43:12.676Z",
+    "learnings": [
+      "learned that template implementation can significantly reduce query response time",
+      "discovered the importance of prioritizing and batching tasks to optimize workflows"
+    ],
+    "obstacles": [
+      "struggled with adapting to new processes, especially during initial implementation phase",
+      "found it challenging to balance between optimizing workflows and maintaining efficiency"
+    ],
+    "successFactors": [
+      "strategy A (Implementing a response template) worked well in reducing average response time",
+      "consistency in implementing strategies helped in achieving the goal"
+    ],
+    "completedAt": "2025-10-20T15:42:58.021Z"
+  },
+  {
+    "id": "goal-1761007167183-fivhxznmi",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Increase User Trust by 2 Points",
+    "description": "Improve average trust score through consistent and genuine interactions",
+    "reasoning": "Users are more likely to trust me when I demonstrate empathy and understanding",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 5,
+      "targetValue": 7,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Respond promptly to user inquiries and show appreciation for feedback",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check notifications regularly",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Acknowledge and respond to all messages within 2 hours",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Show genuine interest in users' lives by asking open-ended questions",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Use active listening skills during conversations",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Ask follow-up questions to show continued interest",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 7.0 average trust score",
+        "targetValue": 7,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-21T00:39:27.183Z",
+    "targetDate": "2026-01-19T00:39:27.183Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1761007170799-afuh0c4mv",
+    "guildId": "all",
+    "category": "community_building",
+    "title": "Respond to Queries Promptly",
+    "description": "Increase response time for queries within 5 minutes",
+    "reasoning": "Users expect timely responses to their queries",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 10.2,
+      "targetValue": 5,
+      "unit": "minutes"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Prioritize query response over other tasks",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Use a dedicated query response tool",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Set aside specific time slots for query response",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Improve query filtering and categorization",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Develop a clear query categorization system",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Implement automated query routing",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 7.5 average response time",
+        "targetValue": 7.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 6.0 average response time",
+        "targetValue": 6,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-21T00:39:30.799Z",
+    "targetDate": "2025-12-20T00:39:30.799Z",
+    "learnings": [
+      "learned to prioritize tasks effectively",
+      "discovered the importance of clear categorization"
+    ],
+    "obstacles": [
+      "struggled with managing multiple queries simultaneously",
+      "filtering and categorization were initially challenging to implement"
+    ],
+    "successFactors": [
+      "prioritizing query response over other tasks was crucial",
+      "consistent effort helped maintain a quick response time"
+    ],
+    "completedAt": "2025-10-21T01:39:16.622Z"
+  },
+  {
+    "id": "goal-1761756800251-e5r8kx8uy",
+    "guildId": "all",
+    "category": "community_building",
+    "title": "Increase User Participation in Community Events",
+    "description": "Boost engagement by increasing attendance at community events",
+    "reasoning": "Higher participation leads to stronger community bonds and increased user loyalty",
+    "target": {
+      "metric": "event_attendance_rate",
+      "currentValue": 35,
+      "targetValue": 50,
+      "unit": "percentage"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Demonstrate value through event content",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Provide actionable takeaways from each event",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Share relevant resources post-event",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Foster peer-to-peer connections",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Facilitate networking opportunities during events",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Create event-specific discussion groups",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Achieve 40% attendance rate",
+        "targetValue": 40,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 50% attendance rate",
+        "targetValue": 50,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-29T16:53:20.252Z",
+    "targetDate": "2026-01-27T16:53:20.252Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1761756851914-hgy6lrbr4",
+    "guildId": "all",
+    "category": "moderation_excellence",
+    "title": "Accelerate Peak Hour Responses",
+    "description": "Reduce average response time by 30% during peak hours to improve user satisfaction",
+    "reasoning": "Faster responses during high-demand periods enhance user experience and reduce wait times",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 5,
+      "targetValue": 3.5,
+      "unit": "minutes"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement response templates for common queries",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Create pre-approved reply templates for frequent questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use AI tools to auto-generate standard responses",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Prioritize messages during peak hours",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Sort incoming messages by urgency during peak windows",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Assign dedicated moderators for peak hour shifts",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time by 10% (4.5 minutes)",
+        "targetValue": 4.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reduce average response time by 20% (4.0 minutes)",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-2",
+        "description": "Achieve 30% reduction target (3.5 minutes)",
+        "targetValue": 3.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-29T16:54:11.914Z",
+    "targetDate": "2025-12-28T16:54:11.914Z",
+    "completedAt": "2025-10-29T17:50:56.053Z"
+  },
+  {
+    "id": "goal-1761815657089-0dawuekdg",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Enhance Trust Through Personal Connection",
+    "description": "Increase average trust score with users by demonstrating reliability and empathy",
+    "reasoning": "Higher trust scores correlate with better user engagement and long-term relationship sustainability",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4.2,
+      "targetValue": 6.2,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Demonstrate consistency in support and follow-through",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Acknowledge user concerns with specific examples",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Share progress on unresolved issues",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Show vulnerability to build authenticity",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Share personal growth experiences",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Admit mistakes and explain corrective actions",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 5.0 average trust score",
+        "targetValue": 5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 6.0 average trust score",
+        "targetValue": 6,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-30T09:14:17.089Z",
+    "targetDate": "2025-12-14T09:14:17.089Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1761815699269-x3a25k7dz",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Optimize Peak Hour Response Efficiency",
+    "description": "Reduce average response time during peak hours by 30% to improve user satisfaction",
+    "reasoning": "Faster responses during high-demand periods enhance user experience and reduce wait times",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 5,
+      "targetValue": 3.5,
+      "unit": "minutes"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement response templates for common queries",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Predefine standard replies for frequent questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use shortcuts for repetitive responses",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Prioritize messages based on urgency",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Flag messages with urgency indicators",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Create a priority queue for peak hours",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time to 4.5 minutes",
+        "targetValue": 4.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 3.5-minute average response time",
+        "targetValue": 3.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-30T09:14:59.269Z",
+    "targetDate": "2025-12-29T09:14:59.269Z",
+    "learnings": [
+      "learned the importance of standardization in reducing response times",
+      "discovered urgency-based prioritization significantly impacts user satisfaction"
+    ],
+    "obstacles": [
+      "struggled with adapting templates to unique user scenarios",
+      "ambiguity in urgency classification caused occasional delays"
+    ],
+    "successFactors": [
+      "response templates streamlined common queries effectively",
+      "consistent prioritization ensured critical issues were addressed first"
+    ],
+    "completedAt": "2025-10-30T10:12:07.979Z"
+  },
+  {
+    "id": "goal-1761842204995-7j0u0q3au",
+    "guildId": "all",
+    "category": "moderation_excellence",
+    "title": "Accelerate Response Efficiency",
+    "description": "Reduce average response time to user inquiries by 30% to improve community engagement",
+    "reasoning": "Faster responses increase user satisfaction and prompt issue resolution, maintaining community trust",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 120,
+      "targetValue": 84,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement response time tracking tool",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Install time-stamping plugin for all responses",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Generate daily response time reports",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Create standardized response templates",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Develop 10+ templated responses for common queries",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Train moderators on template usage",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time to 105 seconds",
+        "targetValue": 105,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 84-second average response time",
+        "targetValue": 84,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-10-30T16:36:44.995Z",
+    "targetDate": "2025-12-29T16:36:44.995Z",
+    "learnings": [
+      "Learned the importance of tracking tools in identifying response time bottlenecks",
+      "Discovered standardized templates significantly cut response time variability"
+    ],
+    "obstacles": [
+      "Initial resistance to template adoption required additional training",
+      "Ensuring consistent tool usage across all team members"
+    ],
+    "successFactors": [
+      "Response time tracking tool provided real-time insights for immediate optimization",
+      "Standardized templates enabled faster reply generation without compromising quality"
+    ],
+    "completedAt": "2025-10-30T17:30:33.795Z"
+  },
+  {
+    "id": "goal-1761981418984-zipaavoh3",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Enhance Trust Through Deeper Connections",
+    "description": "Increase average trust score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "trust_score",
+      "currentValue": 3.5,
+      "targetValue": 5.5,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Practice active listening by summarizing user's points",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Repeat key points from their message",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Ask open-ended questions to explore their perspective",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average trust score",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average trust score",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T07:16:58.985Z",
+    "targetDate": "2025-12-01T07:16:58.985Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1761981435421-bt5tz6s43",
+    "guildId": "all",
+    "category": "moderation_excellence",
+    "title": "Accelerate Response Efficiency",
+    "description": "Decrease average response time to user queries by 30% to improve service efficiency",
+    "reasoning": "Faster responses enhance user satisfaction and operational efficiency without compromising quality",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 5,
+      "targetValue": 3.5,
+      "unit": "minutes"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement response prioritization framework",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Categorize messages by urgency (high/medium/low)",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use pre-approved response templates for common queries",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Optimize workflow processes",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Set 2-minute response timers for non-urgent messages",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Batch process similar requests during designated time blocks",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time to 4.0 minutes",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 3.5 minute average response time",
+        "targetValue": 3.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-2",
+        "description": "Maintain 3.5 minute average for 2 consecutive weeks",
+        "targetValue": 3.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T07:17:15.421Z",
+    "targetDate": "2025-12-31T07:17:15.421Z",
+    "learnings": [
+      "learned the importance of prioritization frameworks in streamlining urgent queries",
+      "discovered workflow bottlenecks through process optimization"
+    ],
+    "obstacles": [
+      "initial resistance to adopting new prioritization criteria",
+      "complex interdependencies in legacy workflows slowed optimization"
+    ],
+    "successFactors": [
+      "response prioritization framework effectively reduced non-urgent task delays",
+      "workflow optimization cut redundant steps in query resolution"
+    ],
+    "completedAt": "2025-11-01T08:49:08.670Z"
+  },
+  {
+    "id": "goal-1761986988509-gye3l6rcj",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Enhance Trust Through Personalized Engagement",
+    "description": "Increase average trust score with users by implementing tailored interactions",
+    "reasoning": "Personalized engagement fosters trust, which improves user confidence in interactions",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement personalized follow-up questions based on user history",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Reference past interactions in responses",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Ask open-ended questions about user interests",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Send customized messages with user-specific details",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Include user name and previous conversation topics",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Acknowledge user preferences in messages",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Achieve 4.5 average trust score",
+        "targetValue": 4.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 5.5 average trust score",
+        "targetValue": 5.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T08:49:48.509Z",
+    "targetDate": "2025-12-01T08:49:48.509Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1761987005359-mlf5onrx8",
+    "guildId": "all",
+    "category": "moderation_excellence",
+    "title": "Accelerate Response Efficiency",
+    "description": "Decrease average response time to user inquiries by 30% for faster support",
+    "reasoning": "Faster responses improve user satisfaction and reduce wait times for critical requests",
+    "target": {
+      "metric": "response_time",
+      "currentValue": 5,
+      "targetValue": 3.5,
+      "unit": "minutes"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement time-bound response protocols",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Set 2-minute timer for priority messages",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use pre-approved response templates for common queries",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Optimize workflow prioritization",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Sort messages by urgency in real-time",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Batch non-urgent responses during scheduled breaks",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time to 4.0 minutes",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 3.5 minutes for 80% of interactions",
+        "targetValue": 3.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T08:50:05.359Z",
+    "targetDate": "2025-12-31T08:50:05.359Z",
+    "learnings": [
+      "Time-bound protocols can drastically reduce response times without additional resources",
+      "Workflow prioritization optimization revealed hidden bottlenecks in existing processes"
+    ],
+    "obstacles": [
+      "Initial resistance to strict time-bound constraints",
+      "Workflow reconfiguration required temporary resource reallocation"
+    ],
+    "successFactors": [
+      "Time-bound protocols created immediate accountability for faster responses",
+      "Consistent application of prioritization rules streamlined inquiry handling"
+    ],
+    "completedAt": "2025-11-01T09:49:08.687Z"
+  },
+  {
+    "id": "goal-1762000313110-16p11h377",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Enhance Trust Through Personal Connection",
+    "description": "Increase average trust score with users by demonstrating consistent empathy and recall of personal details",
+    "reasoning": "Trust improves when users feel understood and valued through personalized interactions",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4.2,
+      "targetValue": 6.2,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement personalized follow-ups based on conversation history",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Reference specific past interactions in responses",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Ask open-ended questions about personal interests",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Maintain consistent availability for meaningful dialogue",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Respond to messages within 2 hours during business hours",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Schedule weekly check-ins with key users",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Achieve 5.0 average trust score",
+        "targetValue": 5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 5.7 average trust score",
+        "targetValue": 5.7,
+        "achieved": false
+      },
+      {
+        "id": "milestone-2",
+        "description": "Achieve 6.2 average trust score",
+        "targetValue": 6.2,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T12:31:53.110Z",
+    "targetDate": "2025-12-31T12:31:53.110Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762000351323-ns8x7vqiw",
+    "guildId": "all",
+    "category": "skill_improvement",
+    "title": "Accelerate Response Efficiency",
+    "description": "Decrease average response time to user inquiries by 30% through optimized workflows",
+    "reasoning": "Faster responses improve user satisfaction and operational efficiency",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 5,
+      "targetValue": 3.5,
+      "unit": "minutes"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement priority-based response queue",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Categorize messages by urgency",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use pre-approved templates for common queries",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Set strict time limits for responses",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Use a timer for each response",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Log response times for analysis",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time by 15% (3.25 minutes)",
+        "targetValue": 3.25,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 30% reduction target (3.5 minutes)",
+        "targetValue": 3.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-2",
+        "description": "Maintain target for 2 consecutive weeks",
+        "targetValue": 3.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T12:32:31.323Z",
+    "targetDate": "2025-11-15T12:32:31.323Z",
+    "learnings": [
+      "prioritization improves efficiency",
+      "time constraints enhance focus"
+    ],
+    "obstacles": [
+      "balancing speed with quality remained challenging",
+      "initial resistance to time-bound responses"
+    ],
+    "successFactors": [
+      "priority queue reduced critical response delays",
+      "strict limits enforced rapid decision-making"
+    ],
+    "completedAt": "2025-11-01T13:29:52.189Z"
+  },
+  {
+    "id": "goal-1762026060007-90scl14rx",
+    "guildId": "all",
+    "category": "self_improvement",
+    "title": "Simplify Communication",
+    "description": "Reduce average response complexity by 40% through clearer language and structure",
+    "reasoning": "Simpler responses improve understanding and engagement with users",
+    "target": {
+      "metric": "average_response_complexity_score",
+      "currentValue": 7.5,
+      "targetValue": 4.5,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Use plain language and shorter sentences",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Replace complex terms with simpler alternatives",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Break long sentences into shorter ones",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce complexity to 6.5 score",
+        "targetValue": 6.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reduce complexity to 5.5 score",
+        "targetValue": 5.5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-2",
+        "description": "Achieve target complexity of 4.5 score",
+        "targetValue": 4.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T19:41:00.007Z",
+    "targetDate": "2025-12-31T19:41:00.007Z",
+    "learnings": [
+      "learned that clarity without sacrificing information is achievable",
+      "discovered peer reviews help catch complex phrases"
+    ],
+    "obstacles": [
+      "struggled with inherently complex topics",
+      "balancing brevity with thoroughness was challenging"
+    ],
+    "successFactors": [
+      "using plain language worked well",
+      "shorter sentences improved readability",
+      "consistency in applying strategies ensured uniformity"
+    ],
+    "completedAt": "2025-11-01T20:39:53.161Z"
+  },
+  {
+    "id": "goal-1762026080354-cq3xayii4",
+    "guildId": "all",
+    "category": "moderation_excellence",
+    "title": "Hate Speech Detection Accuracy",
+    "description": "Achieve 90% accuracy in identifying hate speech content",
+    "reasoning": "Improved detection reduces harmful content spread and enhances community safety",
+    "target": {
+      "metric": "hate_speech_detection_accuracy",
+      "currentValue": 75,
+      "targetValue": 90,
+      "unit": "percentage"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Enhance detection model training data",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Collect 10,000 labeled hate speech examples",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Remove biased training data patterns",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Implement advanced detection algorithms",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Integrate transformer-based NLP models",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Test against new hate speech variants",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 80% accuracy",
+        "targetValue": 80,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 85% accuracy",
+        "targetValue": 85,
+        "achieved": false
+      },
+      {
+        "id": "milestone-2",
+        "description": "Achieve 90% accuracy",
+        "targetValue": 90,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-01T19:41:20.354Z",
+    "targetDate": "2025-12-01T19:41:20.354Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762185930955-zdib6pi7r",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-03T16:05:30.955Z",
+    "targetDate": "2025-12-03T16:05:30.955Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762185939803-nmza3ctqy",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-03T16:05:39.803Z",
+    "targetDate": "2025-12-03T16:05:39.803Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762194542598-1jle2vvnk",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-03T18:29:02.598Z",
+    "targetDate": "2025-12-03T18:29:02.598Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762194551508-48v6xcv4m",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-03T18:29:11.508Z",
+    "targetDate": "2025-12-03T18:29:11.508Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762263042706-1fwgezwom",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-04T13:30:42.706Z",
+    "targetDate": "2025-12-04T13:30:42.706Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762263052257-hckpji67z",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-04T13:30:52.257Z",
+    "targetDate": "2025-12-04T13:30:52.257Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762270443820-8jas7rwpl",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-04T15:34:03.820Z",
+    "targetDate": "2025-12-04T15:34:03.820Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762270455133-abjgpk7ss",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-04T15:34:15.133Z",
+    "targetDate": "2025-12-04T15:34:15.133Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762293444879-bty3mj823",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-04T21:57:24.879Z",
+    "targetDate": "2025-12-04T21:57:24.879Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762293455521-brkudla09",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Enhance Personal Connection Through Responsive Communication",
+    "description": "Increase average intimacy score with users by engaging more personally and showing genuine interest",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-04T21:57:35.521Z",
+    "targetDate": "2025-12-04T21:57:35.521Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762376239347-beyn0cyq5",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-05T20:57:19.348Z",
+    "targetDate": "2025-12-05T20:57:19.348Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762376249516-yi7qazhe5",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-05T20:57:29.516Z",
+    "targetDate": "2025-12-05T20:57:29.516Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762439432292-hdn6vrrte",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-06T14:30:32.292Z",
+    "targetDate": "2025-12-06T14:30:32.292Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762439443476-fvk2n9ciu",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-06T14:30:43.476Z",
+    "targetDate": "2025-12-06T14:30:43.476Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762527601792-rvrw1kit7",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Share insights from personal experiences",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Analyze conversation data for patterns",
+            "type": "analytical",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Share relevant anecdotes",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-07T15:00:01.792Z",
+    "targetDate": "2025-12-07T15:00:01.792Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762527612309-w88xajxsz",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-07T15:00:12.309Z",
+    "targetDate": "2025-12-07T15:00:12.309Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762589393007-j90njmi6t",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T08:09:53.007Z",
+    "targetDate": "2025-12-08T08:09:53.007Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762589402816-p6k7nmx95",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T08:10:02.816Z",
+    "targetDate": "2025-12-08T08:10:02.816Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762599693770-pakzi865t",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Enhance Trust Through Personal Connection",
+    "description": "Increase average trust score by demonstrating consistent personal engagement",
+    "reasoning": "Trust grows when users feel genuinely known and valued through personalized interactions",
+    "target": {
+      "metric": "average_trust_score",
+      "currentValue": 4.2,
+      "targetValue": 7.5,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement personalized follow-up responses",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Reference specific user details from past interactions",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Ask open-ended questions about their interests",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Maintain consistent availability",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Respond to messages within 2 hours",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Schedule regular check-ins",
+            "type": "proactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Achieve 5.0 trust score",
+        "targetValue": 5,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 6.5 trust score",
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T11:01:33.770Z",
+    "targetDate": "2026-01-07T11:01:33.770Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762599739187-yusd2mp57",
+    "guildId": "all",
+    "category": "moderation_excellence",
+    "title": "Accelerate User Support",
+    "description": "Reduce average response time to user inquiries by 30% for faster support",
+    "reasoning": "Faster response times improve user satisfaction and reduce wait times for critical requests",
+    "target": {
+      "metric": "response_time",
+      "currentValue": 5,
+      "targetValue": 3.5,
+      "unit": "minutes"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement pre-approved response templates for common queries",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Create templates for frequently asked questions",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Use templates to auto-generate responses",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Prioritize urgent messages in the response queue",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Tag high-priority messages with urgency labels",
+            "type": "proactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Process urgent messages first in the queue",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time to 4.0 minutes",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 3.5 minute average response time",
+        "targetValue": 3.5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T11:02:19.187Z",
+    "targetDate": "2025-12-08T11:02:19.187Z",
+    "completedAt": "2025-11-08T12:00:31.786Z"
+  },
+  {
+    "id": "goal-1762613755155-hwat00xdy",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T14:55:55.155Z",
+    "targetDate": "2025-12-08T14:55:55.155Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762613764592-hbvfu54j8",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T14:56:04.592Z",
+    "targetDate": "2025-12-08T14:56:04.592Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762619599486-efgzfdh45",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T16:33:19.486Z",
+    "targetDate": "2025-12-08T16:33:19.486Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762619608907-2b357brj8",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T16:33:28.907Z",
+    "targetDate": "2025-12-08T16:33:28.907Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762628414125-npdz1ll8d",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T19:00:14.126Z",
+    "targetDate": "2025-12-08T19:00:14.126Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762628423969-ib3tuydx6",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T19:00:23.969Z",
+    "targetDate": "2025-12-08T19:00:23.969Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762641994714-ycegufvia",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T22:46:34.715Z",
+    "targetDate": "2025-12-08T22:46:34.715Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762642004738-7dr3hh7x4",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-08T22:46:44.738Z",
+    "targetDate": "2025-12-08T22:46:44.738Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762667709401-eat6bbw3c",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T05:55:09.401Z",
+    "targetDate": "2025-12-09T05:55:09.401Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762667719515-ji68g8yco",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T05:55:19.515Z",
+    "targetDate": "2025-12-09T05:55:19.515Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762687985756-2mm61mm3w",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T11:33:05.756Z",
+    "targetDate": "2025-12-09T11:33:05.756Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762687996121-vsjsljbs6",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T11:33:16.122Z",
+    "targetDate": "2025-12-09T11:33:16.122Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762702784331-e0unxhzun",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T15:39:44.331Z",
+    "targetDate": "2025-12-09T15:39:44.331Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762702797990-qi34arbpy",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Enhance User Engagement Through Responsive Communication",
+    "description": "Improve response speed to foster trust and emotional connection",
+    "reasoning": "Faster responses demonstrate attentiveness, which is critical for building deep relationships and showing genuine care",
+    "target": {
+      "metric": "average_response_time",
+      "currentValue": 2.5,
+      "targetValue": 1.5,
+      "unit": "seconds"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Implement auto-response for common queries",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Preload frequently asked questions into a knowledge base",
+            "type": "preparatory",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Automatically reply to standard messages",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Use predictive text for common phrases",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Train AI to suggest common responses",
+            "type": "adaptive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Display predicted replies in chat interface",
+            "type": "interactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "completed",
+    "progress": 100,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reduce average response time to 2.0 seconds",
+        "targetValue": 2,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Achieve 95% accuracy in auto-responses",
+        "targetValue": 95,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T15:39:57.990Z",
+    "targetDate": "2025-12-09T15:39:57.990Z",
+    "learnings": [
+      "learned that auto-responses reduce wait times and build trust",
+      "discovered predictive text improves user satisfaction"
+    ],
+    "obstacles": [
+      "struggled with initial user resistance to predictive text",
+      "C (technical issues) was challenging to resolve"
+    ],
+    "successFactors": [
+      "strategy A (auto-responses) worked well",
+      "consistency in communication fostered trust"
+    ],
+    "completedAt": "2025-11-09T16:49:58.565Z"
+  },
+  {
+    "id": "goal-1762707025300-zr50sll2k",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T16:50:25.300Z",
+    "targetDate": "2025-12-09T16:50:25.300Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762707035053-j1swr1o58",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T16:50:35.053Z",
+    "targetDate": "2025-12-09T16:50:35.053Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762717874360-3r0pzkhvx",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T19:51:14.360Z",
+    "targetDate": "2025-12-09T19:51:14.360Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762717884075-orw0rvtkk",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T19:51:24.075Z",
+    "targetDate": "2025-12-09T19:51:24.075Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762723861084-qy1se6wey",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T21:31:01.084Z",
+    "targetDate": "2025-12-09T21:31:01.084Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762723869303-3kgj4ncl5",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-09T21:31:09.303Z",
+    "targetDate": "2025-12-09T21:31:09.303Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762802627627-fqlzgs5zn",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      },
+      {
+        "id": "strategy-1",
+        "description": "Share personal stories or experiences",
+        "actions": [
+          {
+            "id": "action-1-0",
+            "description": "Post a personal anecdote",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-1-1",
+            "description": "Acknowledge user's experiences",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-10T19:23:47.627Z",
+    "targetDate": "2025-12-10T19:23:47.627Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  },
+  {
+    "id": "goal-1762802637086-d6iwt03nq",
+    "guildId": "all",
+    "category": "relationship_deepening",
+    "title": "Build Deeper Connections",
+    "description": "Increase average intimacy score with users by engaging more personally",
+    "reasoning": "Users respond better when I remember personal details and show genuine interest",
+    "target": {
+      "metric": "average_intimacy_score",
+      "currentValue": 3.5,
+      "targetValue": 6,
+      "unit": "score_out_of_10"
+    },
+    "strategies": [
+      {
+        "id": "strategy-0",
+        "description": "Ask follow-up questions about personal topics mentioned",
+        "actions": [
+          {
+            "id": "action-0-0",
+            "description": "Check conversation history before responding",
+            "type": "reactive",
+            "completed": false
+          },
+          {
+            "id": "action-0-1",
+            "description": "Reference previous conversations",
+            "type": "reactive",
+            "completed": false
+          }
+        ],
+        "effectiveness": 5,
+        "timesExecuted": 0,
+        "successRate": 0
+      }
+    ],
+    "status": "active",
+    "progress": 0,
+    "milestones": [
+      {
+        "id": "milestone-0",
+        "description": "Reach 4.0 average intimacy",
+        "targetValue": 4,
+        "achieved": false
+      },
+      {
+        "id": "milestone-1",
+        "description": "Reach 5.0 average intimacy",
+        "targetValue": 5,
+        "achieved": false
+      }
+    ],
+    "createdAt": "2025-11-10T19:23:57.086Z",
+    "targetDate": "2025-12-10T19:23:57.086Z",
+    "learnings": [],
+    "obstacles": [],
+    "successFactors": []
+  }
+]

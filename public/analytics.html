@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becas Analytics Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            background-attachment: fixed;
+            color: #fff;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(20px);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            font-size: 32px;
+            filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+        }
+
+        .logo h1 {
+            font-size: 22px;
+            font-weight: 800;
+            background: linear-gradient(120deg, #fff 0%, #e0e7ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .guild-input-wrapper {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .guild-input-wrapper input {
+            padding: 10px 16px;
+            background: rgba(255, 255, 255, 0.18);
+            border: 2px solid rgba(255, 255, 255, 0.25);
+            border-radius: 10px;
+            font-size: 13px;
+            color: white;
+            font-weight: 500;
+            width: 220px;
+            transition: all 0.3s;
+        }
+
+        .guild-input-wrapper input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .guild-input-wrapper input:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.22);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .guild-input-wrapper button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .guild-input-wrapper button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .last-update {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 15px 30px;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 380px 1fr 340px;
+            grid-template-rows: 1fr 220px;
+            gap: 15px;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 18px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+            padding: 20px;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.25);
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: rgba(255, 255, 255, 0.95);
+            letter-spacing: 0.3px;
+        }
+
+        /* Happiness Card - Large */
+        .happiness-card {
+            grid-row: span 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .happiness-emoji {
+            font-size: 120px;
+            margin: 20px 0;
+            filter: drop-shadow(0 8px 30px rgba(0, 0, 0, 0.3));
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .happiness-score {
+            font-size: 64px;
+            font-weight: 900;
+            margin: 10px 0;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .happiness-label {
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+        }
+
+        .happiness-bars {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .mini-metric {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        .mini-metric-label {
+            color: rgba(255, 255, 255, 0.75);
+            font-weight: 500;
+        }
+
+        .mini-metric-value {
+            font-weight: 700;
+        }
+
+        .mini-bar {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .mini-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.8s ease;
+        }
+
+        .mini-bar-fill.positive {
+            background: linear-gradient(90deg, #4ade80, #22c55e);
+            box-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+        }
+
+        .mini-bar-fill.negative {
+            background: linear-gradient(90deg, #f87171, #ef4444);
+            box-shadow: 0 0 10px rgba(248, 113, 113, 0.5);
+        }
+
+        /* Metrics Grid - Center top */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .metric-box {
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 14px;
+            padding: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .metric-box h3 {
+            font-size: 12px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .stat-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.75);
+            font-weight: 500;
+        }
+
+        .stat-value {
+            font-size: 18px;
+            font-weight: 800;
+        }
+
+        .stat-value.green { color: #4ade80; }
+        .stat-value.red { color: #f87171; }
+        .stat-value.yellow { color: #fbbf24; }
+        .stat-value.blue { color: #60a5fa; }
+
+        /* Events Card - Right side */
+        .events-card {
+            grid-row: span 2;
+        }
+
+        .events-scroll {
+            flex: 1;
+            overflow-y: auto;
+            overflow-x: hidden;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+            padding-right: 5px;
+        }
+
+        .events-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .events-scroll::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+
+        .events-scroll::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+        }
+
+        .event-item {
+            background: rgba(255, 255, 255, 0.06);
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.2s;
+        }
+
+        .event-item:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateX(3px);
+        }
+
+        .event-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .event-badge.ban { background: rgba(248, 113, 113, 0.3); color: #fca5a5; }
+        .event-badge.kick { background: rgba(251, 191, 36, 0.3); color: #fcd34d; }
+        .event-badge.timeout { background: rgba(251, 191, 36, 0.3); color: #fcd34d; }
+        .event-badge.warn { background: rgba(251, 191, 36, 0.3); color: #fcd34d; }
+        .event-badge.scam { background: rgba(251, 113, 133, 0.3); color: #fda4af; }
+        .event-badge.toxic { background: rgba(248, 113, 113, 0.3); color: #fca5a5; }
+        .event-badge.helpful { background: rgba(74, 222, 128, 0.3); color: #86efac; }
+        .event-badge.positive { background: rgba(74, 222, 128, 0.3); color: #86efac; }
+
+        .event-text {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.4;
+            margin-bottom: 4px;
+        }
+
+        .event-time {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 500;
+        }
+
+        /* Timeline Card - Bottom center */
+        .timeline-card {
+            grid-column: 2;
+        }
+
+        .timeline-scroll {
+            flex: 1;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+        }
+
+        .timeline-scroll::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .timeline-scroll::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+
+        .timeline-scroll::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+        }
+
+        .timeline-bars {
+            display: flex;
+            gap: 8px;
+            align-items: flex-end;
+            height: 140px;
+            padding: 10px 0;
+        }
+
+        .timeline-bar {
+            flex: 1;
+            min-width: 40px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 8px 8px 4px 4px;
+            position: relative;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .timeline-bar:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .timeline-bar-fill {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: linear-gradient(180deg, #4ade80, #22c55e);
+            border-radius: 8px 8px 4px 4px;
+            transition: height 0.6s ease;
+            box-shadow: 0 0 15px rgba(74, 222, 128, 0.4);
+        }
+
+        .timeline-label {
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.6);
+            white-space: nowrap;
+            font-weight: 600;
+        }
+
+        .timeline-value {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 11px;
+            font-weight: 700;
+            color: #4ade80;
+            white-space: nowrap;
+        }
+
+        .empty-state {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .empty-state-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            opacity: 0.4;
+        }
+
+        .empty-state h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .empty-state p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .loading {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 13px;
+            font-weight: 500;
+            padding: 20px;
+        }
+
+        .error-banner {
+            background: rgba(248, 113, 113, 0.2);
+            border: 2px solid #f87171;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 10px;
+            margin: 10px 30px;
+            font-weight: 500;
+            font-size: 13px;
+            display: none;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .glass-card {
+            animation: fadeIn 0.4s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-icon">📊</div>
+            <div>
+                <h1>Becas Analytics</h1>
+            </div>
+        </div>
+
+        <div class="guild-input-wrapper">
+            <input type="text" id="guildIdInput" placeholder="Enter Guild ID">
+            <button onclick="loadDashboard()">Load</button>
+        </div>
+
+        <div class="last-update" id="lastUpdate">Ready</div>
+    </div>
+
+    <div class="error-banner" id="error"></div>
+
+    <div class="main-content" id="emptyStateView">
+        <div class="glass-card" style="grid-column: 1 / -1; grid-row: 1 / -1;">
+            <div class="empty-state">
+                <div class="empty-state-icon">🎯</div>
+                <h3>Welcome to Becas Analytics</h3>
+                <p>Enter your Discord Server Guild ID above to view real-time analytics</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content" id="dashboard" style="display: none;">
+        <!-- Left: Happiness -->
+        <div class="glass-card happiness-card">
+            <div class="card-title">😊 SERVER HAPPINESS</div>
+            <div id="happinessScore" class="loading">Loading...</div>
+        </div>
+
+        <!-- Center Top: Metrics Grid -->
+        <div class="metrics-grid">
+            <div class="glass-card">
+                <div class="card-title">💬 ACTIVITY</div>
+                <div id="activityMetrics" class="loading">Loading...</div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-title">🔨 MODERATION</div>
+                <div id="moderationMetrics" class="loading">Loading...</div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-title">🛡️ SECURITY</div>
+                <div id="securityMetrics" class="loading">Loading...</div>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-title">🤝 RELATIONSHIPS</div>
+                <div id="relationshipMetrics" class="loading">Loading...</div>
+            </div>
+        </div>
+
+        <!-- Right: Events -->
+        <div class="glass-card events-card">
+            <div class="card-title">🔔 RECENT EVENTS</div>
+            <div id="recentEvents" class="events-scroll loading">Loading...</div>
+        </div>
+
+        <!-- Bottom Center: Timeline -->
+        <div class="glass-card timeline-card">
+            <div class="card-title">📈 24H HAPPINESS TIMELINE</div>
+            <div id="timeline" class="timeline-scroll loading">Loading...</div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+        let currentGuildId = null;
+        let refreshInterval = null;
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = '⚠️ ' + message;
+            errorDiv.style.display = 'block';
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        async function fetchData(endpoint) {
+            const response = await fetch(`${API_BASE}${endpoint}`);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            return response.json();
+        }
+
+        async function loadDashboard() {
+            const guildId = document.getElementById('guildIdInput').value.trim();
+            if (!guildId) {
+                showError('Please enter a Guild ID');
+                return;
+            }
+
+            currentGuildId = guildId;
+            document.getElementById('emptyStateView').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'grid';
+
+            await updateDashboard();
+
+            // Auto-refresh every 10 seconds
+            if (refreshInterval) clearInterval(refreshInterval);
+            refreshInterval = setInterval(updateDashboard, 10000);
+        }
+
+        async function updateDashboard() {
+            if (!currentGuildId) return;
+
+            try {
+                const [dashboardData, events, timeline] = await Promise.all([
+                    fetchData(`/analytics/dashboard/${currentGuildId}`),
+                    fetchData(`/analytics/events/${currentGuildId}?limit=50`),
+                    fetchData(`/analytics/timeline/${currentGuildId}?hours=24`)
+                ]);
+
+                updateHappinessScore(dashboardData.data.metrics);
+                updateActivityMetrics(dashboardData.data.metrics);
+                updateModerationMetrics(dashboardData.data.metrics);
+                updateSecurityMetrics(dashboardData.data.metrics);
+                updateRelationshipMetrics(dashboardData.data.relationships);
+                updateTimeline(timeline.timeline);
+                updateRecentEvents(events.events);
+
+                document.getElementById('lastUpdate').textContent =
+                    new Date().toLocaleTimeString();
+            } catch (error) {
+                showError('Failed to load analytics: ' + error.message);
+            }
+        }
+
+        function updateHappinessScore(metrics) {
+            const score = (metrics.happinessScore * 100).toFixed(0);
+            const emoji = score >= 70 ? '😊' : score >= 40 ? '😐' : '😢';
+            const color = score >= 70 ? '#4ade80' : score >= 40 ? '#fbbf24' : '#f87171';
+
+            const positivePercent = metrics.positiveInteractions > 0
+                ? (metrics.positiveInteractions / (metrics.positiveInteractions + metrics.negativeInteractions) * 100).toFixed(0)
+                : 0;
+            const negativePercent = 100 - positivePercent;
+
+            document.getElementById('happinessScore').innerHTML = `
+                <div class="happiness-emoji">${emoji}</div>
+                <div class="happiness-score" style="color: ${color}">${score}%</div>
+                <div class="happiness-label">Overall Server Mood</div>
+                <div class="happiness-bars">
+                    <div class="mini-metric">
+                        <span class="mini-metric-label">✅ Positive</span>
+                        <span class="mini-metric-value" style="color: #4ade80">${metrics.positiveInteractions}</span>
+                    </div>
+                    <div class="mini-bar">
+                        <div class="mini-bar-fill positive" style="width: ${positivePercent}%"></div>
+                    </div>
+                    <div class="mini-metric">
+                        <span class="mini-metric-label">❌ Negative</span>
+                        <span class="mini-metric-value" style="color: #f87171">${metrics.negativeInteractions}</span>
+                    </div>
+                    <div class="mini-bar">
+                        <div class="mini-bar-fill negative" style="width: ${negativePercent}%"></div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateActivityMetrics(metrics) {
+            document.getElementById('activityMetrics').innerHTML = `
+                <div class="metric-box">
+                    <div class="stat-row">
+                        <span class="stat-label">Messages/Hour</span>
+                        <span class="stat-value blue">${metrics.messagesPerHour}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Active Users</span>
+                        <span class="stat-value green">${metrics.activeUsers}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateModerationMetrics(metrics) {
+            const total = metrics.bansToday + metrics.kicksToday +
+                         metrics.warningsToday + metrics.deletionsToday;
+
+            document.getElementById('moderationMetrics').innerHTML = `
+                <div class="metric-box">
+                    <div class="stat-row">
+                        <span class="stat-label">Total Actions</span>
+                        <span class="stat-value yellow">${total}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Bans</span>
+                        <span class="stat-value red">${metrics.bansToday}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Warnings</span>
+                        <span class="stat-value yellow">${metrics.warningsToday}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateSecurityMetrics(metrics) {
+            const blockRate = metrics.scamAttempts > 0
+                ? ((metrics.scamBlocked / metrics.scamAttempts) * 100).toFixed(0)
+                : 100;
+
+            document.getElementById('securityMetrics').innerHTML = `
+                <div class="metric-box">
+                    <div class="stat-row">
+                        <span class="stat-label">Scam Attempts</span>
+                        <span class="stat-value red">${metrics.scamAttempts}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Blocked</span>
+                        <span class="stat-value green">${metrics.scamBlocked}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Block Rate</span>
+                        <span class="stat-value blue">${blockRate}%</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateRelationshipMetrics(relationships) {
+            document.getElementById('relationshipMetrics').innerHTML = `
+                <div class="metric-box">
+                    <div class="stat-row">
+                        <span class="stat-label">Total</span>
+                        <span class="stat-value blue">${relationships.total}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Friendships</span>
+                        <span class="stat-value green">${relationships.friendships}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Conflicts</span>
+                        <span class="stat-value red">${relationships.conflicts}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateTimeline(timeline) {
+            if (timeline.length === 0) {
+                document.getElementById('timeline').innerHTML =
+                    '<div class="empty-state"><p>No timeline data available</p></div>';
+                return;
+            }
+
+            // Show last 20 entries for better visualization
+            const displayData = timeline.slice(-20);
+
+            const html = '<div class="timeline-bars">' + displayData.map(entry => {
+                const time = new Date(entry.timestamp).toLocaleTimeString([], {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                const happiness = (entry.metrics.happiness * 100).toFixed(0);
+
+                return `
+                    <div class="timeline-bar" style="height: 140px;">
+                        <div class="timeline-bar-fill" style="height: ${happiness}%"></div>
+                        <div class="timeline-value">${happiness}%</div>
+                        <div class="timeline-label">${time}</div>
+                    </div>
+                `;
+            }).join('') + '</div>';
+
+            document.getElementById('timeline').innerHTML = html;
+        }
+
+        function updateRecentEvents(events) {
+            if (events.length === 0) {
+                document.getElementById('recentEvents').innerHTML =
+                    '<div class="empty-state"><p>No events yet</p></div>';
+                return;
+            }
+
+            const html = events.slice(0, 20).map(event => {
+                const time = new Date(event.timestamp).toLocaleString();
+
+                return `
+                    <div class="event-item">
+                        <div class="event-badge ${event.type}">${event.type}</div>
+                        <div class="event-text">${event.reason || 'No details provided'}</div>
+                        <div class="event-time">${time}</div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('recentEvents').innerHTML = html;
+        }
+    </script>
+</body>
+</html>

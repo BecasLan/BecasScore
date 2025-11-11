@@ -1,0 +1,162 @@
+[
+  {
+    "guildId": "1409596032341508158",
+    "guildName": "Unknown Guild",
+    "features": {
+      "scamDetection": true,
+      "emotionalSupport": true,
+      "conflictPrediction": false,
+      "languageDetection": true,
+      "imageAnalysis": true,
+      "userProfiling": true,
+      "networkAnalysis": false,
+      "smartSlowmode": true,
+      "reactionVoting": true,
+      "aiJury": false,
+      "behaviorRehabilitation": true,
+      "crossGuildReputation": true
+    },
+    "performance": {
+      "maxAiCallsPerMessage": 3,
+      "responseTimeoutMs": 5000,
+      "enableCaching": true,
+      "prioritySystemEnabled": true
+    },
+    "moderation": {
+      "autoBanScammers": true,
+      "trustDecayRate": 0.95,
+      "autoModeration": true,
+      "warningThreshold": 70,
+      "timeoutThreshold": 50,
+      "banThreshold": 30,
+      "exemptModerators": true
+    },
+    "ai": {
+      "sensitivity": "medium",
+      "temperature": 0.8,
+      "maxResponseLength": 500,
+      "personalityIntensity": 0.8
+    },
+    "updatedAt": "2025-10-30T14:27:57.538Z"
+  },
+  {
+    "guildId": "1434039128437297174",
+    "guildName": "Unknown Guild",
+    "features": {
+      "scamDetection": true,
+      "emotionalSupport": true,
+      "conflictPrediction": false,
+      "languageDetection": true,
+      "imageAnalysis": true,
+      "userProfiling": true,
+      "networkAnalysis": false,
+      "smartSlowmode": true,
+      "reactionVoting": true,
+      "aiJury": false,
+      "behaviorRehabilitation": true,
+      "crossGuildReputation": true
+    },
+    "performance": {
+      "maxAiCallsPerMessage": 3,
+      "responseTimeoutMs": 5000,
+      "enableCaching": true,
+      "prioritySystemEnabled": true
+    },
+    "moderation": {
+      "autoBanScammers": true,
+      "trustDecayRate": 0.95,
+      "autoModeration": true,
+      "warningThreshold": 60,
+      "timeoutThreshold": 40,
+      "banThreshold": 20,
+      "exemptModerators": true
+    },
+    "ai": {
+      "sensitivity": "high",
+      "temperature": 0.8,
+      "maxResponseLength": 500,
+      "personalityIntensity": 1
+    },
+    "updatedAt": "2025-11-01T05:05:17.370Z"
+  },
+  {
+    "guildId": "1434820658637836290",
+    "guildName": "Unknown Guild",
+    "features": {
+      "scamDetection": true,
+      "emotionalSupport": true,
+      "conflictPrediction": false,
+      "languageDetection": true,
+      "imageAnalysis": true,
+      "userProfiling": true,
+      "networkAnalysis": false,
+      "smartSlowmode": true,
+      "reactionVoting": true,
+      "aiJury": false,
+      "behaviorRehabilitation": true,
+      "crossGuildReputation": true
+    },
+    "performance": {
+      "maxAiCallsPerMessage": 3,
+      "responseTimeoutMs": 5000,
+      "enableCaching": true,
+      "prioritySystemEnabled": true
+    },
+    "moderation": {
+      "autoBanScammers": true,
+      "trustDecayRate": 0.95,
+      "autoModeration": true,
+      "warningThreshold": 70,
+      "timeoutThreshold": 50,
+      "banThreshold": 30,
+      "exemptModerators": true
+    },
+    "ai": {
+      "sensitivity": "high",
+      "temperature": 0.8,
+      "maxResponseLength": 500,
+      "personalityIntensity": 1
+    },
+    "updatedAt": "2025-11-03T08:27:02.134Z"
+  },
+  {
+    "guildId": "1435281899760255050",
+    "guildName": "Unknown Guild",
+    "features": {
+      "scamDetection": true,
+      "emotionalSupport": true,
+      "conflictPrediction": false,
+      "languageDetection": true,
+      "imageAnalysis": true,
+      "userProfiling": true,
+      "networkAnalysis": false,
+      "smartSlowmode": true,
+      "reactionVoting": true,
+      "aiJury": false,
+      "behaviorRehabilitation": true,
+      "crossGuildReputation": true
+    },
+    "performance": {
+      "maxAiCallsPerMessage": 3,
+      "responseTimeoutMs": 5000,
+      "enableCaching": true,
+      "prioritySystemEnabled": true
+    },
+    "moderation": {
+      "autoBanScammers": true,
+      "trustDecayRate": 0.95,
+      "autoModeration": true,
+      "warningThreshold": 70,
+      "timeoutThreshold": 50,
+      "banThreshold": 30,
+      "exemptModerators": true
+    },
+    "ai": {
+      "sensitivity": "high",
+      "temperature": 0.8,
+      "maxResponseLength": 500,
+      "personalityIntensity": 1
+    },
+    "updatedAt": "2025-11-04T15:19:00.715Z"
+  }
+]

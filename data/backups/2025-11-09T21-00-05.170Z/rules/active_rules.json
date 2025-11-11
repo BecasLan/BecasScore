@@ -1,0 +1,33 @@
+{
+  "rules": [
+    {
+      "id": "R-001",
+      "trigger": {
+        "type": "pattern",
+        "condition": "discussion about music in a gaming channel",
+        "parameters": {
+          "channel_type": "gaming",
+          "topic": "music"
+        }
+      },
+      "action": {
+        "type": "ban",
+        "severity": "high",
+        "duration": "immediate",
+        "message": "Music discussion is not allowed here. Please refrain from posting about music in this gaming channel."
+      },
+      "confidence": 0.95,
+      "effectiveness": 0,
+      "reason": "Enforces community guidelines by prohibiting music-related discussions in gaming channels, ensuring focus on gaming content and maintaining appropriate discourse.",
+      "createdAt": "2025-11-08T20:44:19.063Z",
+      "applicationCount": 0,
+      "successRate": 0,
+      "metadata": {
+        "creator": "admin",
+        "guildId": "1409596032341508158",
+        "tags": [],
+        "mutations": 0
+      }
+    }
+  ]
+}

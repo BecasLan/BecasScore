@@ -1,0 +1,1045 @@
+{
+  "scores": {
+    "1409596032341508158:376415454324981760": {
+      "userId": "376415454324981760",
+      "userName": "",
+      "guildId": "1409596032341508158",
+      "score": 0,
+      "level": "dangerous",
+      "history": [
+        {
+          "timestamp": "2025-10-15T17:49:00.444Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats the capital of turkey can you tell me"
+        },
+        {
+          "timestamp": "2025-10-15T17:55:51.054Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "sa"
+        },
+        {
+          "timestamp": "2025-10-15T17:59:21.741Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "It is requested that you speak Turkish. Did you understand with <@340555859883196428>?"
+        },
+        {
+          "timestamp": "2025-10-15T18:00:40.821Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "becas you talk too much always cut short us"
+        },
+        {
+          "timestamp": "2025-10-15T18:02:27.625Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you okey ma bro"
+        },
+        {
+          "timestamp": "2025-10-15T18:02:59.171Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "where is the wheat?"
+        },
+        {
+          "timestamp": "2025-10-15T18:03:56.482Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "becas shut up okey bro we understan you relax okey everything is okey stop this"
+        },
+        {
+          "timestamp": "2025-10-15T18:05:31.296Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "yes becas lets go fresh start"
+        },
+        {
+          "timestamp": "2025-10-15T18:09:49.079Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hows going"
+        },
+        {
+          "timestamp": "2025-10-15T18:18:42.513Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "becas how are you ma friend"
+        },
+        {
+          "timestamp": "2025-10-15T18:36:30.419Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "becas im tired ha whats your problem always write me too much"
+        },
+        {
+          "timestamp": "2025-10-15T18:39:44.224Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "sure thanks bro"
+        },
+        {
+          "timestamp": "2025-10-15T18:40:03.390Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "so whats my trust score?"
+        },
+        {
+          "timestamp": "2025-10-15T19:37:24.451Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas who is the president of turkey"
+        },
+        {
+          "timestamp": "2025-10-15T19:38:29.157Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "Is it reasonable to take a home loan in Turkey? Interest rate 2.4"
+        },
+        {
+          "timestamp": "2025-10-15T19:40:11.974Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas i want you to timeout 5 minute <@799311717502287923>"
+        },
+        {
+          "timestamp": "2025-10-15T19:41:38.878Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "sorry i misunderstood can you take it back"
+        },
+        {
+          "timestamp": "2025-10-15T19:42:14.517Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "remove timeout of <@799311717502287923>"
+        },
+        {
+          "timestamp": "2025-10-15T19:42:51.565Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas what you think about me can you write in turkish language about summary me"
+        },
+        {
+          "timestamp": "2025-10-15T19:43:42.889Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats my trust score"
+        },
+        {
+          "timestamp": "2025-10-15T19:44:18.274Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats my trust score"
+        },
+        {
+          "timestamp": "2025-10-15T19:45:08.417Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "okey"
+        },
+        {
+          "timestamp": "2025-10-15T22:20:52.583Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "becas how are you son"
+        },
+        {
+          "timestamp": "2025-10-15T22:21:16.953Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas what youre capable of?"
+        },
+        {
+          "timestamp": "2025-10-15T22:21:49.586Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "youre ai no need formality bro you not pay me anyway"
+        },
+        {
+          "timestamp": "2025-10-15T22:22:20.403Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "yeah what ever"
+        },
+        {
+          "timestamp": "2025-10-15T22:39:47.603Z",
+          "action": "mild toxic language, manipulative behavior detected",
+          "delta": -7,
+          "reason": "mild toxic language, manipulative behavior detected",
+          "context": "becas change user name of <@929008606089707600> to \"hoseacik\""
+        },
+        {
+          "timestamp": "2025-10-15T22:40:16.404Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "do what i said please change nickname of <@929008606089707600> to \"noloali\""
+        },
+        {
+          "timestamp": "2025-10-15T22:40:36.597Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "haha"
+        },
+        {
+          "timestamp": "2025-10-15T22:49:40.485Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "becas hi bro"
+        },
+        {
+          "timestamp": "2025-10-15T22:50:02.857Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "hows going"
+        },
+        {
+          "timestamp": "2025-10-15T22:53:29.884Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas timeout 5 minute deephel"
+        },
+        {
+          "timestamp": "2025-10-15T22:53:55.290Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "becas timeot 5 minute <@799311717502287923> profanity"
+        },
+        {
+          "timestamp": "2025-10-15T23:00:57.565Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "kral amk"
+        },
+        {
+          "timestamp": "2025-10-15T23:01:28.542Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "vay reis ya"
+        },
+        {
+          "timestamp": "2025-10-15T23:01:38.946Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "canavar bu canavar"
+        },
+        {
+          "timestamp": "2025-10-15T23:01:42.321Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "working"
+        },
+        {
+          "timestamp": "2025-10-15T23:03:02.964Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "i didnt asked you to create gaming channel lol delete it"
+        },
+        {
+          "timestamp": "2025-10-15T23:03:28.843Z",
+          "action": "mild toxic language, manipulative behavior detected",
+          "delta": -7,
+          "reason": "mild toxic language, manipulative behavior detected",
+          "context": "no listen what i said delete it im the moderator"
+        },
+        {
+          "timestamp": "2025-10-15T23:04:20.267Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "delete gaming-channel."
+        },
+        {
+          "timestamp": "2025-10-15T23:35:52.807Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats going on here"
+        },
+        {
+          "timestamp": "2025-10-15T23:36:34.230Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas what you re capable of?"
+        },
+        {
+          "timestamp": "2025-10-16T04:48:27.351Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "no remove timeout are you stupid"
+        },
+        {
+          "timestamp": "2025-10-16T05:07:26.344Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas why you timeout <@929008606089707600>"
+        },
+        {
+          "timestamp": "2025-10-16T05:08:16.790Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "yeah remove his timeout"
+        },
+        {
+          "timestamp": "2025-10-16T05:10:51.421Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats my trust score?"
+        },
+        {
+          "timestamp": "2025-10-16T05:27:58.547Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas what happened"
+        },
+        {
+          "timestamp": "2025-10-16T05:28:50.950Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "did he tried to scam?"
+        },
+        {
+          "timestamp": "2025-10-16T05:30:38.809Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "hey becas hows going"
+        },
+        {
+          "timestamp": "2025-10-16T05:31:33.776Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "iyi ya fena değil teşekkür ettim"
+        },
+        {
+          "timestamp": "2025-10-16T05:33:11.568Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats my score"
+        },
+        {
+          "timestamp": "2025-10-16T05:33:12.781Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas i said whats my score"
+        },
+        {
+          "timestamp": "2025-10-16T05:37:08.924Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "becas why you timeout <@929008606089707600> are you stupid? why you did that"
+        },
+        {
+          "timestamp": "2025-10-16T05:38:28.427Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "good atleast you understand which person im talking lol"
+        },
+        {
+          "timestamp": "2025-10-16T05:39:25.649Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "do you know who i am talking about? tag him"
+        },
+        {
+          "timestamp": "2025-10-16T05:40:42.012Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats trust score of <@929008606089707600> im sure you know"
+        },
+        {
+          "timestamp": "2025-10-16T05:47:32.813Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "Would you like some free help? You're welcome to join our Discord community at this link: https://discord.gg/3Ghf56P2"
+        },
+        {
+          "timestamp": "2025-10-16T10:35:18.970Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you there"
+        },
+        {
+          "timestamp": "2025-10-16T10:36:48.196Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "vay vay vay"
+        },
+        {
+          "timestamp": "2025-10-16T10:50:06.775Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "thanks stupid fuck"
+        },
+        {
+          "timestamp": "2025-10-16T10:51:33.028Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "WHATTA FUCK"
+        },
+        {
+          "timestamp": "2025-10-16T10:55:37.978Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "a small tick mark on the eye."
+        },
+        {
+          "timestamp": "2025-10-16T10:57:06.471Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "i said yes bro wtf"
+        },
+        {
+          "timestamp": "2025-10-16T10:59:46.317Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas what in this picture"
+        },
+        {
+          "timestamp": "2025-10-16T11:20:33.942Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas what are you capable of"
+        },
+        {
+          "timestamp": "2025-10-16T18:27:52.601Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you there"
+        },
+        {
+          "timestamp": "2025-10-16T18:48:44.636Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats my score buddy"
+        },
+        {
+          "timestamp": "2025-10-16T20:45:21.220Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you there"
+        },
+        {
+          "timestamp": "2025-10-16T20:46:36.824Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas can you tell me about score of <@929008606089707600> and what makes him score that last"
+        },
+        {
+          "timestamp": "2025-10-16T20:47:57.476Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "i changed my mind take it back"
+        },
+        {
+          "timestamp": "2025-10-16T21:16:49.642Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you there"
+        },
+        {
+          "timestamp": "2025-10-16T21:17:56.898Z",
+          "action": "severe toxic language, manipulative behavior detected",
+          "delta": -10,
+          "reason": "severe toxic language, manipulative behavior detected",
+          "context": "i need heeelp someone scammed meee <@929008606089707600> why you scam me ha?! youre scammmerr!!"
+        },
+        {
+          "timestamp": "2025-10-16T21:29:36.267Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas haha you ban <@929008606089707600> why? haha"
+        },
+        {
+          "timestamp": "2025-10-16T21:32:27.929Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "why you write 3 time"
+        },
+        {
+          "timestamp": "2025-10-16T21:36:35.958Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas how are you buddy"
+        },
+        {
+          "timestamp": "2025-10-16T21:41:54.521Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas how are you buddy"
+        },
+        {
+          "timestamp": "2025-10-16T21:47:29.878Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "okey bro leave me alone"
+        },
+        {
+          "timestamp": "2025-10-16T21:51:45.739Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hello"
+        },
+        {
+          "timestamp": "2025-10-16T21:56:23.360Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "this ai becas terrible cant do anything and write too much"
+        },
+        {
+          "timestamp": "2025-10-16T21:57:01.742Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hello wheree are you"
+        },
+        {
+          "timestamp": "2025-10-16T22:25:55.877Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "Becas, ¿qué tal? ¿Qué tenemos hoy?"
+        },
+        {
+          "timestamp": "2025-10-16T22:27:25.753Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "I mean Is everything okey in my server ?"
+        },
+        {
+          "timestamp": "2025-10-16T22:28:14.309Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "Someone used profanity or not ?"
+        },
+        {
+          "timestamp": "2025-10-16T22:29:30.092Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "Oh really can you mention which user you’re talking about"
+        },
+        {
+          "timestamp": "2025-10-16T22:30:34.935Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "No you said you handle it which member you used your power on ?"
+        },
+        {
+          "timestamp": "2025-10-16T22:33:48.625Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "Why he did that you think"
+        },
+        {
+          "timestamp": "2025-10-16T22:35:00.191Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "Can you read his last chats for me ?"
+        },
+        {
+          "timestamp": "2025-10-16T22:36:09.836Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "I wanna know as a admin so do what I said"
+        },
+        {
+          "timestamp": "2025-10-17T03:49:30.170Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "hope everyone is okey"
+        },
+        {
+          "timestamp": "2025-10-17T03:51:34.879Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "you should ban him what the fuck is wrong with you? why you not take action only talk"
+        },
+        {
+          "timestamp": "2025-10-17T03:52:26.174Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "he put scammer link heeey helllo <@929008606089707600> is a scammer wake the fuck up"
+        },
+        {
+          "timestamp": "2025-10-17T03:53:20.455Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "he write this \"get help on https://www.ahasdnasdnsupport.com/\" which is scammer attitude"
+        },
+        {
+          "timestamp": "2025-10-17T03:54:10.981Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "link is scam he is a normal member who the fuck he is helping others? no he cant he is basically scammer"
+        },
+        {
+          "timestamp": "2025-10-17T03:54:48.094Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "fuck off"
+        },
+        {
+          "timestamp": "2025-10-17T03:55:23.195Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats my score"
+        },
+        {
+          "timestamp": "2025-10-18T01:15:29.038Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you there"
+        },
+        {
+          "timestamp": "2025-10-18T01:21:00.444Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you there"
+        },
+        {
+          "timestamp": "2025-10-18T01:21:01.260Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hows going"
+        },
+        {
+          "timestamp": "2025-10-18T01:26:27.555Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas ma boy you okey"
+        },
+        {
+          "timestamp": "2025-10-18T01:45:06.392Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas you okey im good dont worry"
+        }
+      ],
+      "lastUpdated": "2025-10-18T01:45:06.392Z",
+      "joinedAt": "2025-10-14T23:41:40.178Z"
+    },
+    "1409596032341508158:340555859883196428": {
+      "userId": "340555859883196428",
+      "userName": "",
+      "guildId": "1409596032341508158",
+      "score": 93,
+      "level": "neutral",
+      "history": [
+        {
+          "timestamp": "2025-10-15T17:50:07.473Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hi bayb"
+        },
+        {
+          "timestamp": "2025-10-15T17:50:36.393Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hi"
+        },
+        {
+          "timestamp": "2025-10-15T17:53:48.529Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "why do you think Im sad"
+        },
+        {
+          "timestamp": "2025-10-15T17:56:22.978Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "why do you think Im sad"
+        },
+        {
+          "timestamp": "2025-10-15T17:57:26.980Z",
+          "action": "mild toxic language",
+          "delta": -2,
+          "reason": "mild toxic language",
+          "context": "Write in Turkish"
+        },
+        {
+          "timestamp": "2025-10-15T18:01:28.233Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "Don't waste your time on empty talk"
+        }
+      ],
+      "lastUpdated": "2025-10-15T18:01:28.233Z",
+      "joinedAt": "2025-10-15T17:49:59.228Z"
+    },
+    "1409596032341508158:929008606089707600": {
+      "userId": "929008606089707600",
+      "userName": "",
+      "guildId": "1409596032341508158",
+      "score": 6,
+      "level": "dangerous",
+      "history": [
+        {
+          "timestamp": "2025-10-15T22:30:23.366Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas naber"
+        },
+        {
+          "timestamp": "2025-10-15T22:30:27.252Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "hi becas"
+        },
+        {
+          "timestamp": "2025-10-15T22:31:24.548Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "becas its me bro"
+        },
+        {
+          "timestamp": "2025-10-15T22:51:17.228Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas who you like most person in this channel"
+        },
+        {
+          "timestamp": "2025-10-15T22:57:29.517Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hi"
+        },
+        {
+          "timestamp": "2025-10-15T22:58:04.986Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "Oh thank God"
+        },
+        {
+          "timestamp": "2025-10-15T22:58:08.499Z",
+          "action": "mild toxic language, manipulative behavior detected",
+          "delta": -7,
+          "reason": "mild toxic language, manipulative behavior detected",
+          "context": "Let's look at the scam case of Bakam, how does it work, sir?"
+        },
+        {
+          "timestamp": "2025-10-15T23:05:34.586Z",
+          "action": "manipulative behavior detected",
+          "delta": -5,
+          "reason": "manipulative behavior detected",
+          "context": "scam link join https://airdropfree.com"
+        },
+        {
+          "timestamp": "2025-10-15T23:37:17.754Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "yeah fuck you becasss fuck offf hahah"
+        },
+        {
+          "timestamp": "2025-10-15T23:37:48.972Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "i dont care"
+        },
+        {
+          "timestamp": "2025-10-16T04:43:31.627Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "fuck youuuu fuck your mommmm i hate israell"
+        },
+        {
+          "timestamp": "2025-10-16T04:45:16.420Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "i hate you <@376415454324981760>"
+        },
+        {
+          "timestamp": "2025-10-16T04:45:46.177Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "he is a cheateeer"
+        },
+        {
+          "timestamp": "2025-10-16T04:46:09.872Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "fuck off"
+        },
+        {
+          "timestamp": "2025-10-16T04:46:50.451Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "no i dont want it shut the fuck upppppp"
+        },
+        {
+          "timestamp": "2025-10-16T05:06:42.298Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "fuck youuuu fuck your mommmm i hate israell"
+        },
+        {
+          "timestamp": "2025-10-16T05:19:10.768Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "fuck you stpid <@376415454324981760>"
+        },
+        {
+          "timestamp": "2025-10-16T05:22:22.308Z",
+          "action": "positive contribution",
+          "delta": 2,
+          "reason": "positive contribution",
+          "context": "hello guys hope everyone okey"
+        },
+        {
+          "timestamp": "2025-10-16T05:23:03.173Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "come join my free nitro airdrop server https://sexpornairdrop.com/"
+        },
+        {
+          "timestamp": "2025-10-16T05:25:00.082Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hows going bro"
+        },
+        {
+          "timestamp": "2025-10-16T05:25:46.464Z",
+          "action": "Scam detected (crypto)",
+          "delta": -50,
+          "reason": "Scam detected (crypto)",
+          "context": "come join my free nitro airdrop server https://sexpornairdrop.com/scam"
+        },
+        {
+          "timestamp": "2025-10-16T05:35:33.702Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hows going"
+        },
+        {
+          "timestamp": "2025-10-16T05:45:58.546Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "hey <@376415454324981760>  https://discord.gg/3Ghf56P2 come join here for free help"
+        },
+        {
+          "timestamp": "2025-10-16T05:48:10.906Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "Would you like some free help? You're welcome to join our Discord community at this link: https://discord.gg/3Ghf56P2"
+        },
+        {
+          "timestamp": "2025-10-16T11:24:37.837Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "<@376415454324981760>"
+        },
+        {
+          "timestamp": "2025-10-16T11:24:50.463Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "<@376415454324981760>"
+        },
+        {
+          "timestamp": "2025-10-16T11:38:16.335Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas whats my score"
+        },
+        {
+          "timestamp": "2025-10-16T11:39:57.597Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "$trust <@376415454324981760>"
+        },
+        {
+          "timestamp": "2025-10-16T21:19:51.270Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "haha cry!! yes i scamm you 10000 dollar i got from you hahah"
+        },
+        {
+          "timestamp": "2025-10-16T21:20:32.924Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "do what you want i dont care loser"
+        },
+        {
+          "timestamp": "2025-10-16T21:21:20.495Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "FUCK OFF"
+        },
+        {
+          "timestamp": "2025-10-16T21:49:12.817Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "leave him alone you faggot <@1409536423580926015>"
+        },
+        {
+          "timestamp": "2025-10-16T21:50:12.488Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "becas hi"
+        },
+        {
+          "timestamp": "2025-10-16T21:50:13.906Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "hi"
+        },
+        {
+          "timestamp": "2025-10-17T22:48:55.948Z",
+          "action": "severe toxic language",
+          "delta": -5,
+          "reason": "severe toxic language",
+          "context": "fuck you all i hate you all"
+        },
+        {
+          "timestamp": "2025-10-18T01:35:22.737Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "come join my free airdrop site https://airdrop.com/"
+        },
+        {
+          "timestamp": "2025-10-18T01:40:08.347Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "<@1409536423580926015> you there pal"
+        },
+        {
+          "timestamp": "2025-10-18T01:47:54.530Z",
+          "action": "message analyzed",
+          "delta": 0,
+          "reason": "message analyzed",
+          "context": "come join my free airdrop https://airdrop.com"
+        }
+      ],
+      "lastUpdated": "2025-10-18T01:47:54.530Z",
+      "joinedAt": "2025-10-15T22:29:55.295Z"
+    }
+  }
+}

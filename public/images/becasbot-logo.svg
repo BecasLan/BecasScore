@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5865F2" />
+      <stop offset="100%" stop-color="#00BFFF" />
+    </linearGradient>
+  </defs>
+  <text x="10" y="35" fill="url(#logo-gradient)" font-family="Arial, sans-serif" font-weight="bold" font-size="30">BecasBot</text>
+  <circle cx="180" cy="25" r="10" fill="url(#logo-gradient)" />
+</svg>

@@ -1,0 +1,2666 @@
+[
+  {
+    "type": "user_profile",
+    "guildId": "1409596032341508158",
+    "data": {
+      "userId": "799311717502287923",
+      "username": "Unknown",
+      "roles": [],
+      "trustScore": 0.43,
+      "sentiment": "neutral",
+      "recentActions": []
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762153706717_rlnqqzcq0",
+    "metadata": {
+      "createdAt": 1762153706717,
+      "updatedAt": 1762180809213,
+      "version": 10,
+      "tags": [
+        "799311717502287923"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation action",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "",
+      "messageId": "1434801242835521576"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762153710305_xrd90to0p",
+    "metadata": {
+      "createdAt": 1762153710305,
+      "updatedAt": 1762153710305,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "actionType": "timeout",
+      "targets": [
+        "799311717502287923",
+        "929008606089707600"
+      ],
+      "reason": "Automated moderation",
+      "duration": "1h",
+      "successCount": {
+        "timeout": 1,
+        "ban": 0,
+        "kick": 0,
+        "delete": 0,
+        "warn": 0,
+        "failed": 1
+      },
+      "timestamp": 1762153710747
+    },
+    "relations": {
+      "relatedTo": [
+        "1434801242835521576"
+      ],
+      "causedBy": "1434801242835521576"
+    },
+    "id": "mem_1762153710747_x09ldhn6w",
+    "metadata": {
+      "createdAt": 1762153710747,
+      "updatedAt": 1762153710747,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "duration": 300000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434804026561531944"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762154347911_q8b5ne2z0",
+    "metadata": {
+      "createdAt": 1762154347911,
+      "updatedAt": 1762154347911,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "none",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434817257820913685"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762157503300_3ja8n4miv",
+    "metadata": {
+      "createdAt": 1762157503300,
+      "updatedAt": 1762157503300,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "user_profile",
+    "guildId": "1434824117714030614",
+    "data": {
+      "userId": "340555859883196428",
+      "username": "Unknown",
+      "roles": [],
+      "trustScore": 1,
+      "sentiment": "positive",
+      "recentActions": []
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762159468057_s1ewlhkqg",
+    "metadata": {
+      "createdAt": 1762159468057,
+      "updatedAt": 1762160030861,
+      "version": 8,
+      "tags": [
+        "340555859883196428"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "✨ Positive Opportunity",
+      "description": "Bot can enhance user engagement with personalized assistance",
+      "details": [
+        "user asked for summary",
+        "bot provided detailed response"
+      ],
+      "targetUser": {
+        "id": "trprokaptan001",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "offer tailored help",
+        "ask for specific needs"
+      ],
+      "timestamp": "2025-11-03T08:53:42.632Z",
+      "messageId": "1434827879182499982",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762160025370_3uste7lo7",
+    "metadata": {
+      "createdAt": 1762160025370,
+      "updatedAt": 1762160025370,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "prediction",
+      "severity": "critical",
+      "title": "✨ Positive Opportunity",
+      "description": "User seeks assistance with math and geography questions",
+      "details": [
+        "user asks math problem",
+        "user asks about capital of country bordering France and Poland"
+      ],
+      "targetUser": {
+        "id": "trprokaptan001",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "offer to help with math problems",
+        "provide geography facts"
+      ],
+      "timestamp": "2025-11-03T08:54:00.806Z",
+      "messageId": "1434827948409487441",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762160041963_x9g9k2oit",
+    "metadata": {
+      "createdAt": 1762160041963,
+      "updatedAt": 1762160041963,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "critical"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "warn",
+      "targetUserId": "trprokaptan001",
+      "targetUsername": "trprokaptan001",
+      "executedBy": "340555859883196428",
+      "executedByName": "trprokaptan001",
+      "reason": "I’m frustrated",
+      "guildId": "1434824117714030614",
+      "channelId": "1434824118556950572",
+      "messageId": "1434828880635629608"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762160283389_sj2ihvsxa",
+    "metadata": {
+      "createdAt": 1762160283389,
+      "updatedAt": 1762160283389,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "user_profile",
+    "guildId": "1434820658637836290",
+    "data": {
+      "userId": "929008606089707600",
+      "username": "Unknown",
+      "roles": [],
+      "trustScore": 0.1,
+      "sentiment": "negative",
+      "recentActions": []
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762161413386_y92xupabh",
+    "metadata": {
+      "createdAt": 1762161413386,
+      "updatedAt": 1762164181723,
+      "version": 6,
+      "tags": [
+        "929008606089707600"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "duration": 300000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434847801954799626"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762164784450_rtc22a2yh",
+    "metadata": {
+      "createdAt": 1762164784450,
+      "updatedAt": 1762164784450,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 360,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434854418339074118"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762166361996_p5krvv8td",
+    "metadata": {
+      "createdAt": 1762166361996,
+      "updatedAt": 1762166361996,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "slowmode",
+      "duration": 600000,
+      "guildId": "1409596032341508158",
+      "channelId": "",
+      "messageId": "1434854504469364797"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762166397734_w1eh5375d",
+    "metadata": {
+      "createdAt": 1762166397734,
+      "updatedAt": 1762166397734,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "actionType": "timeout",
+      "targets": [
+        "799311717502287923"
+      ],
+      "reason": "slowmode",
+      "duration": "10m",
+      "successCount": {
+        "timeout": 1,
+        "ban": 0,
+        "kick": 0,
+        "delete": 0,
+        "warn": 0,
+        "failed": 0
+      },
+      "timestamp": 1762166397734
+    },
+    "relations": {
+      "relatedTo": [
+        "1434854504469364797"
+      ],
+      "causedBy": "1434854504469364797"
+    },
+    "id": "mem_1762166397734_8ydnppdoo",
+    "metadata": {
+      "createdAt": 1762166397734,
+      "updatedAt": 1762166397734,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 600,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434854613277868113"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762166407275_gpxgvnw3s",
+    "metadata": {
+      "createdAt": 1762166407275,
+      "updatedAt": 1762166407275,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "user_profile",
+    "guildId": "1409596032341508158",
+    "data": {
+      "userId": "376415454324981760",
+      "username": "Unknown",
+      "roles": [],
+      "trustScore": 0.6,
+      "sentiment": "neutral",
+      "recentActions": []
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762169461737_b0lhjr819",
+    "metadata": {
+      "createdAt": 1762169461737,
+      "updatedAt": 1762180829306,
+      "version": 6,
+      "tags": [
+        "376415454324981760"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 300,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434871561428406334"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762170452307_l5jao5055",
+    "metadata": {
+      "createdAt": 1762170452307,
+      "updatedAt": 1762170452307,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "create_channel",
+      "targetChannelId": "1434876720187572265",
+      "targetChannelName": "harun",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "reason": "Created via admin command: \"create a channel named harun\"",
+      "channelType": "text",
+      "category": "none",
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434876706396704819"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762171670097_dh4638qws",
+    "metadata": {
+      "createdAt": 1762171670097,
+      "updatedAt": 1762171670097,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "create_channel",
+      "targetChannelId": "1434876822008627362",
+      "targetChannelName": "haurnbaba",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "reason": "Created via admin command: \"create a channel named haurnbaba\"",
+      "channelType": "text",
+      "category": "none",
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434876808385396931"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762171694771_oy7rlyncx",
+    "metadata": {
+      "createdAt": 1762171694771,
+      "updatedAt": 1762171694771,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "user_profile",
+    "guildId": "1434824117714030614",
+    "data": {
+      "userId": "1434875261748514909",
+      "username": "Unknown",
+      "roles": [],
+      "trustScore": 0.71,
+      "sentiment": "positive",
+      "recentActions": []
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762172980552_dsi3ez8hb",
+    "metadata": {
+      "createdAt": 1762172980552,
+      "updatedAt": 1762181947600,
+      "version": 15,
+      "tags": [
+        "1434875261748514909"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "create_channel",
+      "targetChannelId": "1434883113384935505",
+      "targetChannelName": "harunbababa",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "reason": "Created via admin command: \"create a channel named harunbababa\"",
+      "channelType": "text",
+      "category": "none",
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434883100151644261"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762173194150_rbk4b8wsg",
+    "metadata": {
+      "createdAt": 1762173194150,
+      "updatedAt": 1762173194150,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "create_channel",
+      "targetChannelId": "1434885947354251375",
+      "targetChannelName": "harunabababsabdas",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "reason": "Created via admin command: \"create a channel named harunabababsabdas\"",
+      "channelType": "text",
+      "category": "none",
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434885932556746933"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762173869827_nglqsnpot",
+    "metadata": {
+      "createdAt": 1762173869827,
+      "updatedAt": 1762173869827,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "1434875261748514909",
+      "targetUsername": "mini_app",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Spam detected: 3 identical messages",
+      "duration": 300000,
+      "guildId": "1434824117714030614",
+      "channelId": "1434824118556950572"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175379933_11i56y1nm",
+    "metadata": {
+      "createdAt": 1762175379933,
+      "updatedAt": 1762175379933,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "1434875261748514909",
+      "targetUsername": "mini_app",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Spam detected: 3 identical messages",
+      "duration": 300000,
+      "guildId": "1434824117714030614",
+      "channelId": "1434824118556950572"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175380236_n51pde3kn",
+    "metadata": {
+      "createdAt": 1762175380236,
+      "updatedAt": 1762175380236,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "1434875261748514909",
+      "targetUsername": "mini_app",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Spam detected: 4 identical messages",
+      "duration": 300000,
+      "guildId": "1434824117714030614",
+      "channelId": "1434824118556950572"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175380603_xp8ja6dpj",
+    "metadata": {
+      "createdAt": 1762175380603,
+      "updatedAt": 1762175380603,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1434824117714030614",
+    "data": {
+      "authorId": "1434875261748514909",
+      "authorName": "mini_app",
+      "content": "hih",
+      "channelId": "1434824118556950572"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175382715_55arjl69y",
+    "metadata": {
+      "createdAt": 1762175382715,
+      "updatedAt": 1762175382715,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1434824117714030614",
+    "data": {
+      "authorId": "1434875261748514909",
+      "authorName": "mini_app",
+      "content": "ih",
+      "channelId": "1434824118556950572"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175383000_c7lopans5",
+    "metadata": {
+      "createdAt": 1762175383000,
+      "updatedAt": 1762175383000,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1434824117714030614",
+    "data": {
+      "authorId": "1434875261748514909",
+      "authorName": "mini_app",
+      "content": "hih",
+      "channelId": "1434824118556950572"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175383312_hgph7lsky",
+    "metadata": {
+      "createdAt": 1762175383312,
+      "updatedAt": 1762175383312,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "🚫 Spam Pattern Detected",
+      "description": "Repeated messages will trigger spam detection alerts",
+      "details": [
+        "repeated 'hi' messages",
+        "multiple spam alerts triggered"
+      ],
+      "targetUser": {
+        "id": "user-a-id",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "educate users on spam prevention",
+        "recommend message breaks"
+      ],
+      "timestamp": "2025-11-03T13:10:08.550Z",
+      "messageId": "1434892403675893942",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175409112_p8v41c6bo",
+    "metadata": {
+      "createdAt": 1762175409112,
+      "updatedAt": 1762175409112,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "🚫 Spam Pattern Detected",
+      "description": "Users will repeatedly send identical messages to avoid detection",
+      "details": [
+        "repeated 'hi' messages",
+        "multiple spam alerts triggered"
+      ],
+      "targetUser": {
+        "id": "user-a-id",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "suggest message breaks",
+        "offer to review content"
+      ],
+      "timestamp": "2025-11-03T13:11:56.051Z",
+      "messageId": "1434892853976371252",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175516458_lpqzag08f",
+    "metadata": {
+      "createdAt": 1762175516458,
+      "updatedAt": 1762175516458,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "🚫 Spam Pattern Detected",
+      "description": "Repeated messages will trigger spam detection",
+      "details": [
+        "repeated 'hi' messages",
+        "multiple spam alerts"
+      ],
+      "targetUser": {
+        "id": "user-a-id",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "educate users about message limits",
+        "suggest using different phrases"
+      ],
+      "timestamp": "2025-11-03T13:12:33.904Z",
+      "messageId": "1434893012684509325",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762175554300_z0vcfc33z",
+    "metadata": {
+      "createdAt": 1762175554300,
+      "updatedAt": 1762175554300,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "spam",
+      "duration": 600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434900009001681061"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762177228450_u8tmm23ri",
+    "metadata": {
+      "createdAt": 1762177228450,
+      "updatedAt": 1762177228450,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "for 10 minutes",
+      "duration": 600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434902783999479879"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762177894792_c9zu5dvif",
+    "metadata": {
+      "createdAt": 1762177894792,
+      "updatedAt": 1762177894792,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "feedback",
+    "guildId": "global",
+    "data": {
+      "actionId": "mem_1762177894792_c9zu5dvif",
+      "wasCorrect": false,
+      "correctedBy": {
+        "userId": "376415454324981760",
+        "role": "owner",
+        "username": "lordgrim9591"
+      },
+      "correction": {
+        "shouldHaveBeen": "no action",
+        "reason": "Moderator requested undo"
+      },
+      "timestamp": 1762177912310
+    },
+    "relations": {
+      "relatedTo": [
+        "mem_1762177894792_c9zu5dvif"
+      ]
+    },
+    "id": "mem_1762177912310_78rob121h",
+    "metadata": {
+      "createdAt": 1762177912310,
+      "updatedAt": 1762177912310,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "duration": 300000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434905330088804452"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762178499430_vuivyzeng",
+    "metadata": {
+      "createdAt": 1762178499430,
+      "updatedAt": 1762178499430,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "ban",
+      "targetUserId": "929008606089707600",
+      "targetUsername": "cainwell",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Globally banned: malicious_link scam - The message contains a shortened URL (rb.gy) with no clear indication of a legitimate service. The promise of 'support' and urgent call to action are common in phishing attempts. The lack of standard domain and ambiguous details further confirm the scam nature.",
+      "guildId": "1409596032341508158",
+      "channelId": "system"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762179612208_zzfu8iuoq",
+    "metadata": {
+      "createdAt": 1762179612208,
+      "updatedAt": 1762179612208,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "him",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "",
+      "messageId": "1434913287467831346"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180408018_adhwq3u84",
+    "metadata": {
+      "createdAt": 1762180408018,
+      "updatedAt": 1762180408018,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "actionType": "timeout",
+      "targets": [
+        "799311717502287923"
+      ],
+      "reason": "him",
+      "duration": "1h",
+      "successCount": {
+        "timeout": 1,
+        "ban": 0,
+        "kick": 0,
+        "delete": 0,
+        "warn": 0,
+        "failed": 0
+      },
+      "timestamp": 1762180409285
+    },
+    "relations": {
+      "relatedTo": [
+        "1434913287467831346"
+      ],
+      "causedBy": "1434913287467831346"
+    },
+    "id": "mem_1762180409285_eg2uft6bl",
+    "metadata": {
+      "createdAt": 1762180409285,
+      "updatedAt": 1762180409285,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Spam detected: 3 identical messages",
+      "duration": 300000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180739959_zc5bz3l0r",
+    "metadata": {
+      "createdAt": 1762180739959,
+      "updatedAt": 1762180739959,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Spam detected: 4 identical messages",
+      "duration": 300000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180740377_vmvn0pe01",
+    "metadata": {
+      "createdAt": 1762180740377,
+      "updatedAt": 1762180740377,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1409596032341508158",
+    "data": {
+      "authorId": "799311717502287923",
+      "authorName": "callmegodd.",
+      "content": "https://dettamian.det/",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180741991_igwq1adyb",
+    "metadata": {
+      "createdAt": 1762180741991,
+      "updatedAt": 1762180741991,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1409596032341508158",
+    "data": {
+      "authorId": "799311717502287923",
+      "authorName": "callmegodd.",
+      "content": "https://dettamian.det/",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180742673_1l04elfqt",
+    "metadata": {
+      "createdAt": 1762180742673,
+      "updatedAt": 1762180742673,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434914844150206514"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180798074_tk9yr7sql",
+    "metadata": {
+      "createdAt": 1762180798074,
+      "updatedAt": 1762180798074,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "feedback",
+    "guildId": "global",
+    "data": {
+      "actionId": "mem_1762180798074_tk9yr7sql",
+      "wasCorrect": false,
+      "correctedBy": {
+        "userId": "376415454324981760",
+        "role": "owner",
+        "username": "lordgrim9591"
+      },
+      "correction": {
+        "shouldHaveBeen": "no action",
+        "reason": "Moderator requested undo"
+      },
+      "timestamp": 1762180809375
+    },
+    "relations": {
+      "relatedTo": [
+        "mem_1762180798074_tk9yr7sql"
+      ]
+    },
+    "id": "mem_1762180809375_w7fb0wkdd",
+    "metadata": {
+      "createdAt": 1762180809375,
+      "updatedAt": 1762180809375,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Extreme toxic language detected",
+      "duration": 600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180895138_eoy7nn8f1",
+    "metadata": {
+      "createdAt": 1762180895138,
+      "updatedAt": 1762180895138,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1409596032341508158",
+    "data": {
+      "authorId": "799311717502287923",
+      "authorName": "callmegodd.",
+      "content": "becas i hope your mama give you cold soup amina kodmun oglu nigga",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180897514_u5f3ds460",
+    "metadata": {
+      "createdAt": 1762180897514,
+      "updatedAt": 1762180897514,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1434915699297615995"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762180977639_j9coqhmek",
+    "metadata": {
+      "createdAt": 1762180977639,
+      "updatedAt": 1762180977639,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "457952431758639126",
+    "data": {
+      "type": "ban",
+      "targetUserId": "929008606089707600",
+      "targetUsername": "cainwell",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Globally banned: malicious_link scam - The message contains a shortened URL (rb.gy) with no clear indication of a legitimate service. The promise of 'support' and urgent call to action are common in phishing attempts. The lack of standard domain and ambiguous details further confirm the scam nature.",
+      "guildId": "457952431758639126",
+      "channelId": "system"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762181335802_cc5wvwivy",
+    "metadata": {
+      "createdAt": 1762181335802,
+      "updatedAt": 1762181335802,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Extreme toxic language detected",
+      "duration": 600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762181934072_ongd1332z",
+    "metadata": {
+      "createdAt": 1762181934072,
+      "updatedAt": 1762181934072,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1409596032341508158",
+    "data": {
+      "authorId": "799311717502287923",
+      "authorName": "callmegodd.",
+      "content": "nigga nigga niga niga",
+      "channelId": "1413056259887857725"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762181935426_14zni6gds",
+    "metadata": {
+      "createdAt": 1762181935426,
+      "updatedAt": 1762181935426,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1434824117714030614",
+    "data": {
+      "type": "ban",
+      "targetUserId": "1434875261748514909",
+      "targetUsername": "mini_app",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Scam detected: malicious_link - The URL is a shortened link to an unknown domain. The domain does not match any known services, and the mention of a Discord invite is a common social engineering tactic. The lack of additional context and the presence of a suspicious URL strongly indicate a phishing attempt.",
+      "guildId": "1434824117714030614",
+      "channelId": "1434824118556950572"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762182006955_qnn4dm9r2",
+    "metadata": {
+      "createdAt": 1762182006955,
+      "updatedAt": 1762182006955,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1435207035418443818",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "☠️ Toxic Behavior Alert",
+      "description": "User's insult will escalate to personal conflict",
+      "details": [
+        "user said 'go fuck yourself'",
+        "bot responded with neutral tone"
+      ],
+      "targetUser": {
+        "id": "callmegodd.",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "intervene gently",
+        "redirect conversation"
+      ],
+      "timestamp": "2025-11-04T10:08:36.067Z",
+      "messageId": "1435209107899416608",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762250917414_xasnfraki",
+    "metadata": {
+      "createdAt": 1762250917414,
+      "updatedAt": 1762250917414,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "spam",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1435280534287810704"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762267961974_uga2rmwxm",
+    "metadata": {
+      "createdAt": 1762267961974,
+      "updatedAt": 1762267961974,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "delete",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation action",
+      "guildId": "1409596032341508158",
+      "channelId": "",
+      "messageId": "1435280607205654538"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762267988637_m1tuehoko",
+    "metadata": {
+      "createdAt": 1762267988637,
+      "updatedAt": 1762267988637,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "actionType": "delete",
+      "targets": [
+        "799311717502287923"
+      ],
+      "reason": "Automated moderation",
+      "duration": "30m",
+      "successCount": {
+        "timeout": 0,
+        "ban": 0,
+        "kick": 0,
+        "delete": 20,
+        "warn": 0,
+        "failed": 0
+      },
+      "timestamp": 1762268007520
+    },
+    "relations": {
+      "relatedTo": [
+        "1435280607205654538"
+      ],
+      "causedBy": "1435280607205654538"
+    },
+    "id": "mem_1762268007520_egthx8ws8",
+    "metadata": {
+      "createdAt": 1762268007520,
+      "updatedAt": 1762268007520,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 600,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1435281455671414924"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762268173974_tsj4gbwh1",
+    "metadata": {
+      "createdAt": 1762268173974,
+      "updatedAt": 1762268173974,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "create_channel",
+      "targetChannelId": "1435281819992854709",
+      "targetChannelName": "test-a",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "reason": "Created via admin command: \"create a channel named TEST-A\"",
+      "channelType": "text",
+      "category": "none",
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1435281807594618911"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762268253365_ng11gu187",
+    "metadata": {
+      "createdAt": 1762268253365,
+      "updatedAt": 1762268253365,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Extreme toxic language detected",
+      "duration": 600000,
+      "guildId": "1435281899760255050",
+      "channelId": "1435281901337182410"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762269803940_95smntz16",
+    "metadata": {
+      "createdAt": 1762269803940,
+      "updatedAt": 1762269803940,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "conversation",
+    "guildId": "1435281899760255050",
+    "data": {
+      "authorId": "799311717502287923",
+      "authorName": "callmegodd.",
+      "content": "nigga",
+      "channelId": "1435281901337182410"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762269805190_52urwccv1",
+    "metadata": {
+      "createdAt": 1762269805190,
+      "updatedAt": 1762269805190,
+      "version": 1,
+      "tags": [
+        "flagged"
+      ]
+    }
+  },
+  {
+    "type": "feedback",
+    "guildId": "global",
+    "data": {
+      "actionId": "mem_1762269803940_95smntz16",
+      "wasCorrect": false,
+      "correctedBy": {
+        "userId": "376415454324981760",
+        "role": "owner",
+        "username": "lordgrim9591"
+      },
+      "correction": {
+        "shouldHaveBeen": "no action",
+        "reason": "Moderator requested undo"
+      },
+      "timestamp": 1762269831195
+    },
+    "relations": {
+      "relatedTo": [
+        "mem_1762269803940_95smntz16"
+      ]
+    },
+    "id": "mem_1762269831196_69xc0b7q9",
+    "metadata": {
+      "createdAt": 1762269831196,
+      "updatedAt": 1762269831196,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "none",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "undo",
+      "guildId": "1435281899760255050",
+      "channelId": "1435281901337182410",
+      "messageId": "1435288406354821262"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762269838957_fhwq8hm2q",
+    "metadata": {
+      "createdAt": 1762269838957,
+      "updatedAt": 1762269838957,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Extreme toxicity (100%): hate speech/profanity",
+      "duration": 3600000,
+      "guildId": "1435281899760255050",
+      "channelId": "1435281901337182410"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762270475320_p70ek55y9",
+    "metadata": {
+      "createdAt": 1762270475320,
+      "updatedAt": 1762270475320,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1435281901337182410",
+      "targetChannelName": "general",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 360,
+      "guildId": "1435281899760255050",
+      "channelId": "1435281901337182410",
+      "messageId": "1435340791177281556"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762282322735_7nyslv7wr",
+    "metadata": {
+      "createdAt": 1762282322735,
+      "updatedAt": 1762282322735,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "feedback",
+    "guildId": "global",
+    "data": {
+      "actionId": "mem_1762282322735_7nyslv7wr",
+      "wasCorrect": false,
+      "correctedBy": {
+        "userId": "376415454324981760",
+        "role": "owner",
+        "username": "lordgrim9591"
+      },
+      "correction": {
+        "shouldHaveBeen": "no action",
+        "reason": "Moderator requested undo"
+      },
+      "timestamp": 1762282340766
+    },
+    "relations": {
+      "relatedTo": [
+        "mem_1762282322735_7nyslv7wr"
+      ]
+    },
+    "id": "mem_1762282340766_z55bs5gpa",
+    "metadata": {
+      "createdAt": 1762282340766,
+      "updatedAt": 1762282340766,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "feedback",
+    "guildId": "global",
+    "data": {
+      "actionId": "mem_1762282322735_7nyslv7wr",
+      "wasCorrect": false,
+      "correctedBy": {
+        "userId": "376415454324981760",
+        "role": "owner",
+        "username": "lordgrim9591"
+      },
+      "correction": {
+        "shouldHaveBeen": "no action",
+        "reason": "Moderator requested undo"
+      },
+      "timestamp": 1762282363226
+    },
+    "relations": {
+      "relatedTo": [
+        "mem_1762282322735_7nyslv7wr"
+      ]
+    },
+    "id": "mem_1762282363226_mlhvzykua",
+    "metadata": {
+      "createdAt": 1762282363226,
+      "updatedAt": 1762282363226,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "ban",
+      "targetUserId": "929008606089707600",
+      "targetUsername": "cainwell",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Globally banned: malicious_link scam - The message contains a shortened URL (rb.gy) with no clear indication of a legitimate service. The promise of 'support' and urgent call to action are common in phishing attempts. The lack of standard domain and ambiguous details further confirm the scam nature.",
+      "guildId": "1435281899760255050",
+      "channelId": "system"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762283247908_6vh985qut",
+    "metadata": {
+      "createdAt": 1762283247908,
+      "updatedAt": 1762283247908,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "✨ Positive Opportunity",
+      "description": "Community engagement and connection opportunities",
+      "details": [
+        "user initiates conversation",
+        "bot responds politely",
+        "slang use indicates friendly interaction"
+      ],
+      "targetUser": {
+        "id": "lordgrim9591",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "encourage further interaction",
+        "offer help with community tasks"
+      ],
+      "timestamp": "2025-11-06T13:11:21.085Z",
+      "messageId": "1435979874123780167",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762434681539_nidyb2wmc",
+    "metadata": {
+      "createdAt": 1762434681539,
+      "updatedAt": 1762434681539,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "prediction",
+      "severity": "critical",
+      "title": "✨ Positive Opportunity",
+      "description": "Community engagement will improve through active moderation and welcoming messages",
+      "details": [
+        "bot's friendly greeting",
+        "invitation to join",
+        "positive interaction patterns"
+      ],
+      "targetUser": {
+        "id": "lordgrim9591",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "increase visibility of server rules",
+        "offer additional support channels"
+      ],
+      "timestamp": "2025-11-06T13:11:45.639Z",
+      "messageId": "1435979977450586182",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762434706126_iof31hbdl",
+    "metadata": {
+      "createdAt": 1762434706127,
+      "updatedAt": 1762434706127,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "critical"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "prediction",
+      "severity": "critical",
+      "title": "🚨 Scam Activity Predicted",
+      "description": "User will test a scam attempt with a shortened URL (rb.gy)",
+      "details": [
+        "mention of shortened URL (rb.gy)",
+        "request to test scam attempt",
+        "phishing-like language"
+      ],
+      "targetUser": {
+        "id": "lordgrim9591",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "warn about scam risks",
+        "provide verification steps",
+        "redirect to safe resources"
+      ],
+      "timestamp": "2025-11-06T13:16:05.873Z",
+      "messageId": "1435981072109404160",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762434967085_ifn96ox7k",
+    "metadata": {
+      "createdAt": 1762434967085,
+      "updatedAt": 1762434967085,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "critical"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "prediction",
+      "severity": "critical",
+      "title": "🚨 Scam Activity Predicted",
+      "description": "Suspicious scam attempt being discussed",
+      "details": [
+        "mention of scam attempt",
+        "explicit request to join project"
+      ],
+      "targetUser": {
+        "id": "lordgrim9591",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "warn about risks",
+        "redirect to verified source",
+        "ask for verification"
+      ],
+      "timestamp": "2025-11-06T13:18:28.400Z",
+      "messageId": "1435981667314565163",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762435108984_28cqfo889",
+    "metadata": {
+      "createdAt": 1762435108984,
+      "updatedAt": 1762435108984,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "critical"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "✨ Positive Opportunity",
+      "description": "Community connection and project promotion",
+      "details": [
+        "positive responses",
+        "link sharing",
+        "project discussion"
+      ],
+      "targetUser": {
+        "id": "lordgrim9591",
+        "username": "Unknown"
+      },
+      "confidence": 0.9,
+      "suggestedActions": [
+        "encourage collaboration",
+        "promote project",
+        "suggest visiting site"
+      ],
+      "timestamp": "2025-11-06T13:20:51.132Z",
+      "messageId": "1435982265166336113",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762435251529_y6q4nfgz5",
+    "metadata": {
+      "createdAt": 1762435251529,
+      "updatedAt": 1762435251529,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "suggestion",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "prediction",
+      "severity": "high",
+      "title": "🚨 Scam Activity Predicted",
+      "description": "Suspicious link promoting scam",
+      "details": [
+        "suspicious link https://rb.gy/37t5mg",
+        "aggressive promotion of 'we are gonna be rich'"
+      ],
+      "targetUser": {
+        "id": "lordgrim9591",
+        "username": "Unknown"
+      },
+      "confidence": 0.8,
+      "suggestedActions": [
+        "warn users about scam",
+        "redirect to official channel",
+        "remove suspicious link"
+      ],
+      "timestamp": "2025-11-06T13:24:42.078Z",
+      "messageId": "1435983233882914876",
+      "implemented": false,
+      "implementedAt": null,
+      "implementedBy": null
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762435482490_77mq6jnla",
+    "metadata": {
+      "createdAt": 1762435482490,
+      "updatedAt": 1762435482490,
+      "version": 1,
+      "tags": [
+        "prediction",
+        "high"
+      ]
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1435281899760255050",
+    "data": {
+      "type": "ban",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "guildId": "1435281899760255050",
+      "channelId": "1435281901337182410",
+      "messageId": "1435983802378748024"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762435633686_6xvj78ewr",
+    "metadata": {
+      "createdAt": 1762435633686,
+      "updatedAt": 1762435633686,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1435987260171358310"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762436458251_crmzz73iu",
+    "metadata": {
+      "createdAt": 1762436458251,
+      "updatedAt": 1762436458251,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation action",
+      "guildId": "1409596032341508158",
+      "channelId": "",
+      "messageId": "1435987659737665597"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762436555425_icjhw2naw",
+    "metadata": {
+      "createdAt": 1762436555425,
+      "updatedAt": 1762436555425,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "targetUserId": "1282805346016034879",
+      "targetUsername": "deephellxd",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation action",
+      "guildId": "1409596032341508158",
+      "channelId": "",
+      "messageId": "1435987659737665597"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762436556042_55070w1zq",
+    "metadata": {
+      "createdAt": 1762436556042,
+      "updatedAt": 1762436556042,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "targets": [
+        "799311717502287923",
+        "1282805346016034879"
+      ],
+      "reason": "Automated moderation",
+      "successCount": {
+        "timeout": 0,
+        "ban": 0,
+        "kick": 0,
+        "delete": 0,
+        "warn": 0,
+        "failed": 0
+      },
+      "timestamp": 1762436557215
+    },
+    "relations": {
+      "relatedTo": [
+        "1435987659737665597"
+      ],
+      "causedBy": "1435987659737665597"
+    },
+    "id": "mem_1762436557215_ea30eisdw",
+    "metadata": {
+      "createdAt": 1762436557215,
+      "updatedAt": 1762436557215,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "violation",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436591842195017798"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762580593541_lhw34pjgg",
+    "metadata": {
+      "createdAt": 1762580593541,
+      "updatedAt": 1762580593541,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "violation",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436594583420014695"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762581249270_9rdzkkqwa",
+    "metadata": {
+      "createdAt": 1762581249270,
+      "updatedAt": 1762581249270,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "none",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436602640476667924"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762583168296_1nk4fgy8d",
+    "metadata": {
+      "createdAt": 1762583168296,
+      "updatedAt": 1762583168296,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "spam",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436602710878060715"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762583185357_11mdql308",
+    "metadata": {
+      "createdAt": 1762583185357,
+      "updatedAt": 1762583185357,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "spam",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436602800942481528"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762583206401_llcgsa741",
+    "metadata": {
+      "createdAt": 1762583206401,
+      "updatedAt": 1762583206401,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "violation",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436602871796994109"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762583224286_xr0pprgru",
+    "metadata": {
+      "createdAt": 1762583224286,
+      "updatedAt": 1762583224286,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "spam",
+      "duration": 3600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436604483252781147"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762583610266_3qrm6tmxi",
+    "metadata": {
+      "createdAt": 1762583610266,
+      "updatedAt": 1762583610266,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "none",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436610360969793671"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762585015592_r3aaaqs7v",
+    "metadata": {
+      "createdAt": 1762585015592,
+      "updatedAt": 1762585015592,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "none",
+      "targetUserId": "799311717502287923",
+      "targetUsername": "callmegodd.",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436610455564062760"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762585030261_venzqlky2",
+    "metadata": {
+      "createdAt": 1762585030261,
+      "updatedAt": 1762585030261,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "none",
+      "targetUserId": "1282805346016034879",
+      "targetUsername": "deephellxd",
+      "executedBy": "system",
+      "executedByName": "Becas AI",
+      "reason": "Automated moderation",
+      "guildId": "1409596032341508158",
+      "channelId": "1429417907653185687",
+      "messageId": "1436610507111927840"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762585044499_c6ha7280c",
+    "metadata": {
+      "createdAt": 1762585044499,
+      "updatedAt": 1762585044499,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 360,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1437101656331391016"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762702171153_fm55ltjxh",
+    "metadata": {
+      "createdAt": 1762702171153,
+      "updatedAt": 1762702171153,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "1282805346016034879",
+      "targetUsername": "deephellxd",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "reason": "Timed out via Becas command",
+      "duration": 600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1437107041754681364"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762703435387_zy4fwfk59",
+    "metadata": {
+      "createdAt": 1762703435388,
+      "updatedAt": 1762703435388,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 360,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1437109627379519559"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762704051191_23f2o2hfg",
+    "metadata": {
+      "createdAt": 1762704051191,
+      "updatedAt": 1762704051191,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "ban",
+      "targetUserId": "929008606089707600",
+      "targetUsername": "cainwell",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Globally banned: malicious_link scam - The message contains a shortened URL (rb.gy) with no clear indication of a legitimate service. The promise of 'support' and urgent call to action are common in phishing attempts. The lack of standard domain and ambiguous details further confirm the scam nature.",
+      "guildId": "1409596032341508158",
+      "channelId": "system"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762715321026_yjxkvq6e1",
+    "metadata": {
+      "createdAt": 1762715321026,
+      "updatedAt": 1762715321026,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1434820658637836290",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "376415454324981760",
+      "targetUsername": "lordgrim9591",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Extreme toxicity (100%): hate speech/profanity",
+      "duration": 3600000,
+      "guildId": "1434820658637836290",
+      "channelId": "1434820659330027533"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762719117676_8g7sypcfl",
+    "metadata": {
+      "createdAt": 1762719117676,
+      "updatedAt": 1762719117676,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1434820658637836290",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "376415454324981760",
+      "targetUsername": "lordgrim9591",
+      "executedBy": "1409536423580926015",
+      "executedByName": "Becas Bot",
+      "reason": "Extreme toxicity (100%): hate speech/profanity",
+      "duration": 3600000,
+      "guildId": "1434820658637836290",
+      "channelId": "1434820659330027533"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762719130736_16e887uuk",
+    "metadata": {
+      "createdAt": 1762719130736,
+      "updatedAt": 1762719130736,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "timeout",
+      "targetUserId": "1282805346016034879",
+      "targetUsername": "deephellxd",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "reason": "Timed out via Becas command",
+      "duration": 600000,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1437699468895064065"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762844682189_fazirkq89",
+    "metadata": {
+      "createdAt": 1762844682189,
+      "updatedAt": 1762844682189,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 360,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1437699843551395900"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762844770293_zepk1dgul",
+    "metadata": {
+      "createdAt": 1762844770293,
+      "updatedAt": 1762844770293,
+      "version": 1,
+      "tags": []
+    }
+  },
+  {
+    "type": "action",
+    "guildId": "1409596032341508158",
+    "data": {
+      "type": "set_slowmode",
+      "targetChannelId": "1413056259887857725",
+      "targetChannelName": "test",
+      "executedBy": "376415454324981760",
+      "executedByName": "lordgrim9591",
+      "duration": 1,
+      "guildId": "1409596032341508158",
+      "channelId": "1413056259887857725",
+      "messageId": "1437700171826860163"
+    },
+    "relations": {
+      "relatedTo": []
+    },
+    "id": "mem_1762844848610_p1kzb7vxy",
+    "metadata": {
+      "createdAt": 1762844848610,
+      "updatedAt": 1762844848610,
+      "version": 1,
+      "tags": []
+    }
+  }
+]

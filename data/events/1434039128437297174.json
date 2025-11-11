@@ -1,0 +1,16 @@
+[
+  {
+    "guildId": "1434039128437297174",
+    "type": "message",
+    "actorId": "929008606089707600",
+    "sentiment": "neutral",
+    "channelId": "1434039129091477506",
+    "messageId": "1434053363904806913",
+    "metadata": {
+      "toxicity": 0.1,
+      "wordCount": 3
+    },
+    "id": "event_1761975412372_1eprzq22o",
+    "timestamp": 1761975412372
+  }
+]

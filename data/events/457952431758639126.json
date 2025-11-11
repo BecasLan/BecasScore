@@ -1,0 +1,30 @@
+[
+  {
+    "guildId": "457952431758639126",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "negative",
+    "channelId": "764578186032840756",
+    "messageId": "1432764275763708047",
+    "metadata": {
+      "toxicity": 0.6,
+      "wordCount": 101
+    },
+    "id": "event_1761668073014_r84z2owd8",
+    "timestamp": 1761668073014
+  },
+  {
+    "guildId": "457952431758639126",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "764578186032840755",
+    "messageId": "1434469768144093195",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 7
+    },
+    "id": "event_1762074683969_kylcl5sut",
+    "timestamp": 1762074683969
+  }
+]

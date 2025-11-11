@@ -1,0 +1,62 @@
+{
+  "reputations": {
+    "929008606089707600": {
+      "userId": "929008606089707600",
+      "userName": "cainwell",
+      "globalScore": 0,
+      "guilds": [],
+      "flags": [
+        "globally_banned",
+        "banned_high"
+      ],
+      "banRecord": {
+        "userId": "929008606089707600",
+        "userName": "cainwell",
+        "reason": "malicious_link scam - The message contains a shortened URL (rb.gy) with no clear indication of a legitimate service. The promise of 'support' and urgent call to action are common in phishing attempts. The lack of standard domain and ambiguous details further confirm the scam nature.",
+        "bannedAt": "2025-11-02T17:31:46.032Z",
+        "bannedBy": "system",
+        "severity": "high",
+        "evidence": [
+          "shortened URL (rb.gy)",
+          "promise of support without clear details",
+          "urgent call to action ('click here' with ▶▶)",
+          "unknown domain (rb.gy)"
+        ],
+        "isPermanent": false,
+        "guildsToban": [
+          "1409596032341508158",
+          "457952431758639126",
+          "1435281899760255050"
+        ]
+      },
+      "lastUpdated": "2025-11-02T17:31:46.032Z"
+    },
+    "1434875261748514909": {
+      "userId": "1434875261748514909",
+      "userName": "mini_app",
+      "globalScore": 0,
+      "guilds": [],
+      "flags": [
+        "globally_banned",
+        "banned_high"
+      ],
+      "banRecord": {
+        "userId": "1434875261748514909",
+        "userName": "mini_app",
+        "reason": "malicious_link scam - The URL is a shortened link to an unknown domain. The domain does not match any known services, and the mention of a Discord invite is a common social engineering tactic. The lack of additional context and the presence of a suspicious URL strongly indicate a phishing attempt.",
+        "bannedAt": "2025-11-03T15:00:06.389Z",
+        "bannedBy": "system",
+        "severity": "high",
+        "evidence": [
+          "Suspicious shortened URL (kuponuna103.com)",
+          "No recognizable domain or service",
+          "Mention of Discord invite as a tactic"
+        ],
+        "isPermanent": false,
+        "guildsToban": []
+      },
+      "lastUpdated": "2025-11-03T15:00:06.389Z"
+    }
+  },
+  "lastUpdated": "2025-11-04T19:07:29.553Z"
+}

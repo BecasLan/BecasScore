@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BecasBot Yönetim Paneli</title>
+  <style>
+    :root {
+      --bg: #06070B;
+      --glass: #0C0F16CC;
+      --muted: #B8C0CF;
+      --line: #1b2130;
+      --brand1: #73F2FF;
+      --brand2: #B793FF;
+    }
+    
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #fff;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    h1 {
+      font-size: 2.4rem;
+      text-align: center;
+      margin-bottom: 40px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 30px;
+    }
+    
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: var(--brand1);
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+    }
+    
+    input, select {
+      width: 100%;
+      padding: 12px;
+      background: #0B0E15;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: #fff;
+      font-size: 16px;
+    }
+    
+    .button-row {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 30px;
+      gap: 10px;
+    }
+    
+    button {
+      padding: 12px 20px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border: none;
+      border-radius: 8px;
+      color: #0B0E15;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    
+    button:hover {
+      transform: translateY(-2px);
+    }
+    
+    button.secondary {
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
+    
+    .status {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      display: none;
+    }
+    
+    .status.success {
+      display: block;
+      background: rgba(37, 185, 84, 0.1);
+      border: 1px solid rgba(37, 185, 84, 0.5);
+    }
+    
+    .status.error {
+      display: block;
+      background: rgba(185, 37, 37, 0.1);
+      border: 1px solid rgba(185, 37, 37, 0.5);
+    }
+    
+    .tabs {
+      display: flex;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    
+    .tab {
+      padding: 12px 20px;
+      cursor: pointer;
+      color: var(--muted);
+    }
+    
+    .tab.active {
+      color: var(--brand1);
+      border-bottom: 2px solid var(--brand1);
+    }
+    
+    .tab-content {
+      display: none;
+    }
+    
+    .tab-content.active {
+      display: block;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+    }
+    
+    th {
+      color: var(--muted);
+      font-weight: normal;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+    
+    .badge.online {
+      background: rgba(37, 185, 84, 0.2);
+      color: #40d67c;
+    }
+    
+    .badge.offline {
+      background: rgba(185, 37, 37, 0.2);
+      color: #ff6b6b;
+    }
+    
+    .api-key {
+      font-family: monospace;
+      padding: 8px 12px;
+      background: #0B0E15;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      margin-top: 8px;
+    }
+    
+    .copy-btn {
+      background: transparent;
+      border: none;
+      color: var(--brand1);
+      cursor: pointer;
+      padding: 0;
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BecasBot Yönetim Paneli</h1>
+    
+    <div class="tabs">
+      <div class="tab active" data-tab="stats">İstatistikler</div>
+      <div class="tab" data-tab="servers">Sunucular</div>
+      <div class="tab" data-tab="api">API Ayarları</div>
+    </div>
+    
+    <div class="tab-content active" id="stats-tab">
+      <div class="card">
+        <h2>Genel İstatistikler</h2>
+        <div class="form-group">
+          <label for="protectedServers">Korunan Sunucu Sayısı:</label>
+          <input type="number" id="protectedServers" value="943">
+        </div>
+        
+        <div class="form-group">
+          <label for="blockedAttacks">Engellenen Saldırı Sayısı:</label>
+          <input type="number" id="blockedAttacks" value="128954">
+        </div>
+        
+        <div class="form-group">
+          <label for="protectionRate">Koruma Oranı (%):</label>
+          <input type="number" id="protectionRate" min="0" max="100" step="0.1" value="99.2">
+        </div>
+        
+        <div class="status" id="stats-status"></div>
+        
+        <div class="button-row">
+          <button class="secondary" onclick="resetStats()">Sıfırla</button>
+          <button onclick="saveStats()">Kaydet ve Uygula</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2>Son İstatistikler</h2>
+        <table>
+          <tr>
+            <th>Özellik</th>
+            <th>Değer</th>
+            <th>Son Güncelleme</th>
+          </tr>
+          <tr>
+            <td>Korunan Sunucu</td>
+            <td id="current-servers">-</td>
+            <td rowspan="3" id="last-update">-</td>
+          </tr>
+          <tr>
+            <td>Engellenen Saldırı</td>
+            <td id="current-attacks">-</td>
+          </tr>
+          <tr>
+            <td>Koruma Oranı</td>
+            <td id="current-rate">-</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <div class="tab-content" id="servers-tab">
+      <div class="card">
+        <h2>Sunucular</h2>
+        <p>Bu bölümde koruma sistemine bağlı sunucular yönetilebilir.</p>
+        <p style="color: var(--muted);">Not: Bu bölüm şu anda yapım aşamasındadır.</p>
+      </div>
+    </div>
+    
+    <div class="tab-content" id="api-tab">
+      <div class="card">
+        <h2>API Durum</h2>
+        <table>
+          <tr>
+            <th>Endpoint</th>
+            <th>Durum</th>
+            <th>Son İstek</th>
+          </tr>
+          <tr>
+            <td>https://api.becasbot.com/v1/stats</td>
+            <td><span class="badge offline" id="api-status">Çevrimdışı</span></td>
+            <td id="api-last-check">Henüz kontrol edilmedi</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="card">
+        <h2>API Anahtarı</h2>
+        <p>Bu anahtarı API isteklerinde kullanarak istatistikleri güncelleyebilirsiniz.</p>
+        <div class="api-key">
+          sk_live_becasbot_<span id="api-key-value">••••••••••••••••••••••••••••</span>
+          <button class="copy-btn" onclick="toggleApiKey()" id="show-key-btn">Göster</button>
+        </div>
+        <p style="color: var(--muted); font-size: 14px;">Güvenlik için API anahtarınızı kimseyle paylaşmayın.</p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Current date and time (from server)
+    const currentDate = new Date('2025-09-02T12:13:12Z');
+    
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active class from all tabs
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        
+        // Add active class to clicked tab
+        tab.classList.add('active');
+        const tabName = tab.getAttribute('data-tab');
+        document.getElementById(`${tabName}-tab`).classList.add('active');
+      });
+    });
+    
+    // Load and display stats
+    function loadStats() {
+      try {
+        const stats = JSON.parse(localStorage.getItem('becasbot_stats')) || {
+          protectedServers: 943,
+          blockedAttacks: 128954,
+          protectionRate: 99.2,
+          lastUpdate: currentDate.getTime(),
+          apiStatus: 'offline'
+        };
+        
+        document.getElementById('protectedServers').value = stats.protectedServers;
+        document.getElementById('blockedAttacks').value = stats.blockedAttacks;
+        document.getElementById('protectionRate').value = stats.protectionRate;
+        
+        document.getElementById('current-servers').textContent = formatNumber(stats.protectedServers);
+        document.getElementById('current-attacks').textContent = formatNumber(stats.blockedAttacks);
+        document.getElementById('current-rate').textContent = stats.protectionRate.toFixed(1) + '%';
+        document.getElementById('last-update').textContent = formatDate(stats.lastUpdate);
+        
+        // Update API status
+        const apiStatus = document.getElementById('api-status');
+        const apiLastCheck = document.getElementById('api-last-check');
+        
+        if (stats.apiStatus === 'online' || stats.apiStatus === 'simulated') {
+          apiStatus.textContent = stats.apiStatus === 'online' ? 'Çevrimiçi' : 'Simülasyon';
+          apiStatus.className = 'badge online';
+          apiLastCheck.textContent = formatDate(stats.lastUpdate);
+        } else {
+          apiStatus.textContent = 'Çevrimdışı';
+          apiStatus.className = 'badge offline';
+          apiLastCheck.textContent = 'Bağlantı yok';
+        }
+      } catch (e) {
+        console.error('Veri yükleme hatası:', e);
+      }
+    }
+    
+    // Save stats
+    function saveStats() {
+      try {
+        const stats = {
+          protectedServers: parseInt(document.getElementById('protectedServers').value),
+          blockedAttacks: parseInt(document.getElementById('blockedAttacks').value),
+          protectionRate: parseFloat(document.getElementById('protectionRate').value),
+          lastUpdate: currentDate.getTime(),
+          apiStatus: 'simulated'
+        };
+        
+        localStorage.setItem('becasbot_stats', JSON.stringify(stats));
+        
+        const statusEl = document.getElementById('stats-status');
+        statusEl.textContent = 'İstatistikler başarıyla kaydedildi! Ana sayfayı yenileyerek güncel verileri görebilirsiniz.';
+        statusEl.className = 'status success';
+        
+        setTimeout(() => {
+          statusEl.style.display = 'none';
+        }, 5000);
+        
+        // Update current stats display
+        loadStats();
+        
+      } catch (e) {
+        const statusEl = document.getElementById('stats-status');
+        statusEl.textContent = 'Hata: ' + e.message;
+        statusEl.className = 'status error';
+      }
+    }
+    
+    // Reset stats
+    function resetStats() {
+      if (confirm('İstatistikleri sıfırlamak istediğinizden emin misiniz?')) {
+        const defaultStats = {
+          protectedServers: 943,
+          blockedAttacks: 128954,
+          protectionRate: 99.2,
+          lastUpdate: currentDate.getTime(),
+          apiStatus: 'simulated'
+        };
+        
+        localStorage.setItem('becasbot_stats', JSON.stringify(defaultStats));
+        
+        document.getElementById('protectedServers').value = defaultStats.protectedServers;
+        document.getElementById('blockedAttacks').value = defaultStats.blockedAttacks;
+        document.getElementById('protectionRate').value = defaultStats.protectionRate;
+        
+        const statusEl = document.getElementById('stats-status');
+        statusEl.textContent = 'İstatistikler başarıyla sıfırlandı!';
+        statusEl.className = 'status success';
+        
+        // Update current stats display
+        loadStats();
+      }
+    }
+    
+    // Toggle API key visibility
+    function toggleApiKey() {
+      const keyValue = document.getElementById('api-key-value');
+      const showBtn = document.getElementById('show-key-btn');
+      
+      if (keyValue.textContent === '••••••••••••••••••••••••••••') {
+        keyValue.textContent = 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6';
+        showBtn.textContent = 'Gizle';
+      } else {
+        keyValue.textContent = '••••••••••••••••••••••••••••';
+        showBtn.textContent = 'Göster';
+      }
+    }
+    
+    // Format number for display
+    function formatNumber(number) {
+      if (number >= 1000000) {
+        return (number / 1000000).toFixed(1) + 'M';
+      } else if (number >= 1000) {
+        return (number / 1000).toFixed(1) + 'K';
+      }
+      return number.toLocaleString();
+    }
+    
+    // Format date for display
+    function formatDate(timestamp) {
+      const date = new Date(timestamp);
+      return date.toLocaleString('tr-TR', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    }
+    
+    // Load stats on page load
+    window.addEventListener('DOMContentLoaded', loadStats);
+  </script>
+</body>
+</html>

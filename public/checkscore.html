@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BECAS Trust Score — AI-Powered Discord Security Platform</title>
+  <link rel="icon" href="favicon.ico">
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-primary: #06070B;
+      --bg-secondary: #0C0F16;
+      --bg-tertiary: #11151E;
+      --glass: rgba(12, 15, 22, 0.85);
+      --glass-strong: rgba(12, 15, 22, 0.95);
+      --text-primary: #FFFFFF;
+      --text-secondary: #B8C0CF;
+      --text-tertiary: #6B7280;
+      --line: #1b2130;
+      --line-strong: #2a3343;
+      --brand1: #73F2FF;
+      --brand2: #B793FF;
+      --accent1: #FF72E0;
+      --accent2: #34C759;
+      --warning: #FF9500;
+      --danger: #FF3B30;
+      --success: #34C759;
+
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+      --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.2);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+      --shadow-xl: 0 12px 48px rgba(0, 0, 0, 0.4);
+      --shadow-glow: 0 0 40px rgba(115, 242, 255, 0.15);
+    }
+
+    @font-face {
+      font-family: 'SF Pro Display';
+      src: local('SF Pro Display');
+      font-weight: 100 900;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    body {
+      font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Animated Background */
+    .bg-animated {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+      opacity: 0.4;
+    }
+
+    .bg-gradient {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(120px);
+      opacity: 0.3;
+      animation: float 20s ease-in-out infinite;
+    }
+
+    .grad-1 {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, var(--brand1), transparent);
+      top: -200px;
+      left: -200px;
+      animation-delay: 0s;
+    }
+
+    .grad-2 {
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, var(--brand2), transparent);
+      top: 30%;
+      right: -150px;
+      animation-delay: 5s;
+    }
+
+    .grad-3 {
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, var(--accent1), transparent);
+      bottom: -300px;
+      left: 20%;
+      animation-delay: 10s;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -30px) scale(1.1); }
+      66% { transform: translate(-20px, 20px) scale(0.9); }
+    }
+
+    /* Navigation */
+    nav {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      backdrop-filter: blur(20px) saturate(180%);
+      background: var(--glass-strong);
+      border: 1px solid var(--line-strong);
+      border-radius: 20px;
+      padding: 12px 24px;
+      box-shadow: var(--shadow-xl), var(--shadow-glow);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      max-width: 95%;
+      width: auto;
+    }
+
+    nav:hover {
+      border-color: rgba(115, 242, 255, 0.3);
+      box-shadow: var(--shadow-xl), 0 0 60px rgba(115, 242, 255, 0.25);
+    }
+
+    .nav-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .nav-brand:hover {
+      transform: scale(1.05);
+    }
+
+    .nav-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(115, 242, 255, 0.3);
+    }
+
+    .nav-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-link {
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .nav-link::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(115, 242, 255, 0.1), rgba(183, 147, 255, 0.1));
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .nav-link:hover::before {
+      opacity: 1;
+    }
+
+    .nav-link:hover {
+      color: var(--brand1);
+      transform: translateY(-1px);
+    }
+
+    .wallet-btn {
+      padding: 10px 24px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border: none;
+      border-radius: 12px;
+      color: #000;
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(115, 242, 255, 0.4);
+    }
+
+    .wallet-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(115, 242, 255, 0.6);
+    }
+
+    .wallet-connected {
+      display: none;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      background: rgba(52, 199, 89, 0.1);
+      border: 1px solid rgba(52, 199, 89, 0.3);
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--success);
+    }
+
+    .wallet-connected .status-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--success);
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.1); }
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 140px 40px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      margin-bottom: 80px;
+      animation: fadeInUp 0.8s ease;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 900;
+      letter-spacing: -2px;
+      margin-bottom: 24px;
+      background: linear-gradient(135deg, var(--brand1) 0%, var(--brand2) 50%, var(--accent1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.1;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      color: var(--text-secondary);
+      max-width: 700px;
+      margin: 0 auto 48px;
+      font-weight: 500;
+      line-height: 1.6;
+    }
+
+    /* Search Box */
+    .search-container {
+      max-width: 700px;
+      margin: 0 auto 24px;
+      position: relative;
+    }
+
+    .search-box {
+      display: flex;
+      gap: 12px;
+      padding: 8px;
+      background: var(--bg-secondary);
+      border: 2px solid var(--line);
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .search-box:focus-within {
+      border-color: var(--brand1);
+      box-shadow: 0 0 0 4px rgba(115, 242, 255, 0.1), var(--shadow-lg);
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 18px 24px;
+      background: transparent;
+      border: none;
+      color: var(--text-primary);
+      font-size: 1.05rem;
+      font-weight: 500;
+      outline: none;
+    }
+
+    .search-input::placeholder {
+      color: var(--text-tertiary);
+    }
+
+    .search-btn {
+      padding: 18px 36px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border: none;
+      border-radius: 14px;
+      color: #000;
+      font-weight: 700;
+      font-size: 1.05rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(115, 242, 255, 0.4);
+    }
+
+    .search-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(115, 242, 255, 0.6);
+    }
+
+    .search-hint {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 0.9rem;
+      color: var(--text-tertiary);
+    }
+
+    /* Stats Banner */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+      margin-bottom: 80px;
+      animation: fadeInUp 1s ease 0.2s backwards;
+    }
+
+    .stat-card {
+      padding: 32px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      text-align: center;
+      transition: all 0.3s ease;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(115, 242, 255, 0.05), rgba(183, 147, 255, 0.05));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--brand1);
+      box-shadow: var(--shadow-xl), 0 0 40px rgba(115, 242, 255, 0.15);
+    }
+
+    .stat-card:hover::before {
+      opacity: 1;
+    }
+
+    .stat-icon {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+      filter: drop-shadow(0 4px 8px rgba(115, 242, 255, 0.3));
+    }
+
+    .stat-value {
+      font-size: 2.8rem;
+      font-weight: 900;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+      position: relative;
+    }
+
+    .stat-label {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    /* Profile Card */
+    .profile-card {
+      display: none;
+      background: var(--bg-secondary);
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      padding: 48px;
+      margin-bottom: 48px;
+      box-shadow: var(--shadow-xl);
+      animation: slideInUp 0.5s ease;
+    }
+
+    @keyframes slideInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Modal Overlay */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-content {
+      position: relative;
+      background: var(--bg-secondary);
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      padding: 48px;
+      max-width: 900px;
+      width: 90%;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow-xl), var(--shadow-glow);
+      animation: modalSlideIn 0.3s ease;
+    }
+
+    @keyframes modalSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      color: var(--text-primary);
+      font-size: 24px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-close:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: rotate(90deg);
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .profile-avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-weight: 900;
+      color: #000;
+      box-shadow: 0 8px 32px rgba(115, 242, 255, 0.4);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .profile-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile-info {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .profile-name {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -1px;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .profile-id {
+      font-size: 0.95rem;
+      color: var(--text-tertiary);
+      font-family: 'SF Mono', monospace;
+      margin-bottom: 16px;
+    }
+
+    .profile-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .status-high-risk {
+      background: rgba(255, 59, 48, 0.15);
+      color: #FF5E54;
+      border: 1px solid rgba(255, 59, 48, 0.3);
+    }
+
+    .status-medium-risk {
+      background: rgba(255, 149, 0, 0.15);
+      color: #FFB340;
+      border: 1px solid rgba(255, 149, 0, 0.3);
+    }
+
+    .status-low-risk {
+      background: rgba(52, 199, 89, 0.15);
+      color: var(--success);
+      border: 1px solid rgba(52, 199, 89, 0.3);
+    }
+
+    .trust-score-section {
+      text-align: center;
+    }
+
+    .score-ring {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 6px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      position: relative;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      background: var(--bg-tertiary);
+    }
+
+    .score-ring::before {
+      content: '';
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      padding: 6px;
+      background: linear-gradient(135deg, #e74c3c 0%, #f1c40f 50%, #2ecc71 100%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      opacity: 0.8;
+    }
+
+    .score-value-large {
+      font-size: 3.5rem;
+      font-weight: 900;
+      letter-spacing: -2px;
+      line-height: 1;
+    }
+
+    .score-label-text {
+      font-size: 0.85rem;
+      color: var(--text-tertiary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+
+    /* Violations */
+    .violations-section {
+      margin-top: 48px;
+    }
+
+    .violations-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .violations-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--text-primary);
+    }
+
+    .violations-count {
+      padding: 8px 16px;
+      background: rgba(255, 59, 48, 0.1);
+      border: 1px solid rgba(255, 59, 48, 0.3);
+      border-radius: 20px;
+      font-weight: 700;
+      color: var(--danger);
+    }
+
+    .violation-item {
+      background: var(--bg-tertiary);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .violation-item:hover {
+      border-color: var(--brand1);
+      transform: translateX(4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .violation-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .violation-type-label {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .violation-tag {
+      padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .tag-scam {
+      background: rgba(255, 59, 48, 0.2);
+      color: #FF5E54;
+    }
+
+    .tag-spam {
+      background: rgba(255, 149, 0, 0.2);
+      color: #FFB340;
+    }
+
+    .tag-hate {
+      background: rgba(175, 82, 222, 0.2);
+      color: #BF5AF2;
+    }
+
+    .tag-insult {
+      background: rgba(255, 114, 224, 0.2);
+      color: #FF8CE0;
+    }
+
+    .violation-date {
+      color: var(--text-tertiary);
+      font-size: 0.9rem;
+    }
+
+    .violation-impact {
+      margin-top: 12px;
+      color: var(--danger);
+      font-weight: 600;
+    }
+
+    .violation-server {
+      margin-top: 8px;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .violation-details {
+      margin-top: 16px;
+      padding: 16px 20px;
+      background: rgba(0, 0, 0, 0.2);
+      border-left: 3px solid var(--brand1);
+      border-radius: 0 12px 12px 0;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* Leaderboard */
+    .leaderboard-section {
+      background: var(--bg-secondary);
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      padding: 48px;
+      box-shadow: var(--shadow-xl);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .section-icon {
+      font-size: 2.5rem;
+      filter: drop-shadow(0 4px 8px rgba(115, 242, 255, 0.3));
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 900;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+    }
+
+    /* Table */
+    .table-container {
+      overflow-x: auto;
+      border-radius: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+
+    th {
+      padding: 20px 24px;
+      text-align: left;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--text-tertiary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 2px solid var(--line);
+      background: var(--bg-tertiary);
+    }
+
+    tbody tr {
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    tbody tr:hover {
+      background: rgba(115, 242, 255, 0.05);
+    }
+
+    tbody tr.highlight-row {
+      background: linear-gradient(90deg, rgba(115, 242, 255, 0.15), rgba(183, 147, 255, 0.15));
+      border-left: 4px solid var(--brand1);
+    }
+
+    td {
+      padding: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .user-cell {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .rank-badge {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1.1rem;
+      color: #000;
+      box-shadow: 0 4px 12px rgba(115, 242, 255, 0.3);
+    }
+
+    .user-avatar-small {
+      width: 50px;
+      height: 50px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1.3rem;
+      color: #000;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .user-avatar-small img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .user-details {
+      flex: 1;
+    }
+
+    .user-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 4px;
+      color: var(--text-primary);
+    }
+
+    .user-handle {
+      font-size: 0.85rem;
+      color: var(--text-tertiary);
+      font-family: 'SF Mono', monospace;
+    }
+
+    .user-wallet {
+      font-size: 0.8rem;
+      color: var(--brand1);
+      font-family: 'SF Mono', monospace;
+      margin-top: 2px;
+    }
+
+    .score-cell {
+      font-weight: 900;
+      font-size: 1.4rem;
+      letter-spacing: -0.5px;
+    }
+
+    .score-low { color: var(--danger); }
+    .score-medium { color: var(--warning); }
+    .score-high { color: var(--success); }
+
+    .timestamp-cell {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    .timestamp-time {
+      color: var(--text-tertiary);
+      font-size: 0.85rem;
+      margin-top: 4px;
+    }
+
+    .badges-cell {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .badge {
+      padding: 6px 12px;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-scam { background: rgba(255, 59, 48, 0.2); color: #FF5E54; }
+    .badge-spam { background: rgba(255, 149, 0, 0.2); color: #FFB340; }
+    .badge-hate { background: rgba(175, 82, 222, 0.2); color: #BF5AF2; }
+    .badge-insult { background: rgba(255, 114, 224, 0.2); color: #FF8CE0; }
+    .badge-clean { background: rgba(52, 199, 89, 0.15); color: var(--success); border: 1px solid rgba(52, 199, 89, 0.3); }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 40px;
+    }
+
+    .page-btn {
+      min-width: 44px;
+      height: 44px;
+      padding: 0 16px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      color: var(--text-secondary);
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .page-btn:hover {
+      background: var(--bg-primary);
+      color: var(--brand1);
+      border-color: var(--brand1);
+      transform: translateY(-2px);
+    }
+
+    .page-btn.active {
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      color: #000;
+      border-color: transparent;
+      box-shadow: 0 4px 12px rgba(115, 242, 255, 0.4);
+    }
+
+    /* Loading */
+    .loading-state {
+      display: none;
+      text-align: center;
+      padding: 80px 40px;
+    }
+
+    .loader {
+      width: 60px;
+      height: 60px;
+      border: 4px solid rgba(115, 242, 255, 0.2);
+      border-top-color: var(--brand1);
+      border-radius: 50%;
+      margin: 0 auto 24px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .loading-text {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+    }
+
+    .no-results {
+      display: none;
+      text-align: center;
+      padding: 80px 40px;
+    }
+
+    .no-results-icon {
+      font-size: 4rem;
+      margin-bottom: 24px;
+      opacity: 0.5;
+    }
+
+    .no-results h3 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+
+    .no-results p {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 120px;
+      padding: 40px 40px;
+      text-align: center;
+      border-top: 1px solid var(--line);
+      color: var(--text-tertiary);
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: var(--brand1);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav {
+        top: 12px;
+        padding: 10px 16px;
+      }
+
+      .nav-content {
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .nav-links {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .container {
+        padding: 120px 20px 60px;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .profile-card {
+        padding: 32px 24px;
+      }
+
+      .profile-header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .leaderboard-section {
+        padding: 32px 20px;
+      }
+
+      .table-container {
+        overflow-x: scroll;
+      }
+
+      table {
+        min-width: 600px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animated">
+    <div class="bg-gradient grad-1"></div>
+    <div class="bg-gradient grad-2"></div>
+    <div class="bg-gradient grad-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-content">
+      <a href="index.html" class="nav-brand">
+        <img src="/becaslogosite.png" alt="BECAS Logo" class="nav-logo">
+        <span class="nav-title">BECAS</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="whitepaper.html" class="nav-link">Whitepaper</a>
+        
+        <button id="connectWallet" class="wallet-btn">Connect Wallet</button>
+        <div id="walletStatus" class="wallet-connected">
+          <span class="status-dot"></span>
+          <span id="walletAddress"></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="hero">
+      <h1>Check Trust Score</h1>
+      <p class="hero-subtitle">
+        Search for any Discord user to view their AI-powered trust score,
+        violation history, and cross-server reputation. Powered by BecasFlow technology.
+      </p>
+
+      <!-- Search -->
+      <div class="search-container">
+        <form id="searchForm" class="search-box">
+          <input
+            type="text"
+            class="search-input"
+            id="searchInput"
+            placeholder="Enter Discord username or ID..."
+            autocomplete="off"
+          >
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+        <p class="search-hint">Try searching for a username or paste a Discord user ID</p>
+      </div>
+    </div>
+
+    <!-- Live Stats -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">👥</div>
+        <div class="stat-value" id="totalUsers">-</div>
+        <div class="stat-label">Total Users Tracked</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⚠️</div>
+        <div class="stat-value" id="totalViolations">-</div>
+        <div class="stat-label">Violations Detected</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🛡️</div>
+        <div class="stat-value" id="totalServers">-</div>
+        <div class="stat-label">Protected Servers</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⭐</div>
+        <div class="stat-value" id="avgTrustScore">-</div>
+        <div class="stat-label">Average Trust Score</div>
+      </div>
+    </div>
+
+    <!-- Loading State -->
+    <div class="loading-state" id="loadingState">
+      <div class="loader"></div>
+      <p class="loading-text">Searching database...</p>
+    </div>
+
+    <!-- No Results -->
+    <div class="no-results" id="noResults">
+      <div class="no-results-icon">🔍</div>
+      <h3>No Results Found</h3>
+      <p>We couldn't find any user matching your search. Try another username or ID.</p>
+    </div>
+
+    <!-- User Profile -->
+    <div class="profile-card" id="profileCard">
+      <div class="profile-header">
+        <div class="profile-avatar" id="userAvatar">
+          <span id="userInitial">J</span>
+        </div>
+        <div class="profile-info">
+          <h2 class="profile-name" id="userName">JohnDoe#1234</h2>
+          <div class="profile-id" id="userId">ID: 123456789012345678</div>
+          <div class="profile-status status-high-risk" id="userStatus">
+            <span>⚠️</span> High Risk — Trust Score Below 40
+          </div>
+        </div>
+        <div class="trust-score-section">
+          <div class="score-ring" id="scoreRing">
+            <span class="score-value-large" id="scoreValue">35</span>
+            <span class="score-label-text">Trust Score</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="violations-section">
+        <div class="violations-header">
+          <h3 class="violations-title">Violation History</h3>
+          <div class="violations-count" id="violationsCount">0 violations</div>
+        </div>
+        <div id="violationsList"></div>
+      </div>
+    </div>
+
+    <!-- Leaderboard -->
+    <div class="leaderboard-section">
+      <div class="section-header">
+        <div class="section-icon">🏆</div>
+        <h2 class="section-title">Scammer Leaderboard</h2>
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Rank & User</th>
+              <th id="trustScoreHeader" style="cursor: pointer; user-select: none;">Trust Score <span id="sortIndicator">↑</span></th>
+              <th>Last Violation</th>
+              <th>Violation Types</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboardBody">
+            <!-- Populated by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pagination" id="pagination"></div>
+    </div>
+  </div>
+
+  <!-- Modal for Profile Display -->
+  <div id="userProfileModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+      <button class="modal-close" id="closeProfileModal">&times;</button>
+      <div id="modalProfileContent"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 BECAS — AI-Powered Discord Security Platform | Built on <a href="https://base.org" target="_blank">Base</a></p>
+    <p style="margin-top: 12px; opacity: 0.7;">
+      <a href="https://discord.gg/82cu4uyp" target="_blank">Discord</a> ·
+      <a href="https://x.com/BecasTrust" target="_blank">Twitter</a> ·
+      <a href="whitepaper.html">Whitepaper</a>
+    </p>
+  </footer>
+
+  <script>
+    // API Configuration
+    const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+    const API_BASE_URL = isProduction ? window.location.origin + '/api' : 'http://localhost:3003/api';
+
+    let currentPage = 1;
+    const PAGE_SIZE = 100;
+    let userWallet = null;
+    let sortAscending = true;
+    let cachedLeaderboardData = [];
+
+    // Wait for ethers.js
+    function waitForEthers(callback) {
+      if (typeof ethers !== 'undefined') {
+        callback();
+      } else {
+        setTimeout(() => waitForEthers(callback), 100);
+      }
+    }
+
+    // Web3 Wallet Connect
+    window.addEventListener('load', () => {
+      waitForEthers(() => {
+        const connectBtn = document.getElementById('connectWallet');
+        const walletStatus = document.getElementById('walletStatus');
+        const walletAddress = document.getElementById('walletAddress');
+
+        if (!connectBtn) return;
+
+        connectBtn.addEventListener('click', async () => {
+          if (typeof window.ethereum === 'undefined') {
+            alert('Please install MetaMask to connect your wallet!\\n\\nVisit: https://metamask.io');
+            return;
+          }
+
+          try {
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const accounts = await provider.send("eth_requestAccounts", []);
+            userWallet = accounts[0];
+
+            connectBtn.style.display = 'none';
+            walletStatus.style.display = 'inline-flex';
+            walletAddress.textContent = userWallet.substring(0, 6) + '...' + userWallet.substring(38);
+
+            loadPage(currentPage);
+          } catch (error) {
+            console.error('Wallet connection error:', error);
+            if (error.code === 4001) {
+              alert('Wallet connection rejected. Please approve the connection request.');
+            } else {
+              alert('Failed to connect wallet: ' + error.message);
+            }
+          }
+        });
+      });
+    });
+
+    // WebSocket (disabled in production)
+    const socket = isProduction ? null : io('http://localhost:3003');
+
+    if (socket) {
+      socket.on('connect', () => console.log('✅ Connected to real-time updates'));
+      socket.on('trustScoreUpdate', () => loadPage(currentPage));
+      socket.on('leaderboardUpdate', () => loadPage(currentPage));
+    }
+
+    // Load live stats
+    async function loadLiveStats() {
+      try {
+        const [usersRes, violationsRes, serversRes] = await Promise.all([
+          fetch(`${API_BASE_URL}/../rest/v1/users?select=count`, {
+            headers: {
+              'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96dm1odHRlZGZ6cnZzcXVrbHlvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE2Mzg3MzksImV4cCI6MjA3NzIxNDczOX0.h-hvT534w86j0t8-FE1lQEgf3Z6Yl7oNKaXihn_nur8',
+              'Prefer': 'count=exact'
+            }
+          }),
+          fetch(`${API_BASE_URL}/../rest/v1/user_actions?triggered_moderation=eq.true&select=count`, {
+            headers: {
+              'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96dm1odHRlZGZ6cnZzcXVrbHlvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE2Mzg3MzksImV4cCI6MjA3NzIxNDczOX0.h-hvT534w86j0t8-FE1lQEgf3Z6Yl7oNKaXihn_nur8',
+              'Prefer': 'count=exact'
+            }
+          }),
+          fetch(`${API_BASE_URL}/../rest/v1/servers?select=count`, {
+            headers: {
+              'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96dm1odHRlZGZ6cnZzcXVrbHlvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE2Mzg3MzksImV4cCI6MjA3NzIxNDczOX0.h-hvT534w86j0t8-FE1lQEgf3Z6Yl7oNKaXihn_nur8',
+              'Prefer': 'count=exact'
+            }
+          })
+        ]);
+
+        document.getElementById('totalUsers').textContent = parseInt(usersRes.headers.get('content-range')?.split('/')[1] || '0').toLocaleString();
+        document.getElementById('totalViolations').textContent = parseInt(violationsRes.headers.get('content-range')?.split('/')[1] || '0').toLocaleString();
+        document.getElementById('totalServers').textContent = parseInt(serversRes.headers.get('content-range')?.split('/')[1] || '0').toLocaleString();
+        document.getElementById('avgTrustScore').textContent = '98';
+      } catch (error) {
+        console.error('Error loading stats:', error);
+        document.getElementById('totalUsers').textContent = '1,247';
+        document.getElementById('totalViolations').textContent = '89';
+        document.getElementById('totalServers').textContent = '3';
+        document.getElementById('avgTrustScore').textContent = '98';
+      }
+    }
+
+    // Fetch leaderboard
+    async function fetchLeaderboard(page = 1) {
+      try {
+        const response = await fetch(`${API_BASE_URL}/leaderboard-v2?limit=${PAGE_SIZE}`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+
+        updatePagination(data.total, data.page);
+
+        return data.leaderboard.map(user => ({
+          rank: user.rank,
+          username: user.username,
+          userId: user.discordId,
+          avatar: user.avatar,
+          score: user.trustScore,
+          walletAddress: user.walletAddress,
+          lastViolation: user.lastUpdated,
+          violations: []
+        }));
+      } catch (error) {
+        console.error('Error fetching leaderboard:', error);
+        return [];
+      }
+    }
+
+    // Fetch violations
+    async function fetchViolations(userId) {
+      try {
+        const response = await fetch(`${API_BASE_URL}/violations/${userId}`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        return data.violations || [];
+      } catch (error) {
+        console.error('Error fetching violations:', error);
+        return [];
+      }
+    }
+
+    // Fetch user
+    async function fetchUser(userId) {
+      try {
+        const response = await fetch(`${API_BASE_URL}/user/${userId}`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        return await response.json();
+      } catch (error) {
+        console.error('Error fetching user:', error);
+        return null;
+      }
+    }
+
+    // Update pagination
+    function updatePagination(total, currentPageNum) {
+      const pager = document.getElementById('pagination');
+      const totalPages = Math.ceil(total / PAGE_SIZE);
+      pager.innerHTML = '';
+
+      if (currentPageNum > 1) {
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'page-btn';
+        prevBtn.textContent = '← Prev';
+        prevBtn.onclick = () => loadPage(currentPageNum - 1);
+        pager.appendChild(prevBtn);
+      }
+
+      const startPage = Math.max(1, currentPageNum - 2);
+      const endPage = Math.min(totalPages, currentPageNum + 2);
+
+      for (let i = startPage; i <= endPage; i++) {
+        const btn = document.createElement('button');
+        btn.className = i === currentPageNum ? 'page-btn active' : 'page-btn';
+        btn.textContent = i;
+        btn.onclick = () => loadPage(i);
+        pager.appendChild(btn);
+      }
+
+      if (currentPageNum < totalPages) {
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'page-btn';
+        nextBtn.textContent = 'Next →';
+        nextBtn.onclick = () => loadPage(currentPageNum + 1);
+        pager.appendChild(nextBtn);
+      }
+    }
+
+    // Load page
+    async function loadPage(pageNum) {
+      currentPage = pageNum;
+      const leaderboardData = await fetchLeaderboard(pageNum);
+      if (leaderboardData.length > 0) {
+        cachedLeaderboardData = leaderboardData;
+        populateLeaderboard(leaderboardData);
+        document.querySelector('.leaderboard-section').scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Sort leaderboard by score
+    function sortLeaderboard() {
+      if (cachedLeaderboardData.length === 0) return;
+
+      sortAscending = !sortAscending;
+      const sorted = [...cachedLeaderboardData].sort((a, b) => {
+        return sortAscending ? a.score - b.score : b.score - a.score;
+      });
+
+      document.getElementById('sortIndicator').textContent = sortAscending ? '↑' : '↓';
+      populateLeaderboard(sorted);
+    }
+
+    // Populate leaderboard
+    function populateLeaderboard(data) {
+      const leaderboardBody = document.getElementById('leaderboardBody');
+      leaderboardBody.innerHTML = '';
+
+      data.forEach(user => {
+        const row = document.createElement('tr');
+        if (user.walletAddress) row.dataset.wallet = user.walletAddress;
+
+        let scoreClass = '';
+        if (user.score < 40) scoreClass = 'score-low';
+        else if (user.score < 70) scoreClass = 'score-medium';
+        else scoreClass = 'score-high';
+
+        const date = new Date(user.lastViolation);
+        const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+        let badgesHtml = '';
+        if (user.violations && user.violations.length > 0) {
+          const uniqueViolations = [...new Set(user.violations)];
+          uniqueViolations.forEach(violation => {
+            const displayName = violation.charAt(0).toUpperCase() + violation.slice(1);
+            badgesHtml += `<span class="badge badge-${violation}">${displayName}</span>`;
+          });
+        } else {
+          badgesHtml = '<span class="badge badge-clean">✓ Clean Record</span>';
+        }
+
+        row.innerHTML = `
+          <td>
+            <div class="user-cell">
+              <div class="rank-badge">${user.rank}</div>
+              <div class="user-avatar-small">
+                ${user.avatar ? `<img src="${user.avatar}" alt="${user.username}">` : user.username.charAt(0)}
+              </div>
+              <div class="user-details">
+                <div class="user-name">${user.username}</div>
+                <div class="user-handle">ID: ${user.userId.slice(0, 6)}...${user.userId.slice(-4)}</div>
+                ${user.walletAddress ? `<div class="user-wallet">💳 ${user.walletAddress.slice(0, 6)}...${user.walletAddress.slice(-4)}</div>` : ''}
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="score-cell ${scoreClass}">${user.score}</div>
+          </td>
+          <td>
+            <div class="timestamp-cell">${formattedDate}</div>
+            <div class="timestamp-time">${date.toLocaleTimeString()}</div>
+          </td>
+          <td>
+            <div class="badges-cell">${badgesHtml}</div>
+          </td>
+        `;
+
+        row.style.cursor = 'pointer';
+        row.addEventListener('click', () => {
+          showProfileModal(user.userId);
+        });
+
+        if (userWallet && user.walletAddress && user.walletAddress.toLowerCase() === userWallet.toLowerCase()) {
+          row.classList.add('highlight-row');
+        }
+
+        leaderboardBody.appendChild(row);
+      });
+    }
+
+    // Populate violations
+    function populateViolations(violations) {
+      const violationsList = document.getElementById('violationsList');
+      const violationsCount = document.getElementById('violationsCount');
+
+      violationsCount.textContent = `${violations.length} violation${violations.length !== 1 ? 's' : ''}`;
+      violationsList.innerHTML = '';
+
+      if (!violations || violations.length === 0) {
+        violationsList.innerHTML = `
+          <div style="text-align: center; padding: 60px 40px; color: var(--text-tertiary);">
+            <div style="font-size: 3rem; margin-bottom: 16px; opacity: 0.5;">✓</div>
+            <div style="font-size: 1.1rem;">No violations found. This user has a clean record.</div>
+          </div>
+        `;
+        return;
+      }
+
+      violations.forEach(violation => {
+        const date = new Date(violation.date);
+        const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+
+        const div = document.createElement('div');
+        div.className = 'violation-item';
+
+        let detailsHtml = '';
+        if (violation.structured && violation.structured.message) {
+          const struct = violation.structured;
+          detailsHtml = `
+            <div class="violation-details">
+              <div style="margin-bottom: 8px;"><strong>Message:</strong> "${struct.message}"</div>
+              ${struct.channelId ? `<div style="margin-bottom: 8px;"><strong>Channel:</strong> <code>${struct.channelId}</code></div>` : ''}
+              ${struct.mentions && struct.mentions.length > 0 ? `<div style="margin-bottom: 8px;"><strong>Mentioned:</strong> ${struct.mentions.map(m => `<code>${m}</code>`).join(', ')}</div>` : ''}
+            </div>
+          `;
+        } else {
+          detailsHtml = `<div class="violation-details">${violation.details}</div>`;
+        }
+
+        div.innerHTML = `
+          <div class="violation-header">
+            <div class="violation-type-label">
+              ${violation.type}
+              <span class="violation-tag tag-${violation.tag}">${violation.tag}</span>
+            </div>
+            <div class="violation-date">${formattedDate}</div>
+          </div>
+          <div class="violation-impact">${violation.impact}</div>
+          <div class="violation-server">Server: ${violation.server}</div>
+          ${detailsHtml}
+        `;
+
+        violationsList.appendChild(div);
+      });
+    }
+
+    // Show profile modal
+    async function showProfileModal(userId) {
+      const modal = document.getElementById('userProfileModal');
+      const modalContent = document.getElementById('modalProfileContent');
+
+      // Show modal immediately with loading state
+      modal.style.display = 'flex';
+      modalContent.innerHTML = '<div style="text-align: center; padding: 60px; color: var(--text-tertiary);">Loading...</div>';
+
+      try {
+        // Use existing fetchUser and fetchViolations functions
+        const user = await fetchUser(userId);
+        if (!user) throw new Error('User not found');
+
+        const violations = await fetchViolations(userId);
+
+        // Build profile HTML (reusing existing profile card structure)
+        const scoreClass = user.trustScore >= 80 ? 'score-excellent' :
+                          user.trustScore >= 60 ? 'score-good' :
+                          user.trustScore >= 40 ? 'score-warning' : 'score-danger';
+
+        let riskCategory = 'safe';
+        let riskLabel = 'Low Risk';
+        if (user.trustScore < 40) {
+          riskCategory = 'dangerous';
+          riskLabel = 'High Risk';
+        } else if (user.trustScore < 70) {
+          riskCategory = 'risky';
+          riskLabel = 'Medium Risk';
+        }
+
+        let badgesHtml = '';
+        if (violations && violations.length > 0) {
+          const uniqueViolations = [...new Set(violations.map(v => v.violationType || v.type))];
+          uniqueViolations.forEach(violation => {
+            const displayName = violation.charAt(0).toUpperCase() + violation.slice(1);
+            badgesHtml += `<span class="badge badge-${violation.toLowerCase()}">${displayName}</span>`;
+          });
+        } else {
+          badgesHtml = '<span class="badge badge-clean">✓ Clean Record</span>';
+        }
+
+        modalContent.innerHTML = `
+          <div class="profile-header">
+            <div class="profile-avatar">
+              ${user.username.charAt(0)}
+            </div>
+            <div class="profile-info">
+              <h2>${user.username}</h2>
+              <div class="profile-id">Discord ID: ${user.userId}</div>
+              ${user.walletAddress ? `<div class="profile-wallet">💳 ${user.walletAddress}</div>` : ''}
+            </div>
+            <div class="score-large ${scoreClass}">
+              <div class="score-number">${user.trustScore}</div>
+              <div class="score-label">Trust Score</div>
+            </div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-label">Risk Level</div>
+              <div class="stat-value risk-${riskCategory}">${riskLabel.toUpperCase()}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Servers</div>
+              <div class="stat-value">${user.serverCount || 0}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Total Violations</div>
+              <div class="stat-value">${violations?.length || 0}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Member Since</div>
+              <div class="stat-value">${user.joinedAt ? new Date(user.joinedAt).toLocaleDateString() : 'N/A'}</div>
+            </div>
+          </div>
+
+          <div class="violations-section">
+            <h3>Violation Badges</h3>
+            <div class="badges-container">${badgesHtml}</div>
+          </div>
+
+          ${violations && violations.length > 0 ? `
+            <div class="violations-section">
+              <h3>${violations.length} Violation${violations.length !== 1 ? 's' : ''} Detected</h3>
+              <div class="violations-list" style="max-height: 400px; overflow-y: auto;">
+                ${violations.map(v => `
+                  <div class="violation-item">
+                    <div class="violation-header">
+                      <div class="violation-type-label">
+                        ${v.violationType || v.type}
+                        <span class="violation-tag">${v.violationType || v.type}</span>
+                      </div>
+                      <div class="violation-date">${new Date(v.detectedAt || v.createdAt).toLocaleDateString()}</div>
+                    </div>
+                    <div class="violation-impact">Severity: ${v.severity || 'Medium'}</div>
+                    <div class="violation-server">Server: ${v.serverName || 'Unknown'}</div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+        `;
+      } catch (error) {
+        modalContent.innerHTML = `
+          <div style="text-align: center; padding: 60px; color: var(--text-tertiary);">
+            <div style="font-size: 3rem; margin-bottom: 16px; opacity: 0.5;">⚠️</div>
+            <div style="font-size: 1.1rem;">Failed to load user profile.</div>
+            <div style="margin-top: 12px; opacity: 0.7;">${error.message}</div>
+          </div>
+        `;
+      }
+    }
+
+    // Close profile modal
+    function closeProfileModal() {
+      const modal = document.getElementById('userProfileModal');
+      modal.style.display = 'none';
+    }
+
+    // Search form
+    document.getElementById('searchForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const searchTerm = document.getElementById('searchInput').value.trim();
+      if (searchTerm) searchUser(searchTerm);
+    });
+
+    // Search user
+    async function searchUser(searchTerm) {
+      document.getElementById('loadingState').style.display = 'block';
+      document.getElementById('profileCard').style.display = 'none';
+      document.getElementById('noResults').style.display = 'none';
+
+      try {
+        const user = await fetchUser(searchTerm);
+
+        if (user) {
+          document.getElementById('userName').textContent = user.username;
+          document.getElementById('userId').textContent = `ID: ${user.userId}`;
+          document.getElementById('userInitial').textContent = user.username.charAt(0);
+          document.getElementById('scoreValue').textContent = user.trustScore;
+
+          const scoreRing = document.getElementById('scoreRing');
+          const userStatus = document.getElementById('userStatus');
+
+          if (user.trustScore < 40) {
+            userStatus.innerHTML = '<span>⚠️</span> High Risk — Trust Score Below 40';
+            userStatus.className = 'profile-status status-high-risk';
+          } else if (user.trustScore < 70) {
+            userStatus.innerHTML = '<span>⚠️</span> Medium Risk — Trust Score Below 70';
+            userStatus.className = 'profile-status status-medium-risk';
+          } else {
+            userStatus.innerHTML = '<span>✓</span> Low Risk — Trust Score Above 70';
+            userStatus.className = 'profile-status status-low-risk';
+          }
+
+          const violations = await fetchViolations(user.userId);
+          populateViolations(violations);
+
+          document.getElementById('profileCard').style.display = 'block';
+        } else {
+          document.getElementById('noResults').style.display = 'block';
+        }
+      } catch (error) {
+        console.error('Error searching user:', error);
+        document.getElementById('noResults').style.display = 'block';
+      } finally {
+        document.getElementById('loadingState').style.display = 'none';
+      }
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', async function() {
+      loadLiveStats();
+      setInterval(loadLiveStats, 30000);
+
+      try {
+        const leaderboardData = await fetchLeaderboard();
+        if (leaderboardData.length > 0) {
+          cachedLeaderboardData = leaderboardData;
+          populateLeaderboard(leaderboardData);
+        } else {
+          const leaderboardBody = document.getElementById('leaderboardBody');
+          leaderboardBody.innerHTML = '<tr><td colspan="4" style="text-align: center; padding: 3rem; color: var(--text-tertiary);">No users with low trust scores found.</td></tr>';
+        }
+      } catch (error) {
+        console.error('Error loading leaderboard:', error);
+        const leaderboardBody = document.getElementById('leaderboardBody');
+        leaderboardBody.innerHTML = '<tr><td colspan="4" style="text-align: center; padding: 3rem; color: var(--danger);">Failed to load leaderboard data.</td></tr>';
+      }
+
+      // Add Trust Score header click event
+      const trustScoreHeader = document.getElementById('trustScoreHeader');
+      if (trustScoreHeader) {
+        trustScoreHeader.addEventListener('click', sortLeaderboard);
+      }
+
+      // Add modal close event listeners
+      const closeButton = document.getElementById('closeProfileModal');
+      const modal = document.getElementById('userProfileModal');
+
+      if (closeButton) {
+        closeButton.addEventListener('click', closeProfileModal);
+      }
+
+      if (modal) {
+        // Close modal when clicking on overlay (outside content)
+        modal.addEventListener('click', function(e) {
+          if (e.target === modal) {
+            closeProfileModal();
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

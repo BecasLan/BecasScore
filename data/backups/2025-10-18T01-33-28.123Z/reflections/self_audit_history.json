@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "totalAudits": 2,
+    "correctDecisions": 0,
+    "questionableDecisions": 2,
+    "errors": 0,
+    "correctionsAttempted": 0,
+    "correctionsSuccessful": 0,
+    "errorRate": 0,
+    "selfCorrectionRate": null,
+    "commonErrors": {}
+  },
+  "corrections": [],
+  "auditResults": [
+    [
+      "action_1760749901482_1428912727325409551",
+      {
+        "actionId": "action_1760749901482_1428912727325409551",
+        "auditedAt": 1760749911567,
+        "conclusion": "questionable",
+        "confidence": 0.5,
+        "reasoning": "**CONCLUSION:** ERROR\n**ERROR_TYPE:** DISPROPORTIONATE\n**CONFIDENCE:** 80% (reduced confidence due to re-evaluation)\n**REASONING:** Upon re-examining the decision, I realize that banning cainwell migh",
+        "evidence": [
+          "Action: ban",
+          "Confidence: 90%",
+          "Decided by: cognitive"
+        ],
+        "selfReflection": "No specific lesson identified"
+      }
+    ]
+  ]
+}

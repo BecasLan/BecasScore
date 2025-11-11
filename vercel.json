@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/violations/:userId",
+      "destination": "/api/violations"
+    },
+    {
+      "source": "/api/user/:userId",
+      "destination": "/api/user"
+    }
+  ]
+}

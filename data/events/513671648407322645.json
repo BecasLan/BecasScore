@@ -1,0 +1,16 @@
+[
+  {
+    "guildId": "513671648407322645",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1433052910815809596",
+    "messageId": "1433083447748071505",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 1
+    },
+    "id": "event_1761744207864_apgn5guvn",
+    "timestamp": 1761744207864
+  }
+]

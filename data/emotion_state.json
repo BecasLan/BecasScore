@@ -1,0 +1,50 @@
+[
+  {
+    "emotion": "joy",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  },
+  {
+    "emotion": "trust",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  },
+  {
+    "emotion": "fear",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  },
+  {
+    "emotion": "surprise",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  },
+  {
+    "emotion": "sadness",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  },
+  {
+    "emotion": "disgust",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  },
+  {
+    "emotion": "anger",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  },
+  {
+    "emotion": "anticipation",
+    "intensity": 0,
+    "lastUpdate": 1762848150959,
+    "triggers": []
+  }
+]

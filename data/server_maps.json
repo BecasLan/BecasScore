@@ -1,0 +1,3389 @@
+{
+  "457952431758639126": {
+    "guildId": "457952431758639126",
+    "name": "Devr-i❆Pompa",
+    "channels": [
+      [
+        "491339007276482560",
+        {
+          "id": "491339007276482560",
+          "name": "old-sohbet",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2025-10-30T19:39:53.349Z",
+          "relatedChannels": [
+            "556901859013427230",
+            "719531245654114354"
+          ]
+        }
+      ],
+      [
+        "501877497520979978",
+        {
+          "id": "501877497520979978",
+          "name": "📢duyuru",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2021-04-20T12:36:52.233Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "524297483803951106",
+        {
+          "id": "524297483803951106",
+          "name": "🤖bot-komutları",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2021-04-19T16:46:50.740Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "556901859013427230",
+        {
+          "id": "556901859013427230",
+          "name": "📕spolu-kitap-sikis-sohbet",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2021-04-20T05:47:40.082Z",
+          "relatedChannels": [
+            "491339007276482560",
+            "719531245654114354"
+          ]
+        }
+      ],
+      [
+        "657678299987836938",
+        {
+          "id": "657678299987836938",
+          "name": "📖di̇sboard-kanali",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2021-04-19T00:59:12.180Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "695046589965795458",
+        {
+          "id": "695046589965795458",
+          "name": "🎬filmoneri-replik",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2021-04-18T19:59:20.013Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "710074713258459179",
+        {
+          "id": "710074713258459179",
+          "name": "📰güzel-postlar",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2021-04-20T05:59:49.006Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "719531245654114354",
+        {
+          "id": "719531245654114354",
+          "name": "naruto-online-eu-sohbet",
+          "type": "text",
+          "category": "Naruto EU",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2021-04-16T17:22:48.330Z",
+          "relatedChannels": [
+            "491339007276482560",
+            "556901859013427230"
+          ]
+        }
+      ],
+      [
+        "723977840227385375",
+        {
+          "id": "723977840227385375",
+          "name": "bu-hafta-paket-almayanlar-ve-alanlar",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 49,
+          "lastActive": "2021-01-14T14:46:40.880Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "755853424242851967",
+        {
+          "id": "755853424242851967",
+          "name": "rambo-okan-müzesi",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 43,
+          "lastActive": "2021-03-13T23:29:17.703Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "764578186032840755",
+        {
+          "id": "764578186032840755",
+          "name": "rules",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 50,
+          "lastActive": "2025-11-04T11:22:33.846Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "764578186032840756",
+        {
+          "id": "764578186032840756",
+          "name": "moderator-only",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 47,
+          "lastActive": "2025-11-03T14:48:53.762Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "833040901664014336",
+        {
+          "id": "833040901664014336",
+          "name": "gelen-gidenler",
+          "type": "text",
+          "category": "Yazı Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 32,
+          "lastActive": "2025-11-03T14:48:53.524Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1431524836332666981",
+        {
+          "id": "1431524836332666981",
+          "name": "ai-insights",
+          "type": "text",
+          "purpose": "A forum for discussing insights, advancements, and applications in artificial intelligence and machine learning.",
+          "topics": [
+            "AI",
+            "Machine Learning",
+            "Natural Language Processing",
+            "Neural Networks",
+            "Deep Learning"
+          ],
+          "activityLevel": "low",
+          "messageCount": 3,
+          "lastActive": "2025-10-28T16:15:02.506Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "708339016457781378",
+        {
+          "id": "708339016457781378",
+          "name": "PAVYON MÜDİRESİ",
+          "color": "#e67e22",
+          "position": 34,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "ManageChannels",
+            "AddReactions",
+            "ViewAuditLog",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "650331848093859847",
+        {
+          "id": "650331848093859847",
+          "name": "Pasif",
+          "color": "#e91e63",
+          "position": 19,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "ViewChannel",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "UseVAD",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking about the Discord role"
+        }
+      ],
+      [
+        "787262388092272721",
+        {
+          "id": "787262388092272721",
+          "name": "OC",
+          "color": "#97ff6c",
+          "position": 33,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "the user is asking what the Discord role \"OC\" stands for"
+        }
+      ],
+      [
+        "712349544293072956",
+        {
+          "id": "712349544293072956",
+          "name": "Maharetli",
+          "color": "#b6e4ff",
+          "position": 23,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "SendMessages",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "513253865035137035",
+        {
+          "id": "513253865035137035",
+          "name": "İLGİ KAŞARI",
+          "color": "#e782be",
+          "position": 22,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "901509166529646673",
+        {
+          "id": "901509166529646673",
+          "name": "MEE6",
+          "color": "#000000",
+          "position": 2,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "Administrator",
+            "ManageChannels",
+            "AddReactions",
+            "ViewChannel",
+            "SendMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "513440497122148372",
+        {
+          "id": "513440497122148372",
+          "name": "Sevilen Gavat",
+          "color": "#9b59b6",
+          "position": 30,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "668879600683712562",
+        {
+          "id": "668879600683712562",
+          "name": "ProBot ✨",
+          "color": "#000000",
+          "position": 11,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "ManageChannels",
+            "ManageGuild",
+            "ViewAuditLog",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "ProBot ✨"
+        }
+      ],
+      [
+        "459265134729101322",
+        {
+          "id": "459265134729101322",
+          "name": "Discord Yetkilisi",
+          "color": "#050505",
+          "position": 35,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "ManageChannels",
+            "ManageGuild",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "ViewGuildInsights",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "Discord Yetkilisi"
+        }
+      ],
+      [
+        "831988329611264020",
+        {
+          "id": "831988329611264020",
+          "name": "yeni rol",
+          "color": "#000000",
+          "position": 5,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "yeni rol"
+        }
+      ],
+      [
+        "773162223526477844",
+        {
+          "id": "773162223526477844",
+          "name": "Among US",
+          "color": "#607d8b",
+          "position": 17,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Among US"
+        }
+      ],
+      [
+        "832371316140015649",
+        {
+          "id": "832371316140015649",
+          "name": "Mudae",
+          "color": "#000000",
+          "position": 3,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "SendMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "ManageWebhooks"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "796501670417661972",
+        {
+          "id": "796501670417661972",
+          "name": "Yavşak",
+          "color": "#f063b3",
+          "position": 36,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "ManageChannels",
+            "ViewAuditLog",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "ViewGuildInsights",
+            "Connect",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "711605314063171594",
+        {
+          "id": "711605314063171594",
+          "name": "Editör",
+          "color": "#31fac1",
+          "position": 24,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "SendMessages",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Editör"
+        }
+      ],
+      [
+        "720679830730834000",
+        {
+          "id": "720679830730834000",
+          "name": "Muted",
+          "color": "#000000",
+          "position": 7,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Muted"
+        }
+      ],
+      [
+        "582206804738703369",
+        {
+          "id": "582206804738703369",
+          "name": "Old Gavatiye 🍩",
+          "color": "#caa5eb",
+          "position": 28,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "610964847689203713",
+        {
+          "id": "610964847689203713",
+          "name": "Discord Me",
+          "color": "#000000",
+          "position": 15,
+          "permissions": [
+            "CreateInstantInvite",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "1412423237673025616",
+        {
+          "id": "1412423237673025616",
+          "name": "Becas Bot",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "ManageChannels",
+            "ManageGuild",
+            "AddReactions",
+            "ViewChannel",
+            "SendMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "ManageEvents",
+            "ManageThreads",
+            "CreatePublicThreads",
+            "SendMessagesInThreads",
+            "UseEmbeddedActivities",
+            "ModerateMembers",
+            "CreateGuildExpressions",
+            "CreateEvents",
+            "SendPolls",
+            "PinMessages"
+          ],
+          "memberCount": 1,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "668857020383887360",
+        {
+          "id": "668857020383887360",
+          "name": "Kashima",
+          "color": "#000000",
+          "position": 12,
+          "permissions": [
+            "KickMembers",
+            "BanMembers",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "ViewChannel",
+            "SendMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ManageRoles",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "718852217825787965",
+        {
+          "id": "718852217825787965",
+          "name": "Gartic.io",
+          "color": "#0f5577",
+          "position": 18,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Gartic.io"
+        }
+      ],
+      [
+        "508032793536888872",
+        {
+          "id": "508032793536888872",
+          "name": "ENTEL ALAGAVAT",
+          "color": "#f1c40f",
+          "position": 31,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "832358429682040923",
+        {
+          "id": "832358429682040923",
+          "name": "Muted",
+          "color": "#818386",
+          "position": 4,
+          "permissions": [],
+          "memberCount": 0,
+          "purpose": "Muted"
+        }
+      ],
+      [
+        "508033842423005199",
+        {
+          "id": "508033842423005199",
+          "name": "Bot",
+          "color": "#ff009f",
+          "position": 13,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "the user is asking what the Discord role \"Bot\" does"
+        }
+      ],
+      [
+        "740496707556605972",
+        {
+          "id": "740496707556605972",
+          "name": "KOREGA 19 XMAX PRO",
+          "color": "#245407",
+          "position": 14,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user wants to know what the Discord role"
+        }
+      ],
+      [
+        "580108096102203408",
+        {
+          "id": "580108096102203408",
+          "name": "GAVATOR",
+          "color": "#886fff",
+          "position": 38,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "Administrator",
+            "ManageChannels",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "709120768113377302",
+        {
+          "id": "709120768113377302",
+          "name": "Discord Server List",
+          "color": "#000000",
+          "position": 10,
+          "permissions": [
+            "CreateInstantInvite",
+            "Administrator",
+            "AddReactions",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "the user is asking about the purpose of the Discord role named \"Discord"
+        }
+      ],
+      [
+        "459272743171653632",
+        {
+          "id": "459272743171653632",
+          "name": "LORD OF GAVAT",
+          "color": "#ff0000",
+          "position": 39,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "Administrator",
+            "ManageChannels",
+            "ManageGuild",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 1,
+          "purpose": "the user is asking about the Discord role \"LORD OF GAVAT"
+        }
+      ],
+      [
+        "554718435846651934",
+        {
+          "id": "554718435846651934",
+          "name": "OLD GAVAT 🍆",
+          "color": "#ad1457",
+          "position": 29,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "831980714211409981",
+        {
+          "id": "831980714211409981",
+          "name": "Disboard",
+          "color": "#000000",
+          "position": 9,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "ViewGuildInsights",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "Disboard"
+        }
+      ],
+      [
+        "710568722762301500",
+        {
+          "id": "710568722762301500",
+          "name": "KAÇAK",
+          "color": "#607d8b",
+          "position": 25,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "KAÇAK"
+        }
+      ],
+      [
+        "739945035235066018",
+        {
+          "id": "739945035235066018",
+          "name": "PUBG",
+          "color": "#691b1b",
+          "position": 16,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "the user is asking what the Discord role \"PUBG\" stands for"
+        }
+      ],
+      [
+        "720679510042869781",
+        {
+          "id": "720679510042869781",
+          "name": "PirdBot",
+          "color": "#000000",
+          "position": 8,
+          "permissions": [
+            "Administrator",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "764587489519730729",
+        {
+          "id": "764587489519730729",
+          "name": "TesterGavator",
+          "color": "#000000",
+          "position": 6,
+          "permissions": [
+            "Administrator",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user wants to know what the Discord role"
+        }
+      ],
+      [
+        "460115457454637056",
+        {
+          "id": "460115457454637056",
+          "name": "Pavyon Müdürü",
+          "color": "#3498db",
+          "position": 37,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "ManageChannels",
+            "ManageGuild",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "ViewGuildInsights",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "525021037784465410",
+        {
+          "id": "525021037784465410",
+          "name": "Yeni Gavat 🍆",
+          "color": "#2ecc71",
+          "position": 26,
+          "permissions": [
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "592997104885170176",
+        {
+          "id": "592997104885170176",
+          "name": "Yeni Gavatiye 🍩",
+          "color": "#9b59b6",
+          "position": 27,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "668850108762161162",
+        {
+          "id": "668850108762161162",
+          "name": "LOLCÜLER",
+          "color": "#2ecc71",
+          "position": 20,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendTTSMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "716426521824460832",
+        {
+          "id": "716426521824460832",
+          "name": "MUTED",
+          "color": "#979c9f",
+          "position": 32,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "MUTED"
+        }
+      ],
+      [
+        "723968480478494804",
+        {
+          "id": "723968480478494804",
+          "name": "Naruto Online",
+          "color": "#c27c0e",
+          "position": 21,
+          "permissions": [
+            "CreateInstantInvite",
+            "ViewChannel",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "Connect",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Naruto Online"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "500757737785917452",
+        {
+          "id": "500757737785917452",
+          "name": "Yetkili Külliyesi",
+          "channels": [
+            "513440233459548203"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "501876642822619147",
+        {
+          "id": "501876642822619147",
+          "name": "AFK",
+          "channels": [
+            "500758931690225674"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "707895902236311572",
+        {
+          "id": "707895902236311572",
+          "name": "Yazı Kanalları",
+          "channels": [
+            "491339007276482560",
+            "501877497520979978",
+            "524297483803951106",
+            "556901859013427230",
+            "657678299987836938",
+            "695046589965795458",
+            "710074713258459179",
+            "723977840227385375",
+            "755853424242851967",
+            "833040901664014336"
+          ],
+          "purpose": "The user is asking about the purpose of this Discord category"
+        }
+      ],
+      [
+        "707896379414151218",
+        {
+          "id": "707896379414151218",
+          "name": "Ses Kanalları",
+          "channels": [
+            "460138818113241089",
+            "593363808605569025",
+            "734483453399269416",
+            "734526874142900361",
+            "736612174377517157",
+            "738120544960118934",
+            "740228113841127496"
+          ],
+          "purpose": "The user is asking about the purpose of this Discord category"
+        }
+      ],
+      [
+        "721004248476680203",
+        {
+          "id": "721004248476680203",
+          "name": "Naruto EU",
+          "channels": [
+            "719531245654114354"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 30,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-04T15:03:39.410Z"
+  },
+  "513671648407322645": {
+    "guildId": "513671648407322645",
+    "name": "Lord",
+    "channels": [
+      [
+        "513671648407322647",
+        {
+          "id": "513671648407322647",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 57,
+          "lastActive": "2025-10-29T11:23:29.091Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1433052910815809596",
+        {
+          "id": "1433052910815809596",
+          "name": "becas-test",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 4,
+          "lastActive": "2025-10-29T13:21:59.346Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1433054108532740167",
+        {
+          "id": "1433054108532740167",
+          "name": "becas-test",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 2,
+          "lastActive": "2025-10-29T11:25:56.277Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1433053620827459608",
+        {
+          "id": "1433053620827459608",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "513671648407322646",
+        {
+          "id": "513671648407322646",
+          "name": "Metin Kanalları",
+          "channels": [
+            "513671648407322647"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "513671648407322648",
+        {
+          "id": "513671648407322648",
+          "name": "Ses Kanalları",
+          "channels": [
+            "513671648407322649"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 2,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:25.591Z"
+  },
+  "720971598156398632": {
+    "guildId": "720971598156398632",
+    "name": "AGE OF PUMP",
+    "channels": [
+      [
+        "720971598156398637",
+        {
+          "id": "720971598156398637",
+          "name": "chat",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2025-10-29T11:10:32.163Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "721002659699621999",
+        {
+          "id": "721002659699621999",
+          "name": "videos-pictures",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 20,
+          "lastActive": "2020-08-27T14:35:48.535Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "721002685624483870",
+        {
+          "id": "721002685624483870",
+          "name": "lineups-tactics",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2020-06-30T11:27:46.250Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "721031437964279889",
+        {
+          "id": "721031437964279889",
+          "name": "drawings",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "A channel for sharing and discussing art, illustrations, and creative work.",
+          "topics": [
+            "art",
+            "illustrations",
+            "appreciation",
+            "feedback"
+          ],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2020-09-06T10:57:25.286Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "721060339415908444",
+        {
+          "id": "721060339415908444",
+          "name": "turkish-players",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2020-07-06T21:14:56.956Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "721105919177523293",
+        {
+          "id": "721105919177523293",
+          "name": "music-bot-comut",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 63,
+          "lastActive": "2020-07-02T21:03:23.369Z",
+          "relatedChannels": [
+            "721106522721222677"
+          ]
+        }
+      ],
+      [
+        "721106522721222677",
+        {
+          "id": "721106522721222677",
+          "name": "bot-commands",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 7,
+          "lastActive": "2020-06-13T14:30:56.916Z",
+          "relatedChannels": [
+            "721105919177523293"
+          ]
+        }
+      ],
+      [
+        "723890554471186482",
+        {
+          "id": "723890554471186482",
+          "name": "questions-answers",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 49,
+          "lastActive": "2020-06-23T10:40:22.882Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "727203155464683571",
+        {
+          "id": "727203155464683571",
+          "name": "event-info",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 4,
+          "lastActive": "2020-07-09T20:48:24.758Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1433050428790276187",
+        {
+          "id": "1433050428790276187",
+          "name": "becas-test",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 7,
+          "lastActive": "2025-10-29T11:18:27.999Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "720974196594835488",
+        {
+          "id": "720974196594835488",
+          "name": "SD",
+          "color": "#000000",
+          "position": 11,
+          "permissions": [
+            "CreateInstantInvite",
+            "Administrator",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "the user is asking what the Discord role \"SD\" stands for"
+        }
+      ],
+      [
+        "720974779162558606",
+        {
+          "id": "720974779162558606",
+          "name": "Senior",
+          "color": "#0e0930",
+          "position": 9,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "Administrator",
+            "ManageChannels",
+            "ManageGuild",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreateGuildExpressions"
+          ],
+          "memberCount": 0,
+          "purpose": "Senior"
+        }
+      ],
+      [
+        "720974913535737886",
+        {
+          "id": "720974913535737886",
+          "name": "Anbu",
+          "color": "#f1c40f",
+          "position": 7,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "the user is asking about the Discord role \"Anbu\" and wants the"
+        }
+      ],
+      [
+        "720975067810496642",
+        {
+          "id": "720975067810496642",
+          "name": "Elite",
+          "color": "#1f8b4c",
+          "position": 6,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Elite"
+        }
+      ],
+      [
+        "720975112496742491",
+        {
+          "id": "720975112496742491",
+          "name": "Members",
+          "color": "#607d8b",
+          "position": 5,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Members"
+        }
+      ],
+      [
+        "720975329400848414",
+        {
+          "id": "720975329400848414",
+          "name": "Leader",
+          "color": "#9b112f",
+          "position": 10,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Leader"
+        }
+      ],
+      [
+        "720976869477842975",
+        {
+          "id": "720976869477842975",
+          "name": "Guest",
+          "color": "#3498db",
+          "position": 4,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Guest"
+        }
+      ],
+      [
+        "721105294888927364",
+        {
+          "id": "721105294888927364",
+          "name": "Rythm",
+          "color": "#000000",
+          "position": 3,
+          "permissions": [
+            "Administrator",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Rythm"
+        }
+      ],
+      [
+        "730895897746997268",
+        {
+          "id": "730895897746997268",
+          "name": "Battle Commander",
+          "color": "#a84300",
+          "position": 8,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "Battle Commander"
+        }
+      ],
+      [
+        "764600347888975914",
+        {
+          "id": "764600347888975914",
+          "name": "TesterGavator",
+          "color": "#000000",
+          "position": 2,
+          "permissions": [
+            "Administrator",
+            "UseApplicationCommands",
+            "RequestToSpeak"
+          ],
+          "memberCount": 0,
+          "purpose": "s see. The user wants to know what the Discord role"
+        }
+      ],
+      [
+        "1433049993115205794",
+        {
+          "id": "1433049993115205794",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "720971598156398635",
+        {
+          "id": "720971598156398635",
+          "name": "Metin Kanalları",
+          "channels": [
+            "720971598156398637",
+            "721002659699621999",
+            "721002685624483870",
+            "721031437964279889",
+            "721060339415908444",
+            "721105919177523293",
+            "721106522721222677",
+            "723890554471186482",
+            "727203155464683571"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "720971598156398636",
+        {
+          "id": "720971598156398636",
+          "name": "Ses Kanalları",
+          "channels": [
+            "720971598156398638",
+            "721136596019314730"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 9,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:27.282Z"
+  },
+  "928955640171356210": {
+    "guildId": "928955640171356210",
+    "name": "Whitelist olmayı hak edip olamayanlar (wl olanlar giremez)",
+    "channels": [
+      [
+        "928955640171356213",
+        {
+          "id": "928955640171356213",
+          "name": "wl-olacak-olanlar",
+          "type": "text",
+          "category": "Text Channels",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 10,
+          "lastActive": "2025-10-29T13:35:43.173Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "940237586943869009",
+        {
+          "id": "940237586943869009",
+          "name": "Invite Tracker",
+          "color": "#000000",
+          "position": 2,
+          "permissions": [
+            "ManageGuild",
+            "AddReactions",
+            "SendMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "UseExternalEmojis",
+            "ManageRoles"
+          ],
+          "memberCount": 0,
+          "purpose": "Invite Tracker"
+        }
+      ],
+      [
+        "1433086902281703438",
+        {
+          "id": "1433086902281703438",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "928955640171356211",
+        {
+          "id": "928955640171356211",
+          "name": "Text Channels",
+          "channels": [
+            "928955640171356213"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "928955640171356212",
+        {
+          "id": "928955640171356212",
+          "name": "Voice Channels",
+          "channels": [
+            "928955640171356214"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 3,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:31.311Z"
+  },
+  "1174433502436016138": {
+    "guildId": "1174433502436016138",
+    "name": "Dark anbou",
+    "channels": [
+      [
+        "1174433503077732374",
+        {
+          "id": "1174433503077732374",
+          "name": "free-talk",
+          "type": "text",
+          "category": "Text Channels",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 67,
+          "lastActive": "2025-10-29T13:55:28.783Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1174433793633955890",
+        {
+          "id": "1174433793633955890",
+          "name": "Leader",
+          "color": "#992d22",
+          "position": 4,
+          "permissions": [],
+          "memberCount": 0,
+          "purpose": "Leader"
+        }
+      ],
+      [
+        "1174433909749071933",
+        {
+          "id": "1174433909749071933",
+          "name": "Deputy Leader",
+          "color": "#e74c3c",
+          "position": 3,
+          "permissions": [],
+          "memberCount": 0,
+          "purpose": "the user is asking about the purpose of the Discord role \"Deputy Leader"
+        }
+      ],
+      [
+        "1174434014472445982",
+        {
+          "id": "1174434014472445982",
+          "name": "Member of Anbou",
+          "color": "#2ecc71",
+          "position": 2,
+          "permissions": [],
+          "memberCount": 0,
+          "purpose": "Member of Anbou."
+        }
+      ],
+      [
+        "1433091871458066463",
+        {
+          "id": "1433091871458066463",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1174433503077732372",
+        {
+          "id": "1174433503077732372",
+          "name": "Text Channels",
+          "channels": [
+            "1174433503077732374"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1174433503077732373",
+        {
+          "id": "1174433503077732373",
+          "name": "Voice Channels",
+          "channels": [
+            "1174433503077732376"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 4,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:32.364Z"
+  },
+  "1409596032341508158": {
+    "guildId": "1409596032341508158",
+    "name": "Becas Test Server",
+    "channels": [
+      [
+        "1413056259887857725",
+        {
+          "id": "1413056259887857725",
+          "name": "test",
+          "type": "text",
+          "category": "Text Channels",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2025-11-11T07:08:50.661Z",
+          "relatedChannels": [
+            "1429417907653185687",
+            "1435281819992854709"
+          ]
+        }
+      ],
+      [
+        "1414667225515687967",
+        {
+          "id": "1414667225515687967",
+          "name": "logs",
+          "type": "text",
+          "category": "Text Channels",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 56,
+          "lastActive": "2025-09-10T18:54:18.462Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1428155654618747033",
+        {
+          "id": "1428155654618747033",
+          "name": "rules",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 64,
+          "lastActive": "2025-11-11T07:17:00.809Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1428156073420001311",
+        {
+          "id": "1428156073420001311",
+          "name": "gaming-channel",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 1,
+          "lastActive": "2025-10-20T23:31:32.506Z",
+          "relatedChannels": [
+            "1434875450408177684",
+            "1434875534009040989"
+          ]
+        }
+      ],
+      [
+        "1429114012804710611",
+        {
+          "id": "1429114012804710611",
+          "name": "security-log",
+          "type": "text",
+          "category": "Text Channels",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1429115508937986118",
+        {
+          "id": "1429115508937986118",
+          "name": "banned",
+          "type": "text",
+          "category": "Text Channels",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 73,
+          "lastActive": "2025-10-27T03:45:55.474Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1429417907653185687",
+        {
+          "id": "1429417907653185687",
+          "name": "beca-test",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2025-11-11T07:17:22.399Z",
+          "relatedChannels": [
+            "1413056259887857725",
+            "1435281819992854709"
+          ]
+        }
+      ],
+      [
+        "1430056791005462629",
+        {
+          "id": "1430056791005462629",
+          "name": "ai-önerileri-suggestions",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 37,
+          "lastActive": "2025-11-06T13:11:45.842Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1434875450408177684",
+        {
+          "id": "1434875450408177684",
+          "name": "the-user-wants-me-to-extract-the-channel-name-from-the",
+          "type": "text",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": [
+            "1428156073420001311"
+          ]
+        }
+      ],
+      [
+        "1434875534009040989",
+        {
+          "id": "1434875534009040989",
+          "name": "the-user-wants-me-to-extract-the-channel-name-from-the",
+          "type": "text",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": [
+            "1428156073420001311"
+          ]
+        }
+      ],
+      [
+        "1434876720187572265",
+        {
+          "id": "1434876720187572265",
+          "name": "harun",
+          "type": "text",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1434876822008627362",
+        {
+          "id": "1434876822008627362",
+          "name": "haurnbaba",
+          "type": "text",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1434883113384935505",
+        {
+          "id": "1434883113384935505",
+          "name": "harunbababa",
+          "type": "text",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1434885947354251375",
+        {
+          "id": "1434885947354251375",
+          "name": "harunabababsabdas",
+          "type": "text",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1435281819992854709",
+        {
+          "id": "1435281819992854709",
+          "name": "test-a",
+          "type": "text",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": [
+            "1413056259887857725",
+            "1429417907653185687"
+          ]
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1409682424060973176",
+        {
+          "id": "1409682424060973176",
+          "name": "HalfAdmin",
+          "color": "#f1c40f",
+          "position": 3,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "Administrator",
+            "ManageChannels",
+            "ManageGuild",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "ManageEvents",
+            "ManageThreads",
+            "CreatePublicThreads",
+            "CreatePrivateThreads",
+            "UseExternalStickers",
+            "SendMessagesInThreads",
+            "UseEmbeddedActivities",
+            "ModerateMembers",
+            "UseSoundboard",
+            "CreateGuildExpressions",
+            "CreateEvents",
+            "UseExternalSounds",
+            "SendVoiceMessages",
+            "SendPolls",
+            "UseExternalApps",
+            "PinMessages"
+          ],
+          "memberCount": 1,
+          "purpose": "s see. The user is asking what the Discord role"
+        }
+      ],
+      [
+        "1411341347037777950",
+        {
+          "id": "1411341347037777950",
+          "name": "simple role",
+          "color": "#000000",
+          "position": 2,
+          "permissions": [],
+          "memberCount": 0,
+          "purpose": "simple role"
+        }
+      ],
+      [
+        "1411974375003000863",
+        {
+          "id": "1411974375003000863",
+          "name": "Monitor",
+          "color": "#ff0000",
+          "position": 1,
+          "permissions": [
+            "CreateInstantInvite",
+            "AddReactions",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "UseVAD",
+            "ChangeNickname",
+            "UseApplicationCommands",
+            "RequestToSpeak",
+            "CreatePublicThreads",
+            "CreatePrivateThreads",
+            "UseExternalStickers",
+            "SendMessagesInThreads",
+            "UseEmbeddedActivities",
+            "UseSoundboard",
+            "CreateGuildExpressions",
+            "CreateEvents",
+            "UseExternalSounds",
+            "SendVoiceMessages",
+            "SendPolls",
+            "UseExternalApps"
+          ],
+          "memberCount": 0,
+          "purpose": "Monitor"
+        }
+      ],
+      [
+        "1433462326048329762",
+        {
+          "id": "1433462326048329762",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 4,
+          "permissions": [
+            "CreateInstantInvite",
+            "KickMembers",
+            "BanMembers",
+            "Administrator",
+            "ManageChannels",
+            "ManageGuild",
+            "AddReactions",
+            "ViewAuditLog",
+            "PrioritySpeaker",
+            "Stream",
+            "ViewChannel",
+            "SendMessages",
+            "SendTTSMessages",
+            "ManageMessages",
+            "EmbedLinks",
+            "AttachFiles",
+            "ReadMessageHistory",
+            "MentionEveryone",
+            "UseExternalEmojis",
+            "Connect",
+            "Speak",
+            "MuteMembers",
+            "DeafenMembers",
+            "MoveMembers",
+            "UseVAD",
+            "ChangeNickname",
+            "ManageNicknames",
+            "ManageRoles",
+            "ManageWebhooks",
+            "ManageEmojisAndStickers",
+            "ManageGuildExpressions",
+            "UseApplicationCommands",
+            "ManageEvents",
+            "ManageThreads",
+            "CreatePublicThreads",
+            "CreatePrivateThreads",
+            "UseExternalStickers",
+            "SendMessagesInThreads",
+            "UseEmbeddedActivities",
+            "ModerateMembers",
+            "UseSoundboard",
+            "CreateGuildExpressions",
+            "CreateEvents",
+            "UseExternalSounds",
+            "SendVoiceMessages",
+            "SendPolls",
+            "UseExternalApps",
+            "PinMessages"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1409596034090401903",
+        {
+          "id": "1409596034090401903",
+          "name": "Text Channels",
+          "channels": [
+            "1413056259887857725",
+            "1414667225515687967",
+            "1429114012804710611",
+            "1429115508937986118"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1409596034090401904",
+        {
+          "id": "1409596034090401904",
+          "name": "Voice Channels",
+          "channels": [
+            "1409596034090401906"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 5,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:33.059Z"
+  },
+  "940000481353293885": {
+    "guildId": "940000481353293885",
+    "name": "CainWell kullanıcısının sunucusu",
+    "channels": [
+      [
+        "940000481814650881",
+        {
+          "id": "940000481814650881",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 7,
+          "lastActive": "2025-10-30T15:31:20.044Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "940000528451125268",
+        {
+          "id": "940000528451125268",
+          "name": "takılıoyurm",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1433478310276497460",
+        {
+          "id": "1433478310276497460",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "940000481353293886",
+        {
+          "id": "940000481353293886",
+          "name": "Metin Kanalları",
+          "channels": [
+            "940000481814650881",
+            "940000528451125268"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "940000481814650880",
+        {
+          "id": "940000481814650880",
+          "name": "Ses Kanalları",
+          "channels": [
+            "940000481814650882"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 2,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:31.766Z"
+  },
+  "1433548909015470315": {
+    "guildId": "1433548909015470315",
+    "name": "Hosea Matthews kullanıcısının sunucusu",
+    "channels": [
+      [
+        "1433548909657194598",
+        {
+          "id": "1433548909657194598",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 7,
+          "lastActive": "2025-11-01T04:28:44.921Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1433548909657194599",
+        {
+          "id": "1433548909657194599",
+          "name": "klipler-ve-öne-çıkan-anlar",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1434036282190987358",
+        {
+          "id": "1434036282190987358",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1433548909657194597",
+        {
+          "id": "1433548909657194597",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1433548909657194598",
+            "1433548909657194599"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1433548909657194600",
+        {
+          "id": "1433548909657194600",
+          "name": "Ses Kanalları",
+          "channels": [
+            "1433548909657194601",
+            "1433548909657194602"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 2,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:41.878Z"
+  },
+  "1434037711722905602": {
+    "guildId": "1434037711722905602",
+    "name": "Hosea Matthews kullanıcısının sunucusu",
+    "channels": [
+      [
+        "1434037712356380734",
+        {
+          "id": "1434037712356380734",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 5,
+          "lastActive": "2025-11-03T08:09:24.651Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1434037712356380735",
+        {
+          "id": "1434037712356380735",
+          "name": "klipler-ve-öne-çıkan-anlar",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1434038212199710770",
+        {
+          "id": "1434038212199710770",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1434037712356380733",
+        {
+          "id": "1434037712356380733",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1434037712356380734",
+            "1434037712356380735"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1434037712356380736",
+        {
+          "id": "1434037712356380736",
+          "name": "Ses Kanalları",
+          "channels": [
+            "1434037712356380737",
+            "1434037712356380738"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 2,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:42.483Z"
+  },
+  "1434039128437297174": {
+    "guildId": "1434039128437297174",
+    "name": "asdasxas",
+    "channels": [
+      [
+        "1434039129091477506",
+        {
+          "id": "1434039129091477506",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "medium",
+          "messageCount": 35,
+          "lastActive": "2025-11-01T06:14:40.997Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1434047628860985376",
+        {
+          "id": "1434047628860985376",
+          "name": "becas-test",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 1,
+          "lastActive": "2025-11-01T05:13:18.630Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1434048420800106539",
+        {
+          "id": "1434048420800106539",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1434039129091477504",
+        {
+          "id": "1434039129091477504",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1434039129091477506"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1434039129091477505",
+        {
+          "id": "1434039129091477505",
+          "name": "Ses Kanalları",
+          "channels": [
+            "1434039129091477507"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 2,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:43.034Z"
+  },
+  "1434820658637836290": {
+    "guildId": "1434820658637836290",
+    "name": "Hosea Matthews kullanıcısının sunucusu",
+    "channels": [
+      [
+        "1434820659330027533",
+        {
+          "id": "1434820659330027533",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2025-11-09T20:12:46.652Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1434820853421572148",
+        {
+          "id": "1434820853421572148",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1434820659330027531",
+        {
+          "id": "1434820659330027531",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1434820659330027533"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1434820659330027532",
+        {
+          "id": "1434820659330027532",
+          "name": "Ses Kanalları",
+          "channels": [
+            "1434820659330027534"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 3,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:43.592Z"
+  },
+  "1434824117714030614": {
+    "guildId": "1434824117714030614",
+    "name": "Emir kullanıcısının sunucusu",
+    "channels": [
+      [
+        "1434824118556950572",
+        {
+          "id": "1434824118556950572",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 86,
+          "lastActive": "2025-11-03T15:00:07.175Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1434827871981015157",
+        {
+          "id": "1434827871981015157",
+          "name": "ai-insights",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 6,
+          "lastActive": "2025-11-03T13:12:33.247Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1434825026535948312",
+        {
+          "id": "1434825026535948312",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1434824118556950568",
+        {
+          "id": "1434824118556950568",
+          "name": "Bilgi",
+          "channels": [],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1434824118556950571",
+        {
+          "id": "1434824118556950571",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1434824118556950572"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1434824118556950576",
+        {
+          "id": "1434824118556950576",
+          "name": "Ses Kanalları",
+          "channels": [],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 2,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:44.052Z"
+  },
+  "1412168383344152599": {
+    "guildId": "1412168383344152599",
+    "name": "Emir kullanıcısının sunucusuadsa",
+    "channels": [
+      [
+        "1434921302958936145",
+        {
+          "id": "1434921302958936145",
+          "name": "kjhjkhjkj",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "Unknown",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 0,
+          "lastActive": "1970-01-01T00:00:00.000Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1434921036997988469",
+        {
+          "id": "1434921036997988469",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1412168384438734888",
+        {
+          "id": "1412168384438734888",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1434921302958936145"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1412168384438734889",
+        {
+          "id": "1412168384438734889",
+          "name": "Ses Kanalları",
+          "channels": [
+            "1412168384438734891"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 4,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:41.621Z"
+  },
+  "1434924245414055958": {
+    "guildId": "1434924245414055958",
+    "name": "Hosea Matthews kullanıcısının sunucusu",
+    "channels": [
+      [
+        "1434924246068363457",
+        {
+          "id": "1434924246068363457",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 12,
+          "lastActive": "2025-11-09T13:20:40.283Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1434924304763719864",
+        {
+          "id": "1434924304763719864",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1434924246068363455",
+        {
+          "id": "1434924246068363455",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1434924246068363457"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1434924246068363456",
+        {
+          "id": "1434924246068363456",
+          "name": "Ses Kanalları",
+          "channels": [
+            "1434924246068363458"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 3,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:44.765Z"
+  },
+  "1435207035418443818": {
+    "guildId": "1435207035418443818",
+    "name": "pırtpıp",
+    "channels": [
+      [
+        "1435207036370419827",
+        {
+          "id": "1435207036370419827",
+          "name": "genel",
+          "type": "text",
+          "category": "Metin Kanalları",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 5,
+          "lastActive": "2025-11-04T10:02:58.047Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1435208394985443328",
+        {
+          "id": "1435208394985443328",
+          "name": "becas-test",
+          "type": "text",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "low",
+          "messageCount": 19,
+          "lastActive": "2025-11-04T10:10:34.633Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1435209104099377164",
+        {
+          "id": "1435209104099377164",
+          "name": "ai-insights",
+          "type": "text",
+          "purpose": "A forum for discussing AI technologies, trends, and applications",
+          "topics": [
+            "machine learning",
+            "natural language processing",
+            "ethical AI"
+          ],
+          "activityLevel": "low",
+          "messageCount": 2,
+          "lastActive": "2025-11-04T10:08:36.219Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1435207525447368769",
+        {
+          "id": "1435207525447368769",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1435207036370419825",
+        {
+          "id": "1435207036370419825",
+          "name": "Metin Kanalları",
+          "channels": [
+            "1435207036370419827"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1435207036370419826",
+        {
+          "id": "1435207036370419826",
+          "name": "Ses Kanalları",
+          "channels": [
+            "1435207036370419828"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 2,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:45.104Z"
+  },
+  "1435281899760255050": {
+    "guildId": "1435281899760255050",
+    "name": "BECAS B",
+    "channels": [
+      [
+        "1435281901337182410",
+        {
+          "id": "1435281901337182410",
+          "name": "general",
+          "type": "text",
+          "category": "Text Channels",
+          "purpose": "General discussion",
+          "topics": [],
+          "activityLevel": "high",
+          "messageCount": 100,
+          "lastActive": "2025-11-11T06:53:03.638Z",
+          "relatedChannels": []
+        }
+      ],
+      [
+        "1435981068581867674",
+        {
+          "id": "1435981068581867674",
+          "name": "ai-insights",
+          "type": "text",
+          "purpose": "A Discord channel dedicated to discussing AI-related topics, likely focusing on machine learning, data science, and technological advancements.",
+          "topics": [
+            "AI",
+            "Machine Learning",
+            "Data Science",
+            "Technological Advancements"
+          ],
+          "activityLevel": "low",
+          "messageCount": 6,
+          "lastActive": "2025-11-06T13:32:27.610Z",
+          "relatedChannels": []
+        }
+      ]
+    ],
+    "roles": [
+      [
+        "1435286964806090877",
+        {
+          "id": "1435286964806090877",
+          "name": "BECAS",
+          "color": "#000000",
+          "position": 1,
+          "permissions": [
+            "Administrator"
+          ],
+          "memberCount": 1,
+          "purpose": "BECAS"
+        }
+      ]
+    ],
+    "categories": [
+      [
+        "1435281901337182408",
+        {
+          "id": "1435281901337182408",
+          "name": "Text Channels",
+          "channels": [
+            "1435281901337182410"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ],
+      [
+        "1435281901337182409",
+        {
+          "id": "1435281901337182409",
+          "name": "Voice Channels",
+          "channels": [
+            "1435281901337182411"
+          ],
+          "purpose": "The user is asking about the purpose of the Discord category"
+        }
+      ]
+    ],
+    "totalMembers": 3,
+    "activeMembers": 0,
+    "lastMapped": "2025-11-11T07:23:45.914Z"
+  }
+}

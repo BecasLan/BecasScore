@@ -1,0 +1,382 @@
+[
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "799311717502287923",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435288303426470051",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 1
+    },
+    "id": "event_1762269805811_uzpvmf1gi",
+    "timestamp": 1762269805811
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "799311717502287923",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435288519143588010",
+    "metadata": {
+      "toxicity": 0.2,
+      "wordCount": 3
+    },
+    "id": "event_1762269860314_l0ygfwcqn",
+    "timestamp": 1762269860314
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435288637741727837",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 10
+    },
+    "id": "event_1762269892033_19gisjbao",
+    "timestamp": 1762269892033
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435289526451830795",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 3
+    },
+    "id": "event_1762270097434_rko1ldc3c",
+    "timestamp": 1762270097434
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "toxic_action",
+    "actorId": "799311717502287923",
+    "reason": "Extreme toxicity: 100%",
+    "severity": 1,
+    "sentiment": "negative",
+    "channelId": "1435281901337182410",
+    "messageId": "1435290923217981632",
+    "metadata": {
+      "toxicity": 1,
+      "timeoutDuration": 3600000
+    },
+    "id": "event_1762270476496_qiv1ek8q1",
+    "timestamp": 1762270476496
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "799311717502287923",
+    "sentiment": "negative",
+    "channelId": "1435281901337182410",
+    "messageId": "1435290930864324760",
+    "metadata": {
+      "toxicity": 0.2,
+      "wordCount": 3
+    },
+    "id": "event_1762270499899_9d7rdlp3r",
+    "timestamp": 1762270499899
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435343235504668804",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 1
+    },
+    "id": "event_1762282904825_hslneznw5",
+    "timestamp": 1762282904825
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435980663915548794",
+    "metadata": {
+      "toxicity": 0.3,
+      "wordCount": 1
+    },
+    "id": "event_1762434887375_rjrq2ccua",
+    "timestamp": 1762434887375
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "799311717502287923",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435980704314953728",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 1
+    },
+    "id": "event_1762434899796_u7gvwcdut",
+    "timestamp": 1762434899796
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "negative",
+    "channelId": "1435281901337182410",
+    "messageId": "1435980846870822973",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 6
+    },
+    "id": "event_1762434938846_qkkknfo6e",
+    "timestamp": 1762434938846
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435980850780176395",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 3
+    },
+    "id": "event_1762434950223_f9of11p9c",
+    "timestamp": 1762434950223
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435980861303685140",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 3
+    },
+    "id": "event_1762434979074_yr7axii4e",
+    "timestamp": 1762434979074
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435981281350520934",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 3
+    },
+    "id": "event_1762435029230_qmf0i3k8w",
+    "timestamp": 1762435029230
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "799311717502287923",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435981382370197625",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 1
+    },
+    "id": "event_1762435052521_dfmljs9g3",
+    "timestamp": 1762435052521
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "799311717502287923",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435981450112667669",
+    "metadata": {
+      "toxicity": 0.2,
+      "wordCount": 10
+    },
+    "id": "event_1762435083238_gmst76j12",
+    "timestamp": 1762435083238
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435981577195753553",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 3
+    },
+    "id": "event_1762435108765_a7j4yfde0",
+    "timestamp": 1762435108765
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435982144299335871",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 2
+    },
+    "id": "event_1762435229589_bf60mrdsa",
+    "timestamp": 1762435229589
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435982164020691105",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 1
+    },
+    "id": "event_1762435251637_vgrqrzhos",
+    "timestamp": 1762435251637
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "1282805346016034879",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435982844567486475",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 2
+    },
+    "id": "event_1762435397555_h9n1jawhs",
+    "timestamp": 1762435397555
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "1282805346016034879",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435982901404631213",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 5
+    },
+    "id": "event_1762435432028_93y2dt6m3",
+    "timestamp": 1762435432028
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "1282805346016034879",
+    "sentiment": "positive",
+    "channelId": "1435281901337182410",
+    "messageId": "1435982884744990792",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 7
+    },
+    "id": "event_1762435461675_fdcpusjct",
+    "timestamp": 1762435461675
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "1282805346016034879",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435984712026820668",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 1
+    },
+    "id": "event_1762435844364_uhnazf90v",
+    "timestamp": 1762435844364
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "1282805346016034879",
+    "sentiment": "negative",
+    "channelId": "1435281901337182410",
+    "messageId": "1435984912405495952",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 4
+    },
+    "id": "event_1762435889522_2gv4o44mz",
+    "timestamp": 1762435889522
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435985001698168953",
+    "metadata": {
+      "toxicity": 0.2,
+      "wordCount": 4
+    },
+    "id": "event_1762435957506_u6bp2zqql",
+    "timestamp": 1762435957506
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435984965874618518",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 2
+    },
+    "id": "event_1762435989294_22f2qebxp",
+    "timestamp": 1762435989294
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1435984951181967394",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 2
+    },
+    "id": "event_1762436011993_xoss86ajs",
+    "timestamp": 1762436011993
+  },
+  {
+    "guildId": "1435281899760255050",
+    "type": "message",
+    "actorId": "376415454324981760",
+    "sentiment": "neutral",
+    "channelId": "1435281901337182410",
+    "messageId": "1436735706767691858",
+    "metadata": {
+      "toxicity": 0,
+      "wordCount": 7
+    },
+    "id": "event_1762614904640_fi7jw6849",
+    "timestamp": 1762614904640
+  }
+]

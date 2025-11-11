@@ -1,0 +1,6678 @@
+[
+  {
+    "userId": "376415454324981760",
+    "guildId": "1409596032341508158",
+    "username": "lordgrim9591",
+    "personalDetails": [
+      {
+        "category": "interest",
+        "detail": "likes gaming",
+        "confidence": 1,
+        "firstMentioned": "2025-10-15T22:49:45.868Z",
+        "lastMentioned": "2025-11-11T07:14:37.577Z",
+        "source": "1428152822163046541"
+      },
+      {
+        "category": "fact",
+        "detail": "has a Discord account",
+        "confidence": 1,
+        "firstMentioned": "2025-10-15T22:54:01.985Z",
+        "lastMentioned": "2025-10-16T21:18:12.416Z",
+        "source": "1428153896685273129"
+      },
+      {
+        "category": "fact",
+        "detail": "speaks Turkish",
+        "confidence": 1,
+        "firstMentioned": "2025-10-15T23:02:00.900Z",
+        "lastMentioned": "2025-10-21T05:26:21.927Z",
+        "source": "1428155774231777300"
+      },
+      {
+        "category": "emotion",
+        "detail": "frustrated",
+        "confidence": 0.7999999999999999,
+        "firstMentioned": "2025-10-15T23:02:00.900Z",
+        "lastMentioned": "2025-10-16T10:36:57.138Z",
+        "source": "1428155774231777300"
+      },
+      {
+        "category": "fact",
+        "detail": "has access to moderation tools",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T05:08:31.845Z",
+        "lastMentioned": "2025-10-16T05:08:31.845Z",
+        "source": "1428248053034385458"
+      },
+      {
+        "category": "fact",
+        "detail": "has a trust score",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T05:11:07.533Z",
+        "lastMentioned": "2025-10-16T05:11:07.533Z",
+        "source": "1428248719890976842"
+      },
+      {
+        "category": "fact",
+        "detail": "has a Discord account named lordgrim9591",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T05:30:56.112Z",
+        "lastMentioned": "2025-10-16T05:30:56.112Z",
+        "source": "1428253710978519172"
+      },
+      {
+        "category": "emotion",
+        "detail": "appreciative",
+        "confidence": 0.7,
+        "firstMentioned": "2025-10-16T05:32:52.686Z",
+        "lastMentioned": "2025-10-16T05:32:52.686Z",
+        "source": "1428253867329716314"
+      },
+      {
+        "category": "fact",
+        "detail": "has a high trust score",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T05:40:53.508Z",
+        "lastMentioned": "2025-10-16T05:40:53.508Z",
+        "source": "1428256231130402907"
+      },
+      {
+        "category": "interest",
+        "detail": "is interested in gaming",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-16T05:40:53.508Z",
+        "lastMentioned": "2025-10-16T05:40:53.508Z",
+        "source": "1428256231130402907"
+      },
+      {
+        "category": "fact",
+        "detail": "online username is lordgrim9591",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T10:35:33.769Z",
+        "lastMentioned": "2025-10-16T10:35:33.769Z",
+        "source": "1428330373376512011"
+      },
+      {
+        "category": "fact",
+        "detail": "uses profanity",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T10:51:53.891Z",
+        "lastMentioned": "2025-10-16T10:51:53.891Z",
+        "source": "1428334459400359989"
+      },
+      {
+        "category": "emotion",
+        "detail": "frustrated/angry",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-16T10:51:53.891Z",
+        "lastMentioned": "2025-10-16T10:51:53.891Z",
+        "source": "1428334459400359989"
+      },
+      {
+        "category": "fact",
+        "detail": "username lordgrim9591",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T18:28:03.191Z",
+        "lastMentioned": "2025-10-16T18:28:03.191Z",
+        "source": "1428449247866388490"
+      },
+      {
+        "category": "fact",
+        "detail": "changed their mind",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T20:48:09.665Z",
+        "lastMentioned": "2025-10-16T20:48:09.665Z",
+        "source": "1428484527910555729"
+      },
+      {
+        "category": "emotion",
+        "detail": "regretful",
+        "confidence": 0.7,
+        "firstMentioned": "2025-10-16T20:48:09.665Z",
+        "lastMentioned": "2025-10-16T20:48:09.665Z",
+        "source": "1428484527910555729"
+      },
+      {
+        "category": "fact",
+        "detail": "username is lordgrim9591",
+        "confidence": 1,
+        "firstMentioned": "2025-10-16T21:17:04.884Z",
+        "lastMentioned": "2025-11-06T13:14:59.426Z",
+        "source": "1428491754608529448"
+      },
+      {
+        "category": "problem",
+        "detail": "scammed by someone",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T21:18:12.416Z",
+        "lastMentioned": "2025-10-16T21:18:12.416Z",
+        "source": "1428491964394901575"
+      },
+      {
+        "category": "fact",
+        "detail": "has a moderator role in the server",
+        "confidence": 1,
+        "firstMentioned": "2025-10-16T21:29:54.755Z",
+        "lastMentioned": "2025-10-16T21:29:54.755Z",
+        "source": "1428494973371682980"
+      },
+      {
+        "category": "fact",
+        "detail": "has a username lordgrim9591",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T21:46:38.419Z",
+        "lastMentioned": "2025-10-16T21:46:38.419Z",
+        "source": "1428499018266312815"
+      },
+      {
+        "category": "fact",
+        "detail": "has a Discord username lordgrim9591",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T22:26:07.542Z",
+        "lastMentioned": "2025-10-16T22:26:07.542Z",
+        "source": "1428509202451660960"
+      },
+      {
+        "category": "interest",
+        "detail": "has a server",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T22:27:37.539Z",
+        "lastMentioned": "2025-10-16T22:27:37.539Z",
+        "source": "1428509573534187661"
+      },
+      {
+        "category": "fact",
+        "detail": "is concerned about their server's well-being",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-16T22:27:37.539Z",
+        "lastMentioned": "2025-10-16T22:27:37.539Z",
+        "source": "1428509573534187661"
+      },
+      {
+        "category": "fact",
+        "detail": "is concerned about others' well-being",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-17T03:49:39.273Z",
+        "lastMentioned": "2025-10-17T03:49:39.273Z",
+        "source": "1428590656619548752"
+      },
+      {
+        "category": "fact",
+        "detail": "has a strong opinion on moderation",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-17T03:51:46.872Z",
+        "lastMentioned": "2025-10-17T03:51:46.872Z",
+        "source": "1428591133293940887"
+      },
+      {
+        "category": "emotion",
+        "detail": "feels frustrated",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-17T03:51:46.872Z",
+        "lastMentioned": "2025-10-17T03:51:46.872Z",
+        "source": "1428591133293940887"
+      },
+      {
+        "category": "fact",
+        "detail": "has encountered a scammer",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-17T03:53:30.484Z",
+        "lastMentioned": "2025-10-17T03:53:30.484Z",
+        "source": "1428591597267718174"
+      },
+      {
+        "category": "fact",
+        "detail": "thinks someone is a scammer",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-17T03:54:21.592Z",
+        "lastMentioned": "2025-10-17T03:54:21.592Z",
+        "source": "1428591815623315507"
+      },
+      {
+        "category": "emotion",
+        "detail": "angry",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-17T03:54:21.592Z",
+        "lastMentioned": "2025-10-17T03:54:21.592Z",
+        "source": "1428591815623315507"
+      },
+      {
+        "category": "fact",
+        "detail": "has a user name lordgrim9591",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-18T01:48:26.362Z",
+        "lastMentioned": "2025-10-18T01:48:26.362Z",
+        "source": "1428921141220610129"
+      },
+      {
+        "category": "emotion",
+        "detail": "not good boy implies strict or high expectations",
+        "confidence": 0.6,
+        "firstMentioned": "2025-10-18T01:48:26.362Z",
+        "lastMentioned": "2025-10-18T01:48:26.362Z",
+        "source": "1428921141220610129"
+      },
+      {
+        "category": "fact",
+        "detail": "$5,000 worth of Udemy courses",
+        "confidence": 1,
+        "firstMentioned": "2025-10-21T04:55:02.802Z",
+        "lastMentioned": "2025-10-21T04:55:02.802Z",
+        "source": "1430056669328445545"
+      },
+      {
+        "category": "interest",
+        "detail": "",
+        "confidence": 0,
+        "firstMentioned": "2025-10-21T05:18:10.455Z",
+        "lastMentioned": "2025-10-21T05:18:10.455Z",
+        "source": "1430062452875198526"
+      },
+      {
+        "category": "emotion",
+        "detail": "feeling stressed",
+        "confidence": 0.7,
+        "firstMentioned": "2025-10-21T05:18:12.595Z",
+        "lastMentioned": "2025-10-21T05:18:12.595Z",
+        "source": "1430062443014389800"
+      },
+      {
+        "category": "problem",
+        "detail": "stressed about exams",
+        "confidence": 1,
+        "firstMentioned": "2025-10-21T05:20:36.664Z",
+        "lastMentioned": "2025-11-11T07:13:58.240Z",
+        "source": "1430063104162533447"
+      },
+      {
+        "category": "fact",
+        "detail": "has school-related problems",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-22T15:31:57.367Z",
+        "lastMentioned": "2025-10-22T15:31:57.367Z",
+        "source": "1430578859392372736"
+      },
+      {
+        "category": "fact",
+        "detail": "uses informal language (e.g., 'ma fella')",
+        "firstMentioned": "2025-10-27T03:43:08.294Z",
+        "lastMentioned": "2025-10-27T03:43:08.294Z",
+        "source": "1432212810372485120"
+      },
+      {
+        "category": "role",
+        "detail": "Discord moderator",
+        "confidence": 0.95,
+        "firstMentioned": "2025-10-28T16:14:45.308Z",
+        "lastMentioned": "2025-10-28T16:14:45.308Z",
+        "source": "1432764275763708047"
+      },
+      {
+        "category": "preference",
+        "detail": "maintains respectful communication standards",
+        "confidence": 0.85,
+        "firstMentioned": "2025-10-28T16:14:45.308Z",
+        "lastMentioned": "2025-10-28T16:14:45.308Z",
+        "source": "1432764275763708047"
+      },
+      {
+        "category": "interest",
+        "detail": "possibly interested in gaming or online communities",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-01T11:15:44.958Z",
+        "lastMentioned": "2025-11-01T11:15:44.958Z",
+        "source": "1434138707492864001"
+      },
+      {
+        "category": "interest",
+        "detail": "engages in discussions about game levels",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-02T09:11:54.126Z",
+        "lastMentioned": "2025-11-02T09:11:54.126Z",
+        "source": "1434469768144093195"
+      },
+      {
+        "category": "fact",
+        "detail": "username 'lordgrim9591'",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T14:23:05.879Z",
+        "lastMentioned": "2025-11-03T14:23:05.879Z",
+        "source": "1434910619865321535"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers coffee over tea",
+        "confidence": 1,
+        "firstMentioned": "2025-11-03T14:39:39.594Z",
+        "lastMentioned": "2025-11-11T07:14:37.577Z",
+        "source": "1434914527136190567"
+      },
+      {
+        "category": "fact",
+        "detail": "has a dog named Max",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-03T14:39:39.594Z",
+        "lastMentioned": "2025-11-03T14:39:39.594Z",
+        "source": "1434914527136190567"
+      },
+      {
+        "category": "emotion",
+        "detail": "stressed",
+        "confidence": 1,
+        "firstMentioned": "2025-11-03T14:39:39.594Z",
+        "lastMentioned": "2025-11-11T07:12:28.434Z",
+        "source": "1434914527136190567"
+      },
+      {
+        "category": "goal",
+        "detail": "prepares for exams",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-03T14:39:39.594Z",
+        "lastMentioned": "2025-11-03T14:39:39.594Z",
+        "source": "1434914527136190567"
+      },
+      {
+        "category": "problem",
+        "detail": "stress from exams",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-03T14:39:39.594Z",
+        "lastMentioned": "2025-11-03T14:39:39.594Z",
+        "source": "1434914527136190567"
+      },
+      {
+        "category": "relationship",
+        "detail": "friends with classmates",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-03T14:39:39.594Z",
+        "lastMentioned": "2025-11-03T14:39:39.594Z",
+        "source": "1434914527136190567"
+      },
+      {
+        "category": "memory",
+        "detail": "school deadlines",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-03T14:39:39.594Z",
+        "lastMentioned": "2025-11-03T14:39:39.594Z",
+        "source": "1434914527136190567"
+      },
+      {
+        "category": "relationship",
+        "detail": "part of a gaming group",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-03T16:38:35.397Z",
+        "lastMentioned": "2025-11-03T16:38:35.397Z",
+        "source": "1434944796077588562"
+      },
+      {
+        "category": "fact",
+        "detail": "username: lordgrim9591",
+        "confidence": 1,
+        "firstMentioned": "2025-11-04T11:35:54.350Z",
+        "lastMentioned": "2025-11-11T07:13:20.004Z",
+        "source": "1435230975863820361"
+      },
+      {
+        "category": "interest",
+        "detail": "gaming",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-04T15:28:30.240Z",
+        "lastMentioned": "2025-11-04T15:28:30.240Z",
+        "source": "1435289526451830795"
+      },
+      {
+        "category": "preference",
+        "detail": "coffee over tea",
+        "confidence": 0.3,
+        "firstMentioned": "2025-11-04T15:28:30.240Z",
+        "lastMentioned": "2025-11-04T15:28:30.240Z",
+        "source": "1435289526451830795"
+      },
+      {
+        "category": "goal",
+        "detail": "continue the game",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-04T15:28:30.240Z",
+        "lastMentioned": "2025-11-04T15:28:30.240Z",
+        "source": "1435289526451830795"
+      },
+      {
+        "category": "problem",
+        "detail": "exams coming up",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-04T15:28:30.240Z",
+        "lastMentioned": "2025-11-04T15:28:30.240Z",
+        "source": "1435289526451830795"
+      },
+      {
+        "category": "relationship",
+        "detail": "friend or teammate",
+        "confidence": 0.4,
+        "firstMentioned": "2025-11-04T15:28:30.240Z",
+        "lastMentioned": "2025-11-04T15:28:30.240Z",
+        "source": "1435289526451830795"
+      },
+      {
+        "category": "memory",
+        "detail": "game",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-04T15:28:30.240Z",
+        "lastMentioned": "2025-11-04T15:28:30.240Z",
+        "source": "1435289526451830795"
+      },
+      {
+        "category": "interest",
+        "detail": "unknown",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-06T13:10:45.459Z",
+        "lastMentioned": "2025-11-06T13:10:45.459Z",
+        "source": "1435979518769758361"
+      },
+      {
+        "category": "preference",
+        "detail": "unknown",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-06T13:10:45.459Z",
+        "lastMentioned": "2025-11-06T13:10:45.459Z",
+        "source": "1435979518769758361"
+      },
+      {
+        "category": "preference",
+        "detail": "avoids risk",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:15:49.859Z",
+        "lastMentioned": "2025-11-06T13:15:49.859Z",
+        "source": "1435980846870822973"
+      },
+      {
+        "category": "fact",
+        "detail": "username suggests gaming background",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:16:10.904Z",
+        "lastMentioned": "2025-11-06T13:16:10.904Z",
+        "source": "1435980850780176395"
+      },
+      {
+        "category": "relationship",
+        "detail": "likely in school or deadlines context",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-06T13:16:10.904Z",
+        "lastMentioned": "2025-11-06T13:16:10.904Z",
+        "source": "1435980850780176395"
+      },
+      {
+        "category": "relationship",
+        "detail": "friends",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-06T13:18:40.197Z",
+        "lastMentioned": "2025-11-06T13:18:40.197Z",
+        "source": "1435981577195753553"
+      },
+      {
+        "category": "fact",
+        "detail": "uses nickname 'lordgrim9591'",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:32:51.628Z",
+        "lastMentioned": "2025-11-06T13:32:51.628Z",
+        "source": "1435985001698168953"
+      },
+      {
+        "category": "interest",
+        "detail": "likes AI and technology",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-06T13:34:18.251Z",
+        "lastMentioned": "2025-11-06T13:34:18.251Z",
+        "source": "1435984985319276605"
+      },
+      {
+        "category": "preference",
+        "detail": "analytical",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:34:18.251Z",
+        "lastMentioned": "2025-11-06T13:34:18.251Z",
+        "source": "1435984985319276605"
+      },
+      {
+        "category": "preference",
+        "detail": "uses Turkish language",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:36:41.114Z",
+        "lastMentioned": "2025-11-06T13:36:41.114Z",
+        "source": "1435985421330026678"
+      },
+      {
+        "category": "fact",
+        "detail": "part of Discord server",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:36:49.292Z",
+        "lastMentioned": "2025-11-06T13:36:49.292Z",
+        "source": "1435985512857993247"
+      },
+      {
+        "category": "interest",
+        "detail": "likes music",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-08T20:47:16.829Z",
+        "lastMentioned": "2025-11-08T20:47:16.829Z",
+        "source": "1436819235094663208"
+      },
+      {
+        "category": "fact",
+        "detail": "not tagged",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-08T20:47:16.829Z",
+        "lastMentioned": "2025-11-08T20:47:16.829Z",
+        "source": "1436819235094663208"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers creative projects",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-09T20:09:05.933Z",
+        "lastMentioned": "2025-11-09T20:09:05.933Z",
+        "source": "1437172050467885178"
+      },
+      {
+        "category": "fact",
+        "detail": "test server name",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-11T07:11:29.948Z",
+        "lastMentioned": "2025-11-11T07:11:29.948Z",
+        "source": "1437701145865883690"
+      },
+      {
+        "category": "goal",
+        "detail": "avoid profanity",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-11T07:12:28.434Z",
+        "lastMentioned": "2025-11-11T07:12:28.434Z",
+        "source": "1437701227537502322"
+      },
+      {
+        "category": "problem",
+        "detail": "dealing with exams",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-11T07:12:28.434Z",
+        "lastMentioned": "2025-11-11T07:12:28.434Z",
+        "source": "1437701227537502322"
+      },
+      {
+        "category": "relationship",
+        "detail": "friend or family",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-11T07:12:28.434Z",
+        "lastMentioned": "2025-11-11T07:12:28.434Z",
+        "source": "1437701227537502322"
+      },
+      {
+        "category": "memory",
+        "detail": "school",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-11T07:12:28.434Z",
+        "lastMentioned": "2025-11-11T07:12:28.434Z",
+        "source": "1437701227537502322"
+      },
+      {
+        "category": "interest",
+        "detail": "cryptocurrency",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-11T07:13:16.452Z",
+        "lastMentioned": "2025-11-11T07:13:16.452Z",
+        "source": "1437701320336474165"
+      },
+      {
+        "category": "preference",
+        "detail": "supports Bitcoin",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-11T07:13:16.452Z",
+        "lastMentioned": "2025-11-11T07:13:16.452Z",
+        "source": "1437701320336474165"
+      }
+    ],
+    "emotionalHistory": [
+      {
+        "timestamp": "2025-10-16T21:56:40.031Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "AI performance",
+        "triggers": [
+          "AI failure"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T21:58:32.321Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:26:07.542Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:27:37.538Z",
+        "emotion": "concerned",
+        "intensity": 5,
+        "context": "server's status",
+        "triggers": [
+          "server"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:28:25.486Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:29:43.005Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:30:49.178Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "misunderstanding about responsibility",
+        "triggers": [
+          "power used by member"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:33:59.544Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:35:11.695Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T22:36:21.337Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-17T03:49:39.273Z",
+        "emotion": "concerned",
+        "intensity": 5,
+        "context": "general well-being of group members",
+        "triggers": [
+          "group dynamics"
+        ]
+      },
+      {
+        "timestamp": "2025-10-17T03:51:46.872Z",
+        "emotion": "angry",
+        "intensity": 9,
+        "context": "perceived inaction by moderator",
+        "triggers": [
+          "moderation"
+        ]
+      },
+      {
+        "timestamp": "2025-10-17T03:52:36.924Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "scammer link shared",
+        "triggers": [
+          "scam"
+        ]
+      },
+      {
+        "timestamp": "2025-10-17T03:53:30.484Z",
+        "emotion": "angry",
+        "intensity": 9,
+        "context": "scammer attitude",
+        "triggers": [
+          "scam"
+        ]
+      },
+      {
+        "timestamp": "2025-10-17T03:54:21.592Z",
+        "emotion": "angry",
+        "intensity": 10,
+        "context": "perceived scammer",
+        "triggers": [
+          "scammer"
+        ]
+      },
+      {
+        "timestamp": "2025-10-17T03:54:58.090Z",
+        "emotion": "angry",
+        "intensity": 10,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-17T03:55:33.442Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-18T01:15:39.071Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-18T01:21:09.894Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-18T01:21:19.763Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-18T01:26:42.470Z",
+        "emotion": "concerned",
+        "intensity": 8,
+        "context": "friend's well-being",
+        "triggers": [
+          "friend"
+        ]
+      },
+      {
+        "timestamp": "2025-10-18T01:48:26.362Z",
+        "emotion": "angry",
+        "intensity": 5,
+        "context": "frustration with someone's behavior",
+        "triggers": [
+          "behavior"
+        ]
+      },
+      {
+        "timestamp": "2025-10-18T01:51:57.226Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-20T23:32:11.504Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-20T23:32:22.040Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-20T23:50:26.590Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T01:04:44.498Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T01:10:35.523Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "frustration with someone",
+        "triggers": [
+          "trust issues"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T03:49:02.593Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T04:55:02.802Z",
+        "emotion": "excited",
+        "intensity": 8,
+        "context": "found a way to get free courses",
+        "triggers": [
+          "free resources"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:10:27.392Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:16:56.744Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "problem with something",
+        "triggers": [
+          "tm biri kapandı"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:17:08.092Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:18:10.455Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-21T05:18:12.595Z",
+        "emotion": "stressed",
+        "intensity": 9,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:20:36.664Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:25:31.180Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:26:21.927Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "ban from a game or community",
+        "triggers": [
+          "game rules",
+          "community norms"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:26:43.926Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "frustration with AI",
+        "triggers": [
+          "AI not following instructions"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T07:20:23.855Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-22T15:31:57.367Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-24T05:40:46.807Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "lack of content in a post",
+        "triggers": [
+          "post content"
+        ]
+      },
+      {
+        "timestamp": "2025-10-25T05:32:05.593Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-25T06:08:33.237Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "annoyed with AI",
+        "triggers": [
+          "AI"
+        ]
+      },
+      {
+        "timestamp": "2025-10-25T06:10:56.466Z",
+        "emotion": "excited",
+        "intensity": 10,
+        "context": "celebrating a win",
+        "triggers": [
+          "winning"
+        ]
+      },
+      {
+        "timestamp": "2025-10-25T06:16:12.895Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "frustration with someone",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-26T03:01:18.104Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "being insulted",
+        "triggers": [
+          "insult"
+        ]
+      },
+      {
+        "timestamp": "2025-10-26T04:28:41.682Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": null,
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-26T06:36:15.585Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-26T08:55:14.245Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "perceived dishonesty",
+        "triggers": [
+          "perceived dishonesty"
+        ]
+      },
+      {
+        "timestamp": "2025-10-27T03:43:08.294Z",
+        "emotion": "anxious",
+        "intensity": 5,
+        "context": "upcoming exams",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-28T15:25:23.103Z",
+        "emotion": "neutral",
+        "intensity": 0,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-28T16:01:19.010Z",
+        "emotion": "neutral",
+        "intensity": 0,
+        "context": "no message content",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-28T16:14:45.308Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "typo correction",
+        "triggers": [
+          "language use",
+          "moderation duty"
+        ]
+      },
+      {
+        "timestamp": "2025-10-28T17:28:27.678Z",
+        "emotion": "",
+        "intensity": 0,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-28T17:31:26.578Z",
+        "emotion": "neutral",
+        "intensity": 2,
+        "context": "no message content",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-29T13:28:30.086Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "casual greeting",
+        "triggers": [
+          "social interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-10-30T12:50:29.371Z",
+        "emotion": "lonely",
+        "intensity": 5,
+        "context": "self-isolation",
+        "triggers": [
+          "solitude",
+          "digital presence"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T10:54:48.508Z",
+        "emotion": "neutral",
+        "intensity": 2,
+        "context": "greeting",
+        "triggers": [
+          "social interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T10:58:14.312Z",
+        "emotion": "neutral",
+        "intensity": 2,
+        "context": "greeting",
+        "triggers": [
+          "social interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T11:08:18.202Z",
+        "emotion": "neutral",
+        "intensity": 4,
+        "context": "uncertainty",
+        "triggers": [
+          "ambiguous question"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T11:15:44.957Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "ambiguous tone",
+        "triggers": [
+          "vague inquiry"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T12:07:56.109Z",
+        "emotion": "neutral",
+        "intensity": 2,
+        "context": "casual mention",
+        "triggers": [
+          "Discord interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-02T06:36:40.258Z"
+      },
+      {
+        "timestamp": "2025-11-02T09:11:54.125Z",
+        "emotion": "curious",
+        "intensity": 5,
+        "context": "seeking opinions",
+        "triggers": [
+          "uncertainty about assessment"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T14:23:05.879Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T14:39:39.594Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T16:07:43.059Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "school pressures",
+        "triggers": [
+          "grades",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T16:38:35.397Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "gaming group dynamics",
+        "triggers": [
+          "conflict",
+          "expectations"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T18:16:56.237Z",
+        "emotion": "frustrated",
+        "intensity": 7,
+        "context": "academic pressure",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T11:35:54.350Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "preparing for exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T15:24:59.468Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T15:28:30.240Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T19:01:51.965Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:10:45.459Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:14:59.426Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:15:49.859Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "fraudulent attempts",
+        "triggers": [
+          "scams",
+          "trust issues"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:16:10.904Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:16:28.126Z",
+        "emotion": "content",
+        "intensity": 6,
+        "context": "chatting",
+        "triggers": [
+          "funny",
+          "positive feedback"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:18:40.197Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "preparing for exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:20:44.303Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams",
+        "triggers": [
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:21:03.511Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:32:51.628Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "school deadlines",
+        "triggers": [
+          "exams",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:33:35.399Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:34:18.251Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "AI-related challenges",
+        "triggers": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:35:07.740Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:35:39.913Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:35:48.093Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:36:41.114Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "school deadlines",
+        "triggers": [
+          "exams",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:36:49.292Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:40:08.221Z",
+        "emotion": "frustrated",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-08T19:32:38.926Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-08T20:47:16.829Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-09T20:09:05.933Z",
+        "emotion": "frustrated",
+        "intensity": 7,
+        "context": "project feedback",
+        "triggers": [
+          "self-doubt",
+          "deadline"
+        ]
+      },
+      {
+        "timestamp": "2025-11-11T07:11:29.947Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-11T07:12:28.434Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-11T07:13:16.452Z",
+        "emotion": "confident",
+        "intensity": 8,
+        "context": "defending stance",
+        "triggers": [
+          "Bitcoin",
+          "discussion"
+        ]
+      },
+      {
+        "timestamp": "2025-11-11T07:13:20.004Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-11T07:13:58.240Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "academic pressure",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-11T07:14:37.577Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      }
+    ],
+    "personality": {
+      "traits": [
+        {
+          "trait": "funny",
+          "confidence": 0.7
+        },
+        {
+          "trait": "optimistic",
+          "confidence": 0.5
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "assertive",
+          "confidence": 0.9
+        },
+        {
+          "trait": "authoritative",
+          "confidence": 0.7
+        },
+        {
+          "trait": "assertive",
+          "confidence": 0.6
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "sarcastic"
+        },
+        {
+          "trait": "sarcastic"
+        },
+        {
+          "trait": "aggressive"
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        "friendly",
+        {
+          "trait": "sarcastic"
+        },
+        {
+          "trait": "impulsive"
+        },
+        "sarcastic",
+        {
+          "trait": "helpful",
+          "confidence": 0.9
+        },
+        {
+          "trait": "generous",
+          "confidence": 0.7
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "irritable",
+          "confidence": 0.5
+        },
+        {
+          "category": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "category": "impulsive",
+          "confidence": 0.6
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "funny",
+          "confidence": 0.5
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "curious"
+        },
+        "impulsive",
+        "funny",
+        {
+          "trait": "funny",
+          "confidence": 0.8
+        },
+        {
+          "trait": "optimistic",
+          "confidence": 0.6
+        },
+        {
+          "trait": "funny",
+          "confidence": 0.8
+        },
+        {
+          "trait": "optimistic",
+          "confidence": 0.6
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "irritable",
+          "confidence": 0.6
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "impatient",
+          "confidence": 0.5
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "assertive",
+          "confidence": 0.7
+        },
+        {
+          "trait": "confident",
+          "confidence": 0.5
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "sarcastic"
+        },
+        {
+          "trait": "helpful"
+        },
+        {
+          "trait": "analytical"
+        },
+        {
+          "trait": "assertive"
+        },
+        {
+          "trait": "confident"
+        },
+        "assertive",
+        "opinionated",
+        "confrontational",
+        "protective",
+        "cautious",
+        "skeptical",
+        {
+          "trait": "caring",
+          "confidence": 0.9
+        },
+        {
+          "trait": "informal",
+          "confidence": 0.7
+        },
+        "strict",
+        "authoritative",
+        {
+          "trait": "analytical"
+        },
+        {
+          "trait": "helpful"
+        },
+        "optimistic",
+        {
+          "trait": "funny",
+          "confidence": 0.7
+        },
+        {
+          "trait": "optimistic",
+          "confidence": 0.5
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "aggressive",
+          "confidence": 0.5
+        },
+        {
+          "trait": "critical",
+          "confidence": 0.7
+        },
+        {
+          "trait": "helpful",
+          "confidence": 0.5
+        },
+        {
+          "trait": "sarcastic"
+        },
+        {
+          "trait": "frustrated"
+        },
+        {
+          "trait": "sarcastic"
+        },
+        {
+          "trait": "angry"
+        },
+        {
+          "trait": "funny",
+          "confidence": 0.8
+        },
+        {
+          "trait": "enthusiastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "sarcastic"
+        },
+        {
+          "trait": "impulsive"
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "defensive",
+          "confidence": 0.9
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "defensive",
+          "confidence": 0.5
+        },
+        "detail-oriented",
+        "responsible",
+        "rule-conscious",
+        "sociable",
+        "brief",
+        "private",
+        "independent",
+        "polite",
+        "curious",
+        "casual",
+        "humorous",
+        "reserved",
+        "analytical",
+        "open-minded",
+        "aggressive",
+        "playful",
+        "self-critical",
+        "passionate"
+      ],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [
+      {
+        "userId": "376415454324981760",
+        "otherUserId": "799311717502287923",
+        "type": "acquaintance",
+        "strength": 1.8000000000000007,
+        "interactions": 9,
+        "lastInteraction": "2025-11-08T20:47:35.181Z",
+        "dynamics": "casual conversation, no strong emotional tone",
+        "sharedInterests": []
+      },
+      {
+        "userId": "376415454324981760",
+        "otherUserId": "929008606089707600",
+        "type": "acquaintance",
+        "strength": 1.7000000000000006,
+        "interactions": 8,
+        "lastInteraction": "2025-10-18T01:51:57.228Z",
+        "dynamics": "casual conversation, possibly familiar with each other's online presence",
+        "sharedInterests": []
+      },
+      {
+        "userId": "376415454324981760",
+        "otherUserId": "1282805346016034879",
+        "type": "friend",
+        "strength": 1,
+        "interactions": 1,
+        "lastInteraction": "2025-11-06T13:37:05.425Z",
+        "dynamics": "friendly banter, supportive",
+        "sharedInterests": []
+      },
+      {
+        "userId": "376415454324981760",
+        "otherUserId": "376415454324981760",
+        "type": "friend",
+        "strength": 1,
+        "interactions": 1,
+        "lastInteraction": "2025-11-11T07:13:10.018Z",
+        "dynamics": "friendly banter, supportive",
+        "sharedInterests": []
+      }
+    ],
+    "conversationMemories": [
+      {
+        "messageId": "1430039874550894603",
+        "timestamp": "2025-10-21T03:49:02.593Z",
+        "summary": "show going becas ma boy",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 5,
+        "keywords": [
+          "gaming"
+        ]
+      },
+      {
+        "messageId": "1430056669328445545",
+        "timestamp": "2025-10-21T04:55:02.802Z",
+        "summary": "User excited about finding free courses",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "positive",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1430061991979913216",
+        "timestamp": "2025-10-21T05:17:08.092Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming"
+        ]
+      },
+      {
+        "messageId": "1430062443014389800",
+        "timestamp": "2025-10-21T05:18:12.595Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "category": "problem",
+          "detail": "upcoming exams"
+        },
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 5,
+        "keywords": [
+          {
+            "category": "problem",
+            "detail": "upcoming exams"
+          },
+          {
+            "category": "interest",
+            "detail": "gaming"
+          }
+        ]
+      },
+      {
+        "messageId": "1430063104162533447",
+        "timestamp": "2025-10-21T05:20:36.664Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming"
+        ]
+      },
+      {
+        "messageId": "1430064345810866218",
+        "timestamp": "2025-10-21T05:26:21.927Z",
+        "summary": "User upset about potential ban",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 5,
+        "keywords": [
+          "gaming"
+        ]
+      },
+      {
+        "messageId": "1430093255772475483",
+        "timestamp": "2025-10-21T07:20:23.855Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "category": "interest",
+          "detail": "gaming"
+        },
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "category": "interest",
+            "detail": "gaming"
+          },
+          {
+            "category": "problem",
+            "detail": "upcoming exams"
+          }
+        ]
+      },
+      {
+        "messageId": "1430578859392372736",
+        "timestamp": "2025-10-22T15:31:57.367Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "category": "interest",
+          "detail": "gaming"
+        },
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "category": "interest",
+            "detail": "gaming"
+          },
+          {
+            "category": "problem",
+            "detail": "school"
+          }
+        ]
+      },
+      {
+        "messageId": "1431515470548439051",
+        "timestamp": "2025-10-25T05:32:05.593Z",
+        "summary": "User discussing stress about trust and upcoming exams",
+        "topic": "trust",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "trust"
+        ]
+      },
+      {
+        "messageId": "1431524706233745449",
+        "timestamp": "2025-10-25T06:08:33.237Z",
+        "summary": "User frustrated with AI, possibly related to school stress",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 5,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1431525252231331943",
+        "timestamp": "2025-10-25T06:10:56.466Z",
+        "summary": "User celebrating a win in gaming",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "positive",
+        "significance": 5,
+        "keywords": [
+          "gaming"
+        ]
+      },
+      {
+        "messageId": "1431526586728972389",
+        "timestamp": "2025-10-25T06:16:12.895Z",
+        "summary": "User expressing frustration and anger towards someone",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 5,
+        "keywords": [
+          "gaming"
+        ]
+      },
+      {
+        "messageId": "1431839881872806022",
+        "timestamp": "2025-10-26T03:01:18.104Z",
+        "summary": "User expressing anger and defensiveness after being insulted",
+        "topic": "school",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 8,
+        "keywords": [
+          "school"
+        ]
+      },
+      {
+        "messageId": "1431894034518900807",
+        "timestamp": "2025-10-26T06:36:15.585Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434469768144093195",
+        "timestamp": "2025-11-02T09:11:54.126Z",
+        "summary": "User seeking opinions on a game level's quality",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "neutral",
+        "significance": 5,
+        "keywords": [
+          "gaming",
+          "evaluation"
+        ]
+      },
+      {
+        "messageId": "1434910619865321535",
+        "timestamp": "2025-11-03T14:23:05.879Z",
+        "summary": "User discussing stress about upcoming exams, possibly gaming-related, with a humorous personality",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434914527136190567",
+        "timestamp": "2025-11-03T14:39:39.594Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434937024057446411",
+        "timestamp": "2025-11-03T16:07:43.059Z",
+        "summary": "User expressing frustration about academic stress",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434944796077588562",
+        "timestamp": "2025-11-03T16:38:35.397Z",
+        "summary": "User in gaming group expressing frustration about conflict and expectations",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "gaming",
+          "group dynamics"
+        ]
+      },
+      {
+        "messageId": "1434969516231622897",
+        "timestamp": "2025-11-03T18:16:56.237Z",
+        "summary": "User expressing frustration about academic stress and gaming habits",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435230975863820361",
+        "timestamp": "2025-11-04T11:35:54.350Z",
+        "summary": "User expressing anxiety about upcoming exams while discussing gaming-related scams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435288637741727837",
+        "timestamp": "2025-11-04T15:24:59.468Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435289526451830795",
+        "timestamp": "2025-11-04T15:28:30.240Z",
+        "summary": "User stressed about exams, discussing gaming with a friend or teammate",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435343235504668804",
+        "timestamp": "2025-11-04T19:01:51.965Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435979518769758361",
+        "timestamp": "2025-11-06T13:10:45.459Z",
+        "summary": "User stressed about exams, checking if someone is online",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435980663915548794",
+        "timestamp": "2025-11-06T13:14:59.426Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435980846870822973",
+        "timestamp": "2025-11-06T13:15:49.859Z",
+        "summary": "User concerned about fraudulent attempts",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "scams"
+        ]
+      },
+      {
+        "messageId": "1435980850780176395",
+        "timestamp": "2025-11-06T13:16:10.904Z",
+        "summary": "User discussing stress about upcoming exams, showing gaming interests and school-related concerns",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435980861303685140",
+        "timestamp": "2025-11-06T13:16:28.126Z",
+        "summary": "User is engaging in casual chat with a positive tone, showing humor and optimism",
+        "topic": "chatting",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "positive",
+        "significance": 5,
+        "keywords": [
+          "chatting",
+          "gaming"
+        ]
+      },
+      {
+        "messageId": "1435981577195753553",
+        "timestamp": "2025-11-06T13:18:40.197Z",
+        "summary": "User expressing anxiety about upcoming exams while discussing gaming and school",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435982144299335871",
+        "timestamp": "2025-11-06T13:20:44.303Z",
+        "summary": "User stressed about exams, testing something, possibly gaming",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435982164020691105",
+        "timestamp": "2025-11-06T13:21:03.511Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435985001698168953",
+        "timestamp": "2025-11-06T13:32:51.628Z",
+        "summary": "User discussing stress about upcoming exams and channel-related activities",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435984965874618518",
+        "timestamp": "2025-11-06T13:33:35.399Z",
+        "summary": "User expressing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435984985319276605",
+        "timestamp": "2025-11-06T13:34:18.251Z",
+        "summary": "User discussing anxiety about AI-related tasks and analytical interests",
+        "topic": "AI",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "AI",
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "messageId": "1435984960178753728",
+        "timestamp": "2025-11-06T13:35:07.740Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435985107486904432",
+        "timestamp": "2025-11-06T13:35:39.913Z",
+        "summary": "User stressed about upcoming exams, mentioning gaming and school topics",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435985423812919377",
+        "timestamp": "2025-11-06T13:35:48.093Z",
+        "summary": "User discussing stress about upcoming exams and gaming interests",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435985421330026678",
+        "timestamp": "2025-11-06T13:36:41.114Z",
+        "summary": "User discussing anxiety about upcoming school deadlines",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435985512857993247",
+        "timestamp": "2025-11-06T13:36:49.292Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435986907619135638",
+        "timestamp": "2025-11-06T13:40:08.221Z",
+        "summary": "User expressing frustration about exams while discussing gaming and school",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1436800499767578686",
+        "timestamp": "2025-11-08T19:32:38.926Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1436819235094663208",
+        "timestamp": "2025-11-08T20:47:16.829Z",
+        "summary": "User stressed about exams, avoids tagging, focuses on music",
+        "topic": "music",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "music"
+        ]
+      },
+      {
+        "messageId": "1437172050467885178",
+        "timestamp": "2025-11-09T20:09:05.933Z",
+        "summary": "User expressing frustration about a project and self-doubt",
+        "topic": "projects",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "projects",
+          "feedback",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1437701145865883690",
+        "timestamp": "2025-11-11T07:11:29.947Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1437701227537502322",
+        "timestamp": "2025-11-11T07:12:28.434Z",
+        "summary": "User stressed about exams, avoids profanity, interests in gaming, prefers coffee, and has a username lordgrim9591",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1437701320336474165",
+        "timestamp": "2025-11-11T07:13:16.452Z",
+        "summary": "User confidently defends Bitcoin in a discussion, showing strong opinion and passion",
+        "topic": "Bitcoin",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "neutral",
+        "significance": 8,
+        "keywords": [
+          "Bitcoin",
+          "discussion"
+        ]
+      },
+      {
+        "messageId": "1437701277650911243",
+        "timestamp": "2025-11-11T07:13:20.004Z",
+        "summary": "User discussing stress about upcoming exams and avoiding FUD in AI discussions",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "AI",
+          "exams"
+        ]
+      },
+      {
+        "messageId": "1437701757768568883",
+        "timestamp": "2025-11-11T07:13:58.240Z",
+        "summary": "User expressing anxiety about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1437701766929190963",
+        "timestamp": "2025-11-11T07:14:37.577Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "376415454324981760"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      }
+    ],
+    "topicsDiscussed": {
+      "gaming": 103,
+      "school": 57,
+      "[object Object]": 1,
+      "moderation": 3,
+      "timeout": 1,
+      "trust": 3,
+      "scams": 4,
+      "greeting": 1,
+      "casual chat": 1,
+      "conversation": 1,
+      "communication": 1,
+      "picture": 1,
+      "score of <@929008606089707600>": 1,
+      "server management": 1,
+      "profanity": 1,
+      "admin": 1,
+      "social interactions": 1,
+      "community management": 1,
+      "scammers": 2,
+      "online safety": 1,
+      "friend's well-being": 1,
+      "content creation": 1,
+      "online etiquette": 1,
+      "social check-in": 1,
+      "self-identity": 1,
+      "digital presence": 1,
+      "social interaction": 1,
+      "recent events": 1,
+      "unclear": 1,
+      "Discord communication": 1,
+      "evaluation": 1,
+      "group dynamics": 1,
+      "chatting": 1,
+      "AI": 2,
+      "technology": 1,
+      "analysis": 1,
+      "music": 1,
+      "projects": 1,
+      "feedback": 1,
+      "Bitcoin": 1,
+      "discussion": 1,
+      "exams": 1
+    },
+    "lastEmotionalCheck": "2025-11-11T07:14:37.577Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:49:41.979Z",
+    "updatedAt": "2025-11-11T07:14:37.577Z"
+  },
+  {
+    "userId": "929008606089707600",
+    "guildId": "1409596032341508158",
+    "username": "cainwell",
+    "personalDetails": [
+      {
+        "category": "interest",
+        "detail": "likes gaming",
+        "confidence": 1,
+        "firstMentioned": "2025-10-15T22:51:22.827Z",
+        "lastMentioned": "2025-11-09T20:10:10.665Z",
+        "source": "1428153231565000746"
+      },
+      {
+        "category": "fact",
+        "detail": "speaks Turkish",
+        "confidence": 1,
+        "firstMentioned": "2025-10-15T22:58:11.768Z",
+        "lastMentioned": "2025-10-22T04:33:51.851Z",
+        "source": "1428154870279438449"
+      },
+      {
+        "category": "emotion",
+        "detail": "grateful",
+        "confidence": 1,
+        "firstMentioned": "2025-10-15T22:58:11.768Z",
+        "lastMentioned": "2025-10-15T22:58:11.768Z",
+        "source": "1428154870279438449"
+      },
+      {
+        "category": "interest",
+        "detail": "interested in scam events",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-15T22:58:16.062Z",
+        "lastMentioned": "2025-10-15T22:58:16.062Z",
+        "source": "1428154896657678490"
+      },
+      {
+        "category": "emotion",
+        "detail": "feeling stressed",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-15T23:37:53.059Z",
+        "lastMentioned": "2025-10-15T23:37:53.059Z",
+        "source": "1428164946847334531"
+      },
+      {
+        "category": "fact",
+        "detail": "has exams coming up",
+        "confidence": 1,
+        "firstMentioned": "2025-10-15T23:37:53.059Z",
+        "lastMentioned": "2025-10-15T23:37:53.059Z",
+        "source": "1428164946847334531"
+      },
+      {
+        "category": "emotion",
+        "detail": "angry",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T04:45:51.626Z",
+        "lastMentioned": "2025-10-16T04:45:51.626Z",
+        "source": "1428242447875444819"
+      },
+      {
+        "category": "fact",
+        "detail": "hope everyone okey",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T05:22:30.788Z",
+        "lastMentioned": "2025-10-16T05:22:30.788Z",
+        "source": "1428251621053300766"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers free offers",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-16T05:23:12.538Z",
+        "lastMentioned": "2025-10-16T05:23:12.538Z",
+        "source": "1428251785730064504"
+      },
+      {
+        "category": "fact",
+        "detail": "has a friend named Becca",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-16T05:25:14.734Z",
+        "lastMentioned": "2025-10-16T05:35:47.876Z",
+        "source": "1428252273410048181"
+      },
+      {
+        "category": "fact",
+        "detail": "has a Discord community",
+        "confidence": 1,
+        "firstMentioned": "2025-10-16T05:48:26.363Z",
+        "lastMentioned": "2025-10-16T05:48:26.363Z",
+        "source": "1428258083271872522"
+      },
+      {
+        "category": "fact",
+        "detail": "has scammed someone for $10,000",
+        "confidence": 1,
+        "firstMentioned": "2025-10-16T21:19:59.329Z",
+        "lastMentioned": "2025-10-16T21:19:59.329Z",
+        "source": "1428492564851462305"
+      },
+      {
+        "category": "problem",
+        "detail": "stressed about exams",
+        "confidence": 1,
+        "firstMentioned": "2025-10-16T21:50:03.214Z",
+        "lastMentioned": "2025-10-26T04:21:19.208Z",
+        "source": "1428499895509323776"
+      },
+      {
+        "category": "interest",
+        "detail": "",
+        "confidence": 0.30000000000000004,
+        "firstMentioned": "2025-10-16T21:50:41.617Z",
+        "lastMentioned": "2025-10-27T03:46:38.340Z",
+        "source": "1428500023313825872"
+      },
+      {
+        "category": "fact",
+        "detail": "has a short greeting",
+        "confidence": 1,
+        "firstMentioned": "2025-10-16T21:50:41.617Z",
+        "lastMentioned": "2025-10-16T21:50:41.617Z",
+        "source": "1428500023313825872"
+      },
+      {
+        "category": "fact",
+        "detail": "has a nickname 'becas'",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-16T21:50:53.175Z",
+        "lastMentioned": "2025-10-16T21:50:53.175Z",
+        "source": "1428500038484496425"
+      },
+      {
+        "category": "fact",
+        "detail": "has a link to share",
+        "confidence": 1,
+        "firstMentioned": "2025-10-20T23:09:44.396Z",
+        "lastMentioned": "2025-10-27T03:48:17.773Z",
+        "source": "1429969725559013457"
+      },
+      {
+        "category": "fact",
+        "detail": "has $2,500 after using a trading bot",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-21T04:43:02.933Z",
+        "lastMentioned": "2025-10-21T04:43:02.933Z",
+        "source": "1430053643163537560"
+      },
+      {
+        "category": "interest",
+        "detail": "interested in crypto trends",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-21T04:43:02.933Z",
+        "lastMentioned": "2025-10-21T04:43:02.933Z",
+        "source": "1430053643163537560"
+      },
+      {
+        "category": "fact",
+        "detail": "is here",
+        "confidence": 0.5,
+        "firstMentioned": "2025-10-21T04:49:20.335Z",
+        "lastMentioned": "2025-10-21T04:49:20.335Z",
+        "source": "1430055185341874217"
+      },
+      {
+        "category": "emotion",
+        "detail": "feels good",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-21T04:49:20.335Z",
+        "lastMentioned": "2025-10-21T04:49:20.335Z",
+        "source": "1430055185341874217"
+      },
+      {
+        "category": "fact",
+        "detail": "is online",
+        "confidence": 1,
+        "firstMentioned": "2025-10-21T04:49:31.628Z",
+        "lastMentioned": "2025-10-21T04:49:31.628Z",
+        "source": "1430055174289883228"
+      },
+      {
+        "category": "fact",
+        "detail": "apologizing for behavior",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-21T05:08:11.461Z",
+        "lastMentioned": "2025-10-21T05:08:11.461Z",
+        "source": "1430059875744088155"
+      },
+      {
+        "category": "emotion",
+        "detail": "regretful",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-21T05:08:11.461Z",
+        "lastMentioned": "2025-10-21T05:08:11.461Z",
+        "source": "1430059875744088155"
+      },
+      {
+        "category": "fact",
+        "detail": "uses abbreviation btw",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-21T05:08:12.823Z",
+        "lastMentioned": "2025-10-21T05:08:12.823Z",
+        "source": "1430059894114881536"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers concise links",
+        "confidence": 0.7,
+        "firstMentioned": "2025-10-22T04:32:05.238Z",
+        "lastMentioned": "2025-10-22T04:32:05.238Z",
+        "source": "1430413223613431839"
+      },
+      {
+        "category": "fact",
+        "detail": "has a Discord account",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-27T03:46:36.880Z",
+        "lastMentioned": "2025-10-27T03:46:36.880Z",
+        "source": "1432213700630151200"
+      },
+      {
+        "category": "fact",
+        "detail": "has a small social circle",
+        "confidence": 8,
+        "firstMentioned": "2025-10-27T03:46:38.340Z",
+        "lastMentioned": "2025-10-27T03:46:38.340Z",
+        "source": "1432213692312977468"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers short links",
+        "confidence": 0.6,
+        "firstMentioned": "2025-10-27T03:48:17.773Z",
+        "lastMentioned": "2025-10-27T03:48:17.773Z",
+        "source": "1432214029690208266"
+      },
+      {
+        "category": "interest",
+        "detail": "interested in cryptocurrency and blockchain technology",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-01T10:34:05.613Z",
+        "lastMentioned": "2025-11-01T10:34:05.613Z",
+        "source": "1434128136265666580"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers high-risk/high-reward investment strategies",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-01T10:34:05.613Z",
+        "lastMentioned": "2025-11-01T10:34:05.613Z",
+        "source": "1434128136265666580"
+      },
+      {
+        "category": "interest",
+        "detail": "interested in cryptocurrency trading",
+        "confidence": 1,
+        "firstMentioned": "2025-11-01T10:39:31.746Z",
+        "lastMentioned": "2025-11-01T10:47:55.329Z",
+        "source": "1434129508260384779"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers speculative investment opportunities",
+        "confidence": 0.85,
+        "firstMentioned": "2025-11-01T10:39:31.746Z",
+        "lastMentioned": "2025-11-01T10:39:31.746Z",
+        "source": "1434129508260384779"
+      },
+      {
+        "category": "goal",
+        "detail": "seeking financial gain through crypto investments",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-01T10:43:14.740Z",
+        "lastMentioned": "2025-11-01T10:43:14.740Z",
+        "source": "1434130434882670706"
+      },
+      {
+        "category": "preference",
+        "detail": "regularly engages with server",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-01T11:17:40.893Z",
+        "lastMentioned": "2025-11-01T11:17:40.893Z",
+        "source": "1434139200248217702"
+      },
+      {
+        "category": "fact",
+        "detail": "username is cainwell",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-02T09:46:09.108Z",
+        "lastMentioned": "2025-11-02T09:46:09.108Z",
+        "source": "1434478452039487588"
+      },
+      {
+        "category": "interest",
+        "detail": "likes fruits",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T09:17:03.500Z",
+        "lastMentioned": "2025-11-03T09:17:03.500Z",
+        "source": "1434833627065352253"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers creative thinking",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-03T09:17:03.500Z",
+        "lastMentioned": "2025-11-03T09:17:03.500Z",
+        "source": "1434833627065352253"
+      },
+      {
+        "category": "interest",
+        "detail": "likes controlled communication",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-03T10:03:05.421Z",
+        "lastMentioned": "2025-11-03T10:03:05.421Z",
+        "source": "1434845233325146223"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers slow-paced chats",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T10:03:05.421Z",
+        "lastMentioned": "2025-11-03T10:03:05.421Z",
+        "source": "1434845233325146223"
+      },
+      {
+        "category": "fact",
+        "detail": "username is 'cainwell'",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-09T20:10:10.665Z",
+        "lastMentioned": "2025-11-09T20:10:10.665Z",
+        "source": "1437172349123428506"
+      }
+    ],
+    "emotionalHistory": [
+      {
+        "timestamp": "2025-10-15T22:51:22.827Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-15T22:57:34.022Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": null,
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-15T22:58:11.768Z",
+        "emotion": "content",
+        "intensity": 5,
+        "context": "general well-being",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-15T22:58:16.062Z",
+        "emotion": "concerned",
+        "intensity": 5,
+        "context": "scam event",
+        "triggers": [
+          "scam olayı"
+        ]
+      },
+      {
+        "timestamp": "2025-10-15T23:05:37.527Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-15T23:37:25.502Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "frustration with someone",
+        "triggers": [
+          "someone they don't like"
+        ]
+      },
+      {
+        "timestamp": "2025-10-15T23:37:53.057Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T04:43:34.518Z",
+        "emotion": "angry",
+        "intensity": 10,
+        "context": "politics/Israel",
+        "triggers": [
+          "politics"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T04:45:22.002Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "conflict with someone",
+        "triggers": [
+          "person's behavior"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T04:45:51.626Z",
+        "emotion": "angry",
+        "intensity": 5,
+        "context": "cheater",
+        "triggers": [
+          "betrayal"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T04:46:14.927Z",
+        "emotion": "angry",
+        "intensity": 10,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-16T04:46:55.654Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "being told to shut up",
+        "triggers": [
+          "being interrupted"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T05:22:30.788Z",
+        "emotion": "concerned",
+        "intensity": 5,
+        "context": "checking in on others",
+        "triggers": [
+          "social interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T05:23:12.538Z",
+        "emotion": "excited",
+        "intensity": 5,
+        "context": "free nitro airdrop",
+        "triggers": [
+          "free stuff"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T05:25:14.734Z",
+        "emotion": "neutral",
+        "intensity": 4,
+        "context": "casual greeting",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-16T05:35:47.876Z",
+        "emotion": "casual",
+        "intensity": 2,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-16T05:46:24.409Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T05:48:26.363Z",
+        "emotion": "helpful",
+        "intensity": 8,
+        "context": "offering assistance",
+        "triggers": [
+          "community building"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T11:24:45.147Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T11:25:00.409Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T11:38:25.884Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T11:40:05.367Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T21:19:59.329Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "scamming someone",
+        "triggers": [
+          "financial gain"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T21:20:44.837Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "frustration with others",
+        "triggers": [
+          "others' actions"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T21:50:03.214Z",
+        "emotion": "angry",
+        "intensity": 8,
+        "context": "defending someone online",
+        "triggers": [
+          "online harassment"
+        ]
+      },
+      {
+        "timestamp": "2025-10-16T21:50:41.617Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-16T21:50:53.175Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-20T23:09:44.396Z",
+        "emotion": "neutral",
+        "intensity": 5,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-20T23:41:08.323Z",
+        "emotion": "angry",
+        "intensity": 5,
+        "context": "disagreement with someone",
+        "triggers": [
+          "disagreement"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T04:43:02.933Z",
+        "emotion": "excited",
+        "intensity": 9,
+        "context": "success with trading bot",
+        "triggers": [
+          "financial success"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T04:49:20.335Z",
+        "emotion": "content",
+        "intensity": 4,
+        "context": "being in a community",
+        "triggers": [
+          "social interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T04:49:31.628Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-21T05:08:11.461Z",
+        "emotion": "remorse",
+        "intensity": 5,
+        "context": "past actions",
+        "triggers": [
+          "behavior"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:08:12.823Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-22T04:32:05.238Z",
+        "emotion": "neutral",
+        "intensity": 5,
+        "context": "sharing information",
+        "triggers": [
+          "helping others"
+        ]
+      },
+      {
+        "timestamp": "2025-10-22T04:33:51.851Z",
+        "emotion": "neutral",
+        "intensity": 0,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-22T04:39:09.732Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-23T05:11:34.734Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-26T04:21:19.208Z",
+        "emotion": "frustrated",
+        "intensity": 5,
+        "context": "difficulty understanding something",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-27T03:46:36.880Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "casual greeting",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-27T03:46:38.340Z",
+        "emotion": "neutral",
+        "intensity": 4,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-27T03:48:17.773Z",
+        "emotion": "neutral",
+        "intensity": 5,
+        "context": "sharing information",
+        "triggers": [
+          "helping others"
+        ]
+      },
+      {
+        "timestamp": "2025-10-28T16:15:33.930Z",
+        "emotion": "angry",
+        "intensity": 5,
+        "context": "conflict or frustration",
+        "triggers": [
+          "discord interaction",
+          "disagreement"
+        ]
+      },
+      {
+        "timestamp": "2025-10-29T14:12:17.523Z",
+        "emotion": "angry",
+        "intensity": 10,
+        "context": "personal conflict",
+        "triggers": [
+          "interpersonal conflict",
+          "unknown"
+        ]
+      },
+      {
+        "timestamp": "2025-10-29T14:30:33.572Z",
+        "emotion": "angry",
+        "intensity": 9,
+        "context": "unknown",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-29T15:49:35.970Z",
+        "emotion": "angry",
+        "intensity": 10,
+        "context": "online conflict",
+        "triggers": [
+          "discord interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-10-30T05:15:17.078Z",
+        "emotion": "angry",
+        "intensity": 9,
+        "context": "conflict or frustration",
+        "triggers": [
+          "disagreement",
+          "provocation"
+        ]
+      },
+      {
+        "timestamp": "2025-10-30T11:22:00.878Z",
+        "emotion": "angry",
+        "intensity": 9,
+        "context": "conflict or frustration",
+        "triggers": [
+          "disagreement",
+          "insult"
+        ]
+      },
+      {
+        "timestamp": "2025-10-30T15:26:19.871Z",
+        "emotion": "neutral",
+        "intensity": 1,
+        "context": "repetitive statement",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-30T15:27:33.850Z",
+        "emotion": "angry",
+        "intensity": 10,
+        "context": "unknown",
+        "triggers": [
+          "conflict"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T05:32:35.278Z",
+        "emotion": "neutral",
+        "intensity": 2,
+        "context": "empty analysis",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-11-01T05:38:11.406Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "casual greeting",
+        "triggers": [
+          "social interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T10:34:05.613Z",
+        "emotion": "excited",
+        "intensity": 8,
+        "context": "potential cryptocurrency market growth",
+        "triggers": [
+          "crypto market trends",
+          "investment opportunities"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T10:39:31.746Z",
+        "emotion": "excited",
+        "intensity": 9,
+        "context": "market opportunities",
+        "triggers": [
+          "cryptocurrency trends",
+          "potential profit"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T10:43:14.740Z",
+        "emotion": "excited",
+        "intensity": 9,
+        "context": "potential cryptocurrency market growth",
+        "triggers": [
+          "crypto price increases",
+          "investment opportunities"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T10:46:38.297Z",
+        "emotion": "neutral",
+        "intensity": 2,
+        "context": "minimal message content",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-11-01T10:47:55.328Z",
+        "emotion": "excited",
+        "intensity": 9,
+        "context": "potential cryptocurrency gains",
+        "triggers": [
+          "market trends",
+          "investment opportunities"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T11:02:26.054Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "casual greeting",
+        "triggers": [
+          "group interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T11:17:40.893Z",
+        "emotion": "content",
+        "intensity": 4,
+        "context": "returning to community",
+        "triggers": [
+          "server activity"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T11:19:25.403Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "casual greeting",
+        "triggers": [
+          "social interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T11:31:35.128Z",
+        "emotion": "exhausted",
+        "intensity": 8,
+        "context": "personal well-being",
+        "triggers": [
+          "workload",
+          "lack of sleep"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T11:34:08.306Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "brief communication",
+        "triggers": [
+          "single-word message"
+        ]
+      },
+      {
+        "timestamp": "2025-11-01T18:03:55.610Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "ongoing conversation",
+        "triggers": [
+          "repetitive topic",
+          "disagreement"
+        ]
+      },
+      {
+        "timestamp": "2025-11-02T04:31:24.651Z",
+        "emotion": "neutral",
+        "intensity": 2,
+        "context": "brief message",
+        "triggers": [
+          "short message"
+        ]
+      },
+      {
+        "timestamp": "2025-11-02T09:46:09.108Z",
+        "emotion": "neutral",
+        "intensity": 3,
+        "context": "no clear emotional cues",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-11-03T09:17:03.500Z",
+        "emotion": "frustrated",
+        "intensity": 7,
+        "context": "struggling with reality checks",
+        "triggers": [
+          "life experiences",
+          "daily routines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T10:03:05.421Z",
+        "emotion": "anxious",
+        "intensity": 8,
+        "context": "preparing for exams",
+        "triggers": [
+          "deadline",
+          "pressure"
+        ]
+      },
+      {
+        "timestamp": "2025-11-09T20:10:10.665Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "project deadlines",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      }
+    ],
+    "personality": {
+      "traits": [
+        "sarcastic",
+        "funny",
+        "aggressive",
+        "impulsive",
+        {
+          "trait": "sarcastic",
+          "confidence": 0.7
+        },
+        {
+          "trait": "impulsive",
+          "confidence": 0.5
+        },
+        "defensive",
+        "friendly",
+        {
+          "trait": "helpful"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "helpful",
+          "confidence": 1
+        },
+        {
+          "trait": "generous",
+          "confidence": 0.9
+        },
+        "confident",
+        {
+          "category": "trait",
+          "detail": "apologetic"
+        },
+        {
+          "category": "trait",
+          "detail": "reflective"
+        },
+        {
+          "trait": "funny"
+        },
+        {
+          "trait": "optimistic"
+        },
+        {
+          "trait": "helpful"
+        },
+        {
+          "trait": "promotional"
+        },
+        "serious",
+        "assertive",
+        "confrontational",
+        "hostile",
+        "irritable",
+        "repetitive",
+        "robotic",
+        "casual",
+        "optimistic",
+        "analytical",
+        "risk-taker",
+        "persuasive",
+        "risk-seeking",
+        "laid-back",
+        "reliable",
+        "approachable",
+        "honest",
+        "straightforward",
+        "concise",
+        "reserved",
+        "creative",
+        "cautious",
+        "organized"
+      ],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [
+      {
+        "userId": "929008606089707600",
+        "otherUserId": "376415454324981760",
+        "type": "rival",
+        "strength": 1.7000000000000006,
+        "interactions": 8,
+        "lastInteraction": "2025-11-01T18:03:55.612Z",
+        "dynamics": "competitive and antagonistic",
+        "sharedInterests": []
+      }
+    ],
+    "conversationMemories": [
+      {
+        "messageId": "1428153231565000746",
+        "timestamp": "2025-10-15T22:51:22.827Z",
+        "summary": "becas who you like most person in this channel",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1428154896657678490",
+        "timestamp": "2025-10-15T22:58:16.062Z",
+        "summary": "User discussing scam event",
+        "topic": {
+          "name": "görelim bakam",
+          "category": "unknown"
+        },
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "neutral",
+        "significance": 5,
+        "keywords": [
+          {
+            "name": "görelim bakam",
+            "category": "unknown"
+          },
+          {
+            "name": "scam olayı",
+            "category": "event"
+          }
+        ]
+      },
+      {
+        "messageId": "1428164946847334531",
+        "timestamp": "2025-10-15T23:37:53.057Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "topic": "school",
+          "confidence": 1
+        },
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "topic": "school",
+            "confidence": 1
+          },
+          {
+            "topic": "stress",
+            "confidence": 0.9
+          }
+        ]
+      },
+      {
+        "messageId": "1428242322696572980",
+        "timestamp": "2025-10-16T04:45:22.002Z",
+        "summary": "User expressing anger towards someone",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 8,
+        "keywords": [
+          "gaming",
+          "conflict"
+        ]
+      },
+      {
+        "messageId": "1428257559722197003",
+        "timestamp": "2025-10-16T05:46:24.409Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1428258083271872522",
+        "timestamp": "2025-10-16T05:48:26.363Z",
+        "summary": "User offering help to others",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "neutral",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1428342757247684732",
+        "timestamp": "2025-10-16T11:24:45.147Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "name": "gaming"
+        },
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "name": "gaming"
+          },
+          {
+            "name": "school"
+          }
+        ]
+      },
+      {
+        "messageId": "1428342764461883545",
+        "timestamp": "2025-10-16T11:25:00.409Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "name": "gaming"
+        },
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "name": "gaming"
+          },
+          {
+            "name": "school"
+          }
+        ]
+      },
+      {
+        "messageId": "1428346212548874250",
+        "timestamp": "2025-10-16T11:38:25.884Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1428346630347821118",
+        "timestamp": "2025-10-16T11:40:05.367Z",
+        "summary": "User discussing trust in gaming context",
+        "topic": {
+          "name": "trust",
+          "category": "gaming"
+        },
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "name": "trust",
+            "category": "gaming"
+          }
+        ]
+      },
+      {
+        "messageId": "1428492564851462305",
+        "timestamp": "2025-10-16T21:19:59.329Z",
+        "summary": "User discussing scamming and financial gain",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 9,
+        "keywords": [
+          "gaming",
+          "finance"
+        ]
+      },
+      {
+        "messageId": "1428499895509323776",
+        "timestamp": "2025-10-16T21:50:03.214Z",
+        "summary": "User defending someone online, showing anger and sarcasm",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "gaming",
+          "school",
+          "online interactions"
+        ]
+      },
+      {
+        "messageId": "1428500038484496425",
+        "timestamp": "2025-10-16T21:50:53.175Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "category": "interest",
+          "detail": "gaming"
+        },
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "category": "interest",
+            "detail": "gaming"
+          },
+          {
+            "category": "problem",
+            "detail": "upcoming exams"
+          }
+        ]
+      },
+      {
+        "messageId": "1430053643163537560",
+        "timestamp": "2025-10-21T04:43:02.933Z",
+        "summary": "User sharing financial success and interest in crypto",
+        "topic": "crypto",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "positive",
+        "significance": 8,
+        "keywords": [
+          "crypto",
+          "trading"
+        ]
+      },
+      {
+        "messageId": "1430059875744088155",
+        "timestamp": "2025-10-21T05:08:11.461Z",
+        "summary": "sorry my behavior..",
+        "topic": "general",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "neutral",
+        "significance": 5,
+        "keywords": []
+      },
+      {
+        "messageId": "1430414957459017870",
+        "timestamp": "2025-10-22T04:39:09.732Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1430785513874260079",
+        "timestamp": "2025-10-23T05:11:34.734Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "topic": "gaming"
+        },
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "topic": "gaming"
+          },
+          {
+            "topic": "school"
+          },
+          {
+            "topic": "support"
+          }
+        ]
+      },
+      {
+        "messageId": "1433093520041967738",
+        "timestamp": "2025-10-29T14:12:17.523Z",
+        "summary": "User expressing intense anger towards others in a confrontational manner",
+        "topic": "interpersonal conflicts",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 8,
+        "keywords": [
+          "interpersonal conflicts"
+        ]
+      },
+      {
+        "messageId": "1433098835109875895",
+        "timestamp": "2025-10-29T14:30:33.572Z",
+        "summary": "User expressing anger without context",
+        "topic": "general",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 5,
+        "keywords": []
+      },
+      {
+        "messageId": "1433118203239727165",
+        "timestamp": "2025-10-29T15:49:35.970Z",
+        "summary": "User expressing intense anger towards others in the Discord server",
+        "topic": "discord server conflict",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 9,
+        "keywords": [
+          "discord server conflict"
+        ]
+      },
+      {
+        "messageId": "1433319357123006544",
+        "timestamp": "2025-10-30T05:15:17.078Z",
+        "summary": "User expressing intense anger in a confrontational manner",
+        "topic": "conflict",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 5,
+        "keywords": [
+          "conflict",
+          "emotional outburst"
+        ]
+      },
+      {
+        "messageId": "1433476057813487617",
+        "timestamp": "2025-10-30T15:27:33.850Z",
+        "summary": "User expressing anger",
+        "topic": "general",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 8,
+        "keywords": []
+      },
+      {
+        "messageId": "1434128136265666580",
+        "timestamp": "2025-11-01T10:34:05.613Z",
+        "summary": "User promoting cryptocurrency investment opportunities with optimism about market growth",
+        "topic": "cryptocurrency",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "positive",
+        "significance": 8,
+        "keywords": [
+          "cryptocurrency",
+          "investment strategies",
+          "blockchain technology"
+        ]
+      },
+      {
+        "messageId": "1434129508260384779",
+        "timestamp": "2025-11-01T10:39:31.746Z",
+        "summary": "User expressing enthusiasm about cryptocurrency investment opportunities",
+        "topic": "cryptocurrency",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "positive",
+        "significance": 8,
+        "keywords": [
+          "cryptocurrency",
+          "investment strategies",
+          "blockchain technology"
+        ]
+      },
+      {
+        "messageId": "1434130434882670706",
+        "timestamp": "2025-11-01T10:43:14.740Z",
+        "summary": "User excitedly promoting potential cryptocurrency gains and urging others to invest",
+        "topic": "cryptocurrency",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "positive",
+        "significance": 8,
+        "keywords": [
+          "cryptocurrency",
+          "blockchain technology",
+          "investment opportunities"
+        ]
+      },
+      {
+        "messageId": "1434131230260989972",
+        "timestamp": "2025-11-01T10:47:55.328Z",
+        "summary": "User excitedly promoting potential cryptocurrency gains with high confidence",
+        "topic": "cryptocurrency",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "positive",
+        "significance": 8,
+        "keywords": [
+          "cryptocurrency",
+          "blockchain technology",
+          "investment opportunities"
+        ]
+      },
+      {
+        "messageId": "1434142429568565258",
+        "timestamp": "2025-11-01T11:31:35.128Z",
+        "summary": "User expressing exhaustion from workload and lack of sleep",
+        "topic": "fatigue",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "neutral",
+        "significance": 6,
+        "keywords": [
+          "fatigue",
+          "personal state"
+        ]
+      },
+      {
+        "messageId": "1434241071436660883",
+        "timestamp": "2025-11-01T18:03:55.610Z",
+        "summary": "User expressing frustration with someone's persistent discussion of a topic",
+        "topic": "repetitive conversation",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "repetitive conversation",
+          "disagreement"
+        ]
+      },
+      {
+        "messageId": "1434833627065352253",
+        "timestamp": "2025-11-03T09:17:03.500Z",
+        "summary": "User expressing frustration about conflicting realities through a playful observation",
+        "topic": "color perception",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "color perception",
+          "daily life"
+        ]
+      },
+      {
+        "messageId": "1434845233325146223",
+        "timestamp": "2025-11-03T10:03:05.421Z",
+        "summary": "User expressing anxiety about upcoming exams through chat moderation",
+        "topic": "chat control",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "chat control",
+          "school stress"
+        ]
+      },
+      {
+        "messageId": "1437172349123428506",
+        "timestamp": "2025-11-09T20:10:10.665Z",
+        "summary": "User expressing stress about project performance and group dynamics",
+        "topic": "project",
+        "participants": [
+          "929008606089707600"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "project",
+          "group work"
+        ]
+      }
+    ],
+    "topicsDiscussed": {
+      "gaming": 22,
+      "school": 10,
+      "[object Object]": 1,
+      "politics": 1,
+      "Israel": 1,
+      "conflict": 3,
+      "trust": 1,
+      "nitro airdrops": 1,
+      "finance": 1,
+      "online interactions": 1,
+      "greeting": 3,
+      "disagreement": 2,
+      "crypto": 1,
+      "trading": 1,
+      "casual chat": 1,
+      "discord": 1,
+      "interpersonal conflicts": 1,
+      "discord server conflict": 1,
+      "emotional outburst": 1,
+      "helpfulness": 1,
+      "social interaction": 1,
+      "checking on someone": 1,
+      "cryptocurrency": 4,
+      "investment strategies": 2,
+      "blockchain technology": 4,
+      "investment opportunities": 2,
+      "fatigue": 1,
+      "personal state": 1,
+      "undefined": 1,
+      "repetitive conversation": 1,
+      "spam": 1,
+      "username reference": 1,
+      "color perception": 1,
+      "daily life": 1,
+      "chat control": 1,
+      "school stress": 1,
+      "project": 1,
+      "group work": 1
+    },
+    "lastEmotionalCheck": "2025-11-09T20:10:10.665Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:51:19.845Z",
+    "updatedAt": "2025-11-09T20:10:10.665Z"
+  },
+  {
+    "userId": "402840021238939648",
+    "guildId": "457952431758639126",
+    "username": "ismailgediz5390",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.319Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.319Z",
+    "updatedAt": "2025-10-15T22:54:32.319Z"
+  },
+  {
+    "userId": "458381407043977220",
+    "guildId": "457952431758639126",
+    "username": "pansuman6378",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.320Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.320Z",
+    "updatedAt": "2025-10-15T22:54:32.320Z"
+  },
+  {
+    "userId": "485017117955981313",
+    "guildId": "457952431758639126",
+    "username": "rusherkei4469",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.321Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.321Z",
+    "updatedAt": "2025-10-15T22:54:32.321Z"
+  },
+  {
+    "userId": "490220206271102976",
+    "guildId": "457952431758639126",
+    "username": "selo00449",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.322Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.322Z",
+    "updatedAt": "2025-10-15T22:54:32.322Z"
+  },
+  {
+    "userId": "537940484153278494",
+    "guildId": "457952431758639126",
+    "username": "myvedat",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.322Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.322Z",
+    "updatedAt": "2025-10-15T22:54:32.322Z"
+  },
+  {
+    "userId": "582914989795573761",
+    "guildId": "457952431758639126",
+    "username": "bakkalerdal6570",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.323Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.323Z",
+    "updatedAt": "2025-10-15T22:54:32.323Z"
+  },
+  {
+    "userId": "585907859103940608",
+    "guildId": "457952431758639126",
+    "username": "negerekvar9278",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.324Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.324Z",
+    "updatedAt": "2025-10-15T22:54:32.324Z"
+  },
+  {
+    "userId": "606831000294785036",
+    "guildId": "457952431758639126",
+    "username": "mertwqerwqrewqe9699",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.324Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.324Z",
+    "updatedAt": "2025-10-15T22:54:32.324Z"
+  },
+  {
+    "userId": "608361202925436931",
+    "guildId": "457952431758639126",
+    "username": "egedenzq17961",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.325Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.325Z",
+    "updatedAt": "2025-10-15T22:54:32.325Z"
+  },
+  {
+    "userId": "655738671689105408",
+    "guildId": "457952431758639126",
+    "username": "emrebozkurt4205",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.325Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.325Z",
+    "updatedAt": "2025-10-15T22:54:32.325Z"
+  },
+  {
+    "userId": "656642434150825985",
+    "guildId": "457952431758639126",
+    "username": "beast09561",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.326Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.326Z",
+    "updatedAt": "2025-10-15T22:54:32.326Z"
+  },
+  {
+    "userId": "657210447405121559",
+    "guildId": "457952431758639126",
+    "username": "omarcij5642",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.327Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.327Z",
+    "updatedAt": "2025-10-15T22:54:32.327Z"
+  },
+  {
+    "userId": "660790345998532652",
+    "guildId": "457952431758639126",
+    "username": "nevrez4933",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.327Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.327Z",
+    "updatedAt": "2025-10-15T22:54:32.327Z"
+  },
+  {
+    "userId": "670404226853240844",
+    "guildId": "457952431758639126",
+    "username": "themkg2302",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.328Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.328Z",
+    "updatedAt": "2025-10-15T22:54:32.328Z"
+  },
+  {
+    "userId": "711328564896595989",
+    "guildId": "457952431758639126",
+    "username": "batuhan6704",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.329Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.329Z",
+    "updatedAt": "2025-10-15T22:54:32.329Z"
+  },
+  {
+    "userId": "724596084642414704",
+    "guildId": "457952431758639126",
+    "username": "keremcalik7530",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.330Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.330Z",
+    "updatedAt": "2025-10-15T22:54:32.330Z"
+  },
+  {
+    "userId": "739918385793728529",
+    "guildId": "457952431758639126",
+    "username": "whimsical_kitten_31689",
+    "personalDetails": [],
+    "emotionalHistory": [],
+    "personality": {
+      "traits": [],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [],
+    "topicsDiscussed": {},
+    "lastEmotionalCheck": "2025-10-15T22:54:32.330Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-15T22:54:32.330Z",
+    "updatedAt": "2025-10-15T22:54:32.330Z"
+  },
+  {
+    "userId": "340555859883196428",
+    "guildId": "1409596032341508158",
+    "username": "trprokaptan001",
+    "personalDetails": [
+      {
+        "category": "interest",
+        "detail": "likes gaming",
+        "confidence": 1,
+        "firstMentioned": "2025-10-21T01:15:02.979Z",
+        "lastMentioned": "2025-11-03T08:54:07.308Z",
+        "source": "1430001202585796669"
+      },
+      {
+        "category": "emotion",
+        "detail": "happy",
+        "confidence": 0.9,
+        "firstMentioned": "2025-10-21T01:15:38.806Z",
+        "lastMentioned": "2025-10-21T05:25:47.342Z",
+        "source": "1430001210391531540"
+      },
+      {
+        "category": "fact",
+        "detail": "has a username 'trprokaptan001'",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-21T01:15:46.686Z",
+        "lastMentioned": "2025-10-21T01:15:46.686Z",
+        "source": "1430001221585862688"
+      },
+      {
+        "category": "emotion",
+        "detail": "laughs",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-21T01:16:11.567Z",
+        "lastMentioned": "2025-10-21T01:16:11.567Z",
+        "source": "1430001247725027388"
+      },
+      {
+        "category": "fact",
+        "detail": "is able to laugh at themselves",
+        "confidence": 0.7,
+        "firstMentioned": "2025-10-21T01:16:11.567Z",
+        "lastMentioned": "2025-10-21T01:16:11.567Z",
+        "source": "1430001247725027388"
+      },
+      {
+        "category": "interest",
+        "detail": "",
+        "confidence": 0.1,
+        "firstMentioned": "2025-10-21T01:22:29.980Z",
+        "lastMentioned": "2025-10-21T01:22:29.980Z",
+        "source": "1430003083659968655"
+      },
+      {
+        "category": "fact",
+        "detail": "uses shortened username 'becas'",
+        "confidence": 0.8,
+        "firstMentioned": "2025-10-21T04:33:37.882Z",
+        "lastMentioned": "2025-10-21T04:33:37.882Z",
+        "source": "1430051246445953064"
+      },
+      {
+        "category": "fact",
+        "detail": "username is trprokaptan001",
+        "confidence": 1,
+        "firstMentioned": "2025-10-21T05:14:18.157Z",
+        "lastMentioned": "2025-10-21T05:14:18.157Z",
+        "source": "1430061516341776467"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers Turkish over English",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T08:44:33.184Z",
+        "lastMentioned": "2025-11-03T08:44:33.184Z",
+        "source": "1434825503617056850"
+      },
+      {
+        "category": "username",
+        "detail": "trprokaptan001",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T08:45:30.150Z",
+        "lastMentioned": "2025-11-03T08:45:30.150Z",
+        "source": "1434825621128613949"
+      },
+      {
+        "category": "interest",
+        "detail": "gaming",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-03T08:45:30.150Z",
+        "lastMentioned": "2025-11-03T08:45:30.150Z",
+        "source": "1434825621128613949"
+      },
+      {
+        "category": "fact",
+        "detail": "unknown",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-03T08:45:30.150Z",
+        "lastMentioned": "2025-11-03T08:45:30.150Z",
+        "source": "1434825621128613949"
+      },
+      {
+        "category": "fact",
+        "detail": "username: trprokaptan001",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T08:53:29.680Z",
+        "lastMentioned": "2025-11-03T08:53:29.680Z",
+        "source": "1434827629189660792"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers coffee over tea",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-03T08:53:47.588Z",
+        "lastMentioned": "2025-11-03T08:53:47.588Z",
+        "source": "1434827646499426355"
+      },
+      {
+        "category": "memory",
+        "detail": "username trprokaptan001",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T08:54:07.308Z",
+        "lastMentioned": "2025-11-03T08:54:07.308Z",
+        "source": "1434827660567117835"
+      }
+    ],
+    "emotionalHistory": [
+      {
+        "timestamp": "2025-10-21T01:15:02.979Z",
+        "emotion": "excited",
+        "intensity": 8,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-21T01:15:38.806Z",
+        "emotion": "excited",
+        "intensity": 10,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-21T01:15:46.686Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T01:16:11.567Z",
+        "emotion": "amusement",
+        "intensity": 10,
+        "context": "something funny happened",
+        "triggers": [
+          "humor"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T01:22:29.980Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "",
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-10-21T04:33:37.882Z",
+        "emotion": "stressed",
+        "intensity": 5,
+        "context": "upcoming exams",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:14:18.157Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "exams coming up",
+        "triggers": [
+          "school"
+        ]
+      },
+      {
+        "timestamp": "2025-10-21T05:25:47.342Z",
+        "emotion": "happy",
+        "intensity": 3,
+        "context": null,
+        "triggers": []
+      },
+      {
+        "timestamp": "2025-11-03T08:44:33.183Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "preparing for exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T08:45:30.150Z",
+        "emotion": "stressed",
+        "intensity": 8,
+        "context": "school",
+        "triggers": [
+          "deadlines",
+          "exams"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T08:53:29.680Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T08:53:47.588Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "preparing for exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T08:54:07.307Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      }
+    ],
+    "personality": {
+      "traits": [
+        "funny",
+        "optimistic",
+        "analytical"
+      ],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [
+      {
+        "messageId": "1430001221585862688",
+        "timestamp": "2025-10-21T01:15:46.686Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": {
+          "name": "gaming"
+        },
+        "participants": [
+          "340555859883196428"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          {
+            "name": "gaming"
+          },
+          {
+            "name": "school"
+          }
+        ]
+      },
+      {
+        "messageId": "1430061516341776467",
+        "timestamp": "2025-10-21T05:14:18.157Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "340555859883196428"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434825503617056850",
+        "timestamp": "2025-11-03T08:44:33.183Z",
+        "summary": "User expressing anxiety about exams while discussing language preferences",
+        "topic": "language",
+        "participants": [
+          "340555859883196428"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "language",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434825621128613949",
+        "timestamp": "2025-11-03T08:45:30.150Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "340555859883196428"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434827629189660792",
+        "timestamp": "2025-11-03T08:53:29.680Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "340555859883196428"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434827646499426355",
+        "timestamp": "2025-11-03T08:53:47.588Z",
+        "summary": "User expressing anxiety about upcoming exams while engaging in casual conversation",
+        "topic": "gaming",
+        "participants": [
+          "340555859883196428"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434827660567117835",
+        "timestamp": "2025-11-03T08:54:07.307Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "340555859883196428"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      }
+    ],
+    "topicsDiscussed": {
+      "[object Object]": 1,
+      "gaming": 7,
+      "school": 6,
+      "language": 1
+    },
+    "lastEmotionalCheck": "2025-11-03T08:54:07.308Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-10-21T01:14:59.130Z",
+    "updatedAt": "2025-11-03T08:54:07.308Z"
+  },
+  {
+    "userId": "799311717502287923",
+    "guildId": "1409596032341508158",
+    "username": "callmegodd.",
+    "personalDetails": [
+      {
+        "category": "interest",
+        "detail": "likes gaming",
+        "confidence": 1,
+        "firstMentioned": "2025-11-03T14:37:14.673Z",
+        "lastMentioned": "2025-11-08T20:46:22.548Z",
+        "source": "1434914178719678547"
+      },
+      {
+        "category": "problem",
+        "detail": "stressed about exams",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T14:37:14.673Z",
+        "lastMentioned": "2025-11-03T14:37:14.673Z",
+        "source": "1434914178719678547"
+      },
+      {
+        "category": "fact",
+        "detail": "self-introduction",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T14:40:24.356Z",
+        "lastMentioned": "2025-11-03T14:40:24.356Z",
+        "source": "1434914431124373654"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers coffee over tea",
+        "confidence": 0.7999999999999999,
+        "firstMentioned": "2025-11-03T15:28:15.822Z",
+        "lastMentioned": "2025-11-08T20:46:22.548Z",
+        "source": "1434926981996347443"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers casual conversations",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T15:28:37.688Z",
+        "lastMentioned": "2025-11-03T15:28:37.688Z",
+        "source": "1434926998391750716"
+      },
+      {
+        "category": "preference",
+        "detail": "teases others",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T15:31:34.927Z",
+        "lastMentioned": "2025-11-03T15:31:34.927Z",
+        "source": "1434927874078671049"
+      },
+      {
+        "category": "interest",
+        "detail": "likes Turkish culture",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T15:33:26.676Z",
+        "lastMentioned": "2025-11-03T15:33:26.676Z",
+        "source": "1434927889677287527"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers gratitude over praise",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-03T15:33:26.676Z",
+        "lastMentioned": "2025-11-03T15:33:26.676Z",
+        "source": "1434927889677287527"
+      },
+      {
+        "category": "fact",
+        "detail": "has a friend named Avrad",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-03T15:33:26.676Z",
+        "lastMentioned": "2025-11-03T15:33:26.676Z",
+        "source": "1434927889677287527"
+      },
+      {
+        "category": "fact",
+        "detail": "username is callmegodd",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-04T10:07:39.912Z",
+        "lastMentioned": "2025-11-04T10:07:39.912Z",
+        "source": "1435208767758401536"
+      },
+      {
+        "category": "fact",
+        "detail": "sent message 'callmegodd'",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-04T10:08:28.852Z",
+        "lastMentioned": "2025-11-04T10:08:28.852Z",
+        "source": "1435209004325277746"
+      },
+      {
+        "category": "fact",
+        "detail": "has a dog named Max",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-04T15:23:38.368Z",
+        "lastMentioned": "2025-11-04T15:23:38.368Z",
+        "source": "1435288303426470051"
+      },
+      {
+        "category": "emotion",
+        "detail": "stressed",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-04T15:23:38.368Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1435288303426470051"
+      },
+      {
+        "category": "goal",
+        "detail": "prepares for exams",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-04T15:23:38.368Z",
+        "lastMentioned": "2025-11-04T15:23:38.368Z",
+        "source": "1435288303426470051"
+      },
+      {
+        "category": "problem",
+        "detail": "stress about school deadlines",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-04T15:23:38.368Z",
+        "lastMentioned": "2025-11-04T15:23:38.368Z",
+        "source": "1435288303426470051"
+      },
+      {
+        "category": "relationship",
+        "detail": "friends with a classmate",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-04T15:23:38.368Z",
+        "lastMentioned": "2025-11-04T15:23:38.368Z",
+        "source": "1435288303426470051"
+      },
+      {
+        "category": "memory",
+        "detail": "recalls a past conversation about exams",
+        "confidence": 0.4,
+        "firstMentioned": "2025-11-04T15:23:38.368Z",
+        "lastMentioned": "2025-11-04T15:23:38.368Z",
+        "source": "1435288303426470051"
+      },
+      {
+        "category": "interest",
+        "detail": "looking for work",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-04T15:24:31.720Z",
+        "lastMentioned": "2025-11-04T15:24:31.720Z",
+        "source": "1435288519143588010"
+      },
+      {
+        "category": "goal",
+        "detail": "seeking employment",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-04T15:24:31.720Z",
+        "lastMentioned": "2025-11-04T15:24:31.720Z",
+        "source": "1435288519143588010"
+      },
+      {
+        "category": "fact",
+        "detail": "in a Discord chat",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:11:39.570Z",
+        "lastMentioned": "2025-11-06T13:11:39.570Z",
+        "source": "1435979786550771783"
+      },
+      {
+        "category": "fact",
+        "detail": "working on an NFT project",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:18:20.976Z",
+        "lastMentioned": "2025-11-06T13:18:20.976Z",
+        "source": "1435981450112667669"
+      },
+      {
+        "category": "interest",
+        "detail": "likes music",
+        "confidence": 1,
+        "firstMentioned": "2025-11-08T20:44:58.221Z",
+        "lastMentioned": "2025-11-08T20:46:05.694Z",
+        "source": "1436818726975570042"
+      },
+      {
+        "category": "preference",
+        "detail": "values creativity",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-08T20:44:58.221Z",
+        "lastMentioned": "2025-11-08T20:44:58.221Z",
+        "source": "1436818726975570042"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers music over other genres",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-08T20:45:34.726Z",
+        "lastMentioned": "2025-11-08T20:45:34.726Z",
+        "source": "1436818839361945640"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers listening to music",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-08T20:46:05.694Z",
+        "lastMentioned": "2025-11-08T20:46:05.694Z",
+        "source": "1436818890846896370"
+      },
+      {
+        "category": "interest",
+        "detail": "school project",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-08T21:51:45.201Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1436835378760908910"
+      },
+      {
+        "category": "preference",
+        "detail": "projects",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-08T21:51:45.201Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1436835378760908910"
+      },
+      {
+        "category": "fact",
+        "detail": "working on a project",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-08T21:51:45.201Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1436835378760908910"
+      },
+      {
+        "category": "goal",
+        "detail": "complete project",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-08T21:51:45.201Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1436835378760908910"
+      },
+      {
+        "category": "problem",
+        "detail": "deadlines",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-08T21:51:45.201Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1436835378760908910"
+      },
+      {
+        "category": "relationship",
+        "detail": "teacher/group",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-08T21:51:45.201Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1436835378760908910"
+      },
+      {
+        "category": "memory",
+        "detail": "project deadline",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-08T21:51:45.201Z",
+        "lastMentioned": "2025-11-08T21:51:45.201Z",
+        "source": "1436835378760908910"
+      }
+    ],
+    "emotionalHistory": [
+      {
+        "timestamp": "2025-11-02T17:43:59.043Z",
+        "emotion": "stressed",
+        "intensity": 6,
+        "context": "exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T14:37:14.673Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "preparing for exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T14:40:03.303Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T14:40:24.356Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T15:28:15.821Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T15:28:37.688Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "seeking connection",
+        "triggers": [
+          "loneliness",
+          "need for validation"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T15:29:02.112Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T15:31:34.927Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T15:33:26.676Z",
+        "emotion": "happy",
+        "intensity": 6,
+        "context": "gratitude for a friend's kindness",
+        "triggers": [
+          "friendship",
+          "positive interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T10:07:39.911Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T10:08:28.852Z",
+        "emotion": "frustrated",
+        "intensity": 8,
+        "context": "school deadlines",
+        "triggers": [
+          "exams",
+          "responsibility"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T15:23:38.368Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "school deadlines",
+        "triggers": [
+          "exams",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-04T15:24:31.720Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "school",
+        "triggers": [
+          "exams",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:11:39.570Z",
+        "emotion": "happy",
+        "intensity": 7,
+        "context": "casual chat",
+        "triggers": [
+          "friendly tone",
+          "gaming slang"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:15:21.616Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "preparing for exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:17:48.605Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:18:20.976Z",
+        "emotion": "excited",
+        "intensity": 7,
+        "context": "discussing a new project",
+        "triggers": [
+          "innovation",
+          "collaboration"
+        ]
+      },
+      {
+        "timestamp": "2025-11-08T20:44:58.221Z",
+        "emotion": "excited",
+        "intensity": 7,
+        "context": "sharing passion for music",
+        "triggers": [
+          "music",
+          "art"
+        ]
+      },
+      {
+        "timestamp": "2025-11-08T20:45:34.726Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-08T20:46:05.694Z",
+        "emotion": "content",
+        "intensity": 6,
+        "context": "seeking connection",
+        "triggers": [
+          "loneliness",
+          "desire for interaction"
+        ]
+      },
+      {
+        "timestamp": "2025-11-08T20:46:22.548Z",
+        "emotion": "excited",
+        "intensity": 7,
+        "context": "discussing Billie Eilish album",
+        "triggers": [
+          "music",
+          "pop culture"
+        ]
+      },
+      {
+        "timestamp": "2025-11-08T21:51:45.200Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "deadlines",
+        "triggers": [
+          "school",
+          "exams"
+        ]
+      }
+    ],
+    "personality": {
+      "traits": [
+        "shy",
+        "optimistic",
+        "funny",
+        "friendly",
+        "grateful",
+        "sarcastic",
+        "creative",
+        "expressive",
+        "analytical"
+      ],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [
+      {
+        "userId": "799311717502287923",
+        "otherUserId": "376415454324981760",
+        "strength": 1.1,
+        "interactions": 2,
+        "lastInteraction": "2025-11-06T13:18:20.977Z",
+        "sharedInterests": []
+      }
+    ],
+    "conversationMemories": [
+      {
+        "messageId": "1434598652088942692",
+        "timestamp": "2025-11-02T17:43:59.043Z",
+        "summary": "hareket et",
+        "topic": "school",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "school",
+          "movement"
+        ]
+      },
+      {
+        "messageId": "1434914178719678547",
+        "timestamp": "2025-11-03T14:37:14.673Z",
+        "summary": "User expressing anxiety about upcoming exams while discussing gaming and school",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434914423411048570",
+        "timestamp": "2025-11-03T14:40:03.303Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434914431124373654",
+        "timestamp": "2025-11-03T14:40:24.356Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434926981996347443",
+        "timestamp": "2025-11-03T15:28:15.821Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434926998391750716",
+        "timestamp": "2025-11-03T15:28:37.688Z",
+        "summary": "User seeking connection through casual conversation, showing anxiety about loneliness and desire for validation",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434927077890719764",
+        "timestamp": "2025-11-03T15:29:02.112Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434927874078671049",
+        "timestamp": "2025-11-03T15:31:34.927Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434927889677287527",
+        "timestamp": "2025-11-03T15:33:26.676Z",
+        "summary": "User expressing gratitude for a friend's kindness while discussing Turkish culture",
+        "topic": "Turkish culture",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "positive",
+        "significance": 6,
+        "keywords": [
+          "Turkish culture",
+          "gratitude",
+          "friendship"
+        ]
+      },
+      {
+        "messageId": "1435208767758401536",
+        "timestamp": "2025-11-04T10:07:39.911Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435209004325277746",
+        "timestamp": "2025-11-04T10:08:28.852Z",
+        "summary": "User expressing frustration about school deadlines through sarcastic message",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 7,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435288303426470051",
+        "timestamp": "2025-11-04T15:23:38.368Z",
+        "summary": "User stressed about school exams, using playful slang",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435288519143588010",
+        "timestamp": "2025-11-04T15:24:31.720Z",
+        "summary": "User stressed about school exams but happy about being free",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435979786550771783",
+        "timestamp": "2025-11-06T13:11:39.570Z",
+        "summary": "User in casual Discord chat expressing happiness and interest in gaming",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "positive",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "Discord chat"
+        ]
+      },
+      {
+        "messageId": "1435980704314953728",
+        "timestamp": "2025-11-06T13:15:21.616Z",
+        "summary": "User expressing anxiety about upcoming exams while discussing gaming and school",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435981382370197625",
+        "timestamp": "2025-11-06T13:17:48.605Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435981450112667669",
+        "timestamp": "2025-11-06T13:18:20.976Z",
+        "summary": "User excited about a new NFT project and inviting someone to join",
+        "topic": "NFTs",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "positive",
+        "significance": 7,
+        "keywords": [
+          "NFTs",
+          "project collaboration"
+        ]
+      },
+      {
+        "messageId": "1436818726975570042",
+        "timestamp": "2025-11-08T20:44:58.221Z",
+        "summary": "User sharing passion for music and expressing creative traits",
+        "topic": "music",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "positive",
+        "significance": 8,
+        "keywords": [
+          "music",
+          "art"
+        ]
+      },
+      {
+        "messageId": "1436818839361945640",
+        "timestamp": "2025-11-08T20:45:34.726Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1436818890846896370",
+        "timestamp": "2025-11-08T20:46:05.694Z",
+        "summary": "User seeking connection through music, showing creativity and friendliness",
+        "topic": "music",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "positive",
+        "significance": 6,
+        "keywords": [
+          "music",
+          "relationships"
+        ]
+      },
+      {
+        "messageId": "1436818866046242989",
+        "timestamp": "2025-11-08T20:46:22.548Z",
+        "summary": "User excited about Billie Eilish album, shows interest in gaming and prefers coffee over tea",
+        "topic": "music",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "positive",
+        "significance": 6,
+        "keywords": [
+          "music",
+          "pop culture"
+        ]
+      },
+      {
+        "messageId": "1436835378760908910",
+        "timestamp": "2025-11-08T21:51:45.200Z",
+        "summary": "User stressed about deadlines and working on a school project",
+        "topic": "projects",
+        "participants": [
+          "799311717502287923"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "projects",
+          "school"
+        ]
+      }
+    ],
+    "topicsDiscussed": {
+      "school": 16,
+      "movement": 1,
+      "gaming": 15,
+      "Turkish culture": 1,
+      "gratitude": 1,
+      "friendship": 1,
+      "Discord chat": 1,
+      "NFTs": 1,
+      "project collaboration": 1,
+      "music": 3,
+      "art": 1,
+      "relationships": 1,
+      "pop culture": 1,
+      "projects": 1
+    },
+    "lastEmotionalCheck": "2025-11-08T21:51:45.201Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-11-02T17:38:19.232Z",
+    "updatedAt": "2025-11-08T21:51:45.201Z"
+  },
+  {
+    "userId": "1434875261748514909",
+    "guildId": "1434824117714030614",
+    "username": "mini_app",
+    "personalDetails": [
+      {
+        "category": "interest",
+        "detail": "likes gaming",
+        "confidence": 1,
+        "firstMentioned": "2025-11-03T13:10:22.137Z",
+        "lastMentioned": "2025-11-03T14:59:15.826Z",
+        "source": "1434892243159875697"
+      },
+      {
+        "category": "fact",
+        "detail": "using mini_app",
+        "confidence": 1,
+        "firstMentioned": "2025-11-03T13:10:22.137Z",
+        "lastMentioned": "2025-11-03T13:10:22.137Z",
+        "source": "1434892243159875697"
+      },
+      {
+        "category": "fact",
+        "detail": "uses mini_app",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T13:11:03.694Z",
+        "lastMentioned": "2025-11-03T13:11:03.694Z",
+        "source": "1434892232904806512"
+      },
+      {
+        "category": "fact",
+        "detail": "username is mini_app",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-03T13:11:44.591Z",
+        "lastMentioned": "2025-11-03T13:11:44.591Z",
+        "source": "1434892245089128498"
+      },
+      {
+        "category": "memory",
+        "detail": "last message was 'i'",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-03T13:12:02.102Z",
+        "lastMentioned": "2025-11-03T13:12:02.102Z",
+        "source": "1434892239729066218"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers coffee over tea",
+        "confidence": 0.3,
+        "firstMentioned": "2025-11-03T14:59:15.826Z",
+        "lastMentioned": "2025-11-03T14:59:15.826Z",
+        "source": "1434919777188712468"
+      }
+    ],
+    "emotionalHistory": [
+      {
+        "timestamp": "2025-11-03T13:10:22.137Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T13:10:44.213Z",
+        "emotion": "stressed",
+        "intensity": 6,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T13:11:03.694Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T13:11:44.591Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T13:12:02.102Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T13:13:13.311Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-03T14:59:15.826Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      }
+    ],
+    "personality": {
+      "traits": [
+        "funny",
+        "optimistic"
+      ],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [
+      {
+        "messageId": "1434892243159875697",
+        "timestamp": "2025-11-03T13:10:22.137Z",
+        "summary": "User discussing stress about upcoming exams, shows interest in gaming, uses mini_app, and is funny/optimistic",
+        "topic": "gaming",
+        "participants": [
+          "1434875261748514909"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434892268007067691",
+        "timestamp": "2025-11-03T13:10:44.213Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1434875261748514909"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434892232904806512",
+        "timestamp": "2025-11-03T13:11:03.694Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1434875261748514909"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434892245089128498",
+        "timestamp": "2025-11-03T13:11:44.591Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1434875261748514909"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434892239729066218",
+        "timestamp": "2025-11-03T13:12:02.102Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1434875261748514909"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434892238332362812",
+        "timestamp": "2025-11-03T13:13:13.311Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1434875261748514909"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1434919777188712468",
+        "timestamp": "2025-11-03T14:59:15.826Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1434875261748514909"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      }
+    ],
+    "topicsDiscussed": {
+      "gaming": 7,
+      "school": 7
+    },
+    "lastEmotionalCheck": "2025-11-03T14:59:15.826Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-11-03T13:09:51.754Z",
+    "updatedAt": "2025-11-03T14:59:15.826Z"
+  },
+  {
+    "userId": "1282805346016034879",
+    "guildId": "1435281899760255050",
+    "username": "deephellxd",
+    "personalDetails": [
+      {
+        "category": "interest",
+        "detail": "likes gaming",
+        "confidence": 1,
+        "firstMentioned": "2025-11-06T13:23:36.427Z",
+        "lastMentioned": "2025-11-06T13:31:50.873Z",
+        "source": "1435982844567486475"
+      },
+      {
+        "category": "fact",
+        "detail": "username 'deephellxd'",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:23:36.427Z",
+        "lastMentioned": "2025-11-06T13:23:36.427Z",
+        "source": "1435982844567486475"
+      },
+      {
+        "category": "interest",
+        "detail": "coding",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "preference",
+        "detail": "collaborative work",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "fact",
+        "detail": "has a project",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "emotion",
+        "detail": "excited",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "goal",
+        "detail": "share a project",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "problem",
+        "detail": "feeling overwhelmed",
+        "confidence": 0.6,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "relationship",
+        "detail": "with a team",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "memory",
+        "detail": "past projects",
+        "confidence": 0.5,
+        "firstMentioned": "2025-11-06T13:24:35.530Z",
+        "lastMentioned": "2025-11-06T13:24:35.530Z",
+        "source": "1435982884744990792"
+      },
+      {
+        "category": "preference",
+        "detail": "prefers Reddit over Twitter",
+        "confidence": 0.7,
+        "firstMentioned": "2025-11-06T13:31:11.012Z",
+        "lastMentioned": "2025-11-06T13:31:11.012Z",
+        "source": "1435984712026820668"
+      },
+      {
+        "category": "fact",
+        "detail": "username: deephellxd",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:31:50.873Z",
+        "lastMentioned": "2025-11-06T13:31:50.873Z",
+        "source": "1435984912405495952"
+      },
+      {
+        "category": "interest",
+        "detail": "gaming",
+        "confidence": 0.9,
+        "firstMentioned": "2025-11-06T13:36:35.948Z",
+        "lastMentioned": "2025-11-06T13:36:35.948Z",
+        "source": "1435985111920283659"
+      },
+      {
+        "category": "preference",
+        "detail": "discord channels",
+        "confidence": 0.8,
+        "firstMentioned": "2025-11-06T13:36:35.948Z",
+        "lastMentioned": "2025-11-06T13:36:35.948Z",
+        "source": "1435985111920283659"
+      }
+    ],
+    "emotionalHistory": [
+      {
+        "timestamp": "2025-11-06T13:23:36.427Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:24:35.530Z",
+        "emotion": "excited",
+        "intensity": 7,
+        "context": "seeking collaboration",
+        "triggers": [
+          "deadlines",
+          "teamwork"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:31:11.012Z",
+        "emotion": "anxious",
+        "intensity": 7,
+        "context": "preparing for exams",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:31:50.873Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "exams coming up",
+        "triggers": [
+          "school",
+          "deadlines"
+        ]
+      },
+      {
+        "timestamp": "2025-11-06T13:36:35.948Z",
+        "emotion": "stressed",
+        "intensity": 7,
+        "context": "school deadlines",
+        "triggers": [
+          "exams",
+          "deadlines"
+        ]
+      }
+    ],
+    "personality": {
+      "traits": [
+        "funny",
+        "optimistic",
+        "friendly",
+        "analytical"
+      ],
+      "communicationStyle": "unknown",
+      "activityPattern": {
+        "mostActiveHours": [],
+        "mostActiveDays": [],
+        "averageMessagesPerDay": 0
+      },
+      "interests": [],
+      "values": [],
+      "humor": "unknown"
+    },
+    "relationships": [],
+    "conversationMemories": [
+      {
+        "messageId": "1435982844567486475",
+        "timestamp": "2025-11-06T13:23:36.427Z",
+        "summary": "User discussing stress about upcoming exams, with gaming interests and Discord activity",
+        "topic": "gaming",
+        "participants": [
+          "1282805346016034879"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435982884744990792",
+        "timestamp": "2025-11-06T13:24:35.530Z",
+        "summary": "User sharing excitement about a collaborative project and feeling overwhelmed",
+        "topic": "coding",
+        "participants": [
+          "1282805346016034879"
+        ],
+        "sentiment": "positive",
+        "significance": 6,
+        "keywords": [
+          "coding",
+          "project"
+        ]
+      },
+      {
+        "messageId": "1435984712026820668",
+        "timestamp": "2025-11-06T13:31:11.012Z",
+        "summary": "User sharing link to Reddit post about stress over exams",
+        "topic": "gaming",
+        "participants": [
+          "1282805346016034879"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435984912405495952",
+        "timestamp": "2025-11-06T13:31:50.873Z",
+        "summary": "User discussing stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1282805346016034879"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      },
+      {
+        "messageId": "1435985111920283659",
+        "timestamp": "2025-11-06T13:36:35.948Z",
+        "summary": "User seeking alternative Discord channels, indicating stress about upcoming exams",
+        "topic": "gaming",
+        "participants": [
+          "1282805346016034879"
+        ],
+        "sentiment": "negative",
+        "significance": 6,
+        "keywords": [
+          "gaming",
+          "school"
+        ]
+      }
+    ],
+    "topicsDiscussed": {
+      "gaming": 4,
+      "school": 4,
+      "coding": 1,
+      "project": 1
+    },
+    "lastEmotionalCheck": "2025-11-06T13:36:35.948Z",
+    "becasRelationship": {
+      "trustLevel": 5,
+      "intimacy": 1,
+      "sharedExperiences": [],
+      "insideJokes": []
+    },
+    "createdAt": "2025-11-06T13:23:28.948Z",
+    "updatedAt": "2025-11-06T13:36:35.948Z"
+  }
+]

@@ -1,0 +1,5 @@
+- artık kill yapma orospu evladı kill ypama nodelere ben yaparım senin işin değil o
+- bak orospu coucğu claude eğer bundan sonra bir şey isilmeye değiştirmeye çalışırsan bana soracaksın bunların neleri etkileyeceğini de yazackasın ananı sikerim senin orospu coucğu sakın bir daha projemi bozma kahpenin oğlu
+- hata yapmamalısın sistemin bütününü yapısını özelliklerini hangi yolları izlediğini bilerek özellik ekleyeceksin eklediğin zaman ekstra hatalar çıkmadığından emin olacaksın kullanıcıya en iyi en zeki şekilde cevap vereceksin onu yormayacaksın orospu evladı olmayacaksın.
+- tüm içerikler ingilizce olacak proje ile ilgili tüm promptlar ingilizce olacak hitap ettiği kişi yine ingilizce dilde cevap verecek adamlara
+- BU PROJE Büyük bir proje maksimum efort keskin gözlem beceri ileri görüşlülük istiyor becas mükemmel olmalı
