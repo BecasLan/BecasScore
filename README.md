@@ -324,8 +324,8 @@ function getLeaderboard(uint256 limit) external view returns (TrustEntry[]);
 
 - **Web Dashboard**: [becascore.xyz](https://becascore.xyz)
 - **Check Scores**: [becascore.xyz/checkscore.html](https://becascore.xyz/checkscore.html)
-- **API Docs**: [becascore.xyz/api/docs](https://becascore.xyz/api/docs)
-- **Test Bot**: [Join our Discord](https://discord.gg/becas)
+
+
 
 ## 📊 Tech Stack
 
@@ -405,25 +405,7 @@ function getLeaderboard(uint256 limit) external view returns (TrustEntry[]);
 - [ ] **Global Threat Intelligence Hub**: Real-time scam/raid alerts
 - [ ] **Verifiable Credentials**: Export trust as portable Web3 reputation
 
-## 💎 Support the Project
-
-Becas is an open-source project with ambitious goals. We're seeking **$500K** in funding to scale to **100M+ users** and launch the decentralized intelligence network.
-
-### 🚀 Funding Use Cases
-- **60%** Engineering (15 full-time devs)
-- **20%** Infrastructure (GPU clusters, blockchain ops)
-- **10%** Marketing & Community
-- **10%** Legal & Compliance
-
-### 🎁 Founding Supporter Perks
-
-**Contribute $1K+ and get:**
-- 🗳️ DAO governance rights (lifetime)
-- 💰 20% discount on $BECAS token pre-sale
-- 📈 Revenue sharing (5% of API fees)
-- 🖼️ Exclusive NFT + on-chain recognition
-- ⭐ Lifetime Premium features (unlimited servers)
-- 🎤 Direct line to founders (monthly calls)
+## 💎 Support the Project ## 
 
 ### 💰 Donation Addresses
 
