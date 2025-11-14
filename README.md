@@ -456,8 +456,9 @@ Found a bug? [Open an issue](https://github.com/BecasLan/BecasScore/issues/new) 
 
 ### Join Our Community
 
-- 💬 [Discord Server](https://discord.gg/becas) - Get support, share ideas
-- 🐦 [Twitter](https://x.com/becascore) - Updates, announcements
+- 💬 [Discord] @lordgrim9591 - share ideas
+- 🐦 [X](https://x.com/becascore) - Updates, announcements
+- 🐦 [X](https://x.com/dutchonederlin) - Founder
 - 📚 [GitHub Discussions](https://github.com/BecasLan/BecasScore/discussions) - Feature requests, Q&A
 
 ---
@@ -468,6 +469,6 @@ Found a bug? [Open an issue](https://github.com/BecasLan/BecasScore/issues/new) 
 
 *Protecting communities, one intelligent action at a time.*
 
-[⭐ Star us on GitHub](https://github.com/BecasLan/BecasScore) • [🐦 Follow on Twitter](https://x.com/becascore) • [💬 Join Discord](https://discord.gg/becas)
+[⭐ Star us on GitHub](https://github.com/BecasLan/BecasScore) • [🐦 Follow on X](https://x.com/becascore) • [🐦 Follow on X](https://x.com/dutchonederlin) • [💬 Join Discord](https://discord.gg/4CJTnPHZ)
 
 </div>
